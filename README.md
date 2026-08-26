@@ -1,6 +1,6 @@
 # Agentic trajectory safety synthetic experiment
 
-This directory retains the implementation and saved artifacts used for Section 8 of *From Rules to Sequences*. It uses synthetic data only; no Walmart or Sam's Club data is included.
+This directory retains the implementation and saved artifacts used for Section 8 of *From Rules to Sequences*. It uses synthetic data only; no proprietary data is included.
 
 ## Environment
 
