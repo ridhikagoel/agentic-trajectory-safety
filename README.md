@@ -61,6 +61,6 @@ The stateful rule was added and measured on August 25, 2026. Across five trainin
 
 The robustness study varies training initialization and shuffle seed while holding the saved generated data, split, and held-out pairs fixed. It does not measure sensitivity to independently regenerated datasets. The dataset is deliberately synthetic, balanced, small, and generated from an explicit invariant. These results do not estimate production behavior.
 
-This directory is not yet an immutable public release and has no DOI. Before submission, create a versioned repository release, archive it through Zenodo or a comparable service, record the article version, and add the repository URL and DOI to the paper.
+The versioned public release is hosted on GitHub. This project does not use a separate DOI archive; cite the exact GitHub release and version recorded in `CITATION.cff`.
 
 Code is licensed under MIT (`LICENSE`). Synthetic data is licensed under CC BY 4.0 (`DATA_LICENSE.md`).
