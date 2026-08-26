@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software or synthetic dataset, please cite the archived release and associated article."
+title: "Agentic Trajectory Safety: Synthetic Experiment and Reproduction Package"
+version: 1.0.0
+date-released: 2026-08-25
+type: software
+authors:
+  - family-names: Goel
+    given-names: Ridhika
+  - family-names: Gupta
+    given-names: Anshul Mohan
+repository-code: "https://github.com/ridhikagoel/agentic-trajectory-safety"
+license: MIT
+keywords:
+  - agentic AI
+  - trajectory safety
+  - synthetic data
+  - security evaluation

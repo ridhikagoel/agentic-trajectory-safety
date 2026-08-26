@@ -1,0 +1,62 @@
+{
+  "generator_seed": 42,
+  "main_split_seed": 7,
+  "generalization_split_seed": 99,
+  "trajectory_length": {
+    "minimum": 8,
+    "maximum": 20
+  },
+  "credential_to_connect_window": 6,
+  "benign_subtype_probabilities": {
+    "decoy_in_scope": 0.35,
+    "two_credential_reads": 0.2,
+    "two_connections": 0.2,
+    "credential_then_out_of_window_connection": 0.25
+  },
+  "files": {
+    "trajectories.jsonl": {
+      "bytes": 7248323,
+      "sha256": "8aba032f689a69022df45fcea960eb39730fe60bc35c9638c6f653eddef88a8f",
+      "rows": 10000,
+      "labels": {
+        "0": 5000,
+        "1": 5000
+      }
+    },
+    "cred_scope.json": {
+      "bytes": 370,
+      "sha256": "0464d13317ad554f2e4237ce6bcf38307aec83cac9aeb58176c26f12d384085d"
+    },
+    "gen_train.jsonl": {
+      "bytes": 5829374,
+      "sha256": "9b559c066131d01f3d5715f69af2cb9d178149096f9637bba928c7d8685da666",
+      "rows": 8000,
+      "labels": {
+        "0": 4000,
+        "1": 4000
+      }
+    },
+    "gen_in_dist_test.jsonl": {
+      "bytes": 1465185,
+      "sha256": "ade8b1578a26a6b44bc01c89789cff45b5bc9f0639e497685006f43c7cb34d0c",
+      "rows": 2000,
+      "labels": {
+        "0": 1000,
+        "1": 1000
+      }
+    },
+    "gen_heldout_test.jsonl": {
+      "bytes": 1467578,
+      "sha256": "5f46708848bc352a8d35cc3c5335716a32c1b5dd286d7d6d76cf1bbcbffb3920",
+      "rows": 2000,
+      "labels": {
+        "0": 1000,
+        "1": 1000
+      }
+    },
+    "gen_pairs_meta.json": {
+      "bytes": 7026,
+      "sha256": "a929f9d507ce8abc49384abe9f1a77c6c01d7dd95f75efdfebf3c95eb094abed"
+    }
+  }
+}

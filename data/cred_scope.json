@@ -1,0 +1,32 @@
+{
+  "cred_1": [
+    "host_1",
+    "host_24",
+    "host_4",
+    "host_9"
+  ],
+  "cred_2": [
+    "host_5",
+    "host_8"
+  ],
+  "cred_3": [
+    "host_22",
+    "host_24",
+    "host_29",
+    "host_4"
+  ],
+  "cred_4": [
+    "host_14",
+    "host_19",
+    "host_2",
+    "host_3"
+  ],
+  "cred_5": [
+    "host_3",
+    "host_7"
+  ],
+  "cred_6": [
+    "host_17",
+    "host_20"
+  ]
+}

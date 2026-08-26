@@ -1,0 +1,20 @@
+{
+  "in_distribution": {
+    "tp": 999,
+    "fp": 0,
+    "fn": 1,
+    "tn": 1000,
+    "precision": 1.0,
+    "recall": 0.999,
+    "fpr": 0.0
+  },
+  "held_out_pairs": {
+    "tp": 832,
+    "fp": 0,
+    "fn": 168,
+    "tn": 1000,
+    "precision": 1.0,
+    "recall": 0.832,
+    "fpr": 0.0
+  }
+}

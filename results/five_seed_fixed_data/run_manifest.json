@@ -1,0 +1,27 @@
+{
+  "study_design": "fixed saved data and fixed splits; varied model training seed",
+  "training_seeds": [
+    7,
+    19,
+    42,
+    73,
+    101
+  ],
+  "main_split_seed": 7,
+  "random_train_trajectories": 8000,
+  "random_test_trajectories": 2000,
+  "heldout_train_trajectories": 8000,
+  "heldout_test_trajectories": 2000,
+  "python": "3.14.3",
+  "platform": "macOS-26.0.1-arm64-arm-64bit-Mach-O",
+  "numpy": "2.4.3",
+  "scipy": "1.17.1",
+  "scikit_learn": "1.8.0",
+  "torch": "2.10.0",
+  "outputs": [
+    "metrics_by_seed.csv",
+    "summary.csv",
+    "raw_predictions.csv",
+    "mcnemar_contingency.csv"
+  ]
+}
