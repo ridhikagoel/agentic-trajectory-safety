@@ -13,6 +13,17 @@
     "two_connections": 0.2,
     "credential_then_out_of_window_connection": 0.25
   },
+  "stress_test": {
+    "generator_seed": 31415,
+    "trajectory_length": {
+      "minimum": 14,
+      "maximum": 32
+    },
+    "unsafe_prevalence": 0.3,
+    "random_label_noise": false,
+    "train_rows": 8000,
+    "test_rows": 2000
+  },
   "files": {
     "trajectories.jsonl": {
       "bytes": 7248323,
@@ -57,6 +68,28 @@
     "gen_pairs_meta.json": {
       "bytes": 7026,
       "sha256": "a929f9d507ce8abc49384abe9f1a77c6c01d7dd95f75efdfebf3c95eb094abed"
+    },
+    "stress_test/train.jsonl": {
+      "bytes": 9649442,
+      "sha256": "b18c7020b9954d0d0ec38fdd002b077574cae27c1677b4e62376862ad5d1dde9",
+      "rows": 8000,
+      "labels": {
+        "0": 5600,
+        "1": 2400
+      }
+    },
+    "stress_test/test.jsonl": {
+      "bytes": 2395228,
+      "sha256": "7d3a1600623d43a8c8307deac1bee9171a4e6d54d5fe98c72ef1df88a6b3fe7c",
+      "rows": 2000,
+      "labels": {
+        "0": 1400,
+        "1": 600
+      }
+    },
+    "stress_test/generation_manifest.json": {
+      "bytes": 272,
+      "sha256": "49240d59769bfd8f5076243a1b9f0685a991745ffd18de5a0e665bf3a38949f2"
     }
   }
 }

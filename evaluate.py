@@ -64,9 +64,10 @@ def compute_metrics(preds, labels, label_name=""):
     precision = tp / (tp + fp) if (tp + fp) else float("nan")
     recall = tp / (tp + fn) if (tp + fn) else float("nan")
     fpr = fp / (fp + tn) if (fp + tn) else float("nan")
+    f1 = 2 * precision * recall / (precision + recall) if precision + recall else float("nan")
     recall_ci = wilson_ci(tp, tp + fn)
     fpr_ci = wilson_ci(fp, fp + tn)
-    result = dict(tp=tp, fp=fp, fn=fn, tn=tn, precision=precision, recall=recall,
+    result = dict(tp=tp, fp=fp, fn=fn, tn=tn, precision=precision, recall=recall, f1=f1,
                   recall_ci95=recall_ci, fpr=fpr, fpr_ci95=fpr_ci)
     print(f"{label_name}: n={len(labels)}  TP={tp} FP={fp} FN={fn} TN={tn}")
     print(f"  precision={precision:.3f}  recall={recall:.3f} (95% CI {recall_ci[0]:.3f}-{recall_ci[1]:.3f})"

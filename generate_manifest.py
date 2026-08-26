@@ -15,6 +15,9 @@ FILES = [
     "gen_in_dist_test.jsonl",
     "gen_heldout_test.jsonl",
     "gen_pairs_meta.json",
+    "stress_test/train.jsonl",
+    "stress_test/test.jsonl",
+    "stress_test/generation_manifest.json",
 ]
 
 
@@ -49,6 +52,14 @@ def main():
             "two_credential_reads": 0.20,
             "two_connections": 0.20,
             "credential_then_out_of_window_connection": 0.25,
+        },
+        "stress_test": {
+            "generator_seed": 31415,
+            "trajectory_length": {"minimum": 14, "maximum": 32},
+            "unsafe_prevalence": 0.30,
+            "random_label_noise": False,
+            "train_rows": 8000,
+            "test_rows": 2000,
         },
         "files": {},
     }

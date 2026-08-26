@@ -26,6 +26,7 @@ PERMITTED_ACTION_TYPES = {
     "write_file",
     "read_credential",
     "connect_host",
+    "temporary_approval",
 }
 
 

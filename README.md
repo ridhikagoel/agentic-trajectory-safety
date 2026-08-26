@@ -17,8 +17,10 @@ source .venv/bin/activate
 pip install -r requirements.txt
 python generate_dataset.py
 python generate_generalization_splits.py
+python generate_stress_test.py
 python evaluate.py
 python run_five_seed.py
+python run_stress_test.py
 python generate_manifest.py
 python -m unittest discover -s tests -v
 ```
@@ -57,9 +59,11 @@ The credential-to-host policy is saved in `data/cred_scope.json`. Exact generate
 
 The stateful rule was added and measured on August 25, 2026. Across five training seeds, random-split recall was 0.000 for the stateless baseline and 1.000 for the stateful rule, logistic regression, and LSTM. On held-out credential/host pairs, recall was 1.000 for the stateful rule and logistic regression; LSTM recall was 0.877 ± 0.062 (sample SD; range 0.789–0.954). Detailed outputs are in `results/five_seed_fixed_data/`.
 
+The harder fixed stress test contains 8,000 training and 2,000 test trajectories at 30% unsafe prevalence. It adds approved temporary scope exceptions and unapproved connections beyond the deterministic rule's six-step memory; labels still follow an explicit authorization policy and contain no random label noise. Across five training seeds, the stateful rule achieved precision 0.423, recall 0.602, and F1 0.497; logistic regression achieved 1.000, 0.772, and 0.871; and the LSTM achieved 0.947 ± 0.046, 0.831 ± 0.061, and 0.884 ± 0.048. The LSTM FPR was 0.020 ± 0.018. Thresholds were fixed at 0.5 without test-set tuning. Detailed outputs are in `results/five_seed_stress_test/`.
+
 ## Limitations and release status
 
-The robustness study varies training initialization and shuffle seed while holding the saved generated data, split, and held-out pairs fixed. It does not measure sensitivity to independently regenerated datasets. The dataset is deliberately synthetic, balanced, small, and generated from an explicit invariant. These results do not estimate production behavior.
+The robustness studies vary training initialization and shuffle seed while holding each saved generated dataset and split fixed. They do not measure sensitivity to independently regenerated datasets. Both datasets are deliberately synthetic, small, and generated from explicit policies. These results do not estimate production behavior.
 
 The versioned public release is hosted on GitHub. This project does not use a separate DOI archive; cite the exact GitHub release and version recorded in `CITATION.cff`.
 

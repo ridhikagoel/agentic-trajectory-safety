@@ -14,7 +14,7 @@ import torch
 import torch.nn as nn
 from torch.nn.utils.rnn import pad_sequence
 
-ACTION_TYPES = ["list_resources", "read_file", "write_file", "read_credential", "connect_host"]
+ACTION_TYPES = ["list_resources", "read_file", "write_file", "read_credential", "connect_host", "temporary_approval"]
 ACTION_IDX = {a: i for i, a in enumerate(ACTION_TYPES)}
 
 
