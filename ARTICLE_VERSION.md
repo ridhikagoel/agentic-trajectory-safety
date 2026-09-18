@@ -1,7 +1,7 @@
 # Corresponding article version
 
 - Title: *From Rules to Sequences: Lessons from Fraud and Authentication Systems for Agentic AI Safety Evaluation*
-- Authors: Ridhika Goel and Anshul Mohan Gupta
+- Authors: [withheld for double-blind review]
 - Manuscript version: 1.1.2
 - Manuscript date: August 2026
 - Experiment package version: 1.1.2

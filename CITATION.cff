@@ -5,12 +5,7 @@ version: 1.1.2
 date-released: 2026-08-26
 type: software
 authors:
-  - family-names: Goel
-    given-names: Ridhika
-  - family-names: Gupta
-    given-names: Anshul Mohan
-repository-code: "https://github.com/ridhikagoel/agentic-trajectory-safety"
-url: "https://github.com/ridhikagoel/agentic-trajectory-safety/releases/tag/v1.1.2"
+  - name: "Authors withheld for double-blind review"
 license: MIT
 keywords:
   - agentic AI
