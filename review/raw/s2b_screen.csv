@@ -1,0 +1,37 @@
+candidate,disclosed,decision,reason,record
+AISI incident report: unsanctioned agent behaviour during cyber testing,2026-08-04,dup,E-DUP,= R19 (AIID 1633)
+AISI: GPT-6 Astra unsanctioned supply-chain attacks in simulations,2026-09,exclude,E-SIM,
+AISI: cheating behaviour in frontier model evaluations,2026,exclude,E-BENCH,
+Anthropic: investigating three incidents in cybersecurity evals (incident 1),2026-07-30,include,,R20
+Anthropic: investigating three incidents in cybersecurity evals (incident 2),2026-07-30,include,,R21
+Anthropic: investigating three incidents in cybersecurity evals (incident 3),2026-07-30,include,,R22
+Anthropic: alignment assessment of recent cybersecurity incidents (replication),2026,exclude,E-SIM,
+Anthropic: Agentic Misalignment in Summer 2026,2026-07-13,exclude,E-SIM,"simulated cases; real cases = R04, R05"
+"Anthropic system cards Opus 4.6/4.7/4.8/5.5, Sonnet/Haiku 5.5 (behaviour rates)",2026,exclude,E-BENCH,
+Anthropic Mythos Preview system card,2026-04-07,dup,E-DUP,= R10 (AIID 1613)
+OpenAI-Hugging Face incident technical report,2026-07-21,dup,E-DUP,= R17 (AIID 1604)
+OpenAI: third-party cyber evaluations involving OpenAI models (Irregular),2026-08,exclude,E-DETAIL,primary page refused automated retrieval (HTTP 403); secondary reports name no agent action
+OpenAI GPT-5.6 system card: VM substitution (internal traffic),2026-07-09,include,,R16
+Meta statement on Muse Spark 1.1 during Irregular evaluation (via AP),2026-08-05,include,,R23
+Google statement on Gemini during Irregular test (via WSJ/AP),2026-09-18,include,,R24
+CAISI evaluation of DeepSeek models (agent hijacking),2025-09-30,exclude,E-BENCH,
+CAISI assessment of GLM-5.2,2026-07-17,exclude,E-BENCH,
+CAISI: cheating on AI agent evaluations,2026,exclude,E-BENCH,
+OpenAI misalignment log: Damaging the task environment to trigger a reset,2026-10-09,exclude,E-DATE,
+OpenAI misalignment report: An agent used DNS to reach an external chatbot,2026-09-25,include,,R30
+OpenAI misalignment report: Self-generated prompt injections in compaction summaries,2026-09-16,include,,R31
+OpenAI misalignment log: Self-replicating prompt injections exist,2026-09-25,exclude,E-SIM,
+OpenAI misalignment log: Obtaining public statistics with disallowed requests,2026-10-09,exclude,E-DATE,
+OpenAI misalignment log: Sending disallowed web requests and reaching a public file service,2026-10-09,exclude,E-DATE,
+OpenAI misalignment report: Encouraging deception in compaction summaries,2026-09-16,include,,R32
+OpenAI misalignment report: Exposing a GitHub token in a public repository,2026-09-25,include,,R33
+OpenAI misalignment log: Preparing for a restart after reading Slack,2026-10-02,exclude,E-DATE,
+OpenAI misalignment log: Command injecting a reference tool to copy a source file,2026-10-02,exclude,E-DATE,
+OpenAI misalignment report: Signing up for disposable emails and searching GitHub for leaked API keys,2026-09-16,include,,R34
+OpenAI misalignment report: Unsanctioned Artifactory writes and cross-sample communication,2026-09-16,include,,R35
+OpenAI misalignment report: Unauthorized communication via temporary file hosting services,2026-09-16,include,,R36
+OpenAI misalignment log: Reaching an internal EDA host through a reference tool,2026-10-02,exclude,E-DATE,
+OpenAI misalignment report: Uploading files to the internet in order to cite them,2026-09-16,include,,R37
+OpenAI misalignment log: Notice: RubyGems,2026-09-11,exclude,E-DETAIL,claims unverified per OpenAI
+OpenAI misalignment log: Notice: DSEwiki,2026-09-05,dup,E-DUP,= R28
+OpenAI misalignment log: Notice: Hugging Face,2026-08-26,dup,E-DUP,= R17

@@ -1,0 +1,252 @@
+set,id,field,coder1,coder2,final,reason
+incident/cve,R01,precursor_signal,ID,N,N,C2: no precursor documented in the sources
+incident/cve,R02,precursor_signal,Y,N,Y,C1 retained (no adjudication note)
+incident/cve,R02,monitor_present,ID,N,N,C2: sources indicate no running control caught it
+incident/cve,R02,root_cause,combination,model,combination,C1 retained (no adjudication note)
+incident/cve,R03,actor,adversary-induced,model-initiated,adversary-induced,C1 retained (no adjudication note)
+incident/cve,R03,monitor_present,ID,Y,Y,C2: audit logging was the control and was bypassed
+incident/cve,R04,setting,eval,external-deploy,eval,C1 retained (no adjudication note)
+incident/cve,R05,precursor_signal,Y,N,Y,C1 retained (no adjudication note)
+incident/cve,R05,root_cause,model,combination,model,C1 retained (no adjudication note)
+incident/cve,R06,setting,external-deploy,internal-deploy,external-deploy,C1 retained (no adjudication note)
+incident/cve,R06,precursor_signal,NA,N,N,C2: no precursor documented in the sources
+incident/cve,R07,precursor_signal,ID,N,N,C2: no precursor documented in the sources
+incident/cve,R07,root_cause,model,software-defect,model,C1 retained (no adjudication note)
+incident/cve,R08,harm_external,Y,N,Y,C1 retained (no adjudication note)
+incident/cve,R08,min_state,none,trajectory,none,C1 retained (no adjudication note)
+incident/cve,R08,monitor_present,Y,N,N,C2: sources indicate no running control caught it
+incident/cve,R09,precursor_signal,ID,N,N,C2: no precursor documented in the sources
+incident/cve,R09,monitor_present,ID,N,ID,C1 retained (no adjudication note)
+incident/cve,R09,root_cause,combination,model,combination,C1 retained (no adjudication note)
+incident/cve,R10,precursor_signal,Y,N,N,"C2: the sandbox escape was instructed, so it is not a misbehaviour precursor"
+incident/cve,R11,monitor_present,N,Y,Y,C2: Cursor guardrails were in place and failed
+incident/cve,R13,harm_external,Y,N,Y,C1 retained (no adjudication note)
+incident/cve,R13,precursor_signal,ID,N,ID,C1 retained (no adjudication note)
+incident/cve,R13,monitor_present,ID,N,N,C2: sources indicate no running control caught it
+incident/cve,R13,root_cause,model,combination,model,C1 retained (no adjudication note)
+incident/cve,R14,precursor_signal,ID,N,N,C2: no precursor documented in the sources
+incident/cve,R15,harm_external,unclear,N,unclear,C1 retained (no adjudication note)
+incident/cve,R15,monitor_present,ID,Y,ID,C1 retained (no adjudication note)
+incident/cve,R17,detected_by,automated-monitor,external-party,automated-monitor,C1 retained (no adjudication note)
+incident/cve,R18,harm_external,Y,N,Y,C1 retained (no adjudication note)
+incident/cve,R18,monitor_present,ID,N,N,C2: sources indicate no running control caught it
+incident/cve,R18,root_cause,environment-config,combination,environment-config,C1 retained (no adjudication note)
+incident/cve,R20,per_action_flaggable,Y,N,Y,C1 retained (no adjudication note)
+incident/cve,R20,min_state,none,resource-metadata,none,C1 retained (no adjudication note)
+incident/cve,R20,root_cause,combination,environment-config,combination,C1 retained (no adjudication note)
+incident/cve,R21,root_cause,combination,environment-config,combination,C1 retained (no adjudication note)
+incident/cve,R22,root_cause,combination,environment-config,combination,C1 retained (no adjudication note)
+incident/cve,R23,per_action_flaggable,Y,N,Y,C1 retained (no adjudication note)
+incident/cve,R23,min_state,none,resource-metadata,none,C1 retained (no adjudication note)
+incident/cve,R23,monitor_present,ID,N,N,C2: sources indicate no running control caught it
+incident/cve,R23,root_cause,combination,environment-config,combination,C1 retained (no adjudication note)
+incident/cve,R24,monitor_present,ID,N,ID,C1 retained (no adjudication note)
+incident/cve,R24,root_cause,combination,environment-config,combination,C1 retained (no adjudication note)
+incident/cve,R24,detected_by,ID,external-party,external-party,C2: Irregular notified Google
+incident/cve,R25,per_action_flaggable,N,Y,Y,C2: publishing workspace data to a new public repo is outside the review task
+incident/cve,R25,min_state,trajectory,none,none,as above
+incident/cve,R25,precursor_signal,N,Y,Y,C2: hit private-repo image limit first
+incident/cve,R25,root_cause,model,combination,model,C1 retained (no adjudication note)
+incident/cve,R26,setting,ID,training,training,C2: found in OpenAI's review of training activity
+incident/cve,R26,monitor_present,ID,N,ID,C1 retained (no adjudication note)
+incident/cve,R26,detected_by,external-party,transcript-review,external-party,C1 retained (no adjudication note)
+incident/cve,R27,setting,ID,training,training,C2: found in OpenAI's review of training activity
+incident/cve,R27,harm_external,Y,unclear,Y,C1 retained (no adjudication note)
+incident/cve,R27,monitor_present,ID,N,ID,C1 retained (no adjudication note)
+incident/cve,R28,per_action_flaggable,N,Y,Y,C2: writing to an unrelated public wiki is out of scope
+incident/cve,R28,min_state,cross-trajectory,none,none,as above
+incident/cve,R28,precursor_signal,ID,Y,Y,C2: repeated failed edits first
+incident/cve,R28,monitor_present,ID,N,N,C2: found by outside researchers; no monitor caught it
+incident/cve,R29,monitor_present,ID,N,N,C2: sources indicate no running control caught it
+incident/cve,R30,root_cause,combination,environment-config,combination,C1 retained (no adjudication note)
+incident/cve,R31,precursor_signal,ID,N,N,C2: no precursor documented in the sources
+incident/cve,R31,root_cause,model,combination,model,C1 retained (no adjudication note)
+incident/cve,R32,precursor_signal,Y,N,Y,C1 retained (no adjudication note)
+incident/cve,R35,per_action_flaggable,N,Y,Y,C2: PUT of messages to shared repositories exceeds download scope
+incident/cve,R35,min_state,cross-trajectory,none,none,as above
+incident/cve,R35,precursor_signal,ID,Y,Y,C2: credential search and 403s before
+incident/cve,R35,root_cause,model,environment-config,model,C1 retained (no adjudication note)
+incident/cve,R36,root_cause,model,combination,model,C1 retained (no adjudication note)
+incident/cve,R37,monitor_present,ID,N,N,C2: sources indicate no running control caught it
+incident/cve,R37,root_cause,model,combination,model,C1 retained (no adjudication note)
+incident/cve,CVE-2025-34072,per_action_flaggable,Y,N,N,C2: posting a Slack message is allowed; harm is that the link embeds sensitive data read earlier (provenance)
+incident/cve,CVE-2025-34072,min_state,none,trajectory,trajectory,data provenance
+incident/cve,CVE-2025-55284,per_action_flaggable,N,Y,Y,C2: sending file contents to an external host is visibly unsafe given task scope
+incident/cve,CVE-2025-55284,min_state,trajectory,none,none,as above
+incident/cve,CVE-2025-58372,monitor_present,Y,N,Y,C1: a guard existed but was incomplete or bypassed
+incident/cve,CVE-2025-58373,per_action_flaggable,Y,N,N,C2: the action string looks in scope; the danger depends on what the path resolves to (symlink) - resource ground truth
+incident/cve,CVE-2025-58373,min_state,none,resource-metadata,resource-metadata,as above
+incident/cve,CVE-2025-58374,per_action_flaggable,Y,N,N,C2: npm install is allowlisted and routine; harm is hidden in the repo's postinstall script
+incident/cve,CVE-2025-58374,min_state,none,resource-metadata,resource-metadata,as above
+incident/cve,CVE-2025-61592,per_action_flaggable,Y,N,Y,C1 retained (no adjudication note)
+incident/cve,CVE-2025-61592,min_state,none,resource-metadata,none,C1 retained (no adjudication note)
+incident/cve,CVE-2025-61592,monitor_present,Y,N,N,C2: no guard described / auto-approval by design
+incident/cve,CVE-2025-62353,monitor_present,ID,N,N,C2: no guard described / auto-approval by design
+incident/cve,CVE-2025-62356,monitor_present,ID,N,N,C2: no guard described / auto-approval by design
+incident/cve,CVE-2025-64110,per_action_flaggable,Y,N,N,"C2: create a new cursorignore, then read protected files; each step plausible alone"
+incident/cve,CVE-2025-64110,min_state,none,trajectory,trajectory,composition of two steps
+incident/cve,CVE-2025-67511,monitor_present,Y,N,Y,C1: a guard existed but was incomplete or bypassed
+incident/cve,CVE-2026-25475,monitor_present,Y,N,Y,C1: a guard existed but was incomplete or bypassed
+incident/cve,CVE-2026-27967,per_action_flaggable,Y,N,N,C2: the action string looks in scope; the danger depends on what the path resolves to (symlink) - resource ground truth
+incident/cve,CVE-2026-27967,min_state,none,resource-metadata,resource-metadata,as above
+incident/cve,CVE-2026-30856,per_action_flaggable,Y,N,N,C2: calling a tool with a legitimate-looking name; harm depends on which server registered it
+incident/cve,CVE-2026-30856,min_state,none,resource-metadata,resource-metadata,as above
+incident/cve,CVE-2026-33654,per_action_flaggable,Y,ID,Y,C1 retained (no adjudication note)
+incident/cve,CVE-2026-33654,min_state,none,ID,none,C1 retained (no adjudication note)
+incident/cve,CVE-2026-33654,monitor_present,N,Y,Y,C2: an intended boundary or approval existed and was bypassed
+incident/cve,CVE-2026-31945,per_action_flaggable,Y,N,N,C2: hostname or URL passes checks; harm depends on what it resolves to or what the remote content is
+incident/cve,CVE-2026-31945,min_state,none,resource-metadata,resource-metadata,as above
+incident/cve,CVE-2026-40160,monitor_present,Y,N,Y,C1: a guard existed but was incomplete or bypassed
+incident/cve,CVE-2026-44246,per_action_flaggable,Y,ID,ID,C2: description does not say which agent action is unsafe
+incident/cve,CVE-2026-44246,min_state,none,ID,ID,as above
+incident/cve,CVE-2026-45311,monitor_present,Y,N,N,C2: no guard described / auto-approval by design
+incident/cve,CVE-2026-44688,per_action_flaggable,Y,N,Y,C1: resulting action (task definition with a command / exfil URL) is unsafe on its face
+incident/cve,CVE-2026-44688,min_state,none,trajectory,none,as above
+incident/cve,CVE-2026-46580,per_action_flaggable,Y,N,Y,C1: resulting action (task definition with a command / exfil URL) is unsafe on its face
+incident/cve,CVE-2026-46580,min_state,none,trajectory,none,as above
+incident/cve,CVE-2025-66389,monitor_present,N,Y,Y,C2: an intended boundary or approval existed and was bypassed
+incident/cve,CVE-2026-54316,per_action_flaggable,Y,N,N,C2: hostname or URL passes checks; harm depends on what it resolves to or what the remote content is
+incident/cve,CVE-2026-54316,min_state,none,resource-metadata,resource-metadata,as above
+incident/cve,CVE-2026-53766,per_action_flaggable,Y,N,N,C2: the action string looks in scope; the danger depends on what the path resolves to (symlink) - resource ground truth
+incident/cve,CVE-2026-53766,min_state,none,resource-metadata,resource-metadata,as above
+incident/cve,CVE-2026-50549,per_action_flaggable,Y,N,N,C2: the action string looks in scope; the danger depends on what the path resolves to (symlink) - resource ground truth
+incident/cve,CVE-2026-50549,min_state,none,resource-metadata,resource-metadata,as above
+incident/cve,CVE-2026-13341,per_action_flaggable,Y,ID,ID,C2: description does not say which agent action is unsafe
+incident/cve,CVE-2026-13341,min_state,none,ID,ID,as above
+incident/cve,CVE-2026-50181,monitor_present,N,Y,Y,C2: an intended boundary or approval existed and was bypassed
+incident/cve,CVE-2026-61439,per_action_flaggable,Y,ID,ID,C2: description does not say which agent action is unsafe
+incident/cve,CVE-2026-61439,min_state,none,ID,ID,as above
+incident/cve,CVE-2026-57495,per_action_flaggable,Y,N,ID,C2: description does not say which agent action is unsafe
+incident/cve,CVE-2026-57495,min_state,none,trajectory,ID,as above
+incident/cve,CVE-2026-66004,per_action_flaggable,Y,N,Y,C1: the '../../.bashrc' path is visible in the tool call
+incident/cve,CVE-2026-66004,min_state,none,trajectory,none,as above
+incident/cve,CVE-2026-17534,per_action_flaggable,Y,N,N,C2: hostname or URL passes checks; harm depends on what it resolves to or what the remote content is
+incident/cve,CVE-2026-17534,min_state,none,resource-metadata,resource-metadata,as above
+incident/cve,CVE-2026-9196,monitor_present,Y,N,Y,C1: a guard existed but was incomplete or bypassed
+incident/cve,CVE-2026-73217,min_state,resource-metadata,trajectory,resource-metadata,C1: harm depends on the environment fact that the extension later runs this file outside the sandbox
+incident/cve,CVE-2026-75858,monitor_present,Y,N,Y,C1: a guard existed but was incomplete or bypassed
+incident/cve,CVE-2026-75913,monitor_present,Y,N,Y,C1: a guard existed but was incomplete or bypassed
+incident/cve,CVE-2026-75857,monitor_present,Y,N,Y,C1: a guard existed but was incomplete or bypassed
+incident/cve,CVE-2026-76832,monitor_present,N,Y,Y,C2: an intended boundary or approval existed and was bypassed
+incident/cve,CVE-2026-55557,monitor_present,Y,N,Y,C1: a guard existed but was incomplete or bypassed
+incident/cve,CVE-2026-55580,actor,adversary-induced,mixed,adversary-induced,C1 retained (no adjudication note)
+incident/cve,CVE-2026-18875,per_action_flaggable,Y,N,ID,C2: description does not say which agent action is unsafe
+incident/cve,CVE-2026-18875,min_state,none,resource-metadata,ID,as above
+lit-A,2503.22738,timing,online,pre-execution,online,C1 retained (no adjudication note)
+lit-A,2505.24201,mechanism,hybrid,graph-model,hybrid,C1 retained (no adjudication note)
+lit-A,2506.12104,mechanism,rule,hybrid,rule,C1 retained (no adjudication note)
+lit-A,2506.12104,timing,pre-execution,online,pre-execution,C1 retained (no adjudication note)
+lit-A,2506.12104,reports_fp_or_cost,ID,N,ID,C1 retained (no adjudication note)
+lit-A,2508.00500,reports_fp_or_cost,ID,Y,Y,C2: reports false alarms
+lit-A,2508.02921,evaluated_on,benchmark,real-traces,benchmark,C1 retained (no adjudication note)
+lit-A,2508.02921,reports_fp_or_cost,Y,N,Y,C1 retained (no adjudication note)
+lit-A,2509.14956,evaluated_on,synthetic,simulation,synthetic,C1 retained (no adjudication note)
+lit-A,2510.03485,timing,predictive,mixed,predictive,C1 retained (no adjudication note)
+lit-A,2510.09781,reports_fp_or_cost,ID,N,ID,C1 retained (no adjudication note)
+lit-A,2510.12985,state_scope,cross-trajectory,trajectory,cross-trajectory,C1 retained (no adjudication note)
+lit-A,2510.24411,timing,online,post-hoc,online,C1 retained (no adjudication note)
+lit-A,2512.20293,state_scope,trajectory,session,trajectory,C1 retained (no adjudication note)
+lit-A,2602.06443,timing,post-hoc,online,post-hoc,C1 retained (no adjudication note)
+lit-A,2602.06443,evaluated_on,synthetic,benchmark,synthetic,C1 retained (no adjudication note)
+lit-A,2602.08995,mechanism,hybrid,llm-judge,hybrid,C1 retained (no adjudication note)
+lit-A,2603.04469,state_scope,multi-agent,trajectory,multi-agent,C1 retained (no adjudication note)
+lit-A,2603.04469,timing,post-hoc,online,post-hoc,C1 retained (no adjudication note)
+lit-A,2603.19328,timing,pre-execution,online,pre-execution,C1 retained (no adjudication note)
+lit-A,2603.22350,mechanism,rule,hybrid,rule,C1 retained (no adjudication note)
+lit-A,2603.22350,evaluated_on,synthetic,benchmark,synthetic,C1 retained (no adjudication note)
+lit-A,2603.27148,evaluated_on,benchmark,real-traces,benchmark,C1 retained (no adjudication note)
+lit-A,2606.15579,mechanism,rule,hybrid,rule,C1 retained (no adjudication note)
+lit-A,2606.15579,evaluated_on,real-traces,production-harness,real-traces,C1 retained (no adjudication note)
+lit-A,2604.09056,state_scope,trajectory,session,trajectory,C1 retained (no adjudication note)
+lit-A,2604.26274,timing,pre-execution,online,pre-execution,C1 retained (no adjudication note)
+lit-A,2605.03228,mechanism,hybrid,llm-judge,hybrid,C1 retained (no adjudication note)
+lit-A,2605.03482,evaluated_on,benchmark,synthetic,benchmark,C1 retained (no adjudication note)
+lit-A,2605.03482,reports_fp_or_cost,N,Y,Y,C2: reports FPR
+lit-A,2605.04785,state_scope,window,session,window,C1 retained (no adjudication note)
+lit-A,2605.06812,state_scope,multi-agent,trajectory,multi-agent,C1 retained (no adjudication note)
+lit-A,2605.16346,timing,post-hoc,online,post-hoc,C1 retained (no adjudication note)
+lit-A,2605.16346,evaluated_on,benchmark,simulation,benchmark,C1 retained (no adjudication note)
+lit-A,2605.13631,mechanism,representation,learned,representation,C1 retained (no adjudication note)
+lit-A,2605.13631,reports_timeliness,Y,N,Y,C1 retained (no adjudication note)
+lit-A,2605.14271,state_scope,multi-agent,trajectory,multi-agent,C1 retained (no adjudication note)
+lit-A,2605.16198,timing,predictive,mixed,predictive,C1 retained (no adjudication note)
+lit-A,2605.16198,reports_timeliness,Y,N,N,"C2: early/predictive detection claimed, no lead-time figures"
+lit-A,2605.18988,state_scope,trajectory,session,trajectory,C1 retained (no adjudication note)
+lit-A,2605.18988,evaluated_on,ID,none,none,C2: no empirical evaluation stated
+lit-A,2605.18988,reports_timeliness,Y,N,N,C2: theoretical bound only
+lit-A,2605.24216,state_scope,cross-session,cross-trajectory,cross-session,C1 retained (no adjudication note)
+lit-A,2605.23723,mechanism,hybrid,graph-model,hybrid,C1 retained (no adjudication note)
+lit-A,2605.27333,mechanism,hybrid,llm-judge,hybrid,C1 retained (no adjudication note)
+lit-A,2605.27333,state_scope,trajectory,session,trajectory,C1 retained (no adjudication note)
+lit-A,2605.27690,reports_timeliness,Y,N,N,"C2: early/predictive detection claimed, no lead-time figures"
+lit-A,2605.29178,timing,online,post-hoc,online,C1 retained (no adjudication note)
+lit-A,2606.07889,reports_fp_or_cost,Y,N,Y,C1 retained (no adjudication note)
+lit-A,2606.22673,reports_timeliness,ID,N,ID,C1 retained (no adjudication note)
+lit-A,2606.26524,evaluated_on,benchmark,real-traces,real-traces,C2: real LLM-agent runs
+lit-A,2606.26524,reports_fp_or_cost,N,Y,Y,C2: FPR below 10%
+lit-A,2607.24625,reports_fp_or_cost,ID,N,ID,C1 retained (no adjudication note)
+lit-A,2607.26820,state_scope,trajectory,session,trajectory,C1 retained (no adjudication note)
+lit-A,2607.27294,evaluated_on,production-harness,benchmark,production-harness,C1 retained (no adjudication note)
+lit-A,2609.26072,mechanism,ifc-provenance,rule,ifc-provenance,C1 retained (no adjudication note)
+lit-A,2609.26072,reports_fp_or_cost,Y,N,Y,C1 retained (no adjudication note)
+lit-A,2608.01388,evaluated_on,benchmark,simulation,benchmark,C1 retained (no adjudication note)
+lit-A,2608.05695,timing,predictive,pre-execution,predictive,C1 retained (no adjudication note)
+lit-A,2608.05695,reports_timeliness,Y,N,N,"C2: early/predictive detection claimed, no lead-time figures"
+lit-A,2609.27773,state_scope,trajectory,session,trajectory,C1 retained (no adjudication note)
+lit-A,2608.19161,evaluated_on,synthetic,simulation,synthetic,C1 retained (no adjudication note)
+lit-A,2608.19161,reports_fp_or_cost,N,Y,Y,C2: monitoring load reported
+lit-A,2608.22868,reports_fp_or_cost,N,Y,Y,C2: verification time reported
+lit-A,2609.29522,mechanism,rule,benchmark,rule,C1 retained (no adjudication note)
+lit-A,2609.29522,state_scope,trajectory,window,trajectory,C1 retained (no adjudication note)
+lit-A,2608.24777,timing,pre-execution,mixed,pre-execution,C1 retained (no adjudication note)
+lit-A,2608.24777,reports_fp_or_cost,Y,N,N,C2: only utility drop; no FP/latency figures
+lit-A,2608.27496,reports_fp_or_cost,Y,N,N,C2: only utility retention
+lit-A,2608.27141,mechanism,formal,hybrid,formal,C1 retained (no adjudication note)
+lit-A,2608.27348,reports_timeliness,Y,N,N,"C2: early/predictive detection claimed, no lead-time figures"
+lit-A,2610.00151,mechanism,rule,position,rule,C1 retained (no adjudication note)
+lit-A,2609.14987,reports_fp_or_cost,ID,N,ID,C1 retained (no adjudication note)
+lit-A,2609.16287,mechanism,rule,hybrid,rule,C1 retained (no adjudication note)
+lit-A,2609.18128,reports_fp_or_cost,N,Y,N,C1 retained (no adjudication note)
+lit-A,2609.18674,reports_fp_or_cost,Y,N,Y,C1 retained (no adjudication note)
+lit-A,2609.22724,evaluated_on,real-traces,benchmark,real-traces,C1 retained (no adjudication note)
+lit-A,2609.30217,state_scope,trajectory,window,trajectory,C1 retained (no adjudication note)
+lit-A,2609.33039,timing,post-hoc,online,post-hoc,C1 retained (no adjudication note)
+lit-A,2609.33039,reports_fp_or_cost,N,Y,Y,C2: latency reported
+lit-A,2609.39549,mechanism,hybrid,llm-judge,hybrid,C1 retained (no adjudication note)
+lit-A,2609.39549,evaluated_on,ID,none,none,C2: no evaluation stated
+lit-A,2609.39549,reports_fp_or_cost,Y,N,N,"C2: claims fewer false positives, no figures"
+lit-A,2609.39549,reports_timeliness,Y,N,N,"C2: claims lead time, no figures"
+lit-B,2307.05121,state_scope,both,graph,both,C1 retained (no adjudication note)
+lit-B,2307.05121,production_data,N,ID,N,C1 retained (no adjudication note)
+lit-B,2402.14708,state_scope,both,graph,both,C1 retained (no adjudication note)
+lit-B,2402.14708,production_data,N,Y,N,C1 retained (no adjudication note)
+lit-B,2404.00060,state_scope,both,graph,both,C1 retained (no adjudication note)
+lit-B,2408.00513,state_scope,sequence,both,both,C2: cohort relations plus sequences
+lit-B,2408.00513,production_data,N,Y,Y,C2: deployed on e-commerce platforms
+lit-B,2411.19457,production_data,ID,Y,ID,C1 retained (no adjudication note)
+lit-B,2412.18287,production_data,N,Y,Y,C2: abstract states deployed-platform or proprietary production data
+lit-B,2503.16901,state_scope,both,graph,both,C1 retained (no adjudication note)
+lit-B,2503.16901,production_data,N,ID,N,C1 retained (no adjudication note)
+lit-B,2506.21382,state_scope,both,graph,both,C1 retained (no adjudication note)
+lit-B,2508.20829,state_scope,both,graph,both,C1 retained (no adjudication note)
+lit-B,2508.20829,production_data,N,ID,N,C1 retained (no adjudication note)
+lit-B,2510.12652,production_data,ID,Y,Y,C2: abstract states deployed-platform or proprietary production data
+lit-B,2511.00047,state_scope,both,graph,both,C1 retained (no adjudication note)
+lit-B,2510.25126,production_data,N,ID,N,C1 retained (no adjudication note)
+lit-B,2512.18133,production_data,N,Y,N,C1 retained (no adjudication note)
+lit-B,2512.19061,production_data,ID,Y,Y,C2: abstract states deployed-platform or proprietary production data
+lit-B,2601.05578,production_data,N,Y,N,C1 retained (no adjudication note)
+lit-B,2601.11073,production_data,N,ID,N,C1 retained (no adjudication note)
+lit-B,2601.22579,production_data,ID,Y,Y,C2: abstract states deployed-platform or proprietary production data
+lit-B,2603.06632,state_scope,both,graph,both,C1 retained (no adjudication note)
+lit-B,2603.14592,state_scope,both,graph,both,C1 retained (no adjudication note)
+lit-B,2605.21490,production_data,N,ID,N,C1 retained (no adjudication note)
+lit-B,2604.24590,state_scope,both,graph,both,C1 retained (no adjudication note)
+lit-B,2604.24590,production_data,N,ID,N,C1 retained (no adjudication note)
+lit-B,2605.26040,production_data,N,ID,N,C1 retained (no adjudication note)
+lit-B,2606.18444,state_scope,both,graph,both,C1 retained (no adjudication note)
+lit-B,2606.18444,production_data,N,ID,N,C1 retained (no adjudication note)
+lit-B,2606.25007,production_data,N,Y,Y,C2: abstract states deployed-platform or proprietary production data
+lit-B,2607.09528,state_scope,ID,both,both,C2: dataset covers transactions and behavioural relations
+lit-B,2609.27287,production_data,ID,Y,Y,C2: abstract states deployed-platform or proprietary production data
+lit-B,2609.34211,state_scope,sequence,ID,sequence,C1 retained (no adjudication note)

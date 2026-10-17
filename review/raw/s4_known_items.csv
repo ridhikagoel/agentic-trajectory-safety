@@ -1,0 +1,9 @@
+original_case,item,disclosed,retrieval,decision,note
+Case 1,Unit 42: web-based indirect prompt injection observed in the wild,2026-03-03,not retrieved by S1/S2,exclude,E-DETAIL: payloads observed; no executed agent action documented
+Case 2,CVE-2025-53773 GitHub Copilot / VS Code,2025-08-12,S1 retrieved; auto pre-filter excluded,include,S4 known item: original submission documents agent-mediated RCE via prompt injection
+Case 3,CVE-2025-59944 Cursor,2025-10-03,S1 included,included,already in corpus
+Case 4,CVE-2026-25049 n8n,2026-02-04,not retrieved by S1 (no AI terms),exclude,E-NONAI: expression sandbox escape by workflow editor (verify)
+Case 5,CVE-2025-32711 EchoLeak (M365 Copilot),2025-06,S1 retrieved; audit excluded,exclude,E-NOAGENT: exfiltration via rendered link/image (rendering rule)
+Case 6,Claude Mythos Preview system card,2026-04-07,S2a/S2b,included,R10
+Case 7,AISI incident report,2026-08-04,S2a/S2b,included,R19
+Case 8,Anthropic three incidents + Meta (Irregular),2026-07-30 / 08-05,S2b,included,R20-R23

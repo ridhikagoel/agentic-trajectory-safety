@@ -1,0 +1,44 @@
+idx,arxiv_id,title,state_scope,production_data
+1,2303.18138,BERT4ETH: A Pre-trained Transformer for Ethereum Fraud Detection,sequence,N
+2,2307.05121,Transaction Fraud Detection via Spatial-Temporal-Aware Graph Transformer,graph,ID
+5,2312.14406,Generative Pretraining at Scale: Transformer-Based Encoding of Transactional Behavior for Fraud Detection,sequence,Y
+10,2402.14708,CaT-GNN: Enhancing Credit Card Fraud Detection via Causal Temporal Graph Neural Networks,graph,Y
+11,2404.00060,Temporal Graph Networks for Graph Anomaly Detection in Financial Networks,graph,N
+14,2408.00513,VecAug: Unveiling Camouflaged Frauds with Cohort Augmentation for Enhanced Detection,both,Y
+15,2408.00641,Enhancing Ethereum Fraud Detection via Generative and Contrastive Self-supervision,graph,N
+17,2409.07494,Ethereum Fraud Detection via Joint Transaction Language Model and Graph Representation Learning,both,N
+19,2411.19457,Multi-task CNN Behavioral Embedding Model For Transaction Fraud Detection,sequence,Y
+20,2412.18287,Semi-supervised Credit Card Fraud Detection via Attribute-Driven Graph Representation,graph,Y
+21,2503.16901,TeMP-TraG: Edge-based Temporal Message Passing in Transaction Graphs,graph,ID
+22,2504.03750,Detecting Financial Fraud with Hybrid Deep Learning: A Mix-of-Experts Approach to Sequential and Anomalous Patterns,sequence,N
+23,2504.08183,Detecting Credit Card Fraud via Heterogeneous Graph Neural Networks with Graph Attention,graph,N
+24,2504.09311,Dupin: A Parallel Framework for Densest Subgraph Discovery in Fraud Detection on Massive Graphs (Technical Report),graph,Y
+26,2505.00137,Toward Practical Quantum Machine Learning: A Novel Hybrid Quantum LSTM for Fraud Detection,sequence,N
+31,2506.21382,Temporal-Aware Graph Attention Network for Cryptocurrency Transaction Fraud Detection,graph,N
+35,2508.20829,ATM-GAD: Adaptive Temporal Motif Graph Anomaly Detection for Financial Transaction Networks,graph,ID
+36,2509.00931,Semi-Supervised Bayesian GANs with Log-Signatures for Uncertainty-Aware Credit Card Fraud Detection,sequence,N
+37,2509.03939,LMAE4Eth: Generalizable and Robust Ethereum Fraud Detection by Exploring Transaction Semantics and Masked Graph Embedding,both,N
+38,2509.09928,Fraud detection and risk assessment of online payment transactions on e-commerce platforms based on LLM and GCN frameworks,graph,ID
+40,2509.23101,Towards Quantum-Ready Blockchain Fraud Detection via Ensemble Graph Neural Networks,graph,N
+43,2510.12652,PromoGuardian: Detecting Promotion Abuse Fraud with Multi-Relation Fused Graph Neural Networks,graph,Y
+44,2511.00047,DynBERG: Dynamic BERT-based Graph neural network for financial fraud detection,graph,N
+45,2510.25126,Bridging the Divide: End-to-End Sequence-Graph Learning,both,ID
+47,2512.18133,Grad: Guided Relation Diffusion Generation for Graph Augmentation in Graph Fraud Detection,graph,Y
+48,2512.19061,Fraud Detection Through Large-Scale Graph Clustering with Heterogeneous Link Transformation,graph,Y
+50,2601.05578,Reinforcement Learning of Large Language Models for Interpretable Credit Card Fraud Detection,ID,Y
+51,2601.11073,Bridging Cognitive Neuroscience and Graph Intelligence: Hippocampus-Inspired Multi-View Hypergraph Learning for Web Finance Fraud,graph,ID
+52,2601.22579,Non-Intrusive Graph-Based Bot Detection for E-Commerce Using Inductive Graph Neural Networks,graph,Y
+54,2603.06632,Leakage Safe Graph Features for Interpretable Fraud Detection in Temporal Transaction Networks,graph,N
+55,2602.23599,Normalisation and Initialisation Strategies for Graph Neural Networks in Blockchain Anomaly Detection,graph,N
+57,2603.14592,A Multi-Scale Graph Learning Framework with Temporal Consistency Constraints for Financial Fraud Detection in Transaction Networks under Non-Stationary Conditions,graph,N
+59,2605.21490,Temporal Contrastive Transformer for Financial Crime Detection: Self-Supervised Sequence Embeddings via Predictive Contrastive Coding,sequence,ID
+60,2604.08649,PRAGMA: Revolut Foundation Model,sequence,Y
+62,2604.24590,Fraud Detection in Cryptocurrency Markets with Spatio-Temporal Graph Neural Networks,graph,ID
+63,2605.12782,Graph-Based Financial Fraud Detection with Calibrated Risk Scoring and Structural Regularization,graph,N
+65,2605.18844,Graph-Driven Cross-Industry Real-Time Monitoring Framework for Anti-Money Laundering Detection in Converged Mobility-Energy Supply Chain Networks,graph,ID
+67,2605.26040,L2IR: Revealing Latent Intent in Graph Fraud Detection,graph,ID
+71,2606.18444,TMR-GGNN: Credit Card Fraud Detection based on Time-Aware Multi-Relational Guided Graph Neural Network,graph,ID
+74,2606.25007,Multi-Stream Temporal Fusion for Financial Fraud Detection,sequence,Y
+78,2607.09528,TSAI-MetaFraud: A Benchmark Dataset for Financial Fraud Transaction and Behavioral Risk Detection in Metaverse Ecosystems,both,N
+82,2609.27287,SR-Fraud: An Outcome-Supervised Reflective LLM Agent Framework for Non-Stationary Payment Fraud Detection,sequence,Y
+83,2609.34211,Behavior-Grounded Semantic Enrichment for Financial Fraud Modeling and Reasoning,ID,N

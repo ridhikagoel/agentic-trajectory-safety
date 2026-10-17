@@ -1,0 +1,91 @@
+idx,arxiv_id,title,mechanism,state_scope,timing,evaluated_on,reports_fp_or_cost,reports_timeliness
+28,2503.22738,ShieldAgent: Shielding Agents via Verifiable Safety Policy Reasoning,hybrid,trajectory,online,benchmark,Y,N
+32,2505.19234,GUARDIAN: Safeguarding LLM Multi-Agent Collaborations with Temporal Graph Modeling,graph-model,multi-agent,online,benchmark,Y,N
+34,2505.24201,SentinelAgent: Graph-based Anomaly Detection in Multi-Agent Systems,hybrid,multi-agent,online,case-study,N,N
+39,2506.12104,DRIFT: Dynamic Rule-Based Defense with Injection Isolation for Securing LLM Agents,rule,trajectory,pre-execution,benchmark,ID,N
+41,2507.06134,OpenAgentSafety: A Comprehensive Framework for Evaluating Real-World AI Agent Safety,benchmark,trajectory,post-hoc,benchmark,N,N
+45,2508.00500,ProbGuard: Proactive Runtime Monitoring for LLM Agent Safety via Probabilistic Prediction,probabilistic,trajectory,predictive,simulation,ID,Y
+46,2508.02921,PentestJudge: Judging Agent Behavior Against Operational Requirements,llm-judge,trajectory,post-hoc,benchmark,Y,N
+56,2509.14956,Sentinel Agents for Secure and Trustworthy Agentic AI in Multi-Agent Systems,hybrid,multi-agent,online,synthetic,N,N
+58,2510.03485,Learning Efficient Guardrails for Compliance,learned,trajectory,predictive,benchmark,Y,Y
+60,2510.09781,Building a Foundational Guardrail for General Agentic Systems via Synthetic Data,learned,trajectory,pre-execution,benchmark,ID,N
+61,2510.12985,SENTINEL: A Multi-Level Formal Framework for Safety Evaluation of Foundation Model-based Embodied Agents,formal,cross-trajectory,mixed,simulation,N,N
+66,2510.24411,OS-Sentinel: Towards Safety-Enhanced Mobile GUI Agents via Hybrid Validation in Realistic Workflows,hybrid,trajectory,online,benchmark,N,N
+78,2512.15688,BashArena: A Control Setting for Highly Privileged AI Agents,benchmark,trajectory,online,benchmark,Y,N
+80,2512.20293,AprielGuard,learned,trajectory,online,benchmark,N,N
+82,2512.21220,RoboSafe: Safeguarding Embodied Agents via Executable Safety Logic,hybrid,trajectory,online,simulation,N,N
+85,2601.00516,"Trajectory Guard -- A Lightweight, Sequence-Aware Model for Real-Time Anomaly Detection in Agentic AI",learned,trajectory,online,benchmark,Y,N
+91,2601.18491,AgentDoG: A Diagnostic Guardrail Framework for AI Agent Safety and Security,learned,trajectory,online,benchmark,N,N
+94,2601.22136,"StepShield: When, Not Whether to Intervene on Rogue Agents",benchmark,trajectory,online,benchmark,Y,Y
+101,2602.06443,TrajAD: Trajectory Anomaly Detection for Trustworthy LLM Agents,learned,trajectory,post-hoc,synthetic,N,N
+104,2602.08995,When Actions Go Off-Task: Detecting and Correcting Misaligned Actions in Computer-Use Agents,hybrid,trajectory,pre-execution,benchmark,Y,N
+105,2604.03242,DRAFT: Task Decoupled Latent Reasoning for Agent Safety,learned,trajectory,post-hoc,benchmark,N,N
+116,2603.04469,Cross-Layer Semantic Flow Reconstruction for Attack Detection in Agentic Systems,hybrid,multi-agent,post-hoc,benchmark,N,N
+120,2603.11853,"OpenClaw PRISM: A Zero-Fork, Defense-in-Depth Runtime Security Layer for Tool-Augmented LLM Agents",hybrid,session,online,preliminary,Y,N
+123,2603.19328,The Verifier Tax: Horizon Dependent Safety Success Tradeoffs in Tool Using LLM Agents,rule,trajectory,pre-execution,benchmark,Y,N
+125,2603.22350,Session Risk Memory (SRM): Temporal Authorization for Deterministic Pre-Execution Safety Gates,rule,session,pre-execution,synthetic,Y,N
+131,2603.27148,SafetyDrift: Predicting When AI Agents Cross the Line Before They Actually Do,probabilistic,trajectory,predictive,benchmark,Y,Y
+134,2604.02022,ATBench: A Diverse and Realistic Agent Trajectory Benchmark for Safety Evaluation and Diagnosis,benchmark,trajectory,post-hoc,benchmark,N,N
+135,2606.15579,Your Agent Has a Genome: Sequence-Level Behavioral Analysis and Runtime Governance of LLM-Powered Autonomous Agents,rule,trajectory,online,real-traces,Y,N
+141,2604.07223,TraceSafe: A Systematic Assessment of LLM Guardrails on Multi-Step Tool-Calling Trajectories,benchmark,trajectory,online,benchmark,N,N
+143,2604.09056,Conversations Risk Detection LLMs in Financial Agents via Multi-Stage Generative Rollout,hybrid,trajectory,online,benchmark,N,N
+144,2604.13954,HINTBench: Horizon-agent Intrinsic Non-attack Trajectory Benchmark,benchmark,trajectory,post-hoc,benchmark,N,N
+147,2604.15384,LinuxArena: A Control Setting for AI Agents in Live Production Software Environments,benchmark,trajectory,online,benchmark,Y,N
+148,2604.17562,SafeAgent: A Runtime Protection Architecture for Agentic Systems,hybrid,session,online,benchmark,N,N
+153,2604.26274,Enforcing Benign Trajectories: A Behavioral Firewall for Structured-Workflow AI Agents,rule,trajectory,pre-execution,benchmark,Y,N
+156,2605.01143,A Low-Latency Fraud Detection Layer for Detecting Adversarial Interaction Patterns in LLM-Powered Agents,learned,session,online,synthetic,Y,N
+158,2605.03228,Safeguarding LLM Agents against Long-Horizon Threats via Shadow Memory,hybrid,trajectory,pre-execution,benchmark,Y,Y
+159,2605.03482,MEMSAD: Gradient-Coupled Anomaly Detection for Memory Poisoning in Retrieval-Augmented Agents,probabilistic,cross-session,online,benchmark,N,N
+160,2605.04785,AgentTrust: Runtime Safety Evaluation and Interception for AI Agent Tool Use,hybrid,window,pre-execution,benchmark,Y,N
+162,2605.06812,Towards Security-Auditable LLM Agents: A Unified Graph Representation,graph-model,multi-agent,post-hoc,case-study,N,N
+165,2605.16346,PropGuard: Safeguarding LLM-MAS via Propagation-Aware Exploration and Remediation,graph-model,multi-agent,post-hoc,benchmark,Y,N
+168,2605.10481,"Safe Multi-Agent Behavior Must Be Maintained, Not Merely Asserted: Constraint Drift in LLM-Based Multi-Agent Systems",position,multi-agent,none,none,N,N
+172,2605.13631,ProjGuard: Safety Monitoring for Computer-Use Agents via Low-Dimensional Projections,representation,trajectory,online,benchmark,N,Y
+173,2605.14271,Auditing Agent Harness Safety,benchmark,multi-agent,post-hoc,benchmark,N,N
+174,2605.16198,"Formal Methods Meet LLMs: Auditing, Monitoring, and Intervention for Compliance of Advanced AI Systems",formal,trajectory,predictive,benchmark,N,Y
+177,2605.18988,Surviving the Unseen: Predictive Defense for Novel Multi-Turn Multimodal Attacks,probabilistic,trajectory,predictive,ID,N,Y
+184,2605.24216,Agent-ToM: Learning to Monitor Autonomous LLM Agents via Theory-of-Mind Reasoning,llm-judge,cross-session,post-hoc,benchmark,N,N
+185,2605.23723,MemAudit: Post-hoc Auditing of Poisoned Agent Memory via Causal Attribution and Structural Anomaly Detection,hybrid,cross-session,post-hoc,benchmark,N,N
+187,2605.26497,Aligning Provenance with Authorization: A Dual-Graph Defense for LLM Agents,ifc-provenance,trajectory,pre-execution,benchmark,N,N
+190,2605.27333,FinHarness: An Inline Lifecycle Safety Harness for Finance LLM Agents,hybrid,trajectory,online,benchmark,Y,N
+191,2605.27690,TRACES: Proactive Safety Auditing for Multi-Turn LLM Agents via Trajectory-State Modeling,representation,trajectory,predictive,benchmark,N,Y
+192,2605.29178,The Best-Laid SCHEMEs: Coordinated Sabotage and Monitoring in Multi-Agent Systems,benchmark,multi-agent,online,benchmark,Y,N
+194,2606.00611,TRACE: Trajectory Risk-Aware Compression for Long-Horizon Agent Safety,learned,trajectory,post-hoc,benchmark,N,N
+205,2606.09890,PreAct-Bench: Benchmarking Predictive Monitoring in LLMs,benchmark,trajectory,predictive,benchmark,N,Y
+209,2606.07889,Strained Coherence: A Pre-Failure Signal in Coding Agent Execution Trajectories,llm-judge,trajectory,post-hoc,real-traces,Y,Y
+210,2606.08234,SciTrace: Trajectory-Aware Safety Reasoning for Scientific Discovery Agents,hybrid,trajectory,pre-execution,benchmark,N,N
+229,2606.22673,Agent MechSuits: Mechanistic Subspace Safety Steering for Multi-Turn CLI Agents,representation,trajectory,online,benchmark,N,ID
+236,2606.26524,VIGIL: Runtime Enforcement of Behavioral Specifications in AI Agent Skills,formal,trajectory,online,benchmark,N,N
+245,2607.01793,Safety Testing LLM Agents at Scale: From Risk Discovery to Evidence-Grounded Verification,benchmark,trajectory,post-hoc,production-harness,N,N
+249,2607.07368,Multi-Agent AI Control: Distributed Attacks Hamper Per-Instance Monitors,benchmark,multi-agent,online,synthetic,N,N
+259,2607.19321,ResearchArena: Evaluating Sabotage and Monitoring in Automated AI R&D,benchmark,trajectory,post-hoc,benchmark,N,N
+264,2607.24625,APPA: Recoverable Information-Flow Control for Real-World LLM Agents,ifc-provenance,trajectory,pre-execution,benchmark,ID,N
+267,2607.26820,Forecasting Trajectory-Level Safety Risks in Black-Box Multi-Turn Interactions,learned,trajectory,predictive,benchmark,Y,Y
+268,2607.27294,AgentS4D: Benchmarking Runtime Risks across the Execution Lifecycle of LLM-Based Workspace Agents,benchmark,trajectory,post-hoc,production-harness,N,N
+275,2609.26072,Policy-Backed Selective Regeneration under Tainted Inter-Agent Communication,ifc-provenance,multi-agent,pre-execution,benchmark,Y,N
+276,2608.01388,Why Formal Monitors Fail: Attack Distribution Entropy as a Coverage Bound for LTL-Based LLM Agent Safety,formal,trajectory,online,benchmark,N,N
+280,2608.05695,DreamGuard: Efficient Runtime Guardrail for LLM Agents via Risk-Aware World Model,learned,trajectory,predictive,benchmark,Y,Y
+284,2608.09476,ActBench: Self-Evolving Benchmark of Behavioral Safety in Cowork Agents,benchmark,trajectory,post-hoc,benchmark,N,N
+291,2609.27773,Beyond Unsafe Detection: Counterfactually Anchored Evidence Attribution for Multi-Turn LLM Safety Failures,learned,trajectory,post-hoc,benchmark,N,N
+293,2608.17597,HarnessRisk: A Lifecycle-Oriented Benchmark for Agent Harness Safety,benchmark,trajectory,post-hoc,benchmark,N,N
+296,2608.19161,Beyond the Transcript: Detecting Covert Co ordination in Latent Multi-Agent Communication,representation,multi-agent,online,synthetic,N,N
+300,2608.22868,AgentFlow: A Flow-Centric Policy Language and Framework for Securing LLM Agent Systems,ifc-provenance,trajectory,online,benchmark,N,N
+303,2609.29522,Stale Does Not Mean Unsafe: Guard Precision for Tool-Using LLM Agents under Infrastructure State Races,rule,trajectory,pre-execution,simulation,Y,N
+304,2608.24275,RePolicy: Reinforcement Learning for Safety-Policy Invocation in Agent Safeguards,learned,trajectory,post-hoc,benchmark,N,N
+305,2608.24777,StepGuard: Learning Step-Level Guardrails with Scalable Supervision and Safety-Utility Balancing,learned,trajectory,pre-execution,benchmark,Y,N
+311,2608.27496,ROPE: Routed Origin Policy Enforcement against Indirect Prompt Injection,ifc-provenance,trajectory,pre-execution,benchmark,Y,N
+312,2608.27141,Safety Does Not Compose: Non-Decaying Loop State for Autonomous LLM Agents,formal,cross-trajectory,online,none,N,N
+313,2608.27348,INTENT-AS-A-TOOL Makes it Easy to Track Agentic Misalignment,representation,trajectory,online,benchmark,N,Y
+318,2608.27808,CURA: Certified Runtime Alarms for Computer-Use Agents,probabilistic,trajectory,online,benchmark,Y,Y
+333,2610.00151,Intrusion Detection for Agentic Processes: Evidence-Based Runtime Monitoring,rule,trajectory,online,none,N,N
+334,2609.14987,ActGuard: Pre-execution Action Auditing against Indirect Prompt Injection in LLM Agents,hybrid,window,pre-execution,benchmark,ID,N
+335,2609.16287,AgentGuard: Learning Execution Guardrails from Anomalous Coding-Agent Trajectories,rule,trajectory,online,real-traces,N,N
+337,2609.18128,Symbolic Temporal Supervision of LLM Agents Using Contracts,formal,trajectory,mixed,benchmark,N,N
+338,2609.18674,CaMeLoT: CaMeL orchestrated with Temporal logic for static verification and liveness,formal,trajectory,pre-execution,benchmark,Y,N
+342,2609.22724,MATE: Policy-Aware Security Auditing for Mobile Agents via Synthesis-Driven Trajectory Learning,learned,trajectory,post-hoc,real-traces,N,N
+344,2609.35807,Environment Steering: Using Data Flow Control to Improve Agent Utility and Safety,ifc-provenance,trajectory,online,benchmark,N,N
+349,2609.28197,PASTABench: Proactive Assessment of Sequential Trajectories for Agent Safety,benchmark,trajectory,predictive,benchmark,N,Y
+354,2609.30217,Instrumental Monitor Evasion Emerges Under Ordinary Task Pressure,benchmark,trajectory,online,benchmark,N,N
+361,2609.33039,Agent Safety From Within: Detecting Harmful Trajectories from LLM Internal States,representation,trajectory,post-hoc,benchmark,N,N
+363,2609.34415,PROACT-Agent: Progressive Runtime Oversight and Active Circuit-breaking for Real-Time Safety,learned,trajectory,online,benchmark,N,Y
+371,2609.39549,Speculative Safety Honeypot: Toward Proactive Defense Against Multi-turn Agent Attacks,hybrid,trajectory,predictive,ID,Y,Y

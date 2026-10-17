@@ -1,0 +1,1254 @@
+id,published,matched_queries,title,stage1
+2301.03634,2023-01-09,A1,Structural Attention-Based Recurrent Variational Autoencoder for Highway Vehicle Anomaly Detection,keep
+2301.04414,2023-01-11,A1,How Does Traffic Environment Quantitatively Affect the Autonomous Driving Prediction?,drop
+2301.10959,2023-01-26,A1,Tracking Control of Optical Beam Transceivers using Mean Field Models,keep
+2302.01060,2023-02-02,A1,Physics Constrained Motion Prediction with Uncertainty Quantification,drop
+2302.10639,2023-02-21,A1,Handling Long and Richly Constrained Tasks through Constrained Hierarchical Reinforcement Learning,drop
+2302.10850,2023-02-21,A3,Offline Reinforcement Learning for Mixture-of-Expert Dialogue Management,drop
+2302.10407,2023-02-21,B2,Label Information Enhanced Fraud Detection against Low Homophily in Graphs,drop
+2302.11286,2023-02-22,B1,Neural-based classification rule learning for sequential data,keep
+2303.01076,2023-03-02,A1,Hallucinated Adversarial Control for Conservative Offline Policy Evaluation,drop
+2303.01728,2023-03-03,A1,Guarded Policy Optimization with Imperfect Online Demonstrations,drop
+2303.02630,2023-03-05,A1,D-HAL: Distributed Hierarchical Adversarial Learning for Multi-Agent Interaction in Autonomous Intersection Management,drop
+2303.04856,2023-03-08,A1,AMSwarm: An Alternating Minimization Approach for Safe Motion Planning of Quadrotor Swarms in Cluttered Environments,drop
+2303.05539,2023-03-09,A1,Enhancing Human-robot Collaboration by Exploring Intuitive Augmented Reality Design Representations,drop
+2303.09744,2023-03-17,A1,Inferring Occluded Agent Behavior in Dynamic Games from Noise Corrupted Observations,drop
+2303.12077,2023-03-21,A1,VAD: Vectorized Scene Representation for Efficient Autonomous Driving,drop
+2303.12966,2023-03-23,A1,Rate-Tunable Control Barrier Functions: Methods and Algorithms for Online Adaptation,drop
+2303.13630,2023-03-23,A1,Safety-Critical Coordination for Cooperative Legged Locomotion via Control Barrier Functions,drop
+2303.13491,2023-03-23,B1,FraudAuditor: A Visual Analytics Approach for Collusive Fraud in Health Insurance,drop
+2303.14278,2023-03-24,A1,Safe Hierarchical Navigation in Crowded Dynamic Uncertain Environments,keep
+2303.14836,2023-03-26,B2,Illuminati: Towards Explaining Graph Neural Networks for Cybersecurity Analysis,drop
+2303.17486,2023-03-28,B2,Cost Sensitive GNN-based Imbalanced Learning for Mobile Social Network Fraud Detection,drop
+2303.16574,2023-03-29,A1,FEND: A Future Enhanced Distribution-Aware Contrastive Learning Framework for Long-tail Trajectory Prediction,drop
+2303.18138,2023-03-29,B1,BERT4ETH: A Pre-trained Transformer for Ethereum Fraud Detection,keep
+2304.00365,2023-04-01,A1,Adaptive Failure Search Using Critical States from Domain Experts,drop
+2304.00432,2023-04-02,A1,Multi-Agent Reachability Calibration with Conformal Prediction,drop
+2304.02687,2023-04-05,A1,Emergent Coordination through Game-Induced Nonlinear Opinion Dynamics,drop
+2304.03081,2023-04-06,A1,Safe MDP Planning by Learning Temporal Patterns of Undesirable Trajectories and Averting Negative Side Effects,drop
+2304.06839,2023-04-13,A1,Multi-Layer Continuum Deformation Optimization of Multi-Agent Systems,drop
+2304.08252,2023-04-17,A1,PaaS: Planning as a Service for reactive driving in CARLA Leaderboard,drop
+2304.09462,2023-04-19,A1,Decentralized Multi-Agent Planning for Multirotors: a Fully Online and Communication Latency Robust Approach,drop
+2305.04727,2023-05-08,A1,DEFENDER: DTW-Based Episode Filtering Using Demonstrations for Enhancing RL Safety,drop
+2305.06242,2023-05-10,A1,Think Twice before Driving: Towards Scalable Decoders for End-to-End Autonomous Driving,drop
+2305.11465,2023-05-19,A1,Counterfactual Fairness Filter for Fair-Delay Multi-Robot Navigation,drop
+2305.11377,2023-05-19,B2,GraphFC: Customs Fraud Detection with Label Scarcity,drop
+2305.13246,2023-05-22,A1,Interactive Natural Language Processing,drop
+2305.16209,2023-05-25,A1,C-MCTS: Safe Planning with Monte Carlo Tree Search,drop
+2305.19111,2023-05-30,A1,GAN-MPC: Training Model Predictive Controllers with Parameterized Cost Functions using Demonstrations from Non-identical Experts,drop
+2306.02025,2023-06-03,B1,Exploring Global and Local Information for Anomaly Detection with Normal Samples,drop
+2306.02551,2023-06-05,A1,Conformal Predictive Safety Filter for RL Controllers in Dynamic Environments,drop
+2306.05032,2023-06-08,A4,Log-based Anomaly Detection based on EVT Theory with feedback,drop
+2306.07205,2023-06-12,A1,Maximising Coefficiency of Human-Robot Handovers through Reinforcement Learning,drop
+2306.08206,2023-06-14,A1,Ball Trajectory Inference from Multi-Agent Sports Contexts Using Set Transformer and Hierarchical Bi-LSTM,drop
+2306.10857,2023-06-19,B1,Pattern Mining for Anomaly Detection in Graphs: Application to Fraud in Public Procurement,drop
+2306.12241,2023-06-21,A1,ScenarioNet: Open-Source Platform for Large-Scale Traffic Scenario Simulation and Modeling,keep
+2306.12516,2023-06-21,A1,On the detection of the presence of malicious components in cyber-physical systems in the almost sure sense,keep
+2306.14131,2023-06-25,A1,Safety-Critical Scenario Generation Via Reinforcement Learning Based Editing,keep
+2306.14161,2023-06-25,A1,BiFF: Bi-level Future Fusion with Polyline-based Coordinate for Interactive Trajectory Prediction,drop
+2306.17279,2023-06-29,A1,Probabilistic Constraint for Safety-Critical Reinforcement Learning,drop
+2307.05633,2023-07-11,B1; B2,Transaction Fraud Detection via an Adaptive Graph Neural Network,drop
+2307.05121,2023-07-11,B1; B2,Transaction Fraud Detection via Spatial-Temporal-Aware Graph Transformer,keep
+2307.06244,2023-07-12,A1,Diffusion Models for Multi-target Adversarial Tracking,drop
+2307.08602,2023-07-13,A1,CaRT: Certified Safety and Robust Tracking in Learning-based Motion Planning for Multi-Agent Systems,drop
+2307.09858,2023-07-19,B1,Towards Reliable Rare Category Analysis on Graphs via Individual Calibration,drop
+2307.10883,2023-07-20,A1,Control Input Inference of Mobile Agents under Unknown Objective,drop
+2307.16769,2023-07-25,A1,2-Level Reinforcement Learning for Ships on Inland Waterways: Path Planning and Following,drop
+2308.00398,2023-08-01,A1,DriveAdapter: Breaking the Coupling Barrier of Perception and Planning in End-to-End Autonomous Driving,drop
+2308.01469,2023-08-02,B2,VertexSerum: Poisoning Graph Neural Networks for Link Inference,keep
+2308.01654,2023-08-03,A1,Towards a Safe Real-Time Motion Planning Framework for Autonomous Driving Systems: An MPPI Approach,drop
+2308.14550,2023-08-28,A1,ReMAV: Reward Modeling of Autonomous Vehicles for Finding Likely Failure Events,drop
+2309.00172,2023-08-31,A1,Detecting Evidence of Organization in groups by Trajectories,keep
+2309.01127,2023-09-03,B2,Financial Fraud Detection using Quantum Graph Neural Networks,drop
+2309.02012,2023-09-05,B1,iLoRE: Dynamic Graph Representation with Instant Long-term Modeling and Re-occurrence Preservation,keep
+2309.11057,2023-09-20,A1,Safety Guaranteed Robust Multi-Agent Reinforcement Learning with Hierarchical Control for Connected and Automated Vehicles,drop
+2309.12508,2023-09-21,A1,A Diffusion-Model of Joint Interactive Navigation,drop
+2309.14003,2023-09-25,A1,Hierarchical Imitation Learning for Stochastic Environments,drop
+2309.16021,2023-09-27,A4,HuntGPT: Integrating Machine Learning-Based Anomaly Detection and Explainable AI with Large Language Models (LLMs),drop
+2310.01351,2023-10-02,A1,Streaming Motion Forecasting for Autonomous Driving,drop
+2310.00856,2023-10-02,B2,Multi-triplet Feature Augmentation for Ponzi Scheme Detection in Ethereum,drop
+2310.04171,2023-10-06,B2,Dynamic Relation-Attentive Graph Neural Networks for Fraud Detection,drop
+2310.05876,2023-10-09,A1,AI Systems of Concern,drop
+2310.05882,2023-10-09,A1,Evaluating a VR System for Collecting Safety-Critical Vehicle-Pedestrian Interactions,drop
+2310.06903,2023-10-10,A1,Reinforcement Learning in a Safety-Embedded MDP with Trajectory Optimization,drop
+2310.07123,2023-10-11,A1,Off-Policy Evaluation for Human Feedback,drop
+2310.08841,2023-10-13,A1,Leveraging Optimal Transport for Enhanced Offline Reinforcement Learning in Surgical Robotic Environments,drop
+2310.14788,2023-10-15,A1,Specialized Deep Residual Policy Safe Reinforcement Learning-Based Controller for Complex and Continuous State-Action Spaces,drop
+2310.14570,2023-10-23,A1,DICE: Diverse Diffusion Model with Scoring for Trajectory Prediction,drop
+2311.00063,2023-10-31,A1,Safe multi-agent motion planning under uncertainty for drones using filtered reinforcement learning,drop
+2311.16139,2023-11-03,B2,GNNBleed: Inference Attacks to Unveil Private Edges in Graphs with Realistic Access to GNN Models,drop
+2311.02738,2023-11-05,A1,Scenario Diffusion: Controllable Driving Scenario Generation With Diffusion,keep
+2311.12004,2023-11-20,A1,Risk-averse Batch Active Inverse Reward Design,drop
+2311.15736,2023-11-27,A1,SceneDM: Scene-level Multi-agent Trajectory Generation with Consistent Diffusion Models,drop
+2312.03296,2023-12-06,A1,Cooperative Probabilistic Trajectory Forecasting under Occlusion,drop
+2312.04242,2023-12-07,A1,Signal Temporal Logic Control Synthesis among Uncontrollable Dynamic Agents with Conformal Prediction,drop
+2312.06441,2023-12-11,B2,Revisiting Graph-Based Fraud Detection in Sight of Heterophily and Spectrum,drop
+2312.08689,2023-12-14,A1,Safety-Critical Coordination of Legged Robots via Layered Controllers and Forward Reachable Set based Control Barrier Functions,drop
+2312.11843,2023-12-19,A1,Enhancing Social Decision-Making of Autonomous Vehicles: A Mixed-Strategy Game Approach With Interaction Orientation Identification,drop
+2312.13863,2023-12-21,A1,Manipulating Trajectory Prediction with Backdoors,keep
+2312.14406,2023-12-22,B1,Generative Pretraining at Scale: Transformer-Based Encoding of Transactional Behavior for Fraud Detection,keep
+2312.14535,2023-12-22,B1,ADA-GAD: Anomaly-Denoised Autoencoders for Graph Anomaly Detection,drop
+2401.00965,2024-01-01,B1,Improve Fidelity and Utility of Synthetic Credit Card Transaction Time Series from Data-centric Perspective,keep
+2401.03246,2024-01-06,B1,SeqNAS: Neural Architecture Search for Event Sequence Classification,keep
+2401.05219,2024-01-10,B1,Distributed Monitoring for Data Distribution Shifts in Edge-ML Fraud Detection,drop
+2401.05857,2024-01-11,A1,Secure Dynamic Event-triggered Consensus Under Asynchronous Denial of Service,drop
+2401.06226,2024-01-11,A1,Learning Crowd Behaviors in Navigation with Attention-based Spatial-Temporal Graphs,drop
+2401.07729,2024-01-15,A1,SSL-Interactions: Pretext Tasks for Interactive Trajectory Prediction,drop
+2401.09375,2024-01-17,A1,Self-navigation in crowds: An invariant set-based approach,drop
+2402.03342,2024-01-21,A1,MADRL-based UAVs Trajectory Design with Anti-Collision Mechanism in Vehicular Networks,drop
+2401.12275,2024-01-22,A1,Multi-Agent Dynamic Relational Reasoning for Social Robot Navigation,drop
+2402.02551,2024-02-04,A1,Integrating DeepRL with Robust Low-Level Control in Robotic Manipulators for Non-Repetitive Reaching Tasks,drop
+2402.05396,2024-02-08,B2,TASER: Temporal Adaptive Sampling for Fast and Accurate Dynamic Graph Representation Learning,keep
+2402.07049,2024-02-10,A1,A Factor Graph Model of Trust for a Collaborative Multi-Agent System,drop
+2402.08918,2024-02-14,B2,SimMLP: Training MLPs on Graphs without Supervision,drop
+2403.00775,2024-02-14,B2,Detecting Anomalous Events in Object-centric Business Processes via Graph Neural Networks,keep
+2402.14708,2024-02-22,B2,CaT-GNN: Enhancing Credit Card Fraud Detection via Causal Temporal Graph Neural Networks,keep
+2402.15102,2024-02-23,A1,Trajectory-wise Iterative Reinforcement Learning Framework for Auto-bidding,drop
+2402.15604,2024-02-23,A1,Goal-Reaching Trajectory Design Near Danger with Piecewise Affine Reach-avoid Computation,drop
+2402.16699,2024-02-26,A1,SwarmPRM: Probabilistic Roadmap Motion Planning for Large-Scale Swarm Robotic Systems,drop
+2402.17596,2024-02-27,A1,Corridor MPC for Multi-Agent Inspection of Orbiting Structures,drop
+2403.04468,2024-03-07,B2,"A Survey of Graph Neural Networks in Real world: Imbalance, Noise, Privacy and OOD Challenges",drop
+2403.05748,2024-03-09,A1,Autonomous Guidewire Navigation for Robot-assisted Endovascular Interventions: A Knowledge-Driven Visual Guidance Approach,keep
+2403.07789,2024-03-12,A1,RobotCycle: Assessing Cycling Safety in Urban Environments,drop
+2403.15826,2024-03-23,A1,Scaling Learning based Policy Optimization for Temporal Logic Tasks by Controller Network Dropout,drop
+2403.16871,2024-03-25,A1,Conformal Off-Policy Prediction for Multi-Agent Systems,drop
+2403.16900,2024-03-25,A1,Spline Trajectory Tracking and Obstacle Avoidance for Mobile Agents via Convex Optimization,drop
+2404.00060,2024-03-27,B2,Temporal Graph Networks for Graph Anomaly Detection in Financial Networks,keep
+2403.19735,2024-03-28,A4,Enhancing Anomaly Detection in Financial Markets with an LLM-based Multi-Agent Framework,drop
+2404.01486,2024-04-01,A1,QuAD: Query-based Interpretable Neural Motion Planning for Autonomous Driving,keep
+2404.03789,2024-04-04,A1,Quantifying Uncertainty in Motion Prediction with Variational Bayesian Mixture,drop
+2404.03775,2024-04-04,B1,A Systems Theoretic Approach to Online Machine Learning,drop
+2404.06971,2024-04-10,A1,TrajPRed: Trajectory Prediction with Region-based Relation Learning,drop
+2404.07063,2024-04-10,A1,LaPlaSS: Latent Space Planning for Stochastic Systems,keep
+2404.08827,2024-04-12,A4,"""Don't forget to put the milk back!"" Dataset for Enabling Embodied Agents to Detect Anomalous Situations",drop
+2404.15557,2024-04-23,A1,Safe POMDP Online Planning among Dynamic Agents via Adaptive Conformal Prediction,keep
+2404.14746,2024-04-23,B1,A Customer Level Fraudulent Activity Detection Benchmark for Enhancing Machine Learning Model Research and Evaluation,drop
+2405.00797,2024-05-01,A1,ADM: Accelerated Diffusion Model via Estimated Priors for Robust Motion Prediction under Uncertainties,drop
+2405.01448,2024-05-02,B2,GTX: A Transactional Graph Data System For HTAP Workloads,keep
+2405.08122,2024-05-13,A1,Equivariant Deep Learning of Mixed-Integer Optimal Control Solutions for Vehicle Decision Making and Motion Planning,drop
+2405.10875,2024-05-17,A1,Recursively Feasible Shrinking-Horizon MPC in Dynamic Environments with Conformal Prediction Guarantees,keep
+2405.16430,2024-05-26,A1,GAMEOPT+: Improving Fuel Efficiency in Unregulated Heterogeneous Traffic Intersections via Optimal Multi-agent Cooperative Control,drop
+2405.17372,2024-05-27,A1,BehaviorGPT: Smart Agent Simulation for Autonomous Driving with Next-Patch Prediction,drop
+2406.02436,2024-06-04,A1,"Safe, Out-of-Distribution-Adaptive MPC with Conformalized Neural Network Ensembles",keep
+2406.03507,2024-06-05,B1,Robust Prediction Model for Multidimensional and Unbalanced Datasets,drop
+2406.03870,2024-06-06,A1,GOOSE: Goal-Conditioned Reinforcement Learning for Safety-Critical Scenario Generation,keep
+2406.04690,2024-06-07,B1,Higher-order Structure Based Anomaly Detection on Attributed Networks,drop
+2406.05309,2024-06-08,A1,CoBL-Diffusion: Diffusion-Based Conditional Robot Planning in Dynamic Environments Using Control Barrier and Lyapunov Functions,drop
+2406.09810,2024-06-14,A1,Think Deep and Fast: Learning Neural Nonlinear Opinion Dynamics from Inverse Dynamic Games for Split-Second Interactions,drop
+2406.10449,2024-06-15,A1,Learning Temporal Logic Predicates from Data with Statistical Guarantees,drop
+2406.11707,2024-06-17,A1,A First Physical-World Trajectory Prediction Attack via LiDAR-induced Deceptions in Autonomous Driving,keep
+2406.13816,2024-06-19,A1,Low Total Fertility in Simple Economic Systems,drop
+2406.14373,2024-06-20,A1,Artificial Leviathan: Exploring Social Evolution of LLM Agents Through the Lens of Hobbesian Social Contract Theory,drop
+2406.19626,2024-06-28,A1,Safety through feedback in Constrained RL,drop
+2406.19635,2024-06-28,A1,Model Predictive Simulation Using Structured Graphical Models and Transformers,drop
+2407.00741,2024-06-30,A1,Diffusion Models for Offline Multi-agent Reinforcement Learning with Safety Constraints,drop
+2407.04315,2024-07-05,A1,Gradient-based Regularization for Action Smoothness in Robotic Control with Reinforcement Learning,drop
+2407.06447,2024-07-08,A1,Geospatial Trajectory Generation via Efficient Abduction: Deployment for Independent Testing,keep
+2407.05625,2024-07-08,B1,New User Event Prediction Through the Lens of Causal Inference,keep
+2407.06529,2024-07-09,B2,Advanced Financial Fraud Detection Using GNN-CL Model,drop
+2407.12618,2024-07-17,B2,A Brief Review of Quantum Machine Learning for Financial Services,drop
+2407.15264,2024-07-21,B2,LSM-GNN: Large-scale Storage-based Multi-GPU GNN Training by Optimizing Data Transfer Scheme,drop
+2407.17460,2024-07-24,A1,SoNIC: Safe Social Navigation with Adaptive Conformal Inference and Constrained Reinforcement Learning,drop
+2407.17333,2024-07-24,B2,Global Confidence Degree Based Graph Neural Network for Financial Fraud Detection,drop
+2407.21185,2024-07-30,A1,Amelia: A Large Dataset and Benchmark for Airport Surface Movement Forecasting,drop
+2408.00513,2024-08-01,B1,VecAug: Unveiling Camouflaged Frauds with Cohort Augmentation for Enhanced Detection,keep
+2408.00641,2024-08-01,B1,Enhancing Ethereum Fraud Detection via Generative and Contrastive Self-supervision,keep
+2408.03624,2024-08-07,A1,AgentsCoMerge: Large Language Model Empowered Collaborative Decision Making for Ramp Merging,drop
+2408.04092,2024-08-07,B1,Programmable Dataflows: Abstraction and Programming Model for Data Sharing,keep
+2408.12609,2024-08-08,A1,Enhanced Prediction of Multi-Agent Trajectories via Control Inference and State-Space Dynamics,drop
+2408.06656,2024-08-13,A1,MAPPO-PIS: A Multi-Agent Proximal Policy Optimization Method with Prior Intent Sharing for CAVs' Cooperative Decision-Making,drop
+2408.09393,2024-08-18,B2,Federated Graph Learning with Structure Proxy Alignment,drop
+2408.11021,2024-08-20,A1,Athena: Safe Autonomous Agents with Verbal Contrastive Learning,drop
+2408.15762,2024-08-28,A1,Evaluating and Comparing Crowd Simulations: Perspectives from a Crowd Authoring Tool,drop
+2409.00622,2024-09-01,A1,Roundabout Dilemma Zone Data Mining and Forecasting with Trajectory Prediction and Graph Neural Networks,drop
+2409.07494,2024-09-09,B1; B2,Ethereum Fraud Detection via Joint Transaction Language Model and Graph Representation Learning,keep
+2409.07830,2024-09-12,A1,ReGentS: Real-World Safety-Critical Driving Scenario Generation Made Stable,drop
+2409.09892,2024-09-15,B1; B2,Dynamic Fraud Detection: Integrating Reinforcement Learning into Graph Neural Networks,drop
+2409.10165,2024-09-16,A1,Maneuver Decision-Making with Trajectory Streams Prediction for Autonomous Vehicles,drop
+2409.10283,2024-09-16,A1,ASMA: An Adaptive Safety Margin Algorithm for Vision-Language Drone Navigation via Scene-Aware Control Barrier Functions,keep
+2409.11696,2024-09-18,A1,RMP-YOLO: A Robust Motion Predictor for Partially Observable Scenarios even if You Only Look Once,drop
+2409.12718,2024-09-19,A1,Probabilistically Robust Trajectory Planning of Multiple Aerial Agents,drop
+2410.07191,2024-09-23,A1,Curb Your Attention: Causal Attention Gating for Robust Trajectory Prediction in Autonomous Driving,drop
+2409.17385,2024-09-25,A1,Den-TP: A Density-Balanced Data Curation and Evaluation Framework for Trajectory Prediction,drop
+2409.18411,2024-09-27,A1,Hi-Drive: Hierarchical POMDP Planning for Safe Autonomous Driving in Diverse Urban Environments,drop
+2409.18862,2024-09-27,A1,"Safe Decentralized Multi-Agent Control using Black-Box Predictors, Conformal Decision Policies, and Control Barrier Functions",drop
+2409.18455,2024-09-27,B2,Review of Digital Asset Development with Graph Neural Network Unlearning,drop
+2410.00875,2024-10-01,B1; B2,"Review of blockchain application with Graph Neural Networks, Graph Convolutional Networks and Convolutional Neural Networks",keep
+2410.09069,2024-10-01,B2,"Explainable AI for Fraud Detection: An Attention-Based Ensemble of CNNs, GNNs, and A Confidence-Driven Gating Mechanism",drop
+2410.01628,2024-10-02,A1,Stochasticity in Motion: An Information-Theoretic Approach to Trajectory Prediction,drop
+2410.02721,2024-10-03,A4,"Domain-Specific Retrieval-Augmented Generation Using Vector Stores, Knowledge Graphs, and Tensor Factorization",drop
+2410.10852,2024-10-06,A3,SafeLLM: Domain-Specific Safety Monitoring for Large Language Models: A Case Study of Offshore Wind Maintenance,keep
+2410.05982,2024-10-08,A1,DeMo: Decoupling Motion Forecasting into Directional Intentions and Dynamic States,drop
+2410.07848,2024-10-10,A1,SwarmPath: Drone Swarm Navigation through Cluttered Environments Leveraging Artificial Potential Field and Impedance Control,drop
+2410.08121,2024-10-10,B2,Heterogeneous Graph Auto-Encoder for CreditCard Fraud Detection,drop
+2410.08390,2024-10-10,B2,KnowGraph: Knowledge-Enabled Anomaly Detection via Logical Reasoning on Graph Data,drop
+2410.23298,2024-10-15,A1,Trajectory Prediction for Autonomous Driving using Agent-Interaction Graph Embedding,drop
+2411.00368,2024-11-01,B1,A Machine Learning Driven Website Platform and Browser Extension for Real-time Scoring and Fraud Detection for Website Legitimacy Verification and Consumer Protection,drop
+2411.05815,2024-11-01,B2,Graph Neural Networks for Financial Fraud Detection: A Review,drop
+2411.05857,2024-11-07,B2,Financial Fraud Detection using Jump-Attentive Graph Neural Networks,drop
+2411.09887,2024-11-15,A1,Planning by Simulation: Motion Planning with Learning-based Parallel Scenario Prediction for Autonomous Driving,drop
+2411.10558,2024-11-15,A1,Multi-agent Path Finding for Timed Tasks using Evolutionary Games,drop
+2412.00020,2024-11-16,B2,Partitioning Message Passing for Graph Fraud Detection,drop
+2411.15114,2024-11-22,A1,RE-Bench: Evaluating frontier AI R&D capabilities of language model agents against human experts,drop
+2412.00114,2024-11-28,A4,SceneTAP: Scene-Coherent Typographic Adversarial Planner against Vision-Language Models in Real-World Environments,drop
+2411.19457,2024-11-29,B1,Multi-task CNN Behavioral Embedding Model For Transaction Fraud Detection,keep
+2412.04341,2024-12-05,A1,Reinforcement Learning for Freeway Lane-Change Regulation via Connected Vehicles,drop
+2412.04367,2024-12-05,A1,Machine Theory of Mind for Autonomous Cyber-Defence,drop
+2412.04659,2024-12-05,A1,"LiveNet: Robust, Minimally Invasive Multi-Robot Control for Safe and Live Navigation in Constrained Environments",drop
+2412.03864,2024-12-05,B2,Training MLPs on Graphs without Supervision,drop
+2412.04784,2024-12-06,B1,NLP-ADBench: NLP Anomaly Detection Benchmark,drop
+2412.07369,2024-12-10,A1,ITPNet: Towards Instantaneous Trajectory Prediction for Autonomous Driving,drop
+2412.15437,2024-12-19,A1,Safety-Critical Control of Discontinuous Systems with Nonsmooth Safe Sets,drop
+2412.16788,2024-12-21,B2,DCOR: Anomaly Detection in Attributed Networks via Dual Contrastive Learning Reconstruction,drop
+2412.18287,2024-12-24,B1; B2,Semi-supervised Credit Card Fraud Detection via Attribute-Driven Graph Representation,keep
+2412.18370,2024-12-24,B1; B2,Unveiling the Threat of Fraud Gangs to Graph Neural Networks: Multi-Target Graph Injection Attacks Against GNN-Based Fraud Detectors,drop
+2501.12408,2025-01-17,A1,Control-ITRA: Controlling the Behavior of a Driving Model,drop
+2501.10604,2025-01-17,A1,When language and vision meet road safety: leveraging multimodal large language models for video-based traffic accident analysis,keep
+2501.14451,2025-01-24,A1,MARL-OT: Multi-Agent Reinforcement Learning Guided Online Fuzzing to Detect Safety Violation in Autonomous Driving Systems,keep
+2501.14170,2025-01-24,A4,Argos: Agentic Time-Series Anomaly Detection with Autonomous Rule Generation via Large Language Models,drop
+2501.15850,2025-01-27,A1,LLM-attacker: Enhancing Closed-loop Adversarial Scenario Generation for Autonomous Driving with Large Language Models,drop
+2501.17329,2025-01-28,A1,Anomaly Detection in Cooperative Vehicle Perception Systems under Imperfect Communication,keep
+2501.19042,2025-01-31,A1,Swarm-Gen: Fast Generation of Diverse Feasible Swarm Behaviors,drop
+2502.00529,2025-02-01,B2,Graph Data Management and Graph Machine Learning: Synergies and Opportunities,drop
+2502.00612,2025-02-02,B1,Using Causality for Enhanced Prediction of Web Traffic Time Series,drop
+2502.02145,2025-02-04,A1,From Words to Collisions: LLM-Guided Evaluation and Adversarial Generation of Safety-Critical Driving Scenarios,keep
+2502.03619,2025-02-05,A1,Swarm Characteristic Classification using Robust Neural Networks with Optimized Controllable Inputs,drop
+2502.05664,2025-02-08,A2,CODESIM: Multi-Agent Code Generation and Problem Solving through Simulation-Driven Planning and Debugging,drop
+2503.22681,2025-02-09,B2,detectGNN: Harnessing Graph Neural Networks for Enhanced Fraud Detection in Credit Card Transactions,drop
+2502.10610,2025-02-14,A1,Safety-Critical Human-Machine Shared Driving for Vehicle Collision Avoidance based on Hamilton-Jacobi reachability,drop
+2502.10321,2025-02-14,B1,Dynamic Fraud Proof,drop
+2502.15657,2025-02-21,A1,Superintelligent Agents Pose Catastrophic Risks: Can Scientist AI Offer a Safer Path?,keep
+2502.16863,2025-02-24,A1,Leveraging Large Language Models for Effective and Explainable Multi-Agent Credit Assignment,drop
+2502.17812,2025-02-25,A4,Can Multimodal LLMs Perform Time Series Anomaly Detection?,drop
+2502.20353,2025-02-27,A1,Trajectory-to-Action Pipeline (TAP): Automated Scenario Description Extraction for Autonomous Vehicle Behavior Comparison,keep
+2503.02076,2025-03-03,A1,CorrA: Leveraging Large Language Models for Dynamic Obstacle Avoidance of Autonomous Vehicles,drop
+2503.01556,2025-03-03,B2,Effective High-order Graph Representation Learning for Credit Card Fraud Detection,drop
+2503.03192,2025-03-05,A1,Distributed Certifiably Correct Range-Aided SLAM,drop
+2503.03262,2025-03-05,A1,"Trajectory Prediction for Autonomous Driving: Progress, Limitations, and Future Directions",drop
+2503.06776,2025-03-09,A1,Chance-constrained Linear Quadratic Gaussian Games for Multi-robot Interaction under Uncertainty,drop
+2503.07376,2025-03-10,A1,AttentionSwarm: Reinforcement Learning with Attention Control Barier Function for Crazyflie Drones in Dynamic Environments,drop
+2503.08883,2025-03-11,A1,Imitation Learning of Correlated Policies in Stackelberg Games,drop
+2503.08097,2025-03-11,B2,Evidential Uncertainty Probes for Graph Neural Networks,drop
+2503.12037,2025-03-15,B2,Unsupervised Graph Anomaly Detection via Multi-Hypersphere Heterophilic Graph Learning,drop
+2503.12753,2025-03-17,A1,SafeSlice: Enabling SLA-Compliant O-RAN Slicing via Safe Deep Reinforcement Learning,drop
+2503.15546,2025-03-17,A4,Enforcing Cybersecurity Constraints for LLM-driven Robot Agents for Online Transactions,drop
+2503.14656,2025-03-18,A1,Safety-Critical and Distributed Nonlinear Predictive Controllers for Teams of Quadrupedal Robots,drop
+2503.15049,2025-03-19,A1,HAD-Gen: Human-like and Diverse Driving Behavior Modeling for Controllable Scenario Generation,keep
+2503.16901,2025-03-21,B2,TeMP-TraG: Edge-based Temporal Message Passing in Transaction Graphs,keep
+2503.19466,2025-03-25,A1,A Probabilistic Neuro-symbolic Layer for Algebraic Constraint Satisfaction,drop
+2503.20020,2025-03-25,A1,Gemini Robotics: Bringing AI into the Physical World,keep
+2503.22738,2025-03-26,A1,ShieldAgent: Shielding Agents via Verifiable Safety Policy Reasoning,keep
+2503.20666,2025-03-26,A4,TAMA: A Human-AI Collaborative Thematic Analysis Framework Using Multi-Agent LLMs for Clinical Interviews,drop
+2503.22925,2025-03-29,A1,Predictive Traffic Rule Compliance using Reinforcement Learning,drop
+2503.23147,2025-03-29,A1,Agent-Based Modeling and Deep Neural Networks for Establishing Digital Twins of Secure Facilities under Sensing Restrictions,keep
+2503.24259,2025-03-31,B2,Advances in Continual Graph Learning for Anti-Money Laundering Systems: A Comprehensive Review,drop
+2504.03750,2025-04-01,B1,Detecting Financial Fraud with Hybrid Deep Learning: A Mix-of-Experts Approach to Sequential and Anomalous Patterns,keep
+2504.01719,2025-04-02,A1,Beyond Non-Expert Demonstrations: Outcome-Driven Action Constraint for Offline Reinforcement Learning,drop
+2504.03293,2025-04-04,A1,Chance-Constrained Neural MPC under Uncontrollable Agents via Sequential Convex Programming,drop
+2504.03174,2025-04-04,A3,Multi-lingual Multi-turn Automated Red Teaming for LLMs,drop
+2504.04187,2025-04-05,A4,AttackLLM: LLM-based Attack Pattern Generation for an Industrial Control System,drop
+2504.04862,2025-04-07,A1,GAMDTP: Dynamic Trajectory Prediction with Graph Attention Mamba Network,drop
+2504.07507,2025-04-10,A1,Drive in Corridors: Enhancing the Safety of End-to-end Autonomous Driving via Corridor Learning and Planning,drop
+2504.20054,2025-04-10,A2,Marmot: Object-Level Self-Correction via Multi-Agent Reasoning,drop
+2504.08183,2025-04-11,B2,Detecting Credit Card Fraud via Heterogeneous Graph Neural Networks with Graph Attention,keep
+2504.09311,2025-04-12,B1,Dupin: A Parallel Framework for Densest Subgraph Discovery in Fraud Detection on Massive Graphs (Technical Report),keep
+2504.11808,2025-04-16,B2,Federated Spectral Graph Transformers Meet Neural Ordinary Differential Equations for Non-IID Graphs,drop
+2504.14205,2025-04-19,B2,Dual-channel Heterophilic Message Passing for Graph Fraud Detection,drop
+2504.15541,2025-04-22,A1,RiskNet: Interaction-Aware Risk Forecasting for Autonomous Driving in Long-Tail Scenarios,drop
+2504.15785,2025-04-22,A1,WALL-E 2.0: World Alignment by NeuroSymbolic Learning improves World Model-based LLM Agents,drop
+2504.16734,2025-04-23,A1,DYNUS: Uncertainty-aware Trajectory Planner in Dynamic Unknown Environments,keep
+2504.17371,2025-04-24,A1,Highly Accurate and Diverse Traffic Data: The DeepScenario Open 3D Dataset,drop
+2504.18785,2025-04-26,B1,ALF: Advertiser Large Foundation Model for Multi-Modal Advertiser Understanding,keep
+2505.01440,2025-04-28,A1,Interactive Double Deep Q-network: Integrating Human Interventions and Evaluative Predictions in Reinforcement Learning of Autonomous Driving,drop
+2505.00213,2025-04-30,A1,A Player Selection Network for Scalable Game-Theoretic Prediction and Planning,drop
+2505.00137,2025-04-30,B1,Toward Practical Quantum Machine Learning: A Novel Hybrid Quantum LSTM for Fraud Detection,keep
+2505.00322,2025-05-01,A1,AI2-Active Safety: AI-enabled Interaction-aware Active Safety Analysis with Vehicle Dynamics,drop
+2505.00515,2025-05-01,A1,Safety-Critical Traffic Simulation with Guided Latent Diffusion Model,drop
+2505.00972,2025-05-02,A1,Seeking to Collide: Online Safety-Critical Scenario Generation for Autonomous Driving with Retrieval Augmented Large Language Models,drop
+2505.03178,2025-05-06,A1,RADE: Learning Risk-Adjustable Driving Environment via Multi-Agent Conditional Diffusion,drop
+2505.04345,2025-05-07,A1,"Build Agent Advocates, Not Platform Agents",drop
+2505.04379,2025-05-07,A1,"Consensus-Aware AV Behavior: Trade-offs Between Safety, Interaction, and Performance in Mixed Urban Traffic",drop
+2505.07852,2025-05-07,B1,Joint Detection of Fraud and Concept Drift inOnline Conversations with LLM-Assisted Judgment,drop
+2505.06628,2025-05-10,A1,ACORN: Adaptive Contrastive Optimization for Safe and Robust Fine-Grained Robotic Manipulation,drop
+2505.07240,2025-05-12,A1,Continuous-Time Control Synthesis for Multiple Quadrotors under Signal Temporal Logic Specifications,drop
+2505.07757,2025-05-12,A1,Emotion-Gradient Metacognitive RSI (Part I): Theoretical Foundations and Single-Agent Architecture,drop
+2505.08593,2025-05-13,A1,MC-Swarm: Minimal-Communication Multi-Agent Trajectory Planning and Deadlock Resolution for Quadrotor Swarm,drop
+2505.09058,2025-05-14,A1,Reach-Avoid-Stabilize Using Admissible Control Sets,drop
+2505.09427,2025-05-14,A1,SafePath: Conformal Prediction for Safe LLM-Based Autonomous Navigation,drop
+2505.11063,2025-05-16,A1,Think Twice Before You Act: Enhancing Agent Behavioral Safety with Thought Correction,keep
+2505.12594,2025-05-19,A4,AD-AGENT: A Multi-agent Framework for End-to-end Anomaly Detection,drop
+2505.16377,2025-05-22,A1,VLM-SAFE: Vision-Language Model-Guided Safety-Aware Reinforcement Learning with World Models for Autonomous Driving,drop
+2505.16902,2025-05-22,A1,RealEngine: Simulating Autonomous Driving in Realistic Context,drop
+2505.17275,2025-05-22,A1,ConvoyNext: A Scalable Testbed Platform for Cooperative Autonomous Vehicle Systems,drop
+2505.17735,2025-05-23,A3,SafeAgent: Safeguarding LLM Agents via an Automated Risk Simulator,drop
+2505.19234,2025-05-25,A4,GUARDIAN: Safeguarding LLM Multi-Agent Collaborations with Temporal Graph Modeling,keep
+2505.19933,2025-05-26,A3,"Subtle Risks, Critical Failures: A Framework for Diagnosing Physical Safety of LLMs for Embodied Decision Making",drop
+2505.22695,2025-05-28,A4,LLM-ODDR: A Large Language Model Framework for Joint Order Dispatching and Driver Repositioning,keep
+2505.24201,2025-05-30,A2; A4,SentinelAgent: Graph-based Anomaly Detection in Multi-Agent Systems,keep
+2506.00417,2025-05-31,A1,World Models for Cognitive Agents: Transforming Edge Intelligence in Future Networks,drop
+2506.00719,2025-05-31,B1,Browser Fingerprinting Using WebAssembly,keep
+2506.01367,2025-06-02,A1,MMD-Flagger: Leveraging Maximum Mean Discrepancy to Detect Hallucinations,keep
+2506.02539,2025-06-03,A1,VerificAgent: Domain-Specific Memory Verification for Scalable Oversight of Aligned Computer-Use Agents,keep
+2506.05389,2025-06-03,A1,Rational Superautotrophic Diplomacy (SupraAD); A Conceptual Framework for Alignment Based on Interdisciplinary Findings on the Fundamentals of Cognition,keep
+2506.02703,2025-06-03,B1,Data Leakage and Deceptive Performance: A Critical Examination of Credit Card Fraud Detection Methodologies,keep
+2506.04292,2025-06-04,B1,GARG-AML against Smurfing: A Scalable and Interpretable Graph-Based Framework for Anti-Money Laundering,drop
+2506.05079,2025-06-05,A2,Scenario-Guided LLM-based Mobile App GUI Testing,drop
+2506.05740,2025-06-06,B1,FIST: A Structured Threat Modeling Framework for Fraud Incidents,keep
+2506.08336,2025-06-10,A1,Your Agent Can Defend Itself against Backdoor Attacks,keep
+2506.09938,2025-06-11,B1,Microservices and Real-Time Processing in Retail IT: A Review of Open-Source Toolchains and Deployment Strategies,drop
+2506.12104,2025-06-13,A1,DRIFT: Dynamic Rule-Based Defense with Injection Isolation for Securing LLM Agents,keep
+2506.14749,2025-06-17,A1,"Swarm-STL: A Framework for Motion Planning in Large-Scale, Multi-Swarm Systems",drop
+2506.15170,2025-06-18,A1,From LLMs to MLLMs to Agents: A Survey of Emerging Paradigms in Jailbreak Attacks and Defenses within LLM Ecosystem,drop
+2506.15325,2025-06-18,B1,Human-Centred AI in FinTech: Developing a User Experience (UX) Research Point of View (PoV) Playbook,keep
+2506.16301,2025-06-19,A1,M-Predictive Spliner: Enabling Spatiotemporal Multi-Opponent Overtaking for Autonomous Racing,drop
+2506.16748,2025-06-20,A1,A Scalable Post-Processing Pipeline for Large-Scale Free-Space Multi-Agent Path Planning with PiBT,drop
+2506.17419,2025-06-20,A1,UProp: Investigating the Uncertainty Propagation of LLMs in Multi-Step Agentic Decision-Making,drop
+2507.01980,2025-06-25,B2,Detecting Fraud in Financial Networks: A Semi-Supervised GNN Approach with Granger-Causal Explanations,drop
+2506.21205,2025-06-26,A1,Dynamic Risk-Aware MPPI for Mobile Robots in Crowds via Efficient Monte Carlo Approximations,drop
+2506.21382,2025-06-26,B2,Temporal-Aware Graph Attention Network for Cryptocurrency Transaction Fraud Detection,keep
+2506.22171,2025-06-27,B1,Proof-of-Behavior: Behavior-Driven Consensus for Trustworthy Decentralized Finance,drop
+2507.02948,2025-06-28,A1,DriveMRP: Enhancing Vision-Language Models with Synthetic Motion Data for Motion Risk Prediction,drop
+2506.23164,2025-06-29,A1,Mode Collapse Happens: Evaluating Critical Interactions in Joint Trajectory Prediction Models,drop
+2507.01567,2025-07-02,A1,Time-Varying Coverage Control: A Distributed Tracker-Planner MPC Framework,drop
+2507.01485,2025-07-02,A4,BioMARS: A Multi-Agent Robotic System for Autonomous Biological Experiments,drop
+2507.03293,2025-07-04,A1,LogicGuard: Improving Embodied LLM agents through Temporal Logic based Critics,keep
+2507.04049,2025-07-05,A1,DIVER: Reinforced Diffusion Breaks Imitation Bottlenecks in End-to-End Autonomous Driving,drop
+2507.06134,2025-07-08,A3,OpenAgentSafety: A Comprehensive Framework for Evaluating Real-World AI Agent Safety,keep
+2507.06266,2025-07-08,B1,Machine Learning based Enterprise Financial Audit Framework and High Risk Identification,drop
+2507.05636,2025-07-08,B2,Graph Learning,keep
+2507.06469,2025-07-09,B1,Mitigating Message Imbalance in Fraud Detection with Dual-View Graph Representation Learning,drop
+2507.09329,2025-07-12,A1,When Developer Aid Becomes Security Debt: A Systematic Analysis of Insecure Behaviors in LLM Coding Agents,keep
+2507.09537,2025-07-13,A1,Self-supervised Pretraining for Integrated Prediction and Planning of Automated Vehicles,drop
+2507.09562,2025-07-13,A4,"Prompt Engineering in Segment Anything Model: Methodologies, Applications, and Emerging Challenges",drop
+2507.10644,2025-07-14,A1,From Multi-Agent Systems and the Semantic Web to Agentic AI: A Unified Narrative of the Web of Agents,drop
+2507.10749,2025-07-14,A1,RCG: Safety-Critical Scenario Generation for Robust Autonomous Driving via Real-World Crash Grounding,drop
+2507.10000,2025-07-14,A4,On The Role of Intentionality in Knowledge Representation: Analyzing Scene Context for Cognitive Agents with a Tiny Language Model,drop
+2507.11920,2025-07-16,A1,"Heterogeneous Predictor-based Risk-Aware Planning with Conformal Prediction in Dense, Uncertain Environments",drop
+2507.12083,2025-07-16,A1,Foresight in Motion: Reinforcing Trajectory Prediction with Reward Heuristics,drop
+2507.11997,2025-07-16,B2,Can LLMs Find Fraudsters? Multi-level LLM Enhanced Graph Fraud Detection,drop
+2507.12977,2025-07-17,A1,Non-differentiable Reward Optimization for Diffusion-based Autonomous Motion Planning,drop
+2507.17188,2025-07-23,A1,LLM-Aided Joint Secrecy Precoding and Trajectory for RSMA-Based Heterogeneous UAV Networks,drop
+2507.17342,2025-07-23,A1,DeMo++: Motion Decoupling for Autonomous Driving,drop
+2507.19402,2025-07-25,B1,FD4QC: Application of Classical and Quantum-Hybrid Machine Learning for Financial Fraud Detection A Technical Report,keep
+2507.19860,2025-07-26,A1,Homotopy-aware Multi-agent Navigation via Distributed Model Predictive Control,drop
+2507.20117,2025-07-27,A1,RESCUE: Crowd Evacuation Simulation via Controlling SDM-United Characters,drop
+2507.20850,2025-07-28,A1,Free Energy-Inspired Cognitive Risk Integration for AV Navigation in Pedestrian-Rich Environments,drop
+2508.04714,2025-07-28,A4,Prescriptive Agents based on RAG for Automated Maintenance (PARAM),drop
+2508.09142,2025-07-29,A1,Bayesian-Driven Graph Reasoning for Active Radio Map Construction,drop
+2507.21547,2025-07-29,A1,Decentralized Modeling of Vehicular Maneuvers and Interactions at Urban Junctions,keep
+2507.21471,2025-07-29,A4,LUMIR: an LLM-Driven Unified Agent Framework for Multi-task Infrared Spectroscopy Reasoning,drop
+2507.21696,2025-07-29,A4,Edge Agentic AI Framework for Autonomous Network Optimisation in O-RAN,drop
+2507.22389,2025-07-30,A1,Safety Evaluation of Motion Plans Using Trajectory Predictors as Forward Reachable Set Estimators,keep
+2507.22711,2025-07-30,A4,OFCnetLLM: Large Language Model for Network Monitoring and Alertness,drop
+2507.22800,2025-07-30,A4,The Multi-Agent Fault Localization System Based on Monte Carlo Tree Search Approach,drop
+2507.23391,2025-07-31,A1,Policy Learning from Large Vision-Language Model Feedback without Reward Modeling,drop
+2507.23267,2025-07-31,B1,Your Spending Needs Attention: Modeling Financial Habits with Transformers,drop
+2508.00500,2025-08-01,A2,ProbGuard: Proactive Runtime Monitoring for LLM Agent Safety via Probabilistic Prediction,keep
+2508.01844,2025-08-03,A4,Towards Generalizable Context-aware Anomaly Detection: A Large-scale Benchmark in Cloud Environments,drop
+2508.02921,2025-08-04,A1,PentestJudge: Judging Agent Behavior Against Operational Requirements,keep
+2508.02121,2025-08-04,A4,"A Survey on AgentOps: Categorization, Challenges, and Future Directions",drop
+2508.05674,2025-08-05,A1,"Towards Effective Offensive Security LLM Agents: Hyperparameter Tuning, LLM as a Judge, and a Lightweight CTF Benchmark",drop
+2508.04451,2025-08-06,A1,There are Levels to It: Red Teaming Dialogue With Hierarchical Reinforcement Learning,drop
+2508.11665,2025-08-06,A2,StackPilot: Autonomous Function Agents for Scalable and Environment-Free Code Execution,drop
+2508.04542,2025-08-06,B2,Privacy Risk Predictions Based on Fundamental Understanding of Personal Data and an Evolving Threat Landscape,drop
+2508.05421,2025-08-07,A4,LLM-based Multi-Agent Copilot for Quantum Sensor,drop
+2508.05503,2025-08-07,A4,AutoIAD: Manager-Driven Multi-Agent Collaboration for Automated Industrial Anomaly Detection,drop
+2508.06153,2025-08-08,A4,SLIP: Soft Label Mechanism and Key-Extraction-Guided CoT-based Defense Against Instruction Backdoor in APIs,drop
+2508.06189,2025-08-08,A4,MA-CBP: A Criminal Behavior Prediction Framework Based on Multi-Agent Asynchronous Collaboration,keep
+2508.06394,2025-08-08,A4,"When AIOps Become ""AI Oops"": Subverting LLM-driven IT Operations via Telemetry Manipulation",drop
+2508.07495,2025-08-10,B1,Decomposing Global AUC into Cluster-Level Contributions for Localized Model Diagnostics,drop
+2508.10043,2025-08-12,A4,Securing Agentic AI: Threat Modeling and Risk Analysis for Network Monitoring Agentic AI System,keep
+2508.09320,2025-08-12,B1; B2,Exact Verification of Graph Neural Networks with Incremental Constraint Solving,keep
+2508.09237,2025-08-12,B2,Blockchain Network Analysis using Quantum Inspired Graph Neural Networks & Ensemble Models,drop
+2508.09561,2025-08-13,A1,"Edge General Intelligence Through World Models and Agentic AI: Fundamentals, Solutions, and Challenges",drop
+2508.09963,2025-08-13,A1,Online Safety under Multiple Constraints and Input Bounds using gatekeeper: Theory and Applications,drop
+2508.10501,2025-08-14,A1,PASS: Probabilistic Agentic Supernet Sampling for Interpretable and Adaptive Chest X-Ray Reasoning,keep
+2508.10567,2025-08-14,A1,SpaRC-AD: A Baseline for Radar-Camera Fusion in End-to-End Autonomous Driving,keep
+2508.11824,2025-08-15,A2,Rethinking Autonomy: Preventing Failures in AI-Driven Software Engineering,drop
+2508.12412,2025-08-17,A4,LumiMAS: A Comprehensive Framework for Real-Time Monitoring and Enhanced Observability in Multi-Agent Systems,drop
+2508.12641,2025-08-18,B2,MPOCryptoML: Multi-Pattern based Off-Chain Crypto Money Laundering Detection,drop
+2508.13465,2025-08-19,A1,LM Agents May Fail to Act on Their Own Risk Knowledge,keep
+2508.13984,2025-08-19,B1,The AI-Fraud Diamond: A Novel Lens for Auditing Algorithmic Deception,drop
+2508.14527,2025-08-20,A1,Adversarial Generation and Collaborative Evolution of Safety-Critical Scenarios for Autonomous Vehicles,drop
+2508.17155,2025-08-23,A1,Mind the Gap: Time-of-Check to Time-of-Use Vulnerabilities in LLM-Enabled Agents,keep
+2508.17751,2025-08-25,A1,Multi-layer Abstraction for Nested Generation of Options (MANGO) in Hierarchical Reinforcement Learning,drop
+2508.20737,2025-08-28,A2,"Rethinking Testing for LLM Applications: Characteristics, Challenges, and a Lightweight Interaction Protocol",keep
+2509.00115,2025-08-28,A4,Adaptive Monitoring and Real-World Evaluation of Agentic AI Systems,drop
+2508.21111,2025-08-28,A4,Automating the Deep Space Network Data Systems; A Case Study in Adaptive Anomaly Detection through Agentic AI,drop
+2508.20829,2025-08-28,B1; B2,ATM-GAD: Adaptive Temporal Motif Graph Anomaly Detection for Financial Transaction Networks,keep
+2509.00931,2025-08-31,B1,Semi-Supervised Bayesian GANs with Log-Signatures for Uncertainty-Aware Credit Card Fraud Detection,keep
+2509.01856,2025-09-02,A1,Hierarchical Multi-Agent MCTS for Safety-Critical Coordination in Mixed-Autonomy Roundabouts,drop
+2509.04413,2025-09-04,A1,SAFE--MA--RRT: Multi-Agent Motion Planning with Data-Driven Safety Certificates,drop
+2509.03939,2025-09-04,B1,LMAE4Eth: Generalizable and Robust Ethereum Fraud Detection by Exploring Transaction Semantics and Masked Graph Embedding,keep
+2509.12233,2025-09-08,A4,Towards Trustworthy Agentic IoEV: AI Agents for Explainable Cyberthreat Mitigation and State Analytics,drop
+2509.08535,2025-09-10,A4,Agents of Discovery,drop
+2509.09206,2025-09-11,A1,Occupancy-aware Trajectory Planning for Autonomous Valet Parking in Uncertain Dynamic Environments,drop
+2509.09893,2025-09-11,A1,Self-Augmented Robot Trajectory: Efficient Imitation Learning via Safe Self-augmentation with Demonstrator-annotated Precision,drop
+2509.10147,2025-09-12,A1,Virtual Agent Economies,keep
+2509.10426,2025-09-12,A1,DECAMP: Towards Scene-Consistent Multi-Agent Motion Prediction with Disentangled Context-Aware Pre-Training,drop
+2509.09970,2025-09-12,A2,Securing LLM-Generated Embedded Firmware through AI Agent-Driven Validation and Patching,drop
+2509.09928,2025-09-12,B1,Fraud detection and risk assessment of online payment transactions on e-commerce platforms based on LLM and GCN frameworks,keep
+2509.12255,2025-09-12,B2,Representation Learning on Large Non-Bipartite Transaction Networks using GraphSAGE,drop
+2509.14279,2025-09-16,A2,"Towards Robust Agentic CUDA Kernel Benchmarking, Verification, and Optimization",keep
+2509.13978,2025-09-17,A4,LLM Agents for Interactive Workflow Provenance: Reference Architecture and Evaluation Methodology,drop
+2509.15219,2025-09-18,A1,"Out-of-Sight Embodied Agents: Multimodal Tracking, Sensor Fusion, and Trajectory Forecasting",drop
+2509.14956,2025-09-18,A4,Sentinel Agents for Secure and Trustworthy Agentic AI in Multi-Agent Systems,keep
+2509.15737,2025-09-19,A1,SMART: Scalable Multi-Agent Reasoning and Trajectory Planning in Dense Environments,drop
+2509.15635,2025-09-19,A4,MicroRCA-Agent: Microservice Root Cause Analysis Method Based on Large Language Model Agents,drop
+2509.16826,2025-09-20,A1,Robustly Constrained Dynamic Games for Uncertain Nonlinear Dynamics,drop
+2509.16950,2025-09-21,A1,Temporal Logic-Based Multi-Vehicle Backdoor Attacks against Offline RL Agents in End-to-end Autonomous Driving,drop
+2509.17080,2025-09-21,A1,CoPlanner: An Interactive Motion Planner with Contingency-Aware Diffusion for Autonomous Driving,drop
+2509.18636,2025-09-23,A1,Number Adaptive Formation Flight Planning via Affine Deformable Guidance in Narrow Environments,drop
+2509.19859,2025-09-24,A1,Scalable and Approximation-free Symbolic Control for Unknown Euler-Lagrange Systems,drop
+2509.22232,2025-09-26,B1,Fairness-Aware Reinforcement Learning (FAReL): A Framework for Transparent and Balanced Sequential Decision-Making,keep
+2509.23425,2025-09-27,A1,Situational Awareness for Safe and Robust Multi-Agent Interactions Under Uncertainty,drop
+2509.23101,2025-09-27,B1; B2,Towards Quantum-Ready Blockchain Fraud Detection via Ensemble Graph Neural Networks,keep
+2509.23690,2025-09-28,A1,HomeSafeBench: Benchmarking Embodied Vision-Language Models in Free-Exploration Home Safety Inspection,drop
+2509.23905,2025-09-28,A1,Integrated Communication and Control for Energy-Efficient UAV Swarms: A Multi-Agent Reinforcement Learning Approach,drop
+2510.00274,2025-09-30,A1,MAGIC-MASK: Multi-Agent Guided Inter-Agent Collaboration with Mask-Based Explainability for Reinforcement Learning,drop
+2510.00627,2025-10-01,A1,Collaborative-Distilled Diffusion Models (CDDM) for Accelerated and Lightweight Trajectory Prediction,drop
+2510.02165,2025-10-02,B1,Towards fairer public transit: Real-time tensor-based multimodal fare evasion and fraud detection,drop
+2510.02627,2025-10-03,A1,A Trajectory Generator for High-Density Traffic and Diverse Agent-Interaction Scenarios,keep
+2510.03485,2025-10-03,A1,Learning Efficient Guardrails for Compliance,keep
+2510.05156,2025-10-03,A2,VeriGuard: Enhancing LLM Agent Safety via Verified Code Generation,keep
+2510.03859,2025-10-04,A4,Adaptive and Explainable AI Agents for Anomaly Detection in Critical IoT Infrastructure using LLM-Enhanced Contextual Reasoning,drop
+2510.05167,2025-10-04,B1,Machine learning for fraud detection in digital banking: a systematic literature review REVIEW,keep
+2510.06436,2025-10-07,A1,R3R: Decentralized Multi-Agent Collision Avoidance with Infinite-Horizon Safety,drop
+2510.06915,2025-10-08,A1,LongRM: Revealing and Unlocking the Context Boundary of Reward Modeling,drop
+2510.07847,2025-10-09,B2,Meta-Learning Based Few-Shot Graph-Level Anomaly Detection,drop
+2510.09096,2025-10-10,A1,When a Robot is More Capable than a Human: Learning from Constrained Demonstrators,drop
+2510.09781,2025-10-10,A1,Building a Foundational Guardrail for General Agentic Systems via Synthetic Data,keep
+2510.10073,2025-10-11,A1,SecureWebArena: A Holistic Security Evaluation Benchmark for LVLM-based Web Agents,drop
+2510.10086,2025-10-11,A1,Beyond ADE and FDE: A Comprehensive Evaluation Framework for Safety-Critical Prediction in Multi-Agent Autonomous Driving Scenarios,drop
+2510.10102,2025-10-11,B1,PANTHER: Generative Pretraining Beyond Language for Sequential User Behavior Modeling,keep
+2510.10567,2025-10-12,A1,Reinforcement Learning-based Dynamic Adaptation for Sampling-Based Motion Planning in Agile Autonomous Driving,drop
+2510.10713,2025-10-12,A4,Deep Learning in Astrophysics,drop
+2510.11827,2025-10-13,B2,Combining Euclidean and Hyperbolic Representations for Node-level Anomaly Detection,drop
+2510.12733,2025-10-14,A1,HYPE: Hybrid Planning with Ego Proposal-Conditioned Predictions,drop
+2510.12985,2025-10-14,A1,SENTINEL: A Multi-Level Formal Framework for Safety Evaluation of Foundation Model-based Embodied Agents,keep
+2510.12200,2025-10-14,A3,HackWorld: Evaluating Computer-Use Agents on Exploiting Web Application Vulnerabilities,keep
+2510.12652,2025-10-14,B2,PromoGuardian: Detecting Promotion Abuse Fraud with Multi-Relation Fused Graph Neural Networks,keep
+2510.13925,2025-10-15,A4,An LLM-Powered AI Agent Framework for Holistic IoT Traffic Interpretation,drop
+2510.13205,2025-10-15,B1,CleverCatch: A Knowledge-Guided Weak Supervision Model for Fraud Detection,drop
+2510.14207,2025-10-16,A1,Echoes of Human Malice in Agents: Benchmarking LLMs for Multi-Turn Online Harassment Attacks,keep
+2510.14503,2025-10-16,A1,Learning to Undo: Rollback-Augmented Reinforcement Learning with Reversibility Signals,drop
+2510.17269,2025-10-20,A1,FineVision: Open Data Is All You Need,keep
+2510.17431,2025-10-20,A3,Agentic Reinforcement Learning for Search Misaligns Instruction-Tuning,drop
+2510.18225,2025-10-21,A1,Joint Optimization of Cooperation Efficiency and Communication Covertness for Target Detection with AUVs,keep
+2510.19327,2025-10-22,A2,SORA-ATMAS: Adaptive Trust Management and Multi-LLM Aligned Governance for Future Smart Cities,drop
+2510.20333,2025-10-23,A1,GhostEI-Bench: Do Mobile Agents Resilience to Environmental Injection in Dynamic On-Device Environments?,drop
+2510.21867,2025-10-23,A1,Addressing Corner Cases in Autonomous Driving: A World Model-based Approach with Mixture of Experts and LLMs,drop
+2510.20102,2025-10-23,A4,Human-Centered LLM-Agent System for Detecting Anomalous Digital Asset Transactions,drop
+2510.21524,2025-10-24,A3,EU-Agent-Bench: Measuring Illegal Behavior of LLM Agents Under EU Law,drop
+2510.21445,2025-10-24,A4,REMONI: An Autonomous System Integrating Wearables and Multimodal Large Language Models for Enhanced Remote Health Monitoring,drop
+2510.22117,2025-10-25,A1,When UAV Swarm Meets IRS: Collaborative Secure Communications in Low-altitude Wireless Networks,drop
+2510.22514,2025-10-26,A1,Robust Multi-Agent Safety via Tube-Based Tightened Exponential Barrier Functions,drop
+2510.23673,2025-10-27,A2,MCPGuard : Automatically Detecting Vulnerabilities in MCP Servers,drop
+2510.23509,2025-10-27,A3,Logic-Guided Socially-aware Robot Navigation World Model,drop
+2510.22986,2025-10-27,A4,CodeAD: Synthesize Code of Rules for Log-based Anomaly Detection with LLMs,drop
+2510.23190,2025-10-27,A4,Evaluation of Vision-LLMs in Surveillance Video,drop
+2510.24411,2025-10-28,A1,OS-Sentinel: Towards Safety-Enhanced Mobile GUI Agents via Hybrid Validation in Realistic Workflows,keep
+2510.24898,2025-10-28,A1,Delay Tolerant Control for Autonomous Driving Using CDOB,drop
+2511.00047,2025-10-28,B1,DynBERG: Dynamic BERT-based Graph neural network for financial fraud detection,keep
+2510.25126,2025-10-29,B1,Bridging the Divide: End-to-End Sequence-Graph Learning,keep
+2510.26037,2025-10-30,A1,SIRAJ: Diverse and Efficient Red-Teaming for LLM Agents via Distilled Structured Reasoning,drop
+2511.00659,2025-11-01,A1,Unveiling Uniform Shifted Power Law in Stochastic Human and Autonomous Driving Behavior,drop
+2511.00330,2025-11-01,A2,Sherlock: Reliable and Efficient Agentic Workflow Execution,drop
+2511.07441,2025-11-03,A2,AudAgent: Automated Auditing of Privacy Policy Compliance in AI Agents,drop
+2511.02690,2025-11-04,A1,Curriculum Design for Trajectory-Constrained Agent: Compressing Chain-of-Thought Tokens in LLMs,drop
+2511.03075,2025-11-04,A4,A Collaborative Reasoning Framework for Anomaly Diagnostics in Underwater Robotics,drop
+2511.03591,2025-11-05,A1,Manifold-constrained Hamilton-Jacobi Reachability Learning for Decentralized Multi-Agent Motion Planning,drop
+2511.03094,2025-11-05,A2,ALAS: Transactional and Dynamic Multi-Agent LLM Planning,keep
+2511.04032,2025-11-06,A4,Detecting Silent Failures in Multi-Agentic AI Trajectories,keep
+2511.06094,2025-11-08,A1,Approximating Shapley Explanations in Reinforcement Learning,drop
+2511.07379,2025-11-10,B2,LoReTTA: A Low Resource Framework To Poison Continuous Time Dynamic Graphs,keep
+2511.08136,2025-11-11,A1,SafeMIL: Learning Offline Safe Imitation Policy from Non-Preferred Trajectories,drop
+2511.10203,2025-11-13,A1,VISTA: A Vision and Intent-Aware Social Attention Framework for Multi-Agent Trajectory Prediction,drop
+2511.10586,2025-11-13,A1,Safe Planning in Interactive Environments via Iterative Policy Updates and Adversarially Robust Conformal Prediction,drop
+2511.11402,2025-11-14,A1,Multi-Phase Spacecraft Trajectory Optimization via Transformer-Based Reinforcement Learning,keep
+2511.11019,2025-11-14,A2,PATCHEVAL: A New Benchmark for Evaluating LLMs on Patching Real-World Vulnerabilities,drop
+2511.11912,2025-11-14,B2,A Systematic Study of Model Extraction Attacks on Graph Foundation Models,drop
+2511.12294,2025-11-15,A2,ProofWright: Towards Agentic Formal Verification of CUDA,drop
+2512.00049,2025-11-18,A1,Socially aware navigation for mobile robots: a survey on deep reinforcement learning approaches,drop
+2511.15497,2025-11-19,A1,A Review of Machine Learning for Cavitation Intensity Recognition in Complex Industrial Systems,keep
+2511.15759,2025-11-19,A4,Securing AI Agents Against Prompt Injection Attacks,drop
+2511.15974,2025-11-20,A1,KRAL: Knowledge and Reasoning Augmented Learning for LLM-assisted Clinical Antimicrobial Therapy,drop
+2511.19109,2025-11-24,A1,HABIT: Human Action Benchmark for Interactive Traffic in CARLA,drop
+2511.19691,2025-11-24,A1,Multi-Agent gatekeeper: Safe Flight Planning and Formation Control for Urban Air Mobility,drop
+2511.20095,2025-11-25,A1,WPT: World-to-Policy Transfer via Online World Model Distillation,drop
+2511.20726,2025-11-25,A1,Learning from Risk: LLM-Guided Generation of Safety-Critical Scenarios with Prior Knowledge,drop
+2511.21584,2025-11-26,A1,Model-Based Policy Adaptation for Closed-Loop End-to-End Autonomous Driving,drop
+2511.22572,2025-11-27,A1,Formal Verification of Probabilistic Multi-Agent Systems for Ballistic Rocket Flight Using Probabilistic Alternating-Time Temporal Logic,keep
+2511.22685,2025-11-27,A1,Deadlock-Free Hybrid RL-MAPF Framework for Zero-Shot Multi-Robot Navigation,keep
+2512.00410,2025-11-29,A1,Balancing Efficiency and Fairness: An Iterative Exchange Framework for Multi-UAV Cooperative Path Planning,drop
+2512.00491,2025-11-29,A4,Smart-TCP: An Agentic AI-based Autonomous and Adaptive TCP Protocol,keep
+2512.00528,2025-11-29,B1,Pushing the Boundaries of Interpretability: Incremental Enhancements to the Explainable Boosting Machine,drop
+2512.02368,2025-12-02,A1,MoE-Enhanced Multi-Domain Feature Selection and Fusion for Fast Map-Free Trajectory Prediction,drop
+2512.03180,2025-12-02,A4,AGENTSAFE: A Unified Framework for Ethical Assurance and Governance in Agentic AI,keep
+2512.05277,2025-12-04,A1,From Segments to Scenes: Temporal Understanding for Agentic Autonomous Driving via Vision-Language Models,drop
+2512.06556,2025-12-06,A2,Semantic Attacks on Tool-Augmented LLMs: Securing the Model Context Protocol Against Descriptor-Level Manipulation,drop
+2512.06716,2025-12-07,A2,SIEVE: Selective Integrity Verification and Escalation for Defending LLM Agents against Indirect Prompt Injection,drop
+2512.07342,2025-12-08,A1,PrivORL: Differentially Private Synthetic Dataset for Offline Reinforcement Learning,drop
+2512.07462,2025-12-08,A1,"Understanding LLM Agent Behaviours via Game Theory: Strategy Recognition, Biases and Multi-Agent Dynamics",keep
+2512.07661,2025-12-08,A1,Optimization-Guided Diffusion for Interactive Scene Generation,drop
+2512.08290,2025-12-09,A2,Systematization of Knowledge: Security and Safety in the Model Context Protocol Ecosystem,drop
+2512.13021,2025-12-15,A1,Safe Control of Multi-Agent Systems with Minimal Communication,drop
+2512.13262,2025-12-15,A1,Post-Training and Test-Time Scaling of Generative Agent Behavior Models for Interactive Autonomous Driving,drop
+2512.13526,2025-12-15,A2,Async Control: Stress-testing Asynchronous Control Measures for LLM Agents,drop
+2512.13671,2025-12-15,A4,AgentIAD: Agentic Industrial Anomaly Detection via Adaptive Memory Augmentation,keep
+2512.20649,2025-12-16,A1,AIAuditTrack: A Framework for AI Security system,keep
+2512.14448,2025-12-16,A2,Reasoning-Style Poisoning of LLM Agents via Stealthy Style Transfer: Process-Level Attacks and Runtime Monitoring in RSV Space,drop
+2512.15688,2025-12-17,A1,BashArena: A Control Setting for Highly Privileged AI Agents,keep
+2601.06047,2025-12-17,A4,"""They parted illusions -- they parted disclaim marinade"": Misalignment as structural fidelity in LLMs",drop
+2512.16244,2025-12-18,B2,Coarse-to-Fine Open-Set Graph Node Classification with Large Language Models,drop
+2512.18133,2025-12-19,B1,Grad: Guided Relation Diffusion Generation for Graph Augmentation in Graph Fraud Detection,keep
+2512.18239,2025-12-20,A1,Emergent Learner Agency in Implicit Human-AI Collaboration: How Supportive and Contrarian AI Personas Reshape Interaction,drop
+2512.18733,2025-12-21,A4,Explainable and Fine-Grained Safeguarding of LLM Multi-Agent Systems via Bi-Level Graph Anomaly Detection,drop
+2512.21354,2025-12-22,A2,Reflection-Driven Control for Trustworthy Code Agents,drop
+2512.18940,2025-12-22,A2,FASTRIC: Prompt Specification Language for Verifiable LLM Interactions,keep
+2512.19061,2025-12-22,B1,Fraud Detection Through Large-Scale Graph Clustering with Heterogeneous Link Transformation,keep
+2512.20173,2025-12-23,A1,Offline Safe Policy Optimization From Heterogeneous Feedback,drop
+2512.20798,2025-12-23,A1,A Benchmark for Evaluating Outcome-Driven Constraint Violations in Autonomous AI Agents,drop
+2512.20293,2025-12-23,A3,AprielGuard,keep
+2512.20086,2025-12-23,A4,Spatio-Temporal Graphs Beyond Grids: Benchmark for Maritime Anomaly Detection,keep
+2512.20417,2025-12-23,A4,Chain-of-Anomaly Thoughts with Large Vision-Language Models,drop
+2512.21220,2025-12-24,A1,RoboSafe: Safeguarding Embodied Agents via Executable Safety Logic,keep
+2512.22291,2025-12-25,B2,Multi-Head Spectral-Adaptive Graph Anomaly Detection,drop
+2512.23747,2025-12-26,A1,State-of-the-art Small Language Coder Model: Mify-Coder,drop
+2512.22894,2025-12-28,A1,DECEPTICON: How Dark Patterns Manipulate Web Agents,keep
+2512.23760,2025-12-28,A1,"Audited Skill-Graph Self-Improvement for Agentic LLMs via Verifiable Rewards, Experience Synthesis, and Continual Memory",keep
+2512.23343,2025-12-29,A1,AI Meets Brain: Memory Systems from Cognitive Neuroscience to Autonomous Agents,drop
+2512.23292,2025-12-29,A2,Agentic Physical AI toward a Domain-Specific Foundation Model for Energy Systems: A Case Study on Nuclear Reactor Control,drop
+2512.23777,2025-12-29,B2,A Survey on Graph Neural Networks for Fraud Detection in Ride Hailing Platforms,drop
+2512.24426,2025-12-30,A1,Counterfactual VLA: Self-Reflective Vision-Language-Action Model with Adaptive Reasoning,drop
+2601.00516,2026-01-02,A1; A4,"Trajectory Guard -- A Lightweight, Sequence-Aware Model for Real-Time Anomaly Detection in Agentic AI",keep
+2601.01528,2026-01-04,A1,DrivingGen: A Comprehensive Benchmark for Generative Video World Models in Autonomous Driving,drop
+2601.01321,2026-01-04,A4,Digital Twin AI: Opportunities and Challenges from Large Language Models to World Models,drop
+2601.01522,2026-01-04,B1,Bayesian Orchestration of Multi-LLM Agents for Cost-Aware Sequential Decision-Making,keep
+2601.01891,2026-01-05,A1,"Agentic AI in Remote Sensing: Foundations, Taxonomy, and Emerging Systems",drop
+2601.02511,2026-01-05,A4,LLM-Enhanced Reinforcement Learning for Time Series Anomaly Detection,keep
+2601.02779,2026-01-06,A1,"Hierarchical Preemptive Holistic Collaborative Systems for Embodied Multi-Agent Systems: Framework, Hybrid Stability, and Scalability Analysis",drop
+2603.21011,2026-01-08,A2,ALL-FEM: Agentic Large Language models Fine-tuned for Finite Element Methods,drop
+2601.05640,2026-01-09,A1,SGDrive: Scene-to-Goal Hierarchical World Cognition for Autonomous Driving,drop
+2601.05755,2026-01-09,A2,VIGIL: Defending LLM Agents Against Tool Stream Injection via Verify-Before-Commit,drop
+2601.05578,2026-01-09,B1,Reinforcement Learning of Large Language Models for Interpretable Credit Card Fraud Detection,keep
+2601.06800,2026-01-11,B2,Graph Neural Network with One-side Edge Sampling for Fraud Detection,drop
+2601.07276,2026-01-12,B1,A High-Recall Cost-Sensitive Machine Learning Framework for Real-Time Online Banking Transaction Fraud Detection,drop
+2601.08327,2026-01-13,A1,Safe Heterogeneous Multi-Agent RL with Communication Regularization for Coordinated Target Acquisition,drop
+2601.08462,2026-01-13,A1,M3-BENCH: Process-Aware Evaluation of LLM Agents' Social Behaviors in Mixed-Motive Games,drop
+2601.10173,2026-01-15,A1,ReasAlign: Reasoning Enhanced Safety Alignment against Prompt Injection Attack,keep
+2601.10599,2026-01-15,A2,Institutional AI: A Governance Framework for Distributional AGI Safety,keep
+2601.11073,2026-01-16,B1; B2,Bridging Cognitive Neuroscience and Graph Intelligence: Hippocampus-Inspired Multi-View Hypergraph Learning for Web Finance Fraud,keep
+2601.12672,2026-01-19,A1,VILTA: A VLM-in-the-Loop Adversary for Enhancing Driving Policy Robustness,drop
+2601.12822,2026-01-19,A1,MirrorGuard: Toward Secure Computer-Use Agents via Simulation-to-Real Reasoning Correction,keep
+2601.14228,2026-01-20,A1,Attention-Based Offline Reinforcement Learning and Clustering for Interpretable Sepsis Treatment,drop
+2601.13546,2026-01-20,A4,ChatAD: Reasoning-Enhanced Time-Series Anomaly Detection with Multi-Turn Instruction Evolution,keep
+2601.14140,2026-01-20,A4,CREATE: Cross-Layer Resilience Characterization and Optimization for Efficient yet Reliable Embodied AI Systems,drop
+2601.17935,2026-01-25,B2,FedGraph-VASP: Privacy-Preserving Federated Graph Learning with Post-Quantum Security for Cross-Institutional Anti-Money Laundering,drop
+2601.18491,2026-01-26,A1,AgentDoG: A Diagnostic Guardrail Framework for AI Agent Safety and Security,keep
+2601.18913,2026-01-26,A1,"Learning the Pareto Space of Multi-Objective Autonomous Driving: A Modular, Data-Driven Approach",drop
+2601.18754,2026-01-26,A4,"$α^3$-SecBench: A Large-Scale Evaluation Suite of Security, Resilience, and Trust for LLM-based UAV Agents over 6G Networks",keep
+2601.19578,2026-01-27,A4,Yunque DeepResearch Technical Report,keep
+2601.19684,2026-01-27,B1,LLM-Assisted Authentication and Fraud Detection,drop
+2601.22136,2026-01-29,A1,"StepShield: When, Not Whether to Intervene on Rogue Agents",keep
+2601.21789,2026-01-29,B1,ECSEL: Explainable Classification via Signomial Equation Learning,drop
+2601.23009,2026-01-30,A1,SolAgent: A Specialized Multi-Agent Framework for Solidity Code Generation,drop
+2603.05517,2026-01-30,A1,"Traversal-as-Policy: Log-Distilled Gated Behavior Trees as Externalized, Verifiable Policies for Safe, Robust, and Efficient Agents",drop
+2601.23188,2026-01-30,A4,Deep Search with Hierarchical Meta-Cognitive Monitoring Inspired by Cognitive Neuroscience,keep
+2601.22579,2026-01-30,B2,Non-Intrusive Graph-Based Bot Detection for E-Commerce Using Inductive Graph Neural Networks,keep
+2602.01187,2026-02-01,A1,"Autoregressive, Yet Revisable: In Decoding Revision for Secure Code Generation",drop
+2602.01290,2026-02-01,A1,AOASS: Adaptive Obstacle-Aware Square Spiral Framework for Single-mobile Anchor-Based WSN Localization,keep
+2602.01916,2026-02-02,A1,ForSim: Stepwise Forward Simulation for Traffic Policy Fine-Tuning,drop
+2602.02164,2026-02-02,A1,Co-RedTeam: Orchestrated Security Discovery and Exploitation with LLM Agents,keep
+2602.02206,2026-02-02,A2,Fat-Cat: Document-Driven Metacognitive Multi-Agent System for Complex Reasoning,keep
+2602.02455,2026-02-02,A3,Drift-Bench: Diagnosing Cooperative Breakdowns in LLM Agents under Input Faults via Multi-Turn Interaction,drop
+2602.04329,2026-02-04,A1,Safe and Stylized Trajectory Planning for Autonomous Driving via Diffusion Model,drop
+2602.04801,2026-02-04,A1,SQP-Based Cable-Tension Allocation for Multi-Drone Load Transport,drop
+2602.04821,2026-02-04,A1,Safe Urban Traffic Control via Uncertainty-Aware Conformal Prediction and World-Model Reinforcement Learning,keep
+2602.05552,2026-02-05,A1,VLN-Pilot: Large Vision-Language Model as an Autonomous Indoor Drone Operator,keep
+2602.05232,2026-02-05,B2,Balanced Anomaly-guided Ego-graph Diffusion Model for Inductive Graph Anomaly Detection,drop
+2602.06443,2026-02-06,A1; A4,TrajAD: Trajectory Anomaly Detection for Trustworthy LLM Agents,keep
+2602.07215,2026-02-06,A2,Multi-Agentic AI for Fairness-Aware and Accelerated Multi-modal Large Model Inference in Real-world Mobile Edge Networks,keep
+2602.06955,2026-02-06,B1,Improving Credit Card Fraud Detection with an Optimized Explainable Boosting Machine,keep
+2602.07652,2026-02-07,A1; A3,Agent-Fence: Mapping Security Vulnerabilities Across Deep Research Agents,keep
+2602.10133,2026-02-07,A2,AgentTrace: A Structured Logging Framework for Agent System Observability,drop
+2602.10140,2026-02-08,A2,Can Large Language Models Implement Agent-Based Models? An ODD-based Replication Study,drop
+2602.08995,2026-02-09,A1,When Actions Go Off-Task: Detecting and Correcting Misaligned Actions in Computer-Use Agents,keep
+2602.09222,2026-02-09,A1,MUZZLE: Adaptive Agentic Red-Teaming of Web Agents Against Indirect Prompt Injection Attacks,drop
+2604.03242,2026-02-11,A1,DRAFT: Task Decoupled Latent Reasoning for Agent Safety,keep
+2602.10915,2026-02-11,A1,"Blind Gods and Broken Screens: Architecting a Secure, Intent-Centric Mobile Agent Operating System",keep
+2602.11018,2026-02-11,A1,OSIL: Learning Offline Safe Imitation Policies with Safety Inferred from Non-preferred Trajectories,drop
+2602.11024,2026-02-11,A1,Chain-of-Look Spatial Reasoning for Dense Surgical Instrument Counting,keep
+2602.12024,2026-02-12,A1,Adaptive-Horizon Conflict-Based Search for Closed-Loop Multi-Agent Path Finding,drop
+2602.12444,2026-02-12,A1,Safe Reinforcement Learning via Recovery-based Shielding with Gaussian Process Dynamics Models,keep
+2602.13086,2026-02-13,A1,UniManip: General-Purpose Zero-Shot Robotic Manipulation with Agentic Operational Graph,drop
+2602.14200,2026-02-15,A4,TS-Haystack: A Multi-Task Retrieval Benchmark for Long-Context Time-Series Reasoning,keep
+2602.14251,2026-02-15,A4,Multi-Agent Debate: A Unified Agentic Framework for Tabular Anomaly Detection,drop
+2602.14364,2026-02-16,A1,A Trajectory-Based Safety Audit of Clawdbot (OpenClaw),drop
+2602.14721,2026-02-16,A1,WebWorld: A Large-Scale World Model for Web Agent Training,drop
+2602.14780,2026-02-16,A1,ROSA: Roundabout Optimized Speed Advisory with Multi-Agent Trajectory Prediction in Multimodal Traffic,drop
+2603.06599,2026-02-16,A2,Building the ethical AI framework of the future: from philosophy to practice,drop
+2602.15945,2026-02-17,A3,From Tool Orchestration to Code Execution: A Study of MCP Design Choices,drop
+2602.15325,2026-02-17,A4,AgriWorld:A World Tools Protocol Framework for Verifiable Agricultural Reasoning with Code-Executing LLM Agents,keep
+2602.16738,2026-02-17,A4,Self-Evolving Multi-Agent Network for Industrial IoT Predictive Maintenance,drop
+2602.17231,2026-02-19,A1,HiMAP: History-aware Map-occupancy Prediction with Fallback,keep
+2602.17415,2026-02-19,A1,Distributed Virtual Model Control for Scalable Human-Robot Collaboration in Shared Workspace,keep
+2602.17169,2026-02-19,A2,SimulatorCoder: DNN Accelerator Simulator Code Generation and Optimization via Large Language Models,drop
+2602.17452,2026-02-19,A2,Jolt Atlas: Verifiable Inference via Lookup Arguments in Zero Knowledge,drop
+2602.18887,2026-02-21,A1,SafeDrive: Fine-Grained Safety Reasoning for End-to-End Driving in a Sparse World,drop
+2602.19021,2026-02-22,A2,Trustworthy AI LLM Scalability Risk Index (LSRI): A Cybersecurity Framework Assessing Agentic-AI Security & Software Model Supply Chain Safety Boosting AI-Generated Malware Defense & Explainability Mitigating Emerging Risks of Generative AI,drop
+2602.19218,2026-02-22,A3,Gecko: A Simulation Environment with Stateful Feedback for Refining Agent Tool Calls,drop
+2602.20446,2026-02-24,A1,Understanding Human-AI Collaboration in Cybersecurity Competitions,drop
+2602.20708,2026-02-24,A1,ICON: Indirect Prompt Injection Defense for Agents based on Inference-Time Correction,keep
+2602.20923,2026-02-24,A1,ParkDiffusion++: Ego Intention Conditioned Joint Multi-Agent Trajectory Prediction for Automated Parking using Diffusion Models,drop
+2603.06632,2026-02-24,B1,Leakage Safe Graph Features for Interpretable Fraud Detection in Temporal Transaction Networks,keep
+2602.21681,2026-02-25,A2,AkiraRust: Re-thinking LLM-aided Rust Repair Using a Feedback-guided Thinking Switch,drop
+2602.22775,2026-02-26,A1,TherapyProbe: Generating Design Knowledge for Relational Safety in Mental Health Chatbots Through Adversarial Simulation,drop
+2602.23896,2026-02-27,A1,TSC: Topology-Conditioned Stackelberg Coordination for Multi-Agent Reinforcement Learning in Interactive Driving,drop
+2602.23729,2026-02-27,A4,From Static Benchmarks to Dynamic Protocol: Agent-Centric Text Anomaly Detection for Evaluating LLM Reasoning,drop
+2602.23599,2026-02-27,B2,Normalisation and Initialisation Strategies for Graph Neural Networks in Blockchain Anomaly Detection,keep
+2603.02259,2026-02-28,A1,The Alignment Flywheel: A Governance-Centric Hybrid MAS for Architecture-Agnostic Safety,keep
+2603.13290,2026-02-28,B2,TAS-GNN: A Status-Aware Signed Graph Neural Network for Anomaly Detection in Bitcoin Trust Systems,drop
+2603.01283,2026-03-01,A2,The Informational Cost of Agency: A Bounded Measure of Interaction Efficiency for Deployed Reinforcement Learning,drop
+2603.01416,2026-03-02,A1,Securing the Floor and Raising the Ceiling: A Merging-based Paradigm for Multi-modal Search Agents,drop
+2603.02004,2026-03-02,A1,CHOP: Counterfactual Human Preference Labels Improve Obstacle Avoidance in Visuomotor Navigation Policies,drop
+2603.01548,2026-03-02,A2,Graph-Based Self-Healing Tool Routing for Cost-Efficient LLM Agents,drop
+2603.01564,2026-03-02,A2,"From Secure Agentic AI to Secure Agentic Web: Challenges, Threats, and Future Directions",drop
+2603.02345,2026-03-02,A4,RIVA: Leveraging LLM Agents for Reliable Configuration Drift Detection,keep
+2603.03378,2026-03-03,A1,AOI: Turning Failed Trajectories into Training Signals for Autonomous Cloud Diagnosis,drop
+2603.02542,2026-03-03,A1,AnchorDrive: LLM Scenario Rollout with Anchor-Guided Diffusion Regeneration for Safety-Critical Scenario Generation,drop
+2603.02688,2026-03-03,A1,Retrieval-Augmented Robots via Retrieve-Reason-Act,drop
+2603.03205,2026-03-03,A1,Learning When to Act or Refuse: Guarding Agentic Reasoning Models for Safe Multi-Step Tool Use,drop
+2603.03106,2026-03-03,B1; B2,Multi-Scale Adaptive Neighborhood Awareness Transformer For Graph Fraud Detection,drop
+2603.04469,2026-03-04,A1,Cross-Layer Semantic Flow Reconstruction for Attack Detection in Agentic Systems,keep
+2603.03978,2026-03-04,A1,Map-Agnostic And Interactive Safety-Critical Scenario Generation via Multi-Objective Tree Search,drop
+2603.05546,2026-03-04,A1,Digital-Twin Losses for Lane-Compliant Trajectory Prediction at Urban Intersections,drop
+2603.04209,2026-03-04,B1; B2,Beyond Edge Deletion: A Comprehensive Approach to Counterfactual Explanation in Graph Neural Networks,drop
+2603.04746,2026-03-05,A1,"Visioning Human-Agentic AI Teaming: Continuity, Tension, and Future Research",drop
+2603.06445,2026-03-06,A1,What if? Emulative Simulation with World Models for Situated Reasoning,drop
+2603.07650,2026-03-08,A1,Multi-Agent Off-World Exploration for Sparse Evidence Discovery via Gaussian Belief Mapping and Dual-Domain Coverage,drop
+2603.07557,2026-03-08,A2,AgentRaft: Automated Detection of Data Over-Exposure in LLM Agents,drop
+2603.08852,2026-03-09,A2,LDP: An Identity-Aware Protocol for Multi-Agent LLM Systems,keep
+2603.10060,2026-03-09,A2,"Tool Receipts, Not Zero-Knowledge Proofs: Practical Hallucination Detection for AI Agents",keep
+2603.08377,2026-03-09,B1,Beyond the Markovian Assumption: Robust Optimization via Fractional Weyl Integrals in Imbalanced Data,keep
+2603.09195,2026-03-10,B2,$P^2$GNN: Two Prototype Sets to boost GNN Performance,drop
+2603.10682,2026-03-11,A1,OnFly: Onboard Zero-Shot Aerial Vision-Language Navigation toward Safety and Efficiency,keep
+2603.13384,2026-03-11,A2,VulnAgent-R2: Evidence-Calibrated Multi-Agent Auditing for Repository-Level Vulnerability Detection,drop
+2603.11853,2026-03-12,A2,"OpenClaw PRISM: A Zero-Fork, Defense-in-Depth Runtime Security Layer for Tool-Augmented LLM Agents",keep
+2603.13517,2026-03-13,A1,CTI-REALM: Benchmark to Evaluate Agent Performance on Security Detection Rule Generation Capabilities,keep
+2603.13617,2026-03-13,B1,Privacy-Preserving Federated Fraud Detection in Payment Transactions with NVIDIA FLARE,drop
+2603.14147,2026-03-14,A1,An Alternative Trajectory for Generative AI,drop
+2603.13906,2026-03-14,A2,ATCC: Adaptive Concurrency Control for Unforeseen Agentic Transactions,drop
+2603.14367,2026-03-15,A1,HomeGuard: VLM-based Embodied Safeguard for Identifying Contextual Risk in Household Task,keep
+2603.14592,2026-03-15,B1,A Multi-Scale Graph Learning Framework with Temporal Consistency Constraints for Financial Fraud Detection in Transaction Networks under Non-Stationary Conditions,keep
+2603.14908,2026-03-16,A1,PerlAD: Towards Enhanced Closed-loop End-to-end Autonomous Driving with Pseudo-simulation-based Reinforcement Learning,drop
+2603.15408,2026-03-16,A2,TrinityGuard: A Unified Framework for Safeguarding Multi-Agent Systems,drop
+2603.15771,2026-03-16,A3,CorrectionPlanner: Self-Correction Planner with Reinforcement Learning in Autonomous Driving,drop
+2603.16196,2026-03-17,A1,PanguMotion: Continuous Driving Motion Forecasting with Pangu Transformers,drop
+2603.16080,2026-03-17,B1; B2,A Depth-Aware Comparative Study of Euclidean and Hyperbolic Graph Neural Networks on Bitcoin Transaction Systems,drop
+2603.19328,2026-03-18,A2; A3,The Verifier Tax: Horizon Dependent Safety Success Tradeoffs in Tool Using LLM Agents,keep
+2604.16359,2026-03-18,A4,LLM4Log: A Systematic Review of Large Language Model-based Log Analysis,drop
+2603.19170,2026-03-19,A1,ADMM-Based Distributed MPC with Control Barrier Functions for Safe Multi-Robot Quadrupedal Locomotion,drop
+2603.19822,2026-03-20,A1,HUGE-Bench: A Benchmark for High-Level UAV Vision-Language-Action Tasks,drop
+2603.19838,2026-03-20,A1,Multi-Agent Motion Planning on Industrial Magnetic Levitation Platforms: A Hybrid ADMM-HOCBF approach,drop
+2603.22341,2026-03-21,A1,T-MAP: Red-Teaming LLM Agents with Trajectory-aware Evolutionary Search,keep
+2603.21104,2026-03-22,A1,CounterScene: Counterfactual Causal Reasoning in Generative World Models for Safety-Critical Closed-Loop Evaluation,drop
+2603.22350,2026-03-22,A1,Session Risk Memory (SRM): Temporal Authorization for Deterministic Pre-Execution Safety Gates,keep
+2603.21362,2026-03-22,A1,AdaRubric: Task-Adaptive Rubrics for Reliable LLM Agent Evaluation and Reward Learning,drop
+2603.21415,2026-03-22,A2,Silent Commitment Failure in Instruction-Tuned Language Models: Evidence of Governability Divergence Across Architectures,drop
+2603.21551,2026-03-23,A1,AI In Cybersecurity Education -- Scalable Agentic CTF Design Principles and Educational Outcomes,keep
+2603.21698,2026-03-23,A1,A Blueprint for Self-Evolving Coding Agents in Vehicle Aerodynamic Drag Prediction,keep
+2603.21913,2026-03-23,A1,Collision-Free Velocity Scheduling for Multi-Agent Systems on Predefined Routes via Inexact-Projection ADMM,drop
+2603.22577,2026-03-23,A1,STRIATUM-CTF: A Protocol-Driven Agentic Framework for General-Purpose CTF Solving,drop
+2603.22048,2026-03-23,A2,Dynamic analysis enhances issue resolution,drop
+2603.22386,2026-03-23,A2,From Static Templates to Dynamic Runtime Graphs: A Survey of Workflow Optimization for LLM Agents,drop
+2603.22489,2026-03-23,A4,Model Context Protocol Threat Modeling and Analyzing Vulnerabilities to Prompt Injection with Tool Poisoning,keep
+2603.22862,2026-03-24,A1,The Evolution of Tool Use in LLM Agents: From Single-Tool Call to Multi-Tool Orchestration,drop
+2603.23149,2026-03-24,A1,Describe-Then-Act: Proactive Agent Steering via Distilled Language-Action World Models,drop
+2603.22928,2026-03-24,A2,SoK: The Attack Surface of Agentic AI - Tools and Autonomy,drop
+2603.24203,2026-03-25,A1,Invisible Threats from Model Context Protocol: Generating Stealthy Injection Payload via Tree-based Adaptive Search,keep
+2603.25091,2026-03-26,A1,"Pixelis: Reasoning in Pixels, from Seeing to Acting",keep
+2603.25097,2026-03-26,A2,ElephantBroker: A Knowledge-Grounded Cognitive Runtime for Trustworthy AI Agents,drop
+2603.26944,2026-03-27,B1,Neuro-Symbolic Learning for Predictive Process Monitoring via Two-Stage Logic Tensor Networks with Rule Pruning,keep
+2603.27148,2026-03-28,A1; A3,SafetyDrift: Predicting When AI Agents Cross the Line Before They Actually Do,keep
+2604.16406,2026-03-31,A1,Heterogeneous Self-Play for Realistic Highway Traffic Simulation,drop
+2604.00304,2026-03-31,A2,Asymmetric Actor-Critic for Multi-turn LLM Agents,keep
+2604.00061,2026-03-31,A4,"Advancing Multi-Robot Networks via MLLM-Driven Sensing, Communication, and Computation: A Comprehensive Survey",drop
+2605.21490,2026-03-31,B1,Temporal Contrastive Transformer for Financial Crime Detection: Self-Supervised Sequence Embeddings via Predictive Contrastive Coding,keep
+2604.00402,2026-04-01,A1,COTTA: Context-Aware Transfer Adaptation for Trajectory Prediction in Autonomous Driving,drop
+2604.00788,2026-04-01,A1,UK AISI Alignment Evaluation Case-Study,keep
+2604.01134,2026-04-01,A1,VRUD: A Drone Dataset for Complex Vehicle-VRU Interactions within Mixed Traffic,drop
+2604.01346,2026-04-01,A1,"Safety, Security, and Cognitive Risks in World Models",drop
+2604.01151,2026-04-01,A4,Detecting Multi-Agent Collusion Through Multi-Agent Interpretability,drop
+2604.01532,2026-04-02,A1,"PHMForge: Evaluating LLM Agents on Industrial Prognostics through MCP-Native, Algorithm-Grounded Tools",drop
+2604.02022,2026-04-02,A1; A3,ATBench: A Diverse and Realistic Agent Trajectory Benchmark for Safety Evaluation and Diagnosis,keep
+2604.02623,2026-04-03,A1,"Poison Once, Exploit Forever: Environment-Injected Memory Poisoning Attacks on Web Agents",drop
+2604.02713,2026-04-03,A1,Breakdowns in Conversational AI: Interactional Failures in Emotionally and Ethically Sensitive Contexts,drop
+2604.02767,2026-04-03,A2,SentinelAgent: Intent-Verified Delegation Chains for Securing Federal Multi-Agent AI Systems,drop
+2604.02947,2026-04-03,A3,AgentHazard: A Benchmark for Evaluating Harmful Behavior in Computer-Use Agents,drop
+2604.03040,2026-04-03,A4,QVAD: A Question-Centric Agentic Framework for Efficient and Training-Free Video Anomaly Detection,drop
+2604.04035,2026-04-05,A2,Causality Laundering: Denial-Feedback Leakage in Tool-Calling LLM Agents,drop
+2606.15579,2026-04-05,A2,Your Agent Has a Genome: Sequence-Level Behavioral Analysis and Runtime Governance of LLM-Powered Autonomous Agents,keep
+2604.05172,2026-04-06,A1; A3,ClawsBench: Evaluating Capability and Safety of LLM Productivity Agents in Simulated Workspaces,drop
+2604.05229,2026-04-06,A1,From Governance Norms to Enforceable Controls: A Layered Translation Method for Runtime Guardrails in Agentic AI,keep
+2604.05449,2026-04-07,A1,Not All Agents Matter: From Global Attention Dilution to Risk-Prioritized Game Planning,drop
+2604.05525,2026-04-07,A1,CrowdVLA: Embodied Vision-Language-Action Agents for Context-Aware Crowd Simulation,drop
+2604.05549,2026-04-07,A1,Stop Fixating on Prompts: Reasoning Hijacking and Constraint Tightening for Red-Teaming LLM Agents,drop
+2604.05793,2026-04-07,A1,BodhiPromptShield: Pre-Inference Prompt Mediation for Surface-Form Privacy Propagation in LLM Agent Pipelines,keep
+2604.06132,2026-04-07,A1,Claw-Eval: Towards Trustworthy Evaluation of Autonomous Agents,keep
+2604.05854,2026-04-07,A2,Deep Researcher Agent: An Autonomous Framework for 24/7 Deep Learning Experimentation with Zero-Cost Monitoring,drop
+2604.05969,2026-04-07,A2,"A Formal Security Framework for MCP-Based AI Agents: Threat Taxonomy, Verification Models, and Defense Mechanisms",drop
+2604.06392,2026-04-07,A2,Qualixar OS: A Universal Operating System for AI Agent Orchestration,keep
+2605.26438,2026-04-08,A1,LURE: Live-Usage Replay Evaluations for Reducing Evaluation Awareness,keep
+2604.06972,2026-04-08,A1,Differentiable Environment-Trajectory Co-Optimization for Safe Multi-Agent Navigation,drop
+2604.07126,2026-04-08,A1,RankFormer: A Propose-then-Select Transformer for Multi-Agent Multimodal Trajectory Prediction,drop
+2604.07223,2026-04-08,A1,TraceSafe: A Systematic Assessment of LLM Guardrails on Multi-Step Tool-Calling Trajectories,keep
+2604.06618,2026-04-08,A2,PoC-Adapt: Semantic-Aware Automated Vulnerability Reproduction with LLM Multi-Agents and Reinforcement Learning-Driven Adaptive Policy,keep
+2604.07304,2026-04-08,A2,Chatbot-Based Assessment of Code Understanding in Automated Programming Assessment Systems,drop
+2604.08178,2026-04-09,A1,Aligning Agents via Planning: A Benchmark for Trajectory-Level Reward Modeling,drop
+2604.08649,2026-04-09,B1,PRAGMA: Revolut Foundation Model,keep
+2604.08987,2026-04-10,A1,PilotBench: A Benchmark for General Aviation Agents with Safety Constraints,drop
+2604.09746,2026-04-10,A1,CONSCIENTIA: Can LLM Agents Learn to Strategize? Emergent Deception and Trust in a Multi-Agent NYC Simulation,drop
+2604.09056,2026-04-10,A3,Conversations Risk Detection LLMs in Financial Agents via Multi-Stage Generative Rollout,keep
+2604.10169,2026-04-11,A1,MAVEN-T: Reinforced Heterogeneous Distillation for Real-Time Multi-Agent Trajectory Prediction,drop
+2604.11734,2026-04-13,A1,SCORP: Scene-Consistent Multi-agent Diffusion Planning with Stable Online Reinforcement Post-Training for Cooperative Driving,drop
+2604.12019,2026-04-13,A1,A Framework for Longitudinal Health AI Agents,drop
+2604.13128,2026-04-13,A1,Learning Probabilistic Responsibility Allocations for Multi-Agent Interactions,drop
+2604.13125,2026-04-13,B1,"Synthetic Tabular Generators Fail to Preserve Behavioral Fraud Patterns: A Benchmark on Temporal, Velocity, and Multi-Account Signals",keep
+2604.12501,2026-04-14,A1,A Heterogeneous Dual-Network Framework for Emergency Delivery UAVs: Communication Assurance and Path Planning Coordination,drop
+2604.12616,2026-04-14,A1,Every Picture Tells a Dangerous Story: Memory-Augmented Multi-Agent Jailbreak Attacks on VLMs,drop
+2604.14235,2026-04-14,B2,Graph-Based Fraud Detection with Dual-Path Graph Filtering,drop
+2604.13954,2026-04-15,A1,HINTBench: Horizon-agent Intrinsic Non-attack Trajectory Benchmark,keep
+2604.13888,2026-04-15,A2,GeoAgentBench: A Dynamic Execution Benchmark for Tool-Augmented Agents in Spatial Analysis,keep
+2604.18614,2026-04-15,A4,HadAgent: Harness-Aware Decentralized Agentic AI Serving with Proof-of-Inference Blockchain Consensus,keep
+2604.15384,2026-04-16,A1,LinuxArena: A Control Setting for AI Agents in Live Production Software Environments,keep
+2604.14858,2026-04-16,A1,Benchmarks for Trajectory Safety Evaluation and Diagnosis in OpenClaw and Codex: ATBench-Claw and ATBench-Codex,drop
+2604.15671,2026-04-17,A1,Long-Term Memory for VLA-based Agents in Open-World Task Execution,drop
+2604.19818,2026-04-18,A1,"Beyond Task Success: An Evidence-Synthesis Framework for Evaluating, Governing, and Orchestrating Agentic AI",drop
+2604.17562,2026-04-19,A1,SafeAgent: A Runtime Protection Architecture for Agentic Systems,keep
+2604.17596,2026-04-19,A1,"Terminal Wrench: A Dataset of 331 Reward-Hackable Environments and 3,632 Exploit Trajectories",keep
+2604.17730,2026-04-20,A1,MHSafeEval: Role-Aware Interaction-Level Evaluation of Mental Health Safety in Large Language Models,drop
+2604.18652,2026-04-20,A1,From Craft to Kernel: A Governance-First Execution Architecture and Semantic ISA for Agentic Computers,keep
+2604.18847,2026-04-20,A1,Human-Guided Harm Recovery for Computer Use Agents,drop
+2604.19181,2026-04-21,A2,YAIFS: Yet (not) Another Intelligent Fog Simulator: A Framework for Agent-Driven Computing Continuum Modeling & Simulation,drop
+2604.20938,2026-04-22,A1,HARBOR: Automated Harness Optimization,drop
+2604.21093,2026-04-22,B2,TRAVELFRAUDBENCH: A Configurable Evaluation Framework for GNN Fraud Ring Detection in Travel Networks,drop
+2604.23513,2026-04-26,A1,Large Language Model based Interactive Decision-Making for Autonomous Driving,drop
+2604.23853,2026-04-26,A1,ClawTrace: Cost-Aware Tracing for LLM Agent Skill Distillation,keep
+2604.24348,2026-04-27,A1,"OS-SPEAR: A Toolkit for the Safety, Performance,Efficiency, and Robustness Analysis of OS Agents",drop
+2604.24618,2026-04-27,A1,Evaluating whether AI models would sabotage AI safety research,keep
+2604.24696,2026-04-27,A2,NeuroClaw Technical Report,drop
+2604.24920,2026-04-27,A2,SUDP: Secret-Use Delegation Protocol for Agentic Systems,drop
+2604.24477,2026-04-27,A4,GAMMAF: A Common Framework for Graph-Based Anomaly Monitoring Benchmarking in LLM Multi-Agent Systems,drop
+2604.24590,2026-04-27,B2,Fraud Detection in Cryptocurrency Markets with Spatio-Temporal Graph Neural Networks,keep
+2604.26065,2026-04-28,A1,FlowS: One-Step Motion Prediction via Local Transport Conditioning,drop
+2604.25602,2026-04-28,A2,"OxyGent: Making Multi-Agent Systems Modular, Observable, and Evolvable via Oxy Abstraction",drop
+2604.26274,2026-04-29,A1; A4,Enforcing Benign Trajectories: A Behavioral Firewall for Structured-Workflow AI Agents,keep
+2604.26516,2026-04-29,A1,Lyapunov-Guided Self-Alignment: Test-Time Adaptation for Offline Safe Reinforcement Learning,drop
+2604.27274,2026-04-30,A1,The Inverse-Wisdom Law: Architectural Tribalism and the Consensus Paradox in Agentic Swarms,keep
+2604.27283,2026-04-30,A1,Learning When to Remember: Risk-Sensitive Contextual Bandits for Abstention-Aware Memory Retrieval in LLM-Based Coding Agents,drop
+2604.27586,2026-04-30,A1,Trace-Level Analysis of Information Contamination in Multi-Agent Systems,keep
+2605.01143,2026-05-01,A1; B1,A Low-Latency Fraud Detection Layer for Detecting Adversarial Interaction Patterns in LLM-Powered Agents,keep
+2605.00424,2026-05-01,A2,Skills as Verifiable Artifacts: A Trust Schema and a Biconditional Correctness Criterion for Human-in-the-Loop Agent Runtimes,drop
+2605.12532,2026-05-01,A4,AgenticAITA: A Proof-Of-Concept About Deliberative Multi-Agent Reasoning for Autonomous Trading Systems,keep
+2605.01644,2026-05-02,A1,Toward a Principled Framework for Agent Safety Measurement,drop
+2605.01950,2026-05-03,A1,TRAP: Tail-aware Ranking Attack for World-Model Planning,drop
+2605.03228,2026-05-04,A1,Safeguarding LLM Agents against Long-Horizon Threats via Shadow Memory,keep
+2605.02346,2026-05-04,A2,APIOT: Autonomous Vulnerability Management Across Bare-Metal Industrial OT Networks,drop
+2605.02454,2026-05-04,A4,Causal Software Engineering: A Vision and Roadmap,drop
+2605.03242,2026-05-05,A1,Enhancing Agent Safety Judgment: Controlled Benchmark Rewriting and Analogical Reasoning for Deceptive Out-of-Distribution Scenarios,drop
+2605.03482,2026-05-05,A4,MEMSAD: Gradient-Coupled Anomaly Detection for Memory Poisoning in Retrieval-Augmented Agents,keep
+2605.04785,2026-05-06,A3,AgentTrust: Runtime Safety Evaluation and Interception for AI Agent Tool Use,keep
+2605.06161,2026-05-07,A1,Beyond Accuracy: Policy Invariance as a Reliability Test for LLM Safety Judges,keep
+2605.06630,2026-05-07,A1,Quantifying Trade-Offs Between Stability and Goal-Obfuscation,drop
+2605.06812,2026-05-07,A1,Towards Security-Auditable LLM Agents: A Unified Graph Representation,keep
+2605.06890,2026-05-07,A1,Beyond the Black Box: Interpretability of Agentic AI Tool Use,keep
+2605.06951,2026-05-07,A1,Multi-Objective Constraint Inference using Inverse reinforcement learning,drop
+2605.06607,2026-05-07,A2,AI CFD Scientist: Toward Open-Ended Computational Fluid Dynamics Discovery with Physics-Aware AI Agents,drop
+2605.07442,2026-05-08,A2,GameGen-Verifier: Parallel Keypoint-Based Verification for LLM-Generated Games via Runtime State Injection,keep
+2605.07935,2026-05-08,A2,TraceFix: Repairing Agent Coordination Protocols with TLA+ Counterexamples,drop
+2605.16346,2026-05-08,A4,PropGuard: Safeguarding LLM-MAS via Propagation-Aware Exploration and Remediation,keep
+2605.08828,2026-05-09,A1,When Agents Overtrust Environmental Evidence: An Extensible Agentic Framework for Benchmarking Evidence-Grounding Defects in LLM Agents,keep
+2605.09153,2026-05-09,A1,Beyond Self-Play: Hierarchical Reasoning for Continuous Motion in Closed-Loop Traffic Simulation,drop
+2605.23951,2026-05-09,A2,Methods for Formal Verification of Agent Skills: Three Layers Toward a Mechanically Checkable Capability-Containment Proof,keep
+2605.10365,2026-05-11,A1,Agent-ValueBench: A Comprehensive Benchmark for Evaluating Agent Values,drop
+2605.10481,2026-05-11,A1,"Safe Multi-Agent Behavior Must Be Maintained, Not Merely Asserted: Constraint Drift in LLM-Based Multi-Agent Systems",keep
+2605.11047,2026-05-11,A1,Red-Teaming Agent Execution Contexts: Open-World Security Evaluation on OpenClaw,drop
+2605.10834,2026-05-11,A1,From Controlled to the Wild: Evaluation of Pentesting Agents for the Real-World,drop
+2605.11039,2026-05-11,A2,The Granularity Mismatch in Agent Security: Argument-Level Provenance Solves Enforcement and Isolates the LLM Reasoning Bottleneck,drop
+2605.10912,2026-05-11,A2,"WildClawBench: A Benchmark for Real-World, Long-Horizon Agent Evaluation",keep
+2605.10397,2026-05-11,A4,AnomalyClaw: A Universal Visual Anomaly Detection Agent via Tool-Grounded Refutation,drop
+2605.11882,2026-05-12,A1,On-Policy Self-Evolution via Failure Trajectories for Agentic Safety Alignment,keep
+2605.11770,2026-05-12,A2,Behavioral Integrity Verification for AI Agent Skills,keep
+2605.11442,2026-05-12,A4,Can a Single Message Paralyze the AI Infrastructure? The Rise of AbO-DDoS Attacks through Targeted Mobius Injection,drop
+2605.12782,2026-05-12,B2,Graph-Based Financial Fraud Detection with Calibrated Risk Scoring and Structural Regularization,keep
+2605.13134,2026-05-13,A1,Security-Aware Planning and Control of Multi-Agent Systems with LTL Tasks,drop
+2605.13542,2026-05-13,A1,RealICU: Do LLM Agents Understand Long-Context ICU Data? A Benchmark Beyond Behavior Imitation,drop
+2605.13631,2026-05-13,A1,ProjGuard: Safety Monitoring for Computer-Use Agents via Low-Dimensional Projections,keep
+2605.13940,2026-05-13,A1,AgentTrap: Measuring Runtime Trust Failures in Third-Party Agent Skills,drop
+2605.13825,2026-05-13,A1,History Anchors: How Prior Behavior Steers LLM Decisions Toward Unsafe Actions,drop
+2605.14201,2026-05-13,A1,MAPLE: Latent Multi-Agent Play for End-to-End Autonomous Driving,drop
+2605.13109,2026-05-13,B1,QCIVET: A Quantum--Classical Pipeline Integrity Framework with Contract-Based Subtype Verification and Hash-Chained Audit Traces,keep
+2605.18844,2026-05-13,B2,Graph-Driven Cross-Industry Real-Time Monitoring Framework for Anti-Money Laundering Detection in Converged Mobility-Energy Supply Chain Networks,keep
+2605.14237,2026-05-14,A1,Good to Go: The LOOP Skill Engine That Hits 99% Success and Slashes Token Usage by 99% via One-Shot Recording and Deterministic Replay,drop
+2605.14271,2026-05-14,A1,Auditing Agent Harness Safety,keep
+2605.14723,2026-05-14,A1,Agentifying Patient Dynamics within LLMs through Interacting with Clinical World Model,drop
+2605.16198,2026-05-15,A2,"Formal Methods Meet LLMs: Auditing, Monitoring, and Intervention for Compliance of Advanced AI Systems",keep
+2605.16867,2026-05-16,A2,GoodServe: Towards High-Goodput Serving of Agentic LLM Inferences over Heterogeneous Resources,drop
+2605.17039,2026-05-16,B1,Privacy-Preserving Generation Fraud Detection for Distributed Photovoltaic Systems: A Solar Irradiance-Fused Federated Learning Framework,drop
+2605.17229,2026-05-17,A1,Generating Realistic Safety-Critical Scenarios for Vehicle-Pedestrian Interactions,drop
+2605.23989,2026-05-17,A1; A2,"Towards trustworthy agentic AI: a comprehensive survey of safety, robustness, privacy, and system security",keep
+2605.17444,2026-05-17,A1,MemRepair: Hierarchical Memory for Agentic Repository-Level Vulnerability Repair,drop
+2605.17451,2026-05-17,A1,DeTrack: A Benchmark and Altitude-Aware Dual World Model for Drone-embodied Tracking,keep
+2605.17453,2026-05-17,A1,Trust No Tool: Evaluating and Defending LLM Agents under Untrusted Tool Feedback,drop
+2605.18893,2026-05-17,B2,Position: Graph Condensation Needs a Reset -- Move Beyond Full-dataset Training and Model-Dependence,drop
+2605.20255,2026-05-18,A1,Multi-Agent Reinforcement Learning for Safe Autonomous Driving Under Pedestrian Behavioral Uncertainty,drop
+2605.18988,2026-05-18,A1; A4,Surviving the Unseen: Predictive Defense for Novel Multi-Turn Multimodal Attacks,keep
+2605.19038,2026-05-18,A1,Guiding Neuro-Symbolic Scenario Generation with Spatio-Temporal Logic,keep
+2605.27418,2026-05-19,A1,Differentiable Model Predictive Safety for Heterogeneous Mobility at Urban Intersections,drop
+2605.20157,2026-05-19,B1,SAGE: Scalable Automatic Gating Ensemble for Confident Negative Harvesting in Fraud Detection,keep
+2605.20923,2026-05-20,A2,Causal Past Logic for Runtime Verification of Distributed LLM Agent Workflows,drop
+2605.21082,2026-05-20,A2,AutoRPA: Efficient GUI Automation through LLM-Driven Code Synthesis from Interactions,keep
+2605.20682,2026-05-20,A4,IndusAgent: Reinforcing Open-Vocabulary Industrial Anomaly Detection with Agentic Tools,keep
+2605.20742,2026-05-20,A4,VBFDD-Agent for Electric Vehicle Battery Fault Detection and Diagnosis: Descriptive Text Modeling of Battery Digital Signals,keep
+2605.22321,2026-05-21,A1,ASEval: Automated Trajectory-Level Security Testing for Autonomous Agents,drop
+2605.22643,2026-05-21,A3,Boiling the Frog: A Multi-Turn Benchmark for Agentic Safety,drop
+2605.23163,2026-05-22,A1,Fast-dDrive: Efficient Block-Diffusion VLM for Autonomous Driving,drop
+2605.23320,2026-05-22,A1,Human-in-the-Loop Multi-Agent Ventilator Decision Support with Contextual Bandit Preference Learning,keep
+2605.24134,2026-05-22,A1; A3,ProofAgent Harness: Open Infrastructure for Adversarial Evaluation of AI Agents,keep
+2605.24216,2026-05-22,A1,Agent-ToM: Learning to Monitor Autonomous LLM Agents via Theory-of-Mind Reasoning,keep
+2607.18267,2026-05-22,A2,The Economics of Autonomy: Real-Time Risk Indexing for Insurable AI-Driven 6G Systems,drop
+2605.23723,2026-05-22,A4,MemAudit: Post-hoc Auditing of Poisoned Agent Memory via Causal Attribution and Structural Anomaly Detection,keep
+2605.24354,2026-05-23,A1,SparseWorld: Enhancing End-to-End Autonomous Driving via World Models with Sparse Scene Representation,drop
+2605.24562,2026-05-23,A1,PEDESTRIANQA: A Benchmark for Vision-Language Models on Pedestrian Intention and Trajectory Prediction,drop
+2605.26169,2026-05-25,A1,"ESBMC: A Survey of Its Evolution, Integration, and Future Directions in Formal Software Verification",keep
+2605.25947,2026-05-25,A1,A Pedestrian-Vehicle Interaction Benchmark and Annotation Framework for Unstructured Scenes via Uncalibrated Cameras,drop
+2605.26239,2026-05-25,A1,Sentinel: Embodied Cooperative Spatial Reasoning and Planning,drop
+2607.19356,2026-05-25,A2,NEXUS: Structured Runtime Safety for Tool-Using LLM Agents,drop
+2605.26040,2026-05-25,B1; B2,L2IR: Revealing Latent Intent in Graph Fraud Detection,keep
+2605.26497,2026-05-26,A1,Aligning Provenance with Authorization: A Dual-Graph Defense for LLM Agents,keep
+2605.27466,2026-05-26,A1,AgensFlow: A Coordination-Policy Substrate for Multi-Agent Systems,keep
+2605.26870,2026-05-26,A1; A2,Persistent AI Agents in Academic Research: A Single-Investigator Implementation Case Study,keep
+2605.27333,2026-05-26,A1,FinHarness: An Inline Lifecycle Safety Harness for Finance LLM Agents,keep
+2605.27690,2026-05-26,A1; A3,TRACES: Proactive Safety Auditing for Multi-Turn LLM Agents via Trajectory-State Modeling,keep
+2605.27014,2026-05-26,A2,ReasonOps: A Unified Operational Paradigm for Trustworthy Verified LLM Reasoning,drop
+2605.27531,2026-05-26,A2,Agentic Separation Logic Specification Synthesis,drop
+2605.27557,2026-05-26,B1,The Fundamental Limits of Fraud Detection in Card Payment Networks,keep
+2605.29178,2026-05-27,A1,The Best-Laid SCHEMEs: Coordinated Sabotage and Monitoring in Multi-Agent Systems,keep
+2605.28097,2026-05-27,A2,ICAN-Deploy: Identity-Stable Canary Deployment for Safety-Critical Embodied Agents,drop
+2605.28524,2026-05-27,B1; B2,Let Relations Speak: An End-to-End LLM-GNN Soft Prompt Framework for Fraud Detection,drop
+2605.29968,2026-05-28,A1,Data-Driven Crowd Dynamics using Kinetic Theory and Ensemble-based Data Assimilation,drop
+2605.30335,2026-05-28,A2,"Locally Coherent, Globally Incoherent: Bounding Compositional Incoherence in Multi-Component LLM Agents",keep
+2608.26113,2026-05-28,A2,PICasso: An AI-Enabled Design Framework for Autonomous Optimization of Silicon Photonic Devices,drop
+2605.30140,2026-05-28,A4,AnomalyAgent: Training-Free Agentic Models for Zero-/Few-Shot Anomaly Detection,drop
+2605.29272,2026-05-28,B1,Causal Label Recovery in Payment Networks,keep
+2606.07589,2026-05-28,B1,Optimality of Sequential Filtering Under Independent Cost and Selectivity Models,keep
+2605.30838,2026-05-29,A1; A3,COMPASS: Cognitive MCTS-Guided Process Alignment for Safe Search Agents,drop
+2605.31119,2026-05-29,A4,Don't Fool Me Twice: Adapting to Adversity in the Wild with Experience-Driven Reasoning,drop
+2606.00611,2026-05-30,A1,TRACE: Trajectory Risk-Aware Compression for Long-Horizon Agent Safety,keep
+2606.00857,2026-05-30,A1,From Cues to Horizons: Dynamic Risk Horizon Profiling for Trajectory Prediction,drop
+2606.00672,2026-05-30,B1,Medication-Aware Financial Exploitation Detection for Alzheimer's Patients Using Edge-Aware Interaction Risk Modeling,drop
+2606.01166,2026-05-31,A1,BraveGuard: From Open-World Threats to Safer Computer-Use Agents,keep
+2606.01019,2026-05-31,A2,Hybrid Verified Decoding: Learning to Allocate Verification in Speculative Decoding,keep
+2606.01416,2026-05-31,A2,Self-Healing Agentic Orchestrators for Reliable Tool-Augmented Large Language Model Systems,keep
+2606.01317,2026-05-31,A3,SABER: Benchmarking Operational Safety of LLM Coding Agents in Stateful Project Workspaces,drop
+2606.01498,2026-05-31,A4,TimeSage-MT: A Multi-Turn Benchmark for Evaluating Agentic Time Series Reasoning,keep
+2606.01738,2026-06-01,A1,THRD: A Training-Free Multi-Turn Defense Framework for Jailbreak Attacks on Large Language Models,keep
+2606.02302,2026-06-01,A1,SeClaw: Spec-Driven Security Task Synthesis for Evaluating Autonomous Agents,drop
+2606.02497,2026-06-01,A1,Bridging the Last Mile of Time Series Forecasting with LLM Agents,keep
+2606.01581,2026-06-01,A4,"Agent System Operations: Categorization, Challenges, and Future Directions",drop
+2606.01925,2026-06-01,A4,QoEReasoner: An Agentic Reasoning Framework for Automated and Explainable QoE Diagnosis in RANs,keep
+2606.20636,2026-06-02,A1,SkillHarness: Harnessing Safe Skills for Computer-Use Agents,drop
+2606.03321,2026-06-02,A1,Validation-Gated Multi-Agent Governance for Online Adaptation of Thermal-Hydraulic Surrogate Models under Operating-Regime Shift,keep
+2606.04051,2026-06-02,A1,RUBAS: Rubric-Based Reinforcement Learning for Agent Safety,drop
+2606.03963,2026-06-02,A1,AgenticRL: Agentic Reinforcement Learning with Self-Refinement for Complex UAV Navigation,drop
+2606.04158,2026-06-02,A1,Multi-Agent Next-Best-View Optimization for Risk-Averse Planning,drop
+2606.04248,2026-06-02,A1,RSC: Decentralized Rigid Formation Flocking for Large-Scale Swarms via Hybrid Predictive Control and Online Reconfiguration,drop
+2606.04296,2026-06-02,A1,The Saturation Trap and the Subjectivity of Intervention Timing: Why Affect-Based Triggers and LLM Judges Fail to Time Interventions on Autonomous Agents,keep
+2606.04037,2026-06-02,A2,Toward Pre-Deployment Assurance for Enterprise AI Agents: Ontology-Grounded Simulation and Trust Certification,drop
+2607.24762,2026-06-02,A2,Kernel Forge: An Agent Harness for LLM-based Generation and Optimization of CUDA Kernels,drop
+2606.04812,2026-06-03,A1,Scenario Generation for Risk-Aware Reinforcement Learning with Probably Approximately Safe Guarantees,keep
+2606.09890,2026-06-03,A1,PreAct-Bench: Benchmarking Predictive Monitoring in LLMs,keep
+2609.10542,2026-06-03,A1,The Internet of Collaborating Things: Agentic Edge AI for Autonomous Cross-Domain Collaboration,drop
+2606.04599,2026-06-03,A4,"Plan First, Judge Later, Run Better: A DMAIC-Inspired Agentic System for Industrial Anomaly Detection",drop
+2606.06423,2026-06-04,A1,RiskFlow: Fast and Faithful Safety-Critical Traffic Scenario Generation,drop
+2606.06480,2026-06-04,A1,DNQ: Deep Nash Q-Network for Partially Observable n-Player Games,drop
+2607.20488,2026-06-04,A2,"Autonomous Topology Mutation: Safe Runtime Restructuring for Multi-Agent LLM Systems with Capability, State, and Shadow Invariants",drop
+2606.06324,2026-06-04,A2,From Failed Trajectories to Reliable LLM Agents: Diagnosing and Repairing Harness Flaws,keep
+2606.06140,2026-06-04,A3,RedEdit: Agentic Red-Teaming of Image Safety Classifiers via MCTS-Guided Photo-Editing,keep
+2606.05860,2026-06-04,A4,GenAutoML: An Agentic Framework for Dynamic Architecture Generation and Optimization in Time-Series Analysis,drop
+2606.06261,2026-06-04,A4,DAST: A VLM-LLM Framework for Cross-Interface Anomaly Detection in O-RAN,drop
+2606.06893,2026-06-05,A1; A2,Workflow-to-Skill: Skill Creation via Routing-Workflow-Semantics-Attachments Decomposition,keep
+2606.07889,2026-06-05,A1,Strained Coherence: A Pre-Failure Signal in Coding Agent Execution Trajectories,keep
+2606.07131,2026-06-05,A2,MalSkillBench: A Runtime-Verified Benchmark of Malicious Agent Skills,drop
+2606.08234,2026-06-06,A1,SciTrace: Trajectory-Aware Safety Reasoning for Scientific Discovery Agents,keep
+2606.08348,2026-06-06,A1,Bayesian-Agent: Posterior-Guided Skill Evolution Across LLM Agent Harnesses,keep
+2606.08146,2026-06-06,B2,SAGE: An LLM-driven Self Reflective Agentic Framework for Fraud Detection,drop
+2606.08875,2026-06-07,A1,Can the Environment Speak for Itself? $T^{2}$-GRPO: A Turn-Trajectory Group Relative Policy Optimization for Caregiver Agents,drop
+2606.08919,2026-06-08,A1,"Oversight Has a Capacity: Calibrating Agent Guards to a Subjective, Fatiguing Human",keep
+2606.09498,2026-06-08,A2,Self-Harness: Harnesses That Improve Themselves,drop
+2606.09738,2026-06-08,A2,HDSL: A Hierarchical Domain-Specific Language for Structured 3D Indoor Scene Generation and Localized Editing with LLM Agents,drop
+2606.09550,2026-06-08,A4,InquiTree: Evaluating AI Agents in the Scientific Inquiry Loop with Paper-Derived Research Trees,keep
+2606.10322,2026-06-09,A1,Game-Theoretic Multi-Agent Control for Robust Contextual Reasoning in LLMs,keep
+2606.10484,2026-06-09,A1,AgentCanary: A Security Evaluation Framework for Autonomous AI Agents in Real Executable Environments,drop
+2606.11435,2026-06-09,A1,Agent Skill Evaluation and Evolution: Frameworks and Benchmarks,drop
+2606.10314,2026-06-09,A4,Mobility Anomaly Generation using LLM-Driven Behavior with Kinematic Constraints,keep
+2606.12640,2026-06-10,A1,Individual Control Barrier Functions-Guided Diffusion Model for Safe Offline Multi-Agent Reinforcement Learning,drop
+2606.12747,2026-06-10,A1,Prefill Awareness in Large Language Models,keep
+2606.12142,2026-06-10,A2,AerialClaw: An Open-Source Framework for LLM-Driven Autonomous Aerial Agents,keep
+2606.12341,2026-06-10,A2,OCELOT: Inference-Leakage Budgets for Privacy-Preserving LLM Agents,keep
+2606.12657,2026-06-10,A4,TrajGenAgent: A Hierarchical LLM Agent for Human Mobility Trajectory Generation,keep
+2606.12483,2026-06-10,B1,Scalable anomaly detection via a univariate Christoffel function,drop
+2606.12896,2026-06-11,A1,PolicyGuard: Towards Test-time and Step-level Adversary (Backdoor) Defense for Reinforcement Learning Agent,keep
+2606.14154,2026-06-12,A1,SkillMutator: Benchmarking and Defending Language-and-Code Cross-modal Attacks on LLM Agent Skills,keep
+2606.14357,2026-06-12,A1,No Accidental Software Agent First Canonical Code for Human Code Entropy Reduction and 30 to 500 times Lower Frontier Model Requirements,keep
+2606.30649,2026-06-13,A2,Thinking Out Loud: Real-Time Deception Monitoring in Asymmetric LLM Negotiations,drop
+2606.20686,2026-06-14,A1,JPPD: Joint Prediction_Planning Diffusion with Differentiable Safety Guidance for Dynamic Obstacle Avoidance in Intelligent Transportation Systems,drop
+2606.20683,2026-06-14,A2,From Question Answering to Task Completion: A Survey on Agent System and Harness Design,keep
+2606.15709,2026-06-14,A4,AI-Driven Framework for Adaptive Water Network Management with Proof-of-Concept Implementation: Addressing Non-Revenue Water in Jordan,drop
+2606.16116,2026-06-15,A1,Distributed Safe Consensus Under Asymmetric Input and Time-Varying Output Constraints,drop
+2606.16274,2026-06-15,A1,GraphWorld: Long-Horizon Planning with World Models for End-to-End Autonomous Driving,drop
+2606.16313,2026-06-15,A1,Is Your Trajectory Displacement Safe in Long-tail?,keep
+2606.20699,2026-06-15,A1,Structural Distinguishability of Static and Adaptive Policy Regimes in Agent-Based Regulatory Simulation,drop
+2606.20700,2026-06-15,A1,Machine-Coached Policy Revision in Adaptive Agent-Based Regulatory Simulation: A Controller-Level Contestability Layer,keep
+2606.17368,2026-06-15,A2,"Distributed General-Purpose Agent Networks: Architecture, Key Mechanisms, and Prototypes",keep
+2606.16839,2026-06-15,A4,Towards LLM Accelerated Rapid Reviews for Software Tool Discovery -- Case for Log Anomaly Detection,drop
+2606.18444,2026-06-16,B2,TMR-GGNN: Credit Card Fraud Detection based on Time-Aware Multi-Relational Guided Graph Neural Network,keep
+2606.19245,2026-06-17,A1,TxBench-PP: Analyzing AI Agent Performance on Small-Molecule Preclinical Pharmacology,drop
+2606.18550,2026-06-17,A2,The Gate Is Only as Honest as Its Contracts: ContractGuard for the Contract Layer of Risk-Aware Causal Gating,drop
+2606.20758,2026-06-18,A4,"A Topology-Aware, Memory-Centric Architecture that Separates Root-Cause Derivation from Root-Cause Explanation",keep
+2606.21344,2026-06-19,A1,Mind the Noise: Sensitivity of Transformer-based Interaction-Aware Trajectory Prediction Models to Noisy Data,keep
+2606.21565,2026-06-19,A2,Composing Verifiable Conceptual Models via Building Blocks: Towards Design-Time Verification of Agentic AI Workflows,drop
+2606.21356,2026-06-19,B1,SOHET: Sequence Of Heterogeneous Events Transformer with Self-Supervised Pre-Training,keep
+2606.21963,2026-06-20,A2,Holmes: Multimodal Agentic Diagnosis for Mixed-Language Mobile Crashes at Industrial Scale,drop
+2606.22180,2026-06-20,B1,FeLoG: Scalable and Efficient Distributed Graph Embedding with Feedback Loop Mechanism,keep
+2606.22673,2026-06-21,A1; A3,Agent MechSuits: Mechanistic Subspace Safety Steering for Multi-Turn CLI Agents,keep
+2606.22613,2026-06-21,A2,SkillAudit: From Fixed-Suite Benchmarking to Skill-Centered Assessment,drop
+2606.22376,2026-06-21,A4,Vibe Calibration: Autonomous Bring-up of a 112-Qubit Superconducting Quantum Processor by a Skill-Orchestrating Language Agent,keep
+2606.24937,2026-06-22,A1,The Hitchhiker's Guide to Agentic AI: From Foundations to Systems,drop
+2606.23565,2026-06-22,A2,HoloAgent-0: A Unified Embodied Agent Framework with 3D Spatial Memory,keep
+2608.14590,2026-06-22,A2,"Toward Safe LLM Agents: A Survey of Specification, Verification, and Enforcement",drop
+2606.24193,2026-06-23,A1,SkyChain Intelligence: A Blockchain-Secured Multi-Agent DRL Framework for Low-Altitude Embodied Artificial Intelligence,drop
+2606.24311,2026-06-23,A2,LemonHarness Technical Report,keep
+2606.25007,2026-06-23,B1,Multi-Stream Temporal Fusion for Financial Fraud Detection,keep
+2606.24509,2026-06-23,B2,A Fair Evaluation of Graph Foundation Models for Node Property Prediction,drop
+2606.25599,2026-06-24,A1,Reference-Free Heterogeneous Multi-Agent Reinforcement Learning for Grid-Friendly Tie-Line Power Shaping in Industrial Microgrids,drop
+2606.26350,2026-06-24,A2,OpenFinGym: A Verifiable Multi-Task Gym Environment for Evaluating Quant Agents,keep
+2606.26859,2026-06-25,A1,AgentX: Towards Agent-Driven Self-Iteration of Industrial Recommender Systems,keep
+2606.27577,2026-06-25,A1,hia-gat: A Heterogeneous Interaction-Aware Graph Attention Network For Frame-Level Traffic Conflict Risk Prediction On Freeways,keep
+2606.26524,2026-06-25,A2,VIGIL: Runtime Enforcement of Behavioral Specifications in AI Agent Skills,keep
+2606.27202,2026-06-25,B2,Graph Neural Networks Applications Across Domains: All Insights You Need,keep
+2606.28467,2026-06-26,A4,An Agentic AI Pipeline for Appliance-Level Energy Anomaly Detection and LLM-Driven Recommendations,keep
+2606.28002,2026-06-26,B1,Dialogue to Detection: A Multimodal Hybrid NLP Pipeline for Insurance Fraud Detection,keep
+2606.28134,2026-06-26,B2,Beyond Sparse Supervision: Diffusion-Guided Learning for Few-Shot Graph Fraud Detection,drop
+2606.28804,2026-06-27,A1,ViPSim: Collaborating Visual and Parameter Spaces for Consistent Long-Horizon Embodied World Models,drop
+2606.28739,2026-06-27,A3,Agent Safety Is Action Alignment,drop
+2606.30383,2026-06-29,A1,Whose Side Is Your Agent On? Multi-Party Principal Loyalty in LLM Agents,keep
+2606.30877,2026-06-29,A1,A Systematic Approach to Multi-Agent AI from Advanced Regulatory Control Theory: Safe and Auditable LLM Operator Agents for Process Control,keep
+2607.02598,2026-07-01,A1,Evaluating Agentic Harness Systems for Autonomous Computational Pathology,keep
+2607.00911,2026-07-01,A2,"From Registry to Repository: How AI Agent Skills Are Written, Adapted, and Maintained",keep
+2607.00334,2026-07-01,A4,Managed Autonomy at Runtime: Gear-Based Safety and Governance for Single- and Multi-Agent Cyber-Physical Systems,keep
+2607.02496,2026-07-02,A1,Controllable Sim Agents with Behavior Latents,keep
+2607.20505,2026-07-02,A1,HERMES: Heterogeneous Edge-Relational Multi-Head Embedded SSM Attention for Traffic Conflict Prediction at Signalized Intersections,keep
+2607.01793,2026-07-02,A2,Safety Testing LLM Agents at Scale: From Risk Discovery to Evidence-Grounded Verification,keep
+2607.03554,2026-07-03,A1,Interception-Driven Inverse Reachability for Engagement Zone Construction,drop
+2607.02942,2026-07-03,A2,Serving Agentic Workflows with a Physical-Plan Compiler and Adaptive Runtime,drop
+2607.03628,2026-07-03,A4,Swarm-Driven Multi-Agent Reasoning for Smart City Security,keep
+2607.03968,2026-07-04,A3,"Refused in Chat, Written in Code: Workflow-Level Jailbreak Construction in IDE Coding Agents",drop
+2607.13056,2026-07-05,A1,HRIBench: Benchmarking Interaction-Centric Human-Robot Collaboration,drop
+2607.04542,2026-07-05,A2,Auto: The AGI Compiler,drop
+2607.04166,2026-07-05,B1,Piercing Gilbreath's Conjecture: From Deep Number Theory Insights to Fintech and Cybersecurity,keep
+2607.04689,2026-07-06,A1,A Reliable Context-Aware and Temporal Planning Framework for Autonomous Driving,keep
+2607.05705,2026-07-06,A1,IMR: Iterative Mode-World Weighted Regression for Multi-Agent Trajectory Prediction,drop
+2607.05483,2026-07-06,A2,PatchOptic for Shared-State LLM Workflows with Projected Views and Verified Structured Updates,drop
+2607.09764,2026-07-07,A1,OmniSCS: Omni Safety-Critical Scenario Synthesis for Autonomous Driving via a Fully Editable Driving World,drop
+2607.06700,2026-07-07,A1,CILC: Cryptographically-secure Inter-agent Loop Closure Candidate Detection for Multi-Agent Collaborative SLAM,keep
+2607.16269,2026-07-07,A2,From Intent to Infrastructure: LLM-Driven Agent Compilers for ISAC Networks,drop
+2607.07103,2026-07-08,A1,A knowledge-augmented dataset of high-risk driving scenarios with LLM annotations for autonomous driving,drop
+2607.07368,2026-07-08,A1,Multi-Agent AI Control: Distributed Attacks Hamper Per-Instance Monitors,keep
+2607.07474,2026-07-08,A1,Beyond Attack-Success Rate: Action-Graded Severity Scale for Tool-Using AI Agents,drop
+2607.07601,2026-07-08,A1,"CARLA-GS: Decoupling Representation, Reasoning, and Physics Simulation for Autonomous Driving Corner-Case Synthesis",drop
+2607.07774,2026-07-08,A1,ScopeJudge: Cost-Aware Pre-Execution Gating for Offensive Security Agents,keep
+2608.14613,2026-07-10,A2,Do LLM Agents Negotiate Rationally? A Mechanism-Design Framework for Verifiable Multi-Agent Interaction over A2A/MCP,drop
+2607.09641,2026-07-10,A4,Semantic Pareto-DQN: A Multi-Objective Reinforcement Learning Framework for Financial Anomaly Detection,drop
+2607.09528,2026-07-10,B1; B2,TSAI-MetaFraud: A Benchmark Dataset for Financial Fraud Transaction and Behavioral Risk Detection in Metaverse Ecosystems,keep
+2607.10113,2026-07-11,A1,Dynamic Agent Skills: A Lifecycle Survey and Taxonomy of Evolving Skill Libraries,keep
+2607.11948,2026-07-11,A1,Ontology-Amplified Distillation and Contextuality Auditing for Sovereign Enterprise Language Models: A Combined Proof-of-Mechanism and Negative-Results Method Study,keep
+2607.10487,2026-07-11,A2,"Temporary Authority, Permanent Effects: Commit-Time Authorization for LLM Agents",drop
+2607.10750,2026-07-12,A1,Filtering Harmful Actions Isn't Enough: Phantom Transfer in Agentic SDF,drop
+2608.16911,2026-07-12,A2,r2py: AI-Assisted Conversion of R Statistical Packages to Python,drop
+2607.13078,2026-07-12,B1,Operational Evidence Gaps for LLMs in Fraud Detection and Trust-and-Safety Workflows,drop
+2607.11698,2026-07-13,A1,Agent Hacks Agents: Autoresearch Discovers Vulnerabilities in Production Agents,drop
+2607.11751,2026-07-13,A2,When Local Monitors Miss Compositional Harm: Diagnosing Distributed Backdoors in Multi-Agent Systems,drop
+2607.11107,2026-07-13,B2,A Novel Graph Fraud Detector via Grouped Attribute Completion and Confidence-Aware Contrastive Learning,drop
+2607.12924,2026-07-14,A1,Knowledge- and Gradient-Guided Reinforcement Learning for Parametrized Action Markov Decision Processes,drop
+2607.13028,2026-07-14,A1,TerraZero: Procedural Driving Simulation for Zero-Demonstration Self-Play at Scale,drop
+2607.13172,2026-07-14,A1,Learning Safe Agent Behaviour from Human Preferences and Justifications via World Models,drop
+2607.12893,2026-07-14,A3,MemOps: Benchmarking Lifecycle Memory Operations in Long-Horizon Conversations,drop
+2607.13474,2026-07-15,A2,MyAG: A Graph-Based Framework for Designing and Analyzing Composable LLM Agent Systems,drop
+2607.13564,2026-07-15,B1,Manipulation testing based on Benford's Law for discrete scores,drop
+2607.14544,2026-07-16,A1,3D Geometric Tooth Alignment Planning via Deep Reinforcement Learning,drop
+2607.14553,2026-07-16,A2,Towards an Intention Abstraction Layer for Autonomous Industrial Systems,keep
+2607.14543,2026-07-16,A3,SafeRelBench: A Spatial-Relation-Aware Benchmark for Process-Level Safety in VLM-Driven Embodied Agents,drop
+2607.15862,2026-07-17,A1,PriEco-DRL: Joint Optimization of Electric-Bus Eco-Driving and Transit-Priority Adaptive Signals via Deep Reinforcement Learning,drop
+2607.16156,2026-07-17,A1,PRISA: Proactive Infrastructure LiDAR Framework for Intersection Safety Assessment,keep
+2607.16619,2026-07-18,A1,SAGE: A Socially-Aware Generative Engine for Heterogeneous Multi-Agent Navigation,keep
+2607.16956,2026-07-18,A1,G2-Nav: Grounded and Guarded Vision-Language Costmaps for Robot Social Navigation,keep
+2607.17007,2026-07-18,A1,ADMM-Based Safety-Critical Distributed NMPC for Cooperative Transportation by Quadrupedal Robots,drop
+2607.17521,2026-07-20,A1,GeoWorldAD: Geometry World Action Model for Autonomous Driving,drop
+2607.18366,2026-07-20,A1; A3,Operational Hallucination and Safety Drift in AI Agents,drop
+2607.19433,2026-07-20,A1,The Chronos Vulnerability: A Taxonomy of Temporal Persistence and Memory-Based Deception in Agentic AI,keep
+2607.18412,2026-07-20,B1,Scalable and Efficient Joint Spiking Embedding Predictive Architecture for Large-Scale Dynamic Graphs,keep
+2607.19449,2026-07-21,A1,Guardrails as Scapegoats: Auditing Unfaithful Safety Refusals in Tool-Augmented LLM Agents,keep
+2607.19284,2026-07-21,A1,Stochastic Multi-Objective Kinodynamic Planning Against Adversaries,drop
+2607.19321,2026-07-21,A1,ResearchArena: Evaluating Sabotage and Monitoring in Automated AI R&D,keep
+2607.21642,2026-07-21,A2,CARE: Pre-Execution Command Verification for Shell-Executing LLM Agents,drop
+2607.18616,2026-07-21,B1,Prediction of bank transaction fraud using TabNet an adaptive deep learning architecture,drop
+2607.19701,2026-07-22,A1,SafeGen: Goal-Conditioned Video Diffusion of Safety-Critical Scenarios for VLM-Based Autonomous Driving,drop
+2607.19913,2026-07-22,A1,JANUS: Foreseeing Latent Risk for Long-Horizon Agent Safety,drop
+2607.20352,2026-07-22,A1,Distributed Motion Planning with Safety Guarantees for Self-Reconfiguring Robotic Boats,drop
+2607.22758,2026-07-23,A1,Spectral Dynamics of Semantic Drift in Clinical Multi-Agent Language Model Networks,keep
+2607.22024,2026-07-24,A1,Agent Security Needs Redefinition through a Holistic Framework,drop
+2607.22242,2026-07-24,A2,Agentic CPU-GPU Scheduling for Heterogeneous AI Workloads,drop
+2608.07533,2026-07-26,A1,MetaSpace: Metamorphic Testing for Spatial Cognition in Embodied Agents,keep
+2607.23704,2026-07-26,A1,LabRobFail: A Benchmark for Robotic Failure Analysis in Chemical Self-driving Laboratory,keep
+2607.23532,2026-07-26,A2,Mission-Level Runtime Assurance for LLM-Assisted ISR Swarms over a Verification-Aware Fabric,drop
+2607.23718,2026-07-26,A2,Melo: A Production LLM-Powered Music Recommendation Agent,keep
+2607.24625,2026-07-27,A1,APPA: Recoverable Information-Flow Control for Real-World LLM Agents,keep
+2607.24339,2026-07-27,A2,"Gubernaut: A Deterministic Homeostatic Controller for Affect-Regulated LLM Agents, Validated Across Independent Model Families",drop
+2607.25754,2026-07-28,A1,Cooperative Multi-UAV Navigation in Complex Environments via Systematic Multi-Agent Deep Reinforcement Learning,keep
+2607.26314,2026-07-28,A1,StealthBench: Measuring Operational Stealth in Autonomous Offensive-Security Agents,keep
+2607.25283,2026-07-28,A2,ContractHIL-HLS: Contract-Aligned Multi-Agent Workflow with Hardware-in-the-Loop Feedback for HLS Design,drop
+2607.25921,2026-07-28,A4,Evaluating VLMs for Autonomous Agent-Driven Geometry Clipping Detection in Video Game QA,drop
+2607.26820,2026-07-29,A1,Forecasting Trajectory-Level Safety Risks in Black-Box Multi-Turn Interactions,keep
+2607.26910,2026-07-29,A1,CinemaTraj: Composing Atomic Camera Trajectories for 3D Scenes with LLM Agents,drop
+2607.26914,2026-07-29,A1,BioVLN: A Simulation Platform for Visual Language Navigation in Biomedical Laboratories,drop
+2607.27294,2026-07-29,A1; A2; A3,AgentS4D: Benchmarking Runtime Risks across the Execution Lifecycle of LLM-Based Workspace Agents,keep
+2609.01623,2026-07-29,A1,PRISM: An Agentic Multi-Model Architecture for Proactive Safety in Autonomous Transportation Systems,keep
+2609.11952,2026-07-30,A1,ChemMat-AgentSafetyBench: Evaluating Long-Horizon Attacks and Defenses in Chemistry and Materials Agents,drop
+2607.27690,2026-07-30,A1,LabEvolver: Training-Free Experience Evolution for Safe and Grounded Wet-Lab Agents,drop
+2607.28390,2026-07-30,A1,Hierarchical Multilevel Monte Carlo for Order-Optimal Neural Actor-Critic in Average-Reward CMDPs,drop
+2607.28520,2026-07-30,A1,Agents That Certify Their Own Exploits: Confidence-Scheduled Restricted Responses for Safe Opponent Exploitation,keep
+2607.29069,2026-07-31,A1,Rethinking AI Cloud Infrastructure for Agentic Serving Systems with the Aries Experimentation Framework,drop
+2607.29405,2026-07-31,A1,Beyond Component Testing: Validating Agentic AI Systems,keep
+2608.00320,2026-07-31,A1,Neural Operator Learning for Collision-Aware Trajectory Planning of Spacecraft Swarms,drop
+2607.29422,2026-07-31,A2,AgenticRepair: Multi-Faceted Program Context Engineering for Agentic Vulnerability Repair,keep
+2608.00540,2026-08-01,A1,"DiffuseAgent-MI: Distributionally-Grounded,Tool-Integrated Self-Evolving Agents for Faithful Visual Reasoning",keep
+2608.00613,2026-08-01,A1,From Failures to Supervision: DynamicEnvPlan for Robust Long-Horizon Embodied Planning,drop
+2608.00625,2026-08-01,A1,Learning-Based Motion Planning for Dynamic Environments: From Foundational Algorithms to Emerging Paradigms,drop
+2608.01193,2026-08-02,A1,Humans Are More Diverse: Frontier LLMs Show Extreme Policies in Idealised AI Development Races,keep
+2609.26072,2026-08-02,A1,Policy-Backed Selective Regeneration under Tainted Inter-Agent Communication,keep
+2608.01388,2026-08-02,A2; A3,Why Formal Monitors Fail: Attack Distribution Entropy as a Coverage Bound for LTL-Based LLM Agent Safety,keep
+2608.01085,2026-08-02,A4,When Collaboration Becomes a Trigger: Collective Evidence-Threshold Backdoors in Multi-Agent Systems,drop
+2608.01636,2026-08-03,A1,A Forward-Inverse Dynamic Game Framework for Enhanced Multi-Agent Trajectory Planning,drop
+2608.01759,2026-08-03,A1,"Benign Alone, Harmful Together: Exploiting Experience Composition in Self-Evolving LLM Agents",drop
+2608.01651,2026-08-03,A2,Bole: Efficient Tree Speculation for Hybrid-Attention Language Models,drop
+2608.02959,2026-08-03,A4,SABRE: A Multi-Agent Approach for Selecting Out-of-Distribution Detectors Under a Budget,drop
+2608.02168,2026-08-03,B2,Empowering Credit Risk Detection in Weixin Pay with Billion-Scale Deep Graph Learning,drop
+2608.03330,2026-08-04,A1,Long-term Traffic Scene Prediction via Polynomial Representations in Autonomous Driving,drop
+2608.03392,2026-08-04,A1,Self-Evolving Coding Agents,drop
+2608.03485,2026-08-04,A1,SkillSentry: Adaptive Honey Worlds for Dynamic Safety Testing of Agent Skills,drop
+2608.03509,2026-08-04,A1,SkillJack: Persistent Skill Backdoors in Self-Evolving Agents,keep
+2608.05199,2026-08-04,A1,Post-Hoc Trajectory-Risk Certification for Modular LLM-Based Security Agents,keep
+2608.04041,2026-08-04,A4,An Explainable LLM Agent Layer for Open-World Anomaly Detection in Oil Wells,drop
+2608.04565,2026-08-05,A1,Breadcrumbing Search Agents,drop
+2608.04776,2026-08-05,A1,NSF-HRPT: Neural Semantic Field meets Hierarchical Risk Perception Tree for Safety-Critical Scenario Assessment,drop
+2608.05144,2026-08-05,A2,Argus: A General-Purpose Agentic Reasoning Runtime for Long-Horizon Tasks,keep
+2608.05563,2026-08-06,A1,When Experience Becomes Instruction: Trajectory Poisoning in Self-Evolving Agent Skill Systems,drop
+2608.05695,2026-08-06,A1,DreamGuard: Efficient Runtime Guardrail for LLM Agents via Risk-Aware World Model,keep
+2608.06471,2026-08-06,A1,CyberForge: Verified Vulnerability Injection at Repository Level for Cybersecurity Agent Training,drop
+2608.05790,2026-08-06,A2,ChainClaw: A Layered Agent Framework for Reliable On-Chain Execution,keep
+2608.06862,2026-08-07,A1,SynChain: Inducing Computer-Use Agent Systems to Construct Their Own Attack Chains,drop
+2608.06909,2026-08-07,A1,Long-Horizon Agent Trajectory Attribution: A Unified Benchmark and Fine-Grained Annotation Framework,drop
+2609.38184,2026-08-07,A1,RealGUINoise: An Interactive Cross-Platform Benchmark for GUI Agent Robustness under Real-World Interface Noise,drop
+2608.07418,2026-08-07,A1,ResidencyRL: Reinforcement Learning in Simulated Clinical Environments,drop
+2608.07765,2026-08-07,A1,Information-Aware Model Predictive Control for Satellite Inspection,drop
+2608.07167,2026-08-07,A2,NiyamAI - An Intent-Bound AI Agent with Cryptographically Verifiable Guardrails using Zero-Knowledge Proofs,keep
+2608.07126,2026-08-07,A4,PHOENIX: Fine-Tuned SLM-Powered Autonomous Satellite Lifetime Extension via Predictive Self-Healing and Multi-Agent AI Recovery,drop
+2608.11260,2026-08-07,A4,"Glance, Scrutinize, and Think: Advancing Video Anomaly Detection from Training-Free to Agentic Reasoning",keep
+2608.08795,2026-08-09,A1,Toward Metacognitive One-Shot Indirect Prompt Injection: Strategy Abstraction Via Outcome-Conditioned Reflection,drop
+2608.09476,2026-08-10,A1,ActBench: Self-Evolving Benchmark of Behavioral Safety in Cowork Agents,keep
+2608.09885,2026-08-10,A1,SHE: Trajectory-driven Safety Harness Evolution for LLM Agents,drop
+2608.10153,2026-08-10,A1,The CASE Framework: A Multi-Disciplinary Control Architecture for Governing Enterprise Agentic AI,keep
+2608.09253,2026-08-10,A2,SkillSentry: Reliable Skill Execution for LLM Agents via Runtime Assurance,keep
+2608.10494,2026-08-11,A1,GeoForge: Non-Parametric Self-Evolving Agents for Earth-Observation Reasoning,drop
+2608.11274,2026-08-11,A1; A2,Agent Safety Should Be a Runtime Contract,keep
+2608.10915,2026-08-11,A1,ComBodied Agents: a New Paradigm of Human-Centric Agentic AI,drop
+2608.10775,2026-08-11,A2,SkillLens: Visual Skill Cards for Retrieval-Augmented GUI Action Prediction and On-Policy Distillation,drop
+2608.11592,2026-08-12,A1,Video2Track: From Real-World Interaction Videos to Steerable Adversarial Closed-Track Testing for Automated Driving Systems,keep
+2608.12273,2026-08-12,A1,Convergent Detour Hijacking: Task-Preserving Resource Amplification in Skill-Based LLM Agents,drop
+2608.11679,2026-08-12,A4,AgenticTwin: An Agentic LLM Framework Integrated with Digital Twin for Anomaly Detection,drop
+2608.12789,2026-08-13,A1,PIPES: Securing Agent Perception with Provenance and Priors,keep
+2608.13681,2026-08-13,A2,"Fine-Tuning Qwen3-27B for C-to-Rust Code Translation: A Three-Stage Curriculum of Pretraining, Debugging-Aware SFT, and Task-Specific SFT",drop
+2608.14765,2026-08-14,A3,Agentic Data Cleaning Without a Clean Reference: An Experimental Study of Capabilities and Trade-offs,keep
+2608.15709,2026-08-16,A2,Logos: Certified Order-Sensitive SQL Rewrites with Mechanized Semantics and LLM Guidance,drop
+2609.27773,2026-08-17,A1; A3,Beyond Unsafe Detection: Counterfactually Anchored Evidence Attribution for Multi-Turn LLM Safety Failures,keep
+2608.16411,2026-08-17,A1,Towards Risk-free AI Agent Deployment,keep
+2608.16620,2026-08-17,A1,"Palmyra x6 Technical Report: An Agentic, Tool-Use Model Post-Trained via Anchored Supervised Fine-Tuning",drop
+2608.17597,2026-08-18,A1,HarnessRisk: A Lifecycle-Oriented Benchmark for Agent Harness Safety,keep
+2608.17684,2026-08-18,A1,"Auditing Self-Evolution in Financial Agents: Capability Gains, Security Drift, and Execution-Interface Mismatch",keep
+2608.19380,2026-08-19,A1,CAViAR: A Causal Video Dataset for Fine-Grained Accident Reasoning in Real-World Scenarios,keep
+2608.18565,2026-08-19,A2,"SemaPLC: A Project-Grounded, Verification-Gated Agent Harness for PLC Code Generation",drop
+2608.19161,2026-08-19,A4,Beyond the Transcript: Detecting Covert Co ordination in Latent Multi-Agent Communication,keep
+2608.19729,2026-08-20,A1,SafeBranch: Branch-Pair Safety Alignment for Embodied Agents,drop
+2608.19964,2026-08-20,A1,G-MARK: Grounded Multi-Agent Reasoning for Cooperative Driving via Knowledge Graphs,drop
+2608.20614,2026-08-20,A1,"Evaluating Skills, Not Just Agents: Agentic Continuous Evaluation of Skills",drop
+2609.02919,2026-08-20,A2,Agent-Native Metamorphic Communication Fabric,drop
+2608.20485,2026-08-20,A2,Terminal Agents: A Survey of AI Agents in Command-Line Environments,keep
+2608.20797,2026-08-21,A1,Automated Trajectory Evaluation for Mobile Agents via Step-Level Consequence Reasoning and Aggregation,drop
+2608.21100,2026-08-21,A1,ReFrame: Evidence-Guided Test-Time Safety Alignment in Multimodal Large Language Models,drop
+2608.23623,2026-08-22,A1,When May an Agent Stop? Evidence-Carrying Termination for Tool-Using LLMs,drop
+2608.21867,2026-08-22,A2,MemGuard: Persisting Verifier Signals for LLM-Agent Memory Governance,keep
+2608.22615,2026-08-23,A1,DeepSAGE: Stage-Aware Reinforcement Learning for Structured CBT Counseling Dialogue,drop
+2608.22618,2026-08-23,A1,KMGen: A Skill-based Approach for Synthetic Individual Patient Data Generation,drop
+2608.23181,2026-08-24,A1,CyberFactory: Scaling Cyber Security Capabilities with Instances from the Wild,keep
+2608.23839,2026-08-24,A1,"Resilience Matters for Embodied Agents System: New Metrics, Systematic Evaluation, and Optimization",drop
+2608.22868,2026-08-24,A2; A3,AgentFlow: A Flow-Centric Policy Language and Framework for Securing LLM Agent Systems,keep
+2608.23035,2026-08-24,A2,MobilePA-Bench: Benchmarking Mobile Planner Agents on Complex Real-World Tasks,keep
+2608.23670,2026-08-24,A2,Automata from Agent Traces: Failure and Next-Step Prediction,keep
+2608.23688,2026-08-24,A4,Agentic Active Learning Meets Visual Embeddings: Finding Anomalies among 370 000 Variable Stars from ASAS-SN,drop
+2609.29522,2026-08-25,A1; A2,Stale Does Not Mean Unsafe: Guard Precision for Tool-Using LLM Agents under Infrastructure State Races,keep
+2608.24275,2026-08-25,A1,RePolicy: Reinforcement Learning for Safety-Policy Invocation in Agent Safeguards,keep
+2608.24777,2026-08-25,A1,StepGuard: Learning Step-Level Guardrails with Scalable Supervision and Safety-Utility Balancing,keep
+2608.24011,2026-08-25,A2,SAGE: From Direct Answering to Evidence-Grounded Inference for Chinese Ancient Document Understanding,keep
+2608.25711,2026-08-26,A1,Reassembling Distributed Risk: Trajectory-Conditioned Action Generation for Multi-Turn Agent Safety,drop
+2608.25817,2026-08-26,A1; A2,SkillShield: Prompt-Space Security Skills for LLM Coding Agents,keep
+2608.25905,2026-08-26,A1,"Answer Is Cheap, Show Me the Evidence! Augmenting Automated Vulnerability Assessment with Evidence",drop
+2608.26237,2026-08-26,A1,How Do LLM Agents Actually Get the Flag? Trace-Level Provenance for Agentic Offensive Security Evaluation,keep
+2608.25518,2026-08-26,A2,Agentic Game Development as a Verifiable Trajectory Data Engine for Scaling World Models,keep
+2608.26226,2026-08-26,A4,LLM Agents for Time-Series: A Survey,drop
+2608.25935,2026-08-26,A4,TAU-Agent: An Agentic Retrieval-Augmented Framework for Traffic Anomaly Understanding,keep
+2608.27496,2026-08-27,A1,ROPE: Routed Origin Policy Enforcement against Indirect Prompt Injection,keep
+2608.26533,2026-08-27,A1,Barrier Function Conformal Safety Clearance Certification with CVaR for Driving Trajectory Selection,drop
+2609.22178,2026-08-27,A1,Beyond Task Completion: Training Capable and Safe Computer-Use Agents,drop
+2608.27141,2026-08-27,A1,Safety Does Not Compose: Non-Decaying Loop State for Autonomous LLM Agents,keep
+2608.27348,2026-08-27,A1,INTENT-AS-A-TOOL Makes it Easy to Track Agentic Misalignment,keep
+2608.27726,2026-08-27,A1,Coordinated Motion Planning for Multi-Arm Systems via Iterative LQ Games,drop
+2608.26557,2026-08-27,A2,DeepRepro: State-Aware Subplanning for Paper-to-Code Reproduction in Evolving Repositories,keep
+2608.27311,2026-08-27,A2,"Verify Smarter, Evolve Further: Efficient Harness Evolution through Behavior-Aware Verification",keep
+2608.27182,2026-08-27,A4,TraceBench: Controlled Evaluation of LLM Agents for Time-Series Root-Cause Attribution,keep
+2608.27800,2026-08-28,A1,ContextLeak: Exfiltrating LLM Agent Context via Malicious Tools,drop
+2608.27973,2026-08-28,A1,Toward Secure Communications for a UAV Swarm with Movable Antennas in SAGIN: CKM-Enabled Multi-Agent Reinforcement Learning Framework,drop
+2608.28490,2026-08-28,A1,"LLM-Based Agents for Software and Systems Security: Approaches, Applications, and Assessment",keep
+2608.27808,2026-08-28,A2,CURA: Certified Runtime Alarms for Computer-Use Agents,keep
+2608.27990,2026-08-28,A2,CAITLYN: Can LLM Agents Autonomously Synthesize Defenses against Emerging Injection Attacks?,drop
+2608.28363,2026-08-28,A2,EvoUndo: Recoverability-Constrained Self-Evolution for LLM Agent Harnesses,drop
+2608.28400,2026-08-28,A2,When Verified Source Becomes Attack Input: Defending Smart Contracts Against LLM-Based Vulnerability Scanning,drop
+2608.29772,2026-08-30,A1,Self-Aware Active Learning Enables Continual Improvement in Autonomous Driving,drop
+2609.29686,2026-08-30,A1,TransCAVE-E: A distributed virtual reality testbed for adaptive external human-machine interfaces,drop
+2608.29596,2026-08-30,A2,"A Systematic Survey of Agentic Skills: Architecture, Lifecycle, and Security",keep
+2608.29646,2026-08-30,A4,Detect Before You Attribute: Cascade Failure Attribution for Multi-Agent Systems,keep
+2608.29973,2026-08-30,B1,"An Open-Source, Event-Driven Pipeline for Cryptocurrency Market Data: Ingestion, Forecasting, and On-Chain Fraud Detection",keep
+2608.30441,2026-08-31,A1,ECLIPSE: Self-Evolving Stealthy Prompt Injection Attack against Long-Horizon Agentic Systems,keep
+2608.30387,2026-08-31,A2,Attesting Outputs and Delegation Ancestry in Multi-Agent AI Systems,drop
+2609.01035,2026-09-01,A1,"Spawn Freely, Act Sparingly: Progressive Risk Vesting for Recursive LLM-Agent Trees",drop
+2609.01185,2026-09-01,A1,Reveree: Diagnosing LLM Reverse-Engineering Agents,drop
+2609.01428,2026-09-01,A1,TRIAGE: Three-level Routing and Intelligent Agent Guidance for Efficient Execution,keep
+2609.13236,2026-09-02,A1,"Self-Evolving AI for Humanoids: Mechanisms, Safety, and Evaluation of Post-Deployment Self-Improvement",keep
+2609.02786,2026-09-02,A1,SafeEvolve: Harness-Policy Co-Evolution from Agent Experience for Safety Alignment,keep
+2609.02088,2026-09-02,A2,Rendering-in-the-Loop: An Execution-Driven Agent for Interactive Web Development,keep
+2609.04286,2026-09-03,A1,"From Matching Models to Recruiting Agents: A Systematized Narrative Review of AI Recruitment Systems, Evaluation, and Governance",keep
+2609.03999,2026-09-03,A2,Shifting from Injection to Interaction: Rethinking Web Security in the Age of LLMs and Beyond,drop
+2609.04921,2026-09-04,A1,"One Diffusion Model, Two Roles: Guided Trajectory Planning and Safety-Critical Scenario Generation in Closed-Loop Simulation",drop
+2609.05335,2026-09-04,A2,"The History Is the Detector: Executing CVE Patch History, End-to-End",keep
+2609.05903,2026-09-05,A1,EvoSafeHarness: Evolving Model- and Domain-Specific Harnesses for Securing Agents,drop
+2609.05911,2026-09-05,A1,"Structurally Close, Temporally Distant: Measuring Security Exposure in Long-Horizon LLM Agents",drop
+2609.05992,2026-09-05,A1,MOAE: Multi-Objective Agent Evolution with Pareto-Preserving Search,drop
+2609.05995,2026-09-05,A1,Agentic Pressure: The Endogenous Entropy of Reliable Autonomy,drop
+2609.06433,2026-09-06,A1,Collision Snapshot Guided Time-Reversed Safety-Critical Scenario Generation,drop
+2609.06783,2026-09-06,A1,AURA-Eval: Evaluation Framework for Acting Under Risk Awareness in LLM Agent Trajectories,keep
+2609.07529,2026-09-07,A1,CoER: Defending against Adaptive Indirect Prompt Injection via Adversarial Co-Evolution and Refinement,keep
+2609.07675,2026-09-07,A1,Your Agent Says Yes: Interpreting Adversarial Market Behavior Beyond Individual Transactions,drop
+2609.07782,2026-09-07,A1; A2,TrajectoryDB: A New Database for Agent Trajectories,keep
+2609.07984,2026-09-07,A2,From Event Logs to Governed Action: A BlueSky Agenda for Agentic Process Mining,drop
+2609.06976,2026-09-07,A4,HealthLoopQA: A Context-Aware Question Answering Benchmark for Interpreting Wearable Monitoring Data in Diabetes Care,keep
+2609.09384,2026-09-08,A1,Networked Admissibility-Preserving Control for Directed Safe Coordination,drop
+2609.09448,2026-09-08,A1,Do Agents Know When They Succeed? Calibrating Agent Confidence from Internal Representations,keep
+2609.10762,2026-09-09,A2,Beyond Static Guarantees: Measuring the Static-Pass Dynamic-Fail Gap in Security-Sensitive and LLM-Generated Python Code,drop
+2609.11993,2026-09-09,B1,FINESSE: An Agent-Based Simulator and Benchmark Dataset for Multimodal Financial Event Sequences,keep
+2609.11043,2026-09-10,A1,LTLDiff: Finite Linear Temporal Logic-Guided Data Generation and Diffusion Policies for Multi-agent Robotic Manipulation,drop
+2610.00151,2026-09-10,A2; A4,Intrusion Detection for Agentic Processes: Evidence-Based Runtime Monitoring,keep
+2609.12276,2026-09-10,A2,AKTS: Sub-Microsecond Kernel Policy Switching for Language-Model Agents,drop
+2609.12371,2026-09-11,A1,READ: Learning Risk-Informed Fields for End-to-End Autonomous Driving,drop
+2609.13353,2026-09-11,A1,SkillAtlas: An Attack Trace Library for Agent Skills,drop
+2609.12413,2026-09-11,A3,"SoK: Rethinking Jailbreaking in the Era of Agentic AI: Attacks, Defenses, and Practical Consideration",drop
+2609.14075,2026-09-12,A1,Predefined-Time Integral Reinforcement Learning for Saturated Unknown Nonlinear Multi-Agent Systems Under FDI Attacks and Disturbances,drop
+2609.14413,2026-09-13,A2,A Hybrid Dependency-Aware Framework for Task Decomposition and Dynamic Agent Generation in Oracle-to-PostgreSQL Migration,drop
+2609.20301,2026-09-14,A1,AgentPProf: Semantic Profiler for Long Horizon AI Agents,drop
+2609.14987,2026-09-14,A1,ActGuard: Pre-execution Action Auditing against Indirect Prompt Injection in LLM Agents,keep
+2609.15803,2026-09-14,A1,Delegating Authorization to Misaligned Agents: Coalitional Alignment and Safe Control,drop
+2609.16287,2026-09-14,A1,AgentGuard: Learning Execution Guardrails from Anomalous Coding-Agent Trajectories,keep
+2609.16305,2026-09-14,A1,BLINDSPOT: A Benchmark for Safety and Refusal Calibration in Long-Horizon Tool-Using Agents,drop
+2609.16098,2026-09-14,A4,Universal Defenses for Tool-Integrated LLM Agents Against Adversarial Attacks,keep
+2609.16724,2026-09-15,A1,CorrRisk-WM: Corridor-Conditioned Risk World Modeling for Safety-Critical Trajectory Planning,drop
+2609.16958,2026-09-15,A1,Waggle Dance Inspired Motion Communication for Multiple UAVs in MuJoCo,drop
+2609.18128,2026-09-16,A1; A3,Symbolic Temporal Supervision of LLM Agents Using Contracts,keep
+2609.22325,2026-09-16,A2,ReliCAD: From Uncertain LLM Generation to Reliable Parametric CAD Modeling,drop
+2609.18674,2026-09-16,A2; A3,CaMeLoT: CaMeL orchestrated with Temporal logic for static verification and liveness,keep
+2609.19524,2026-09-17,A1,"A Unified Evaluation Framework for Trustworthy Large Language Models, Agentic AI, and Multimodal Systems",keep
+2609.19892,2026-09-17,A1,ClashBench: Conflicts Leading Agents to Seize and Harm,drop
+2609.19527,2026-09-17,A2,"AURORA: A Natural Language-Driven Agentic Framework for Understanding, Reasoning, and Orchestrating Reliable Air-Ground Co-Simulation",keep
+2609.20625,2026-09-17,A3,Chronicle: Cut-Point Replay for Regression Testing of LLM Agents,drop
+2609.22664,2026-09-19,A1,From Capability to Assurance in Autonomous Penetration-Testing Harnesses: A Framework and Reference Implementation,keep
+2609.22724,2026-09-19,A1,MATE: Policy-Aware Security Auditing for Mobile Agents via Synthesis-Driven Trajectory Learning,keep
+2609.22792,2026-09-19,A1,SelfOp: An Optimization Algorithm for Self-Improving Security Agents,keep
+2609.35807,2026-09-19,A1,Environment Steering: Using Data Flow Control to Improve Agent Utility and Safety,keep
+2609.22818,2026-09-19,A4,The Price of Safety: Benign-Case Utility and Token Overhead of Memory-Poisoning Defenses in LLM Agents,drop
+2609.22870,2026-09-19,A4,Towards Full Pipeline FP8 Reinforcement Learning for LLMs,drop
+2609.22949,2026-09-19,A4,Beyond Single-Model Injection: A Threat Model and Defense Architecture for Prompt Injection in Multi-Agent Systems,drop
+2609.23848,2026-09-20,A1,Anytime-Feasible Gradient Descent for Constrained Optimization Under Gradient Uncertainty,drop
+2609.23490,2026-09-20,A2,BabelArena: A Large-Scale Multilingual Benchmark for LLM Agents,keep
+2609.23700,2026-09-20,A2,When the Agent Becomes the Kernel: A Systematization of Security on the Path to AI-Native Operating Systems,drop
+2609.23498,2026-09-20,A3,Runtime Authorization Consistency Checking for MCP-based Agentic Workflows,drop
+2609.24703,2026-09-21,A1,Offline Reinforcement Learning for Distribution-Grid Protection,drop
+2609.24967,2026-09-21,A1,Emergent Collusion in Long-Horizon LLM Agent Interaction,keep
+2609.26048,2026-09-22,A2,FIRE: Failure-Informed Runtime Engineering for Reliable Language-Model Agents,drop
+2609.26891,2026-09-22,A2,Harness as a Language: A Minimalist Agent Framework With Maximal Expressivity,keep
+2609.27463,2026-09-23,A1,Safety-Filtered Distributed Koopman-MPC,drop
+2609.28559,2026-09-23,A1; A2,Who Is Behind the Harness? Fingerprinting LLMs through Agentic Behavior,keep
+2609.28197,2026-09-23,A1,PASTABench: Proactive Assessment of Sequential Trajectories for Agent Safety,keep
+2609.30325,2026-09-23,A1,ScopeBench: Do Agents Preserve Engagement Boundaries Under Goal Pressure?,keep
+2609.27249,2026-09-23,A2,From PyTorch to the NPU: LLM-Agent-Driven Model Conversion Across Heterogeneous Inference Runtimes,drop
+2609.28557,2026-09-23,A4,BaseCamp --- An Agentic AI Framework for Automating DNA Sequencing Data Pipelines,keep
+2609.28843,2026-09-23,A4,Blockchain-Enabled Artificial Intelligence and AI Agents for Secure Data Sharing and Cybersecurity Applications,drop
+2609.27287,2026-09-23,B1,SR-Fraud: An Outcome-Supervised Reflective LLM Agent Framework for Non-Stationary Payment Fraud Detection,keep
+2609.29454,2026-09-24,A1,"Demystifying Agent Skills for Smart Contract Auditing: Design, Effectiveness, Behavioral Impact",keep
+2609.29892,2026-09-24,A2,Qwen-Planner-Agent: A Closed-Loop AI-for-AI Framework for Real-World Mobile Planner Agents,keep
+2609.30217,2026-09-24,A2,Instrumental Monitor Evasion Emerges Under Ordinary Task Pressure,keep
+2609.30383,2026-09-24,A2,"Stealth Apart, Harm Together: Skill Cascading Attacks on Skill-Based Agent Systems",keep
+2609.30690,2026-09-25,A1,Threat-Aware Energy-Efficient Deployment for Dynamic UAV Networks: A Multi-Agent RL Approach,drop
+2609.30734,2026-09-25,A1,Learning What to Skip: Counterfactual Credit Assignment for Efficient Multi-Agent LLM Workflows,keep
+2610.00285,2026-09-25,A1,Runtime Assurance Under Measurement Attack: Necessary and Sufficient Observability Conditions for Learned Control in Radio Access Networks,keep
+2609.31186,2026-09-25,A1,"Evolutionary Safety of Recursive Self-Improving AI: Taxonomy, Risk Discovery, and Evaluation",drop
+2609.31282,2026-09-25,A2,Resource-Optimized and Energy-Aware Agentic AI Framework Anchored on Blockchain for Secure Software Supply Chains,keep
+2609.32616,2026-09-26,A1,"""You're Right, Let Me Fix It"": How LLM Agents Damage Correct Work When Falsely Accused",keep
+2609.32635,2026-09-26,A1,"Trust the Brand, Lose Control: How Identity Hijacks LLM Agent Orchestration",keep
+2609.35870,2026-09-26,A1,"Says Block, Still Acts: Why LLM Safety Judgments Fail to Govern Action in LLM Agents",drop
+2609.32106,2026-09-26,B1; B2,An Attention-Driven Heterogeneous GNN Model for Credit Card Fraud Detection,drop
+2609.33039,2026-09-27,A1; A3,Agent Safety From Within: Detecting Harmful Trajectories from LLM Internal States,keep
+2609.33658,2026-09-27,A1,AgentBoundary: Counterfactual Evaluation of Safety in Tool-Using LLM Agents,drop
+2609.33315,2026-09-27,A2,AgentLoop: Runtime Control of Slot-closed Execution Loops for Tool-augmented LLM Agents,drop
+2609.33914,2026-09-27,A2,A2A-CaseVerify: Merkle-Linked Case-Evidence Verification for Cross-Organization A2A Workflows,drop
+2609.34080,2026-09-28,A1,LoRo-Mark:Provably Lossless and Robust Agent Watermarking,keep
+2609.34415,2026-09-28,A1,PROACT-Agent: Progressive Runtime Oversight and Active Circuit-breaking for Real-Time Safety,keep
+2609.34686,2026-09-28,A1,Jailbreak Context Lingers: Divergent Safety Routing and Its Cross-Task Predictability in Tool Agents,drop
+2609.34862,2026-09-28,A1,JEV as a Judge for Agent Trace Security: An Empirical Comparison with Generative LLM Judges,drop
+2609.35199,2026-09-28,A1,Trajectory-Level Security Debt in LLM Coding Agents,drop
+2609.35596,2026-09-28,A1; A3,SEABench: Benchmarking Endogenous Misalignment In Self-Evolving Agents,keep
+2609.36201,2026-09-28,A1,SCOUT: Synergizing Reasoning and Tool-Use for Computer-Use Safety,keep
+2609.34134,2026-09-28,A2,StateGuard: Analytical-State Management with Validity-Aware Intervention for Long-Horizon Data Agents,keep
+2609.34268,2026-09-28,A2,SAGE: Symbolic Action-Gating and Editing for LLM Task Planners,drop
+2609.35909,2026-09-28,A2,"Cheap to Hypothesize, Costly to Verify: The Defense Surface of Agentic Vulnerability Discovery",keep
+2609.34974,2026-09-28,A2,"Before Acting, Change the State: Prospective State Intervention for Web Agents under Deceptive Interfaces",keep
+2609.34211,2026-09-28,B1,Behavior-Grounded Semantic Enrichment for Financial Fraud Modeling and Reasoning,keep
+2609.36603,2026-09-29,A1,Self-Evolving Defense: Continual Security Policy Learning for LLM Agents,drop
+2609.36851,2026-09-29,A1,RoXDrive: Closed-Loop Reinforcement Learning for End-to-End Autonomous Driving via Action-Faithful Rollouts,drop
+2609.37022,2026-09-29,A1,Physics-Informed Multi-Agent Coordination for Hospital Patient Flow Optimization,drop
+2609.37871,2026-09-29,A1,ExceptionDrive: A Planning-Oriented Counterfactual Corner-Case Benchmark for Autonomous Driving,keep
+2609.38606,2026-09-29,A1,SecureVibe: Making Vibe Coding More Secure,drop
+2609.37196,2026-09-29,A2,ToolFence: Fine-Grained Authorization for Secure Tool-Using LLM Agents,drop
+2609.38291,2026-09-29,A2,HARDE: Optimizing Agent Harnesses for Runtime Risk Detection and Execution Control,drop
+2609.37819,2026-09-29,A3,Making Duplicate Reimbursement Unrepresentable: A Verified Ethereum E-Invoice System for Humans and AI Agents,keep
+2609.36556,2026-09-29,A4,MAADBench: The Refreshable Paradigm for Anomaly Detection in Multi-Agent Systems,drop
+2609.38718,2026-09-30,A1,"MetaSteer: Context-Conditioned, nonlinear Steering via Attention-Projection Adaptation",drop
+2609.39549,2026-09-30,A1,Speculative Safety Honeypot: Toward Proactive Defense Against Multi-turn Agent Attacks,keep
