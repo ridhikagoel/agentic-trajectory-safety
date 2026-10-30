@@ -42,3 +42,34 @@ idx,arxiv_id,title,state_scope,production_data
 78,2607.09528,TSAI-MetaFraud: A Benchmark Dataset for Financial Fraud Transaction and Behavioral Risk Detection in Metaverse Ecosystems,both,N
 82,2609.27287,SR-Fraud: An Outcome-Supervised Reflective LLM Agent Framework for Non-Stationary Payment Fraud Detection,sequence,Y
 83,2609.34211,Behavior-Grounded Semantic Enrichment for Financial Fraud Modeling and Reasoning,sequence,N
+S5-0,2306.06108,Demystifying Fraudulent Transactions and Illicit Nodes in the Bitcoin Network for Financial Forensics,graph,N
+S5-1,2309.13662,Topology-Agnostic Detection of Temporal Money Laundering Flows in Billion-Scale Transactions,both,Y
+S5-6,2509.18719,LLM-Enhanced Self-Evolving Reinforcement Learning for Multi-Step E-Commerce Payment Fraud Risk Detection,sequence,Y
+S5-22,anovelmoneylaunderingpredictionmodelbasedonadynamicgraphconvolutionalneuralnetworkandlongshorttermmemory,A Novel Money Laundering Prediction Model Based on a Dynamic Graph Convolutional Neural Network and Long Short-Term Memory,both,N
+S5-23,atemporalgraphnetworkalgorithmfordetectingfraudulenttransactionsononlinepaymentplatforms,A Temporal Graph Network Algorithm for Detecting Fraudulent Transactions on Online Payment Platforms,both,Y
+S5-24,catalogexploitingjointtemporaldependenciesforenhancedphishingdetectiononethereum,CATALOG: Exploiting Joint Temporal Dependencies for Enhanced Phishing Detection on Ethereum,sequence,N
+S5-25,costsensitivelearningformedicalinsurancefrauddetectionwithtemporalinformation,Cost-Sensitive Learning for Medical Insurance Fraud Detection With Temporal Information,sequence,N
+S5-26,detectingethereumphishingscamswithtemporalmotiffeaturesofsubgraph,Detecting Ethereum Phishing Scams with Temporal Motif Features of Subgraph,both,N
+S5-27,enhancingattributedrivenfrauddetectionwithriskawaregraphrepresentation,Enhancing Attribute-Driven Fraud Detection With Risk-Aware Graph Representation,graph,Y
+S5-28,ewdpsanovelframeworkforearlywarninganddetectiononethereumphishingscams,EWDPS: A Novel Framework for Early Warning and Detection on Ethereum Phishing Scams,both,N
+S5-29,fraudgnnrlagraphneuralnetworkwithreinforcementlearningforadaptivefinancialfrauddetection,FraudGNN-RL: A Graph Neural Network With Reinforcement Learning for Adaptive Financial Fraud Detection,graph,Y
+S5-30,grabphisherphishingscamsdetectioninethereumviatemporallyevolvinggnns,GrabPhisher: Phishing Scams Detection in Ethereum via Temporally Evolving GNNs,both,N
+S5-31,identifyingincoherentsearchsessionssearchclickfraudremediationunderrealworldconstraints,Identifying Incoherent Search Sessions: Search Click Fraud Remediation Under Real-World Constraints,sequence,ID
+S5-32,knowledgegraphdrivengenerativeframeworkforinterpretablefinancialfrauddetection,Knowledge Graph-Driven Generative Framework for Interpretable Financial Fraud Detection,graph,ID
+S5-33,machinelearningbasedunsupervisedensembleapproachfordetectingnewmoneylaunderingtypologiesintransactiongraphs,MACHINE LEARNING-BASED UNSUPERVISED ENSEMBLE APPROACH FOR DETECTING NEW MONEY LAUNDERING TYPOLOGIES IN TRANSACTION GRAPHS,both,N
+S5-34,mintdetectingfraudulentbehaviorsfromtimeseriesrelationaldata,MINT: Detecting Fraudulent Behaviors from Time-series Relational Data,both,Y
+S5-35,mitigatingthetaileffectinfrauddetectionbycommunityenhancedmultirelationgraphneuralnetworks,Mitigating the Tail Effect in Fraud Detection by Community Enhanced Multi-Relation Graph Neural Networks,graph,Y
+S5-36,multidistancespatialtemporalgraphneuralnetworkforanomalydetectioninblockchaintransactions,Multi‐Distance Spatial‐Temporal Graph Neural Network for Anomaly Detection in Blockchain Transactions,both,N
+S5-37,multihoprelationalmodelingforcreditfrauddetectionviagraphneuralnetworks,Multi-Hop Relational Modeling for Credit Fraud Detection via Graph Neural Networks,graph,N
+S5-38,profitordeceitmitigatingpumpanddumpindefiviagraphandcontrastivelearning,Profit or Deceit? Mitigating Pump and Dump in DeFi via Graph and Contrastive Learning,graph,N
+S5-39,removingcamouflageandrevealingcollusionleveraginggangcrimepatterninfraudsterdetection,Removing Camouflage and Revealing Collusion: Leveraging Gang-crime Pattern in Fraudster Detection,both,ID
+S5-40,scalablesemisupervisedgraphlearningtechniquesforantimoneylaundering,Scalable Semi-Supervised Graph Learning Techniques for Anti Money Laundering,graph,N
+S5-41,sequenceasgenesanuserbehaviormodelingframeworkforfraudtransactiondetectioninecommerce,Sequence As Genes: An User Behavior Modeling Framework for Fraud Transaction Detection in E-commerce,sequence,Y
+S5-42,siegeselfsupervisedincrementaldeepgraphlearningforethereumphishingscamdetection,SIEGE: Self-Supervised Incremental Deep Graph Learning for Ethereum Phishing Scam Detection,graph,N
+S5-43,tgattemporalgraphattentionnetworkforblockchainphishingscamsdetection,TGAT: Temporal Graph Attention Network for Blockchain Phishing Scams Detection,both,N
+S5-44,timeawareattentionbasedgatednetworkforcreditcardfrauddetectionbyextractingtransactionalbehaviors,Time-Aware Attention-Based Gated Network for Credit Card Fraud Detection by Extracting Transactional Behaviors,sequence,Y
+S5-45,tokenscoutearlydetectionofethereumscamtokensviatemporalgraphlearning,TokenScout: Early Detection of Ethereum Scam Tokens via Temporal Graph Learning,both,N
+S5-46,transactiongpttowardfoundationaltransactionmodeling,TransactionGPT: Toward Foundational Transaction Modeling,sequence,Y
+S5-47,tropicaltransformerbasedhypergraphlearningforcamouflagedfraudsterdetection,TROPICAL: Transformer-Based Hypergraph Learning for Camouflaged Fraudster Detection,graph,ID
+S5-48,graphbasedbitcoinfrauddetectionusingvariationalgraphautoencodersandsupervisedlearning,Graph-Based Bitcoin Fraud Detection Using Variational Graph Autoencoders and Supervised Learning,graph,N
+S5-49,investigatingtheimpactofstructuralandtemporalbehaviorsinethereumphishingusersdetection,Investigating the impact of structural and temporal behaviors in Ethereum phishing users detection,both,N

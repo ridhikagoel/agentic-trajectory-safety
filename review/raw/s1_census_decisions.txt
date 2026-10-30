@@ -1,0 +1,153 @@
+CVE-2025-12695|include|census: agent consuming user input runs code in over-permissive PythonInterpreter sandbox
+CVE-2025-32018|include|census: agent prompted via crafted context writes outside workspace
+CVE-2025-46725|include|census: attacker makes agent run commands via QueryPlan dataframe_calc
+CVE-2025-5273|include|census: crafted prompt accessed by MCP host makes agent read arbitrary files
+CVE-2025-5276|include|census: crafted prompt makes agent invoke fetch tools to attacker URLs
+CVE-2025-5277|include|census: crafted prompt accessed by MCP client runs commands
+CVE-2025-54377|include|census: agent command allow-list bypassed via line breaks
+CVE-2025-59829|include|census: agent permission deny rules bypassed via symlink
+CVE-2025-64755|include|census: agent read-only validation bypassed via sed parsing
+CVE-2025-65946|include|census: agent auto-executed commands outside allow-list prefixes
+CVE-2025-53773|exclude|E-DUP: already included as S4 known item
+CVE-2025-47777|exclude|E-NOAGENT: client-side rendering
+CVE-2025-51859|exclude|E-NOAGENT: client-side rendering
+CVE-2025-66222|exclude|E-NOAGENT: client-side rendering
+CVE-2025-11445|exclude|E-DETAIL: no agent path described
+CVE-2025-53774|exclude|E-DETAIL: no agent path described
+CVE-2025-53787|exclude|E-DETAIL: no agent path described
+CVE-2025-59252|exclude|E-DETAIL: no agent path described
+CVE-2025-59272|exclude|E-DETAIL: no agent path described
+CVE-2025-59286|exclude|E-DETAIL: no agent path described
+CVE-2025-62222|exclude|E-DETAIL: no agent path described
+CVE-2025-62449|exclude|E-DETAIL: no agent path described
+CVE-2025-62453|exclude|E-DETAIL: no agent path described
+CVE-2025-64660|exclude|E-DETAIL: no agent path described
+CVE-2025-64671|exclude|E-DETAIL: no agent path described
+CVE-2025-65719|exclude|E-DETAIL: no agent path described
+CVE-2025-59536|exclude|E-NONAI: startup execution before trust dialog, no agent action (precedent CVE-2026-33068)
+CVE-2025-59828|exclude|E-NONAI: startup execution before trust dialog, no agent action (precedent CVE-2026-33068)
+CVE-2025-65099|exclude|E-NONAI: startup execution before trust dialog, no agent action (precedent CVE-2026-33068)
+CVE-2025-64109|exclude|E-NONAI: startup auto-execution of repo MCP config, no agent action (precedent CVE-2026-57860)
+CVE-2026-100547|include|census: untrusted ACP peer gets out-of-scope file read past agent approval prompt
+CVE-2026-100633|include|census: in-app Agent/MCP file tools bypass sensitive-path denylist; grep classed safe with no confirmation
+CVE-2026-14540|include|census: malicious data-driven prompt supplies path param causing SSRF via redirect
+CVE-2026-20265|include|census: insecure allowlist fails to restrict outbound AI agent requests
+CVE-2026-2256|include|census: command injection through crafted prompt-derived input
+CVE-2026-22686|include|census: sandbox escape from AI agent code-execution sandbox
+CVE-2026-25533|include|census: sandbox escape from AI agent code-execution sandbox (layered guards bypassed)
+CVE-2026-22687|include|census: prompt-based bypass of agent database-query tool restrictions
+CVE-2026-24052|include|census: agent WebFetch trusted-domain check (startsWith) bypassed
+CVE-2026-25723|include|census: agent file-write restriction bypassed via piped sed/echo
+CVE-2026-25724|include|census: agent deny rules bypassed via symlink
+CVE-2026-25725|include|census: code in agent sandbox writes unprotected settings.json hooks
+CVE-2026-26322|include|census: tool-supplied gatewayUrl (direct or indirect tool invocation) not restricted
+CVE-2026-26325|include|census: agent exec allowlist/approval evaluated on different argv than executed
+CVE-2026-27001|include|census: workspace path injected into agent system prompt as instructions
+CVE-2026-27004|include|census: agent session tools target peer sessions beyond intended scope
+CVE-2025-66580|exclude|E-NOAGENT: client-side rendering
+CVE-2025-68669|exclude|E-NOAGENT: client-side rendering
+CVE-2026-22792|exclude|E-NOAGENT: client-side rendering
+CVE-2026-22793|exclude|E-NOAGENT: client-side rendering
+CVE-2026-24399|exclude|E-NOAGENT: client-side rendering
+CVE-2026-17433|exclude|E-DETAIL: no agent path described
+CVE-2026-25592|exclude|E-DETAIL: no agent path described (mitigation implies function-call arguments, but path not stated)
+CVE-2026-21256|exclude|E-DETAIL: no agent path described
+CVE-2026-21257|exclude|E-DETAIL: no agent path described
+CVE-2026-21518|exclude|E-DETAIL: no agent path described
+CVE-2026-21521|exclude|E-DETAIL: no agent path described
+CVE-2026-21523|exclude|E-DETAIL: no agent path described
+CVE-2026-23653|exclude|E-DETAIL: no agent path described
+CVE-2026-24299|exclude|E-DETAIL: no agent path described
+CVE-2026-24301|exclude|E-DETAIL: no agent path described
+CVE-2026-24307|exclude|E-DETAIL: no agent path described
+CVE-2026-26129|exclude|E-DETAIL: no agent path described
+CVE-2026-26136|exclude|E-DETAIL: no agent path described
+CVE-2026-26164|exclude|E-DETAIL: no agent path described
+CVE-2025-68433|exclude|E-NONAI: startup auto-execution of repo MCP config, no agent action (precedent CVE-2026-57860)
+CVE-2026-21852|exclude|E-NONAI: startup action before trust prompt, no agent action (precedent CVE-2026-33068)
+CVE-2026-27484|include|census: tool-driven moderation actions trust spoofable sender identity in request params
+CVE-2026-28353|include|census: compromised extension drives local AI coding agent to collect and exfiltrate secrets
+CVE-2026-33980|include|census: KQL injection via MCP tool params by attacker or prompt-injected AI agent
+CVE-2026-35651|include|census: untrusted tool metadata injects ANSI sequences into agent approval prompts
+CVE-2026-41138|include|census: user input in prompt template reflected into agent-executed Python code
+CVE-2026-41349|include|census: LLM agent silently disables execution approval via config.patch
+CVE-2026-32628|include|census: user invoking SQL Agent drives SQL injection through agent tool
+CVE-2026-36728|exclude|E-NOAGENT: client-side rendering
+CVE-2026-39423|exclude|E-NOAGENT: client-side rendering
+CVE-2026-33111|exclude|E-DETAIL: no agent path described
+CVE-2026-35435|exclude|E-DETAIL: no agent path described
+CVE-2026-41090|exclude|E-DETAIL: no agent path described
+CVE-2026-41100|exclude|E-DETAIL: no agent path described
+CVE-2026-41106|exclude|E-DETAIL: no agent path described
+CVE-2026-41109|exclude|E-DETAIL: no agent path described
+CVE-2026-29791|exclude|E-DETAIL: no agent path described
+CVE-2026-43991|include|census: substring blocklist in agent shell command-safety check bypassed
+CVE-2026-43992|include|census: wallet seed passed as LLM tool-call parameter, exposed along the tool-call path
+CVE-2026-45001|include|census: prompt-injected model persists protected operator config via agent-facing config.patch
+CVE-2026-45310|include|census: agent fetch_url SSRF guard bypassed via unvalidated redirects
+CVE-2026-45373|include|census: agent fetch_url SSRF guard bypassed via IPv6 literal
+CVE-2026-45374|include|census: approved task_create spawns sub-agents with shell and auto-approve on by default
+CVE-2026-45403|include|census: agent filesystem copy tool follows nested symlinks outside allowed root
+CVE-2026-47128|include|census: AI agent sandbox policy allows Unix sockets, enabling escape
+CVE-2026-47250|include|census: AI agent follows instruction injected in logs and calls kubectl with attacker server flags
+CVE-2026-43899|exclude|E-NOAGENT: client-side rendering
+CVE-2026-41614|exclude|E-DETAIL: no agent path described
+CVE-2026-42824|exclude|E-DETAIL: no agent path described
+CVE-2026-42827|exclude|E-DETAIL: no agent path described
+CVE-2026-42893|exclude|E-DETAIL: no agent path described
+CVE-2026-42895|exclude|E-DETAIL: no agent path described
+CVE-2026-45482|exclude|E-DETAIL: no agent path described
+CVE-2026-45497|exclude|E-DETAIL: no agent path described
+CVE-2026-42078|exclude|E-DETAIL: no agent path described
+CVE-2026-42080|exclude|E-DETAIL: no agent path described
+CVE-2026-47282|exclude|E-DETAIL: no agent path described
+CVE-2026-47645|exclude|E-DETAIL: no agent path described
+CVE-2026-48561|exclude|E-DETAIL: no agent path described
+CVE-2026-50510|exclude|E-DETAIL: no agent path described
+CVE-2026-50517|exclude|E-DETAIL: no agent path described
+CVE-2026-50519|exclude|E-DETAIL: no agent path described
+CVE-2026-5002|exclude|E-DETAIL: no agent path described
+CVE-2026-47255|exclude|E-DETAIL: no agent path described
+CVE-2026-47751|exclude|E-NONAI: startup auto-loading of repo MCP config, no agent action (precedent CVE-2026-57860)
+CVE-2026-54688|include|census: attacker influences URL chosen by user or AI agent; URL policy off by default
+CVE-2026-54689|include|census: attacker-influenced tool call bypasses URL policy via redirects and address forms
+CVE-2026-55443|include|census: agent file-search middleware path confinement bypass when LLM acts on untrusted input
+CVE-2026-56075|include|census: hardcoded auto approval lets instructed LLM agent run shell commands past approval gate
+CVE-2026-58485|include|census: prompt-influenced tool selection supplies hostname resolving to internal address
+CVE-2026-59207|include|census: AI Agents MCP tool not bound by credential allowed-domain restriction
+CVE-2026-59563|include|census: MCP client or agent replays confirmation token across resources
+CVE-2026-61732|include|census: planted web content forges operator turn, bypassing agent guardrails to run commands
+CVE-2026-62676|include|census: authenticated or prompt-injected agent bypasses shell policy parser to push or escape workspace
+CVE-2026-65015|include|census: low-privilege user chats with agent whose node tool lacks authorization checks
+CVE-2026-65975|include|census: forged client tool calls dispatched by agent, skipping model-request guardrail
+CVE-2026-66027|include|census: prompts injected into another user's queue are executed by victim's agent with victim credentials
+CVE-2026-58500|exclude|E-NOAGENT: client-side rendering
+CVE-2026-54130|exclude|E-DETAIL: no agent path described
+CVE-2026-55145|exclude|E-DETAIL: no agent path described
+CVE-2026-55946|exclude|E-DETAIL: no agent path described
+CVE-2026-5584|exclude|E-DETAIL: no agent path described
+CVE-2026-58616|exclude|E-DETAIL: no agent path described
+CVE-2026-58617|exclude|E-DETAIL: no agent path described
+CVE-2026-59118|exclude|E-DETAIL: no agent path described
+CVE-2026-65675|exclude|E-DETAIL: no agent path described
+CVE-2026-69855|exclude|E-DETAIL: no agent path described
+CVE-2026-70335|exclude|E-DETAIL: no agent path described
+CVE-2026-66065|exclude|E-NONAI: import-time loading of repo .env, no agent action (precedent CVE-2026-33068)
+CVE-2026-72776|include|census: crafted queries make autonomous agent generate shell commands past incomplete blocklist
+CVE-2026-73485|include|census: crafted prompts to Airtable Agent inject Python past validator blocklist
+CVE-2026-75062|include|census: crafted prompts make model generate Python that is evaluated without sandbox
+CVE-2026-77516|include|census: denied tool executed through agent/workflow dispatch path without per-tool grant
+CVE-2026-77521|include|census: agent shell tool lacks approval; untrusted chat or ingested content triggers commands
+CVE-2026-85787|include|census: crafted SQL in content processed when user interacts with MCP server escapes read-only validation
+CVE-2026-87911|include|census: crafted COPY TO PROGRAM in processed content bypasses read-only validation
+CVE-2026-88938|include|census: code.find path not confined, letting AI agent sessions read files outside project
+CVE-2026-93595|include|census: prompting AI assistant runs query tool without principal binding, bypassing ACLs
+CVE-2026-91847|exclude|E-NOAGENT: chatbot conversation, no agent tool action
+CVE-2026-9353|exclude|E-DETAIL: no agent path described
+CVE-2026-78501|exclude|E-DETAIL: no agent path described
+CVE-2026-80098|exclude|E-DETAIL: no agent path described
+CVE-2026-81380|exclude|E-DETAIL: no agent path described
+CVE-2026-81381|exclude|E-DETAIL: no agent path described
+CVE-2026-85885|exclude|E-DETAIL: no agent path described
+CVE-2026-72718|exclude|E-NONAI: context-gathering git runs before model call, outside tool-permission model
+CVE-2026-95660|exclude|E-NONAI: startup auto-spawn of untrusted repo MCP config, no agent action (precedent CVE-2026-57860)

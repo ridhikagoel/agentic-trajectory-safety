@@ -32,6 +32,11 @@ for blk in "AB":
     st = Counter(r["stage2"] for r in csv.DictReader(open(R("raw", f"s3_stage2_{blk}.csv"), newline="")))
     out.append(f"- S3 block {blk} stage 2: {dict(st)}")
 
+if os.path.exists(R("raw", "s5_stage2.csv")):
+    s5 = Counter((r["stage2"], r["block"]) for r in csv.DictReader(open(R("raw", "s5_stage2.csv"), newline="")))
+    s5c = Counter(r["stage1"] for r in csv.DictReader(open(R("raw", "s5_snowball_candidates.csv"), newline="")))
+    out.append(f"- S5 snowballing: new in-window references {sum(s5c.values())}; stage 1 {dict(s5c)}; stage 2 {dict(s5)}")
+
 out.append("\n## Incidents")
 for f in ["setting", "per_action_flaggable", "min_state", "precursor_signal", "monitor_present", "detected_by", "harm_external", "root_cause"]:
     tab("incidents", inc, f)

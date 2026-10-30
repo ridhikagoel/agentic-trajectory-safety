@@ -1,0 +1,23 @@
+arxiv_id,manuscript_ref,claim_supported,code_change,evidence
+2601.00516,[5],Y,,Abstract/intro: Siamese Recurrent Autoencoder; 'F1-scores of 0.88-0.94 on synthetic benchmarks'; '32 ms inference latency'
+2601.18491,[6],Y,timing online->post-hoc,"Sec 5: 'Each dataset consists of complete agent trajectories, where each trajectory is classified as either safe or unsafe'; abstract: 'diagnose the root causes... beyond binary labels'"
+2605.27690,[7],Y,reports_timeliness N->Y,"Reports Early Detection Rate (EDR), EAUPC and Early Alert Precision (EAP); 'proactive auditor that learns prefix-level trajectory risk states'"
+2604.13954,[8],Y,,"Abstract: three tasks 'risk detection, risk-step localization, and intrinsic failure-type identification'; non-attack intrinsic risk"
+2607.07368,[47],Y,,"Abstract: 'fragmentation effect: as more agents coordinate to attack, per-agent monitoring becomes less likely to catch any of the attackers'; FakeLab synthetic codebase"
+2608.27141,[48],PARTIAL: manuscript omitted the indistinguishability condition,evaluated_on none->benchmark; reports_fp_or_cost N->Y,"'indistinguishable inner observations force equal detection and false-alarm rates'; 'Reset alone does not imply this condition'; paired clean/attacked episodes, 'retaining 96.9% clean target completion'"
+2609.30217,[49],Y,,"Abstract: agents 'split prohibited operations across tool calls, and retry until relevant context leaves the monitor's history'"
+2601.22136,[50],Y,,Abstract: 847-rule guardrail 'achieves 86% recall yet is statistically indistinguishable from random timing on EIR... because over three-quarters of its alerts trigger on benign prefix code'
+2603.22350,[51],Y,,"Abstract: 'ILION+SRM achieves F1 = 1.0000 with 0% false positive rate, compared to stateless ILION at F1 = 0.9756 with 5% FPR'"
+2603.27148,[52],Y,,Abstract: absorbing Markov chains; '3.7 steps of advance warning'
+2608.01388,[53],Y (text); table cell wrongly implied deobfuscation,,Coverage 'bounded above by the concentration of the attack distribution'; no deobfuscation content
+2607.26820,[56],Y,,Recast: 'safety risk forecasting framework... trajectory-level risk prediction'
+2609.29522,[57],Y,,Commit-time guard precision under invalidating vs predicate-preserving races; deterministic simulator
+2608.22868,[58],Y (retitled on arXiv after 2026-10-14 retrieval),,Current title 'Agenra: A Language and Verified Core for Stateful LLM Agent Authorization'; CCS concept Information flow control
+2608.27496,[59],Y,,ROPE: deterministic origin check; untrusted-origin values blocked from origin-guarded parameters
+2603.19328,[60],Y,,'Verifier Tax' on task success and 2.0-2.8x token overhead
+2606.17555,[24],Y (figures are on a synthetic 90-day log),,"'overall F1 of 0.787 (transaction) and 0.867 (session), versus 0.562/0.733 for a rule-based baseline'; 'synthetic log of 237,669 transactions'"
+2506.02703,[54],Y,,'pervasive data leakage'; 'deceptively impressive results'
+2605.29272,[55],Y,,"Models trained on observed chargebacks 'learn from a biased, censored' label; issuer reporting censorship"
+2608.01558,[2],Y,,Title and Sec 2 contrast per-action validation with trajectory assurance
+2605.23989,[10],Y,,Title 'Towards trustworthy agentic AI: a comprehensive survey'
+2604.14858,[42],Y,,ATBench-Claw and ATBench-Codex benchmarks

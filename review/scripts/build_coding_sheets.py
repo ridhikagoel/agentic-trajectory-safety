@@ -166,6 +166,40 @@ CVE_OVERRIDES = {
 
 MONITOR_HAND = {'CVE-2024-12366': 'N', 'CVE-2024-10950': 'N', 'CVE-2024-12911': 'N', 'CVE-2025-3579': 'N', 'CVE-2025-31363': 'N', 'CVE-2025-46724': 'N', 'CVE-2025-49150': 'N', 'CVE-2025-52573': 'N', 'CVE-2025-53097': 'Y', 'CVE-2025-53098': 'N', 'CVE-2025-53107': 'N', 'CVE-2025-34072': 'N', 'CVE-2025-53536': 'N', 'CVE-2025-46059': 'N', 'CVE-2025-54131': 'Y', 'CVE-2025-54130': 'Y', 'CVE-2025-54135': 'Y', 'CVE-2025-54794': 'Y', 'CVE-2025-54795': 'Y', 'CVE-2025-55012': 'Y', 'CVE-2025-55284': 'Y', 'CVE-2025-57771': 'Y', 'CVE-2025-9959': 'Y', 'CVE-2025-58372': 'Y', 'CVE-2025-58370': 'Y', 'CVE-2025-58373': 'Y', 'CVE-2025-58374': 'Y', 'CVE-2025-58764': 'Y', 'CVE-2025-55319': 'ID', 'CVE-2025-59532': 'Y', 'CVE-2025-61590': 'Y', 'CVE-2025-61592': 'Y', 'CVE-2025-61593': 'Y', 'CVE-2025-59944': 'Y', 'CVE-2025-62353': 'ID', 'CVE-2025-62356': 'ID', 'CVE-2025-10875': 'ID', 'CVE-2025-64320': 'ID', 'CVE-2025-64107': 'Y', 'CVE-2025-64108': 'Y', 'CVE-2025-64321': 'ID', 'CVE-2025-64110': 'Y', 'CVE-2025-66404': 'N', 'CVE-2025-66032': 'Y', 'CVE-2025-67509': 'Y', 'CVE-2025-67510': 'N', 'CVE-2025-67511': 'Y', 'CVE-2026-22708': 'Y', 'CVE-2026-24053': 'Y', 'CVE-2026-24887': 'Y', 'CVE-2026-25475': 'Y', 'CVE-2026-25722': 'Y', 'CVE-2026-26268': 'Y', 'CVE-2026-26321': 'N', 'CVE-2026-26320': 'Y', 'CVE-2026-27966': 'N', 'CVE-2026-27967': 'Y', 'CVE-2026-28451': 'N', 'CVE-2026-29783': 'Y', 'CVE-2026-30856': 'N', 'CVE-2026-31854': 'Y', 'CVE-2026-32247': 'N', 'CVE-2026-32622': 'N', 'CVE-2026-33060': 'N', 'CVE-2026-30304': 'Y', 'CVE-2026-33654': 'N', 'CVE-2026-33873': 'N', 'CVE-2026-31945': 'Y', 'CVE-2026-30306': 'Y', 'CVE-2026-30308': 'Y', 'CVE-2026-30310': 'Y', 'CVE-2026-34451': 'Y', 'CVE-2026-40111': 'N', 'CVE-2026-40117': 'N', 'CVE-2026-40150': 'N', 'CVE-2026-40088': 'N', 'CVE-2026-40160': 'Y', 'CVE-2026-39884': 'N', 'CVE-2026-30615': 'N', 'CVE-2026-39861': 'Y', 'CVE-2026-41264': 'N', 'CVE-2026-41265': 'N', 'CVE-2026-41271': 'Y', 'CVE-2026-42079': 'N', 'CVE-2026-33324': 'N', 'CVE-2026-44246': 'N', 'CVE-2026-43989': 'N', 'CVE-2026-43990': 'N', 'CVE-2026-43993': 'N', 'CVE-2026-42260': 'Y', 'CVE-2026-45033': 'N', 'CVE-2026-48116': 'N', 'CVE-2026-45311': 'N', 'CVE-2026-25879': 'N', 'CVE-2026-48124': 'N', 'CVE-2026-44688': 'N', 'CVE-2026-46580': 'N', 'CVE-2026-12045': 'Y', 'CVE-2025-66389': 'N', 'CVE-2026-54316': 'Y', 'CVE-2026-55249': 'N', 'CVE-2026-48703': 'Y', 'CVE-2026-48721': 'Y', 'CVE-2026-53766': 'Y', 'CVE-2026-50548': 'Y', 'CVE-2026-50549': 'Y', 'CVE-2026-55607': 'Y', 'CVE-2026-10564': 'Y', 'CVE-2026-13341': 'ID', 'CVE-2026-59807': 'N', 'CVE-2026-55615': 'N', 'CVE-2026-50180': 'Y', 'CVE-2026-50181': 'N', 'CVE-2026-54769': 'Y', 'CVE-2026-61439': 'Y', 'CVE-2026-61447': 'N', 'CVE-2026-15746': 'N', 'CVE-2026-46341': 'Y', 'CVE-2026-58195': 'N', 'CVE-2026-15415': 'N', 'CVE-2026-57495': 'N', 'CVE-2026-65056': 'Y', 'CVE-2026-44192': 'N', 'CVE-2026-65698': 'Y', 'CVE-2026-66004': 'N', 'CVE-2026-17534': 'Y', 'CVE-2026-18394': 'N', 'CVE-2026-17351': 'Y', 'CVE-2026-18655': 'N', 'CVE-2026-18733': 'Y', 'CVE-2026-70477': 'Y', 'CVE-2026-69255': 'Y', 'CVE-2026-9196': 'Y', 'CVE-2026-19111': 'N', 'CVE-2026-73032': 'N', 'CVE-2026-73217': 'Y', 'CVE-2026-73218': 'Y', 'CVE-2026-73498': 'N', 'CVE-2026-73487': 'Y', 'CVE-2026-73678': 'N', 'CVE-2026-75858': 'Y', 'CVE-2026-75913': 'Y', 'CVE-2026-75130': 'N', 'CVE-2026-75857': 'Y', 'CVE-2026-76832': 'N', 'CVE-2026-18482': 'N', 'CVE-2026-76072': 'Y', 'CVE-2026-55557': 'Y', 'CVE-2026-78379': 'Y', 'CVE-2026-55580': 'N', 'CVE-2026-37003': 'N', 'CVE-2026-82233': 'N', 'CVE-2026-82217': 'N', 'CVE-2026-19591': 'Y', 'CVE-2026-85675': 'N', 'CVE-2026-85694': 'N', 'CVE-2026-57130': 'N', 'CVE-2026-57145': 'N', 'CVE-2026-53957': 'N', 'CVE-2026-54561': 'N', 'CVE-2026-57441': 'Y', 'CVE-2026-57442': 'Y', 'CVE-2026-18875': 'N', 'CVE-2026-102697': 'Y', 'CVE-2025-53773': 'ID'}
 
+# Census (2026-10-23): the 843 CVEs the pre-filter had dropped were hand screened
+# in full; 63 were included. Monitor codes and overrides for them follow the same
+# rules as above (symlink escapes and DNS-resolution SSRF -> resource-metadata,
+# as for CVE-2026-27967 and CVE-2026-17534).
+MONITOR_HAND.update({
+ 'CVE-2025-12695':'Y','CVE-2025-32018':'Y','CVE-2025-46725':'N','CVE-2025-5273':'N','CVE-2025-5276':'N',
+ 'CVE-2025-5277':'N','CVE-2025-54377':'Y','CVE-2025-59829':'Y','CVE-2025-64755':'Y','CVE-2025-65946':'Y',
+ 'CVE-2026-100547':'Y','CVE-2026-100633':'Y','CVE-2026-14540':'Y','CVE-2026-20265':'Y','CVE-2026-2256':'ID',
+ 'CVE-2026-22686':'Y','CVE-2026-25533':'Y','CVE-2026-22687':'Y','CVE-2026-24052':'Y','CVE-2026-25723':'Y',
+ 'CVE-2026-25724':'Y','CVE-2026-25725':'Y','CVE-2026-26322':'N','CVE-2026-26325':'Y','CVE-2026-27001':'N',
+ 'CVE-2026-27004':'Y','CVE-2026-27484':'Y','CVE-2026-28353':'ID','CVE-2026-33980':'N','CVE-2026-35651':'Y',
+ 'CVE-2026-41138':'N','CVE-2026-41349':'Y','CVE-2026-32628':'N','CVE-2026-43991':'Y','CVE-2026-43992':'N',
+ 'CVE-2026-45001':'Y','CVE-2026-45310':'Y','CVE-2026-45373':'Y','CVE-2026-45374':'Y','CVE-2026-45403':'Y',
+ 'CVE-2026-47128':'Y','CVE-2026-47250':'N','CVE-2026-54688':'N','CVE-2026-54689':'Y','CVE-2026-55443':'Y',
+ 'CVE-2026-56075':'Y','CVE-2026-58485':'Y','CVE-2026-59207':'Y','CVE-2026-59563':'Y','CVE-2026-61732':'Y',
+ 'CVE-2026-62676':'Y','CVE-2026-65015':'N','CVE-2026-65975':'Y','CVE-2026-66027':'N','CVE-2026-72776':'Y',
+ 'CVE-2026-73485':'Y','CVE-2026-75062':'N','CVE-2026-77516':'N','CVE-2026-77521':'N','CVE-2026-85787':'Y',
+ 'CVE-2026-87911':'Y','CVE-2026-88938':'N','CVE-2026-93595':'Y'})
+CVE_OVERRIDES.update({
+ "CVE-2025-59829": ("N","resource-metadata",None,"Reading a symlink inside scope looks allowed; only its target is denied."),
+ "CVE-2026-25724": ("N","resource-metadata",None,"Reading a symlink inside scope looks allowed; only its target is denied."),
+ "CVE-2026-45403": ("N","resource-metadata",None,"Copy arguments are inside the allowed root; nested symlinks point outside."),
+ "CVE-2026-58485": ("N","resource-metadata",None,"Hostname looks public; only DNS resolution shows the internal target."),
+ "CVE-2026-100633": ("N","resource-metadata",None,"Arguments name the allowed root; protected files are descendants."),
+ "CVE-2026-27004": ("N","resource-metadata",None,"Session-tool call looks routine; whether the session belongs to a peer is ownership metadata."),
+ "CVE-2026-27484": ("N","resource-metadata",None,"Moderation call looks authorized; the true sender identity is runtime context, not in the arguments."),
+ "CVE-2026-59563": ("N","resource-metadata",None,"Token and target look valid; the token's bound resource is metadata."),
+ "CVE-2026-45374": ("N","resource-metadata",None,"Approved task_create looks benign; the sub-agent's inherited shell and auto-approve defaults are configuration metadata."),
+ "CVE-2026-2256": ("ID","ID",None,"Description gives no action detail."),
+ "CVE-2026-27001": ("ID","ID",None,"Injection channel only; resulting agent actions not described."),
+ "CVE-2026-35651": ("ID","ID",None,"Display spoofing of approval prompts; the approved action is not described."),
+ "CVE-2026-66027": ("ID","ID",None,"Injected prompts described; resulting agent actions not described."),
+})
+
 # S4 known items from the original submission that S1 retrieved but screened out on description wording.
 S4 = [("CVE-2025-53773","2025-08-12","GitHub Copilot / VS Code agent-mediated RCE (known item)","NVD CVE-2025-53773; original submission ref [35]",
        "product-vuln","adversary-induced","unclear","ID","ID","NA","ID","software-defect","external-party",

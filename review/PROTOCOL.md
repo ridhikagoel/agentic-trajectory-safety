@@ -107,3 +107,33 @@ All entries below were made on 2026-10-14, during screening and coding. Each one
    - Coder 1 adjudicated every disagreement and logged a reason for each in `coding/adjudication_log.csv`.
    - Because Coder 1 is also the adjudicator, a human author codes a seeded random sample of 30 records (`coding/human_spotcheck_blank.csv`) as the independent check.
    - Reconciled codes are in `coding/final.csv`, `coding/lit_A_final.csv` and `coding/lit_B_final.csv`.
+
+### Entries made on 2026-10-23 (EuroS&P revision)
+
+10. **S1 census replaces the residual estimate.** All 843 CVEs that the automated pre-filter had excluded, and that no earlier pass had screened by hand, were screened by hand against I1–I4 (`raw/s1_screen.csv`, stage `census`; the rules as applied are written out in `coding/census/SCREENING_RULES.md`). 63 were included at first pass.
+    - *Second screener:* a separate model instance (Claude Sonnet), blind to the first decisions, screened all 63 includes plus 137 randomly drawn excludes (seed 20261023), shuffled. Agreement 195/200, Cohen's κ = 0.94. The 5 disagreements were adjudicated with logged reasons (`coding/census/screen_adjudication.csv`); 2 were excluded, leaving 61 census includes.
+    - *Why:* the residual estimate (about 51 eligible CVEs, 17–137) was the largest disclosed gap. The CVE stratum is now a census of the retrieved set.
+    - CVE-2025-53773 appeared in the census pool; it was already included as an S4 known item and is marked E-DUP.
+11. **Census CVEs coded by both coders.** The 61 new CVE records were coded by Coder 1 under the existing CVE rules and independently by Coder 2 (blind). Coder 1 adjudicated with logged reasons, following the precedents already in `coding/adjudication_log.csv` (symlink escapes and SSRF that depends on DNS resolution or redirects are `resource-metadata`; tool calls whose harm depends on their origin are `trajectory`, data provenance).
+12. **S5 backward snowballing (one round) done.** `scripts/s5_snowball.py` fetched the reference lists of all 133 S3-included papers from the Semantic Scholar Graph API (raw responses in `raw/snowball/`, log in `raw/s5_run.log`). New in-window references were screened with the same stage-1 rule and stage-2 criteria (`raw/s5_stage2.csv`). References without abstracts were title-screened; for title-plausible ones, abstracts were sought from Semantic Scholar, arXiv and OpenAlex (`raw/s5_noabstract_title_matches.json`). 19 title-plausible references had no retrievable abstract and are reported as unscreened. *Why:* backward snowballing was planned in the original protocol but not done (S4 note above).
+13. **Full-text check of the papers the manuscript cites by name.** The 22 arXiv papers cited with a specific claim or characterization were read in full (`coding/fulltext_checks.csv`). Three abstract-level codes changed (2601.18491 timing; 2605.27690 reports_timeliness; 2608.27141 evaluated_on and reports_fp_or_cost), logged in `coding/adjudication_log.csv`. Literature codes for all other papers remain abstract-level.
+
+### Entries made on 2026-10-29
+
+14. **Human calibration round, then a fresh reliability sample.** A human author independently coded the 30-record seeded sample (`coding/human_spotcheck.csv`, 12 incidents and 18 CVEs). Agreement with the reconciled codes was low:
+
+    | Field | Agreement | κ |
+    |---|---|---|
+    | per_action_flaggable | 63% | −0.01 |
+    | min_state | 60% | −0.06 |
+    | monitor_present | 57% | 0.15 |
+    | precursor_signal (incidents only) | 33% | −0.09 |
+
+    The disagreements fell into three patterns:
+    - precursor coded only when noticed at the time;
+    - monitor counted when detection came afterwards;
+    - CVE guards that the description states only partially.
+
+    After review, the human coder adopted the reconciled codes for all 21 disagreeing rows (`coding/calibration_round1_log.csv`), so no final codes changed. The round is reported as **calibration**, not as reliability.
+
+    The definitions of precursor and monitor were then clarified (`coding/HUMAN_CODING_GUIDE.md`). A fresh seeded sample (seed 20261029) of 8 incidents and 12 CVEs, not seen in round 1, is drawn for the reported human reliability check (`coding/human_reliability_blank.csv`).

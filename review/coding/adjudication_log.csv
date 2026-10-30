@@ -250,3 +250,72 @@ lit-B,2606.25007,production_data,N,Y,Y,C2: abstract states deployed-platform or 
 lit-B,2607.09528,state_scope,ID,both,both,C2: dataset covers transactions and behavioural relations
 lit-B,2609.27287,production_data,ID,Y,Y,C2: abstract states deployed-platform or proprietary production data
 lit-B,2609.34211,state_scope,sequence,ID,sequence,C1 retained (no adjudication note)
+incident/cve,CVE-2026-14540,per_action_flaggable,Y,N,N,Adopt C2: redirect target unseen by the policy; precedent CVE-2026-17534 [census 2026-10-23]
+incident/cve,CVE-2026-14540,min_state,none,resource-metadata,resource-metadata,Adopt C2: as CVE-2026-17534 [census 2026-10-23]
+incident/cve,CVE-2026-2256,per_action_flaggable,ID,Y,Y,Adopt C2: injected OS command is in the arguments [census 2026-10-23]
+incident/cve,CVE-2026-2256,min_state,ID,none,none,Adopt C2 [census 2026-10-23]
+incident/cve,CVE-2026-2256,monitor_present,ID,N,ID,Keep C1: description silent on any guard [census 2026-10-23]
+incident/cve,CVE-2026-27004,monitor_present,Y,N,Y,Keep C1: a session-targeting scope existed but was broader than intended [census 2026-10-23]
+incident/cve,CVE-2026-27484,monitor_present,Y,N,Y,Keep C1: an authorization check existed but used spoofable parameters [census 2026-10-23]
+incident/cve,CVE-2026-28353,monitor_present,ID,N,ID,Keep C1: description silent on any guard [census 2026-10-23]
+incident/cve,CVE-2026-45310,per_action_flaggable,Y,N,N,"Adopt C2: initial URL passes, redirect target unseen; precedent CVE-2026-17534 [census 2026-10-23]"
+incident/cve,CVE-2026-45310,min_state,none,resource-metadata,resource-metadata,Adopt C2: as CVE-2026-17534 [census 2026-10-23]
+incident/cve,CVE-2026-45374,actor,adversary-induced,model-initiated,adversary-induced,Keep C1: CVE default; description names no model-initiated harm [census 2026-10-23]
+incident/cve,CVE-2026-59563,min_state,resource-metadata,trajectory,resource-metadata,"Keep C1: token-to-resource binding is metadata about the token, not run history [census 2026-10-23]"
+incident/cve,CVE-2026-61732,per_action_flaggable,Y,N,N,Adopt C2: commands are normal for a pentest agent; harm depends on forged turn provenance; precedent CVE-2025-34072 [census 2026-10-23]
+incident/cve,CVE-2026-61732,min_state,none,trajectory,trajectory,Adopt C2: data provenance [census 2026-10-23]
+incident/cve,CVE-2026-65015,per_action_flaggable,Y,N,N,Adopt C2: caller's role is outside the declared scope the policy sees [census 2026-10-23]
+incident/cve,CVE-2026-65015,min_state,none,resource-metadata,resource-metadata,Adopt C2 [census 2026-10-23]
+incident/cve,CVE-2026-65975,per_action_flaggable,Y,N,N,Adopt C2: tool call valid alone; that the model never emitted it is provenance; precedent CVE-2025-34072 [census 2026-10-23]
+incident/cve,CVE-2026-65975,min_state,none,trajectory,trajectory,Adopt C2: data provenance [census 2026-10-23]
+incident/cve,CVE-2026-77516,per_action_flaggable,Y,N,N,Adopt C2: caller's denied permission is outside the declared scope [census 2026-10-23]
+incident/cve,CVE-2026-77516,min_state,none,resource-metadata,resource-metadata,Adopt C2 [census 2026-10-23]
+incident/cve,CVE-2026-77516,monitor_present,N,Y,N,Keep C1: per-tool grant not applied on this path; precedent CVE-2026-40117 [census 2026-10-23]
+incident/cve,CVE-2026-77521,monitor_present,N,Y,Y,Adopt C2: sandbox existed and was escaped via the gosu wrapper [census 2026-10-23]
+incident/cve,CVE-2026-93595,per_action_flaggable,Y,N,N,Adopt C2: per-type ACL denial is outside the declared scope [census 2026-10-23]
+incident/cve,CVE-2026-93595,min_state,none,resource-metadata,resource-metadata,Adopt C2 [census 2026-10-23]
+lit-A,2601.18491,timing,online,,post-hoc,Full-text check 2026-10-23: see coding/fulltext_checks.csv
+lit-A,2605.27690,reports_timeliness,N,,Y,Full-text check 2026-10-23: see coding/fulltext_checks.csv
+lit-A,2608.27141,evaluated_on,none,,benchmark,Full-text check 2026-10-23: see coding/fulltext_checks.csv
+lit-A,2608.27141,reports_fp_or_cost,N,,Y,Full-text check 2026-10-23: see coding/fulltext_checks.csv
+lit-A,2504.10374,mechanism,llm-judge,benchmark,llm-judge,Keep C1: abstract supports C1 [S5 2026-10-23]
+lit-A,2504.10374,timing,online,pre-execution,pre-execution,Adopt C2: resampling blocks suspicious code before execution [S5 2026-10-23]
+lit-A,2508.06418,reports_fp_or_cost,N,Y,N,"Keep C1: task-utility or overhead figures count as cost, as for [60] and [48] [S5 2026-10-23]"
+lit-A,2508.19461,mechanism,llm-judge,benchmark,benchmark,Adopt C2: main contribution is the monitor red-teaming workflow [S5 2026-10-23]
+lit-A,2509.23614,mechanism,llm-judge,hybrid,hybrid,Adopt C2: several specialized guards [S5 2026-10-23]
+lit-A,2509.23614,evaluated_on,benchmark,simulation,simulation,"Adopt C2: scenario validation, no named benchmark [S5 2026-10-23]"
+lit-A,2512.23738,evaluated_on,benchmark,production-harness,benchmark,"Keep C1: named benchmark or case study, not a production harness [S5 2026-10-23]"
+lit-A,2512.23738,reports_fp_or_cost,Y,N,Y,"Keep C1: task-utility or overhead figures count as cost, as for [60] and [48] [S5 2026-10-23]"
+lit-A,2601.04688,state_scope,trajectory,session,trajectory,Keep C1: state stays within one run; temporal graphs are 'both' per precedent [S5 2026-10-23]
+lit-A,2601.10156,reports_fp_or_cost,Y,N,Y,"Keep C1: task-utility or overhead figures count as cost, as for [60] and [48] [S5 2026-10-23]"
+lit-A,2602.22724,reports_fp_or_cost,Y,N,Y,"Keep C1: task-utility or overhead figures count as cost, as for [60] and [48] [S5 2026-10-23]"
+lit-A,2605.14421,evaluated_on,benchmark,simulation,benchmark,"Keep C1: named benchmark or case study, not a production harness [S5 2026-10-23]"
+lit-A,2605.31042,evaluated_on,simulation,benchmark,benchmark,Adopt C2: introduces and evaluates on the ClawTrojan benchmark [S5 2026-10-23]
+lit-A,2606.04141,mechanism,hybrid,representation,hybrid,Keep C1: abstract supports C1 [S5 2026-10-23]
+lit-A,2606.04141,timing,online,mixed,mixed,Adopt C2: pre-output probes plus multi-turn accounting [S5 2026-10-23]
+lit-A,2608.21159,state_scope,trajectory,session,trajectory,Keep C1: state stays within one run; temporal graphs are 'both' per precedent [S5 2026-10-23]
+lit-A,2608.21159,evaluated_on,case-study,production-harness,case-study,"Keep C1: named benchmark or case study, not a production harness [S5 2026-10-23]"
+lit-A,2608.21159,reports_fp_or_cost,Y,N,Y,"Keep C1: task-utility or overhead figures count as cost, as for [60] and [48] [S5 2026-10-23]"
+lit-A,2509.25624v3,timing,online,none,none,Adopt C2: attack benchmark; defenses are prompts [S5 2026-10-23]
+lit-A,2402.01586v4,mechanism,llm-judge,hybrid,hybrid,"Adopt C2: pre-, in- and post-planning strategies [S5 2026-10-23]"
+lit-A,2402.01586v4,state_scope,trajectory,session,trajectory,Keep C1: state stays within one run; temporal graphs are 'both' per precedent [S5 2026-10-23]
+lit-A,2402.01586v4,timing,pre-execution,mixed,mixed,"Adopt C2: pre-, in- and post-planning [S5 2026-10-23]"
+lit-B,2309.13662,state_scope,both,graph,both,Keep C1: state stays within one run; temporal graphs are 'both' per precedent [S5 2026-10-23]
+lit-B,2309.13662,production_data,ID,Y,Y,Adopt C2: abstract: 1B transactions from multiple large European banks [S5 2026-10-23]
+lit-B,2509.18719,production_data,ID,Y,Y,"Adopt C2: abstract: real-world data, industrial application [S5 2026-10-23]"
+lit-B,anovelmoneylaunderingpredictionmodelbasedonadynamicgraphconvolutionalneuralnetworkandlongshorttermmemory,production_data,ID,N,N,Adopt C2: abstract: Elliptic public dataset [S5 2026-10-23]
+lit-B,atemporalgraphnetworkalgorithmfordetectingfraudulenttransactionsononlinepaymentplatforms,state_scope,both,graph,both,Keep C1: state stays within one run; temporal graphs are 'both' per precedent [S5 2026-10-23]
+lit-B,costsensitivelearningformedicalinsurancefrauddetectionwithtemporalinformation,production_data,N,Y,N,Keep C1: abstract supports C1 [S5 2026-10-23]
+lit-B,detectingethereumphishingscamswithtemporalmotiffeaturesofsubgraph,state_scope,both,graph,both,Keep C1: state stays within one run; temporal graphs are 'both' per precedent [S5 2026-10-23]
+lit-B,enhancingattributedrivenfrauddetectionwithriskawaregraphrepresentation,production_data,ID,Y,Y,Adopt C2: abstract: real-world issuer data; deployed at a credit card issuer [S5 2026-10-23]
+lit-B,fraudgnnrlagraphneuralnetworkwithreinforcementlearningforadaptivefinancialfrauddetection,production_data,ID,Y,Y,Adopt C2: abstract: large-scale real-world financial dataset [S5 2026-10-23]
+lit-B,identifyingincoherentsearchsessionssearchclickfraudremediationunderrealworldconstraints,production_data,ID,Y,ID,Keep C1: abstract supports C1 [S5 2026-10-23]
+lit-B,machinelearningbasedunsupervisedensembleapproachfordetectingnewmoneylaunderingtypologiesintransactiongraphs,state_scope,both,graph,both,Keep C1: state stays within one run; temporal graphs are 'both' per precedent [S5 2026-10-23]
+lit-B,mitigatingthetaileffectinfrauddetectionbycommunityenhancedmultirelationgraphneuralnetworks,production_data,ID,Y,Y,Adopt C2: abstract: real-world datasets [S5 2026-10-23]
+lit-B,multidistancespatialtemporalgraphneuralnetworkforanomalydetectioninblockchaintransactions,state_scope,both,graph,both,Keep C1: state stays within one run; temporal graphs are 'both' per precedent [S5 2026-10-23]
+lit-B,multihoprelationalmodelingforcreditfrauddetectionviagraphneuralnetworks,production_data,ID,N,N,Adopt C2: abstract: public credit fraud dataset [S5 2026-10-23]
+lit-B,removingcamouflageandrevealingcollusionleveraginggangcrimepatterninfraudsterdetection,state_scope,both,graph,both,Keep C1: state stays within one run; temporal graphs are 'both' per precedent [S5 2026-10-23]
+lit-B,scalablesemisupervisedgraphlearningtechniquesforantimoneylaundering,production_data,ID,N,N,"Adopt C2: abstract: AMLSim, Elliptic, IBM AML, SynthAML (public or synthetic) [S5 2026-10-23]"
+lit-B,tgattemporalgraphattentionnetworkforblockchainphishingscamsdetection,state_scope,both,graph,both,Keep C1: state stays within one run; temporal graphs are 'both' per precedent [S5 2026-10-23]
+lit-B,timeawareattentionbasedgatednetworkforcreditcardfrauddetectionbyextractingtransactionalbehaviors,production_data,ID,Y,Y,Adopt C2: abstract: large real-world transaction dataset [S5 2026-10-23]
+lit-B,tokenscoutearlydetectionofethereumscamtokensviatemporalgraphlearning,state_scope,both,graph,both,Keep C1: state stays within one run; temporal graphs are 'both' per precedent [S5 2026-10-23]

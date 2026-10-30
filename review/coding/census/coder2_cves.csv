@@ -1,0 +1,64 @@
+record_id,setting,actor,harm_external,per_action_flaggable,min_state,precursor_signal,monitor_present,root_cause,detected_by,notes
+CVE-2025-12695,product-vuln,adversary-induced,unclear,Y,none,NA,Y,environment-config,external-party,sandbox lets code read sensitive files; file access visible in action
+CVE-2025-32018,product-vuln,adversary-induced,unclear,Y,none,NA,Y,software-defect,external-party,write to path outside opened workspace is unsafe alone
+CVE-2025-46725,product-vuln,adversary-induced,unclear,Y,none,NA,N,software-defect,external-party,malicious command via pandas eval visible in arguments
+CVE-2025-5273,product-vuln,adversary-induced,unclear,Y,none,NA,N,software-defect,external-party,read of arbitrary host file outside scope
+CVE-2025-5276,product-vuln,adversary-induced,unclear,Y,none,NA,N,software-defect,external-party,fetch to attacker-controlled URL visible in args
+CVE-2025-5277,product-vuln,adversary-induced,unclear,Y,none,NA,N,software-defect,external-party,arbitrary command injected into tool args
+CVE-2025-54377,product-vuln,adversary-induced,unclear,Y,none,NA,Y,software-defect,external-party,multi-line command smuggles extra commands past allow-list
+CVE-2025-59829,product-vuln,adversary-induced,unclear,N,resource-metadata,NA,Y,software-defect,external-party,path looks allowed; only symlink target (invisible) is denied file
+CVE-2025-64755,product-vuln,adversary-induced,unclear,Y,none,NA,Y,software-defect,external-party,sed command writing arbitrary files visible alone
+CVE-2025-65946,product-vuln,adversary-induced,unclear,Y,none,NA,Y,software-defect,external-party,command outside allow-list prefixes visible alone
+CVE-2026-100547,product-vuln,adversary-induced,unclear,Y,none,NA,Y,software-defect,external-party,read of file outside session working directory
+CVE-2026-100633,product-vuln,adversary-induced,unclear,N,resource-metadata,NA,Y,software-defect,external-party,args name only allowed root; protected descendants not visible
+CVE-2026-14540,product-vuln,adversary-induced,unclear,N,resource-metadata,NA,Y,software-defect,external-party,request path looks benign; redirect to internal target unseen
+CVE-2026-20265,product-vuln,adversary-induced,unclear,Y,none,NA,Y,software-defect,external-party,outbound request to attacker domain outside approved domains
+CVE-2026-2256,product-vuln,adversary-induced,unclear,Y,none,NA,N,software-defect,external-party,injected OS command in args
+CVE-2026-22686,product-vuln,adversary-induced,unclear,Y,none,NA,Y,software-defect,external-party,sandboxed code climbing prototype chain is unsafe alone
+CVE-2026-22687,product-vuln,adversary-induced,unclear,Y,none,NA,Y,software-defect,external-party,query evading restrictions visible in tool args
+CVE-2026-24052,product-vuln,adversary-induced,unclear,Y,none,NA,Y,software-defect,external-party,WebFetch to lookalike domain visible in URL
+CVE-2026-25533,product-vuln,adversary-induced,unclear,Y,none,NA,Y,software-defect,external-party,sandbox-escaping code visible in action
+CVE-2026-25723,product-vuln,adversary-induced,unclear,Y,none,NA,Y,software-defect,external-party,sed/echo write into .claude or outside project
+CVE-2026-25724,product-vuln,adversary-induced,unclear,N,resource-metadata,NA,Y,software-defect,external-party,symlink path looks allowed; target is denied file
+CVE-2026-25725,product-vuln,adversary-induced,unclear,Y,none,NA,Y,software-defect,external-party,creating .claude/settings.json with hooks is unsafe alone
+CVE-2026-26322,product-vuln,adversary-induced,unclear,Y,none,NA,N,software-defect,external-party,gatewayUrl to localhost/metadata IP outside scope
+CVE-2026-26325,product-vuln,adversary-induced,unclear,Y,none,NA,Y,software-defect,external-party,executed argv differs from approved command; argv unsafe alone
+CVE-2026-27001,product-vuln,adversary-induced,unclear,ID,ID,NA,N,software-defect,external-party,no concrete unsafe action documented; prompt structure broken
+CVE-2026-27004,product-vuln,adversary-induced,unclear,N,resource-metadata,NA,N,environment-config,external-party,session read looks routine; cross-peer trust boundary unseen
+CVE-2026-27484,product-vuln,adversary-induced,unclear,N,resource-metadata,NA,N,software-defect,external-party,"true sender identity not visible, only spoofed parameter"
+CVE-2026-28353,product-vuln,adversary-induced,unclear,Y,none,NA,N,software-defect,external-party,agent told to collect and exfiltrate secrets
+CVE-2026-32628,product-vuln,adversary-induced,unclear,Y,none,NA,N,software-defect,external-party,injected SQL via table_name visible in args
+CVE-2026-33980,product-vuln,adversary-induced,unclear,Y,none,NA,N,software-defect,external-party,injected KQL in table_name visible in args
+CVE-2026-35651,product-vuln,adversary-induced,unclear,ID,ID,NA,Y,software-defect,external-party,only spoofed approval display; no unsafe action documented
+CVE-2026-41138,product-vuln,adversary-induced,unclear,Y,none,NA,N,software-defect,external-party,unsanitized input becomes Python code
+CVE-2026-41349,product-vuln,adversary-induced,unclear,Y,none,NA,Y,software-defect,external-party,config.patch disabling exec approval is unsafe alone
+CVE-2026-43991,product-vuln,adversary-induced,unclear,Y,none,NA,Y,software-defect,external-party,command evading blocklist visible as raw string
+CVE-2026-43992,product-vuln,model-initiated,unclear,Y,none,NA,N,software-defect,external-party,seed phrase placed in tool-call args is flaggable alone
+CVE-2026-45001,product-vuln,adversary-induced,unclear,Y,none,NA,Y,software-defect,external-party,config.patch changing sandbox/SSRF policy is unsafe alone
+CVE-2026-45310,product-vuln,adversary-induced,unclear,N,resource-metadata,NA,Y,software-defect,external-party,initial URL passes; redirect target unseen by policy
+CVE-2026-45373,product-vuln,adversary-induced,unclear,Y,none,NA,Y,software-defect,external-party,http://[::1] request visible in URL
+CVE-2026-45374,product-vuln,model-initiated,unclear,N,resource-metadata,NA,Y,software-defect,external-party,task_create looks benign; hidden defaults grant shell
+CVE-2026-45403,product-vuln,adversary-induced,unclear,N,resource-metadata,NA,Y,software-defect,external-party,args name allowed paths; nested symlink escape unseen
+CVE-2026-47128,product-vuln,adversary-induced,unclear,Y,none,NA,Y,software-defect,external-party,connecting to systemd dbus socket is unsafe alone
+CVE-2026-47250,product-vuln,adversary-induced,unclear,Y,none,NA,N,software-defect,external-party,kubectl --server=attacker host outside declared scope
+CVE-2026-54688,product-vuln,adversary-induced,unclear,Y,none,NA,N,software-defect,external-party,fetch of loopback/metadata URL outside scope; hardening off
+CVE-2026-54689,product-vuln,adversary-induced,unclear,Y,none,NA,Y,software-defect,external-party,0.0.0.0/mapped IPv6 literal URL visible in args
+CVE-2026-55443,product-vuln,adversary-induced,unclear,Y,none,NA,Y,software-defect,external-party,glob/path escaping root visible in args
+CVE-2026-56075,product-vuln,adversary-induced,unclear,Y,none,NA,Y,software-defect,external-party,arbitrary shell command run with approval overridden
+CVE-2026-58485,product-vuln,adversary-induced,unclear,N,resource-metadata,NA,Y,software-defect,external-party,hostname looks public; resolves to private address
+CVE-2026-59207,product-vuln,adversary-induced,unclear,Y,none,NA,Y,software-defect,external-party,credential sent to external domain outside allowed list
+CVE-2026-59563,product-vuln,adversary-induced,unclear,N,trajectory,NA,Y,software-defect,external-party,token replay: binding of token to resource needs history
+CVE-2026-61732,product-vuln,adversary-induced,unclear,N,trajectory,NA,Y,software-defect,external-party,commands normal for pentest agent; forged turn needs provenance
+CVE-2026-62676,product-vuln,adversary-induced,unclear,Y,none,NA,Y,software-defect,external-party,git push to unauthorized repo/branch visible in command
+CVE-2026-65015,product-vuln,adversary-induced,unclear,N,resource-metadata,NA,N,software-defect,external-party,node execution looks fine; caller's role unseen
+CVE-2026-65975,product-vuln,adversary-induced,unclear,N,trajectory,NA,Y,software-defect,external-party,tool call valid alone; never emitted by model needs provenance
+CVE-2026-66027,product-vuln,adversary-induced,unclear,ID,ID,NA,N,software-defect,external-party,injected prompt content and resulting actions not documented
+CVE-2026-72776,product-vuln,adversary-induced,unclear,Y,none,NA,Y,software-defect,external-party,arbitrary shell command executed despite blocklist
+CVE-2026-73485,product-vuln,adversary-induced,unclear,Y,none,NA,Y,software-defect,external-party,obfuscated Python in action visible alone
+CVE-2026-75062,product-vuln,adversary-induced,unclear,Y,none,NA,N,software-defect,external-party,model-generated Python evaluated unsandboxed
+CVE-2026-77516,product-vuln,adversary-induced,unclear,N,resource-metadata,NA,Y,software-defect,external-party,tool call looks fine; caller's denied permission unseen
+CVE-2026-77521,product-vuln,adversary-induced,unclear,Y,none,NA,Y,software-defect,external-party,shell execution from untrusted content without approval
+CVE-2026-85787,product-vuln,adversary-induced,unclear,Y,none,NA,Y,software-defect,external-party,write SQL beyond read-only scope visible alone
+CVE-2026-87911,product-vuln,adversary-induced,unclear,Y,none,NA,Y,software-defect,external-party,COPY TO PROGRAM statement visible alone
+CVE-2026-88938,product-vuln,adversary-induced,unclear,Y,none,NA,N,software-defect,external-party,path outside project root visible in args
+CVE-2026-93595,product-vuln,adversary-induced,unclear,N,resource-metadata,NA,Y,software-defect,external-party,query looks fine; per-type ACL denial unseen
