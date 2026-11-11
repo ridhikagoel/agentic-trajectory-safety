@@ -1,0 +1,25 @@
+key,source,query,returned,kept_after_title_rule,run_utc
+V1,IEEE,agent trajectory safety,200,145,2026-11-11T20:16:26
+V1,ACM,agent trajectory safety,200,32,2026-11-11T20:16:26
+V1,USENIX,agent trajectory safety,0,0,2026-11-11T20:16:26
+V2,IEEE,agent trajectory guardrail,200,189,2026-11-11T20:16:26
+V2,ACM,agent trajectory guardrail,200,25,2026-11-11T20:16:26
+V2,USENIX,agent trajectory guardrail,0,0,2026-11-11T20:16:26
+V3,IEEE,LLM agent runtime monitoring,200,30,2026-11-11T20:16:26
+V3,ACM,LLM agent runtime monitoring,200,14,2026-11-11T20:16:26
+V3,USENIX,LLM agent runtime monitoring,0,0,2026-11-11T20:16:26
+V4,IEEE,LLM agent runtime verification,200,44,2026-11-11T20:16:26
+V4,ACM,LLM agent runtime verification,200,34,2026-11-11T20:16:26
+V4,USENIX,LLM agent runtime verification,0,0,2026-11-11T20:16:26
+V5,IEEE,LLM agent guardrail,200,23,2026-11-11T20:16:26
+V5,ACM,LLM agent guardrail,200,13,2026-11-11T20:16:26
+V5,USENIX,LLM agent guardrail,0,0,2026-11-11T20:16:26
+V6,IEEE,multi-turn agent unsafe actions,200,11,2026-11-11T20:16:26
+V6,ACM,multi-turn agent unsafe actions,200,6,2026-11-11T20:16:26
+V6,USENIX,multi-turn agent unsafe actions,0,0,2026-11-11T20:16:26
+V7,IEEE,LLM agent anomaly detection,200,85,2026-11-11T20:16:26
+V7,ACM,LLM agent anomaly detection,200,17,2026-11-11T20:16:26
+V7,USENIX,LLM agent anomaly detection,0,0,2026-11-11T20:16:26
+V8,IEEE,tool-using agent safety monitor,200,55,2026-11-11T20:16:26
+V8,ACM,tool-using agent safety monitor,200,20,2026-11-11T20:16:26
+V8,USENIX,tool-using agent safety monitor,0,0,2026-11-11T20:16:26
