@@ -1,0 +1,7 @@
+headline,n,reported,low_bound,high_bound,coder_disagreements
+incidents with a flaggable step,37,33,28,33,5
+vulnerabilities with a flaggable step,226,178,171,201,30
+incidents with a precursor,37,24,18,25,14
+vulnerabilities with a bypassed guard,226,126,110,129,23
+incidents with a monitor running,37,12,10,14,15
+records needing information beyond the action,263,38,20,51,38
