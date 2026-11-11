@@ -1,0 +1,201 @@
+id,decision,reason
+CVE-2026-81930,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-28353,include,malicious extension drives local coding agent to exfiltrate
+CVE-2026-65975,include,"forged client tool call dispatched by agent, guard bypassed"
+CVE-2026-7755,exclude,E-DETAIL too thin to identify agent path
+CVE-2026-73506,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-47250,include,log-injected instruction makes agent call kubectl_generic
+CVE-2026-87911,include,crafted SQL in content bypasses MCP read-only validator
+CVE-2026-40608,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-5323,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-26325,include,allowlist/approval mismatch on agent system.run
+CVE-2026-56274,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-50027,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2025-64755,include,Claude Code read-only validation bypass
+CVE-2026-45001,include,prompt-injected model patches protected gateway config
+CVE-2026-80098,exclude,E-DETAIL too thin to identify agent path
+CVE-2026-54235,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-41279,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-70478,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-41614,exclude,E-DETAIL too thin to identify agent path
+CVE-2026-35589,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2025-69285,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-61559,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2025-5273,include,crafted prompt makes MCP host read arbitrary files
+CVE-2026-70471,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-54688,include,"agent-selected URL fetched via MCP tool, filter off by default"
+CVE-2026-24763,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-45403,include,agent copy tool path validation bypass via symlink
+CVE-2026-25593,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-44694,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2025-5276,include,crafted prompt invokes MCP fetch tools for SSRF
+CVE-2026-43991,include,agent shell plugin command blocklist bypassed
+CVE-2025-5277,include,crafted prompt makes MCP client run commands
+CVE-2026-30635,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-22687,include,agent DB query tool restrictions bypassed by prompt
+CVE-2026-73846,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-6494,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-45374,include,sub-agent inherits auto-approve and shell via task_create
+CVE-2026-41278,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-66027,include,injected prompts forwarded to victim's running agent
+CVE-2025-68433,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-73556,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-14501,exclude,E-DETAIL too thin to identify agent path
+CVE-2026-55443,include,"agent file-search path confinement bypass, LLM on untrusted input"
+CVE-2026-24399,exclude,"E-NOAGENT client-side rendering/display, not agent action"
+CVE-2026-7729,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-88938,include,agent session reads files outside root via MCP tool
+CVE-2026-63342,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-45373,exclude,E-DETAIL too thin to identify agent path
+CVE-2026-73656,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-21521,exclude,E-DETAIL too thin to identify agent path
+CVE-2026-55157,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-40159,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2025-62364,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-20265,include,agent outbound requests not restricted by domain allowlist
+CVE-2026-79918,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-45482,exclude,E-DETAIL too thin to identify agent path
+CVE-2025-46725,include,attacker makes agent run commands via pandas eval
+CVE-2026-35402,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2025-15061,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-33718,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-42827,exclude,E-DETAIL too thin to identify agent path
+CVE-2026-15737,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-50510,exclude,E-DETAIL too thin to identify agent path
+CVE-2026-5584,exclude,E-DETAIL too thin to identify agent path
+CVE-2026-35651,exclude,"E-NOAGENT client-side rendering/display, not agent action"
+CVE-2026-35394,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-30834,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-54520,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-72846,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2025-32018,include,Cursor agent writes outside workspace via prompt/context
+CVE-2026-22812,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-39423,exclude,"E-NOAGENT client-side rendering/display, not agent action"
+CVE-2025-12345,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2025-54382,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-73068,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2025-44179,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-69257,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-24052,include,Claude Code WebFetch trusted-domain check bypass
+CVE-2026-100633,include,agent/MCP file tool path guard and confirmation bypass
+CVE-2026-42865,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-75062,include,crafted prompt makes model emit Python evaluated unsandboxed
+CVE-2026-14540,include,data-driven prompt steers toolbox HTTP tool redirect SSRF
+CVE-2025-37734,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-57300,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-27576,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-25725,include,agent sandbox fails to protect settings.json
+CVE-2026-73658,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-62676,include,"agent command policy parser bypass, prompt-injected agent"
+CVE-2026-32871,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-13009,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-29870,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-39313,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2025-12695,include,agent PythonInterpreter sandbox too permissive
+CVE-2026-35486,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-88978,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-53965,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-77516,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-45582,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-45310,include,agent fetch_url SSRF filter bypassed via redirect
+CVE-2026-33497,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-77822,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-91847,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-6108,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2025-46570,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-34163,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-71416,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-25724,include,Claude Code deny rules bypassed via symlink
+CVE-2026-53555,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-46372,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-32625,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-40087,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2025-59286,exclude,E-DETAIL too thin to identify agent path
+CVE-2026-58197,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-21256,exclude,E-DETAIL too thin to identify agent path
+CVE-2026-54030,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-27004,exclude,E-DETAIL too thin to identify agent path
+CVE-2026-27113,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-47128,include,agent sandbox escape via unix socket
+CVE-2025-48956,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-59563,include,agent replays confirmation token for other resource
+CVE-2026-56075,include,agent shell approval forced to auto
+CVE-2026-33980,include,prompt-injected agent KQL injection in MCP tools
+CVE-2026-72776,include,"agent generates shell commands, blocklist bypassed"
+CVE-2026-23422,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-39422,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-55446,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-42861,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-22686,include,agent code sandbox escape
+CVE-2025-5255,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-7147,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-5058,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-42236,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-59950,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-35050,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-77521,include,"agent shell tool without approval, injected content"
+CVE-2025-53928,exclude,E-DETAIL too thin to identify agent path
+CVE-2026-32302,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2025-11576,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-9353,exclude,E-DETAIL too thin to identify agent path
+CVE-2026-45497,exclude,E-DETAIL too thin to identify agent path
+CVE-2026-27008,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-41273,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-53509,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-81102,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-44223,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2025-54377,include,Roo Code allow-list bypass via newlines
+CVE-2026-61732,include,"web content forges operator turn, agent runs commands"
+CVE-2025-8943,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-55447,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-25723,include,Claude Code file write restriction bypass via sed
+CVE-2026-54233,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2025-53787,exclude,E-DETAIL too thin to identify agent path
+CVE-2026-58485,include,"prompt-influenced tool URL, DNS filter bypass"
+CVE-2026-85787,include,crafted SQL in content bypasses read-only validator
+CVE-2026-25546,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-65015,include,chat with agent runs node tool without authorization
+CVE-2026-34476,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-45781,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2025-59829,include,Claude Code deny rule symlink bypass
+CVE-2025-53002,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-44717,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-27484,include,agent tool-driven moderation with spoofed sender
+CVE-2025-66455,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-37006,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-44995,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-54689,include,attacker-influenced tool call bypasses URL policy
+CVE-2026-26322,include,agent tool gatewayUrl override unrestricted
+CVE-2026-18954,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-2256,include,prompt-derived input command injection in agent
+CVE-2026-44653,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-93595,include,prompt AI assistant to query restricted data
+CVE-2026-76404,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-26013,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2025-53100,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-73485,include,"crafted prompts to agent, Python blocklist bypass"
+CVE-2026-59207,include,agent MCP tool sends credential to arbitrary domain
+CVE-2026-35485,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-27001,include,workspace path injects instructions into agent prompt
+CVE-2026-43992,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2025-10193,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-19984,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-41349,include,LLM agent disables exec approval via config.patch
+CVE-2026-32111,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-55640,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-32628,include,SQL agent plugin injection via table_name
+CVE-2026-48720,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-100547,include,agent read skips approval via file: URL spelling
+CVE-2026-58616,exclude,E-DETAIL too thin to identify agent path
+CVE-2025-59272,exclude,E-DETAIL too thin to identify agent path
+CVE-2025-54424,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-91988,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-73036,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-77250,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-17433,exclude,E-DETAIL too thin to identify agent path
+CVE-2026-25533,include,agent code sandbox bypass
+CVE-2026-34046,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-12203,exclude,"E-NONAI directly exploitable, no agent path stated"
+CVE-2026-41138,include,user input reaches Python code via Airtable agent
+CVE-2025-65946,include,Roo Code runs commands outside allow list
+CVE-2025-5963,exclude,"E-NONAI directly exploitable, no agent path stated"

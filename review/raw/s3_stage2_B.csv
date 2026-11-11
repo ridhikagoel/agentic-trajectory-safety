@@ -1,0 +1,85 @@
+idx,id,title,stage2,reason
+0,2302.11286,Neural-based classification rule learning for sequential data,exclude,title/abstract: generic method or not a sequence/relational fraud detector
+1,2303.18138,BERT4ETH: A Pre-trained Transformer for Ethereum Fraud Detection,include,
+2,2307.05121,Transaction Fraud Detection via Spatial-Temporal-Aware Graph Transformer,include,
+3,2308.01469,VertexSerum: Poisoning Graph Neural Networks for Link Inference,exclude,title/abstract: generic method or not a sequence/relational fraud detector
+4,2309.02012,iLoRE: Dynamic Graph Representation with Instant Long-term Modeling and Re-occurrence Preservation,exclude,title/abstract: generic method or not a sequence/relational fraud detector
+5,2312.14406,Generative Pretraining at Scale: Transformer-Based Encoding of Transactional Behavior for Fraud Detection,include,
+6,2401.00965,Improve Fidelity and Utility of Synthetic Credit Card Transaction Time Series from Data-centric Perspective,exclude,title/abstract: generic method or not a sequence/relational fraud detector
+7,2401.03246,SeqNAS: Neural Architecture Search for Event Sequence Classification,exclude,title/abstract: generic method or not a sequence/relational fraud detector
+8,2402.05396,TASER: Temporal Adaptive Sampling for Fast and Accurate Dynamic Graph Representation Learning,exclude,title/abstract: generic method or not a sequence/relational fraud detector
+9,2403.00775,Detecting Anomalous Events in Object-centric Business Processes via Graph Neural Networks,exclude,title/abstract: generic method or not a sequence/relational fraud detector
+10,2402.14708,CaT-GNN: Enhancing Credit Card Fraud Detection via Causal Temporal Graph Neural Networks,include,
+11,2404.00060,Temporal Graph Networks for Graph Anomaly Detection in Financial Networks,include,
+12,2405.01448,GTX: A Transactional Graph Data System For HTAP Workloads,exclude,title/abstract: generic method or not a sequence/relational fraud detector
+13,2407.05625,New User Event Prediction Through the Lens of Causal Inference,exclude,title/abstract: generic method or not a sequence/relational fraud detector
+14,2408.00513,VecAug: Unveiling Camouflaged Frauds with Cohort Augmentation for Enhanced Detection,include,
+15,2408.00641,Enhancing Ethereum Fraud Detection via Generative and Contrastive Self-supervision,include,
+16,2408.04092,Programmable Dataflows: Abstraction and Programming Model for Data Sharing,exclude,title/abstract: generic method or not a sequence/relational fraud detector
+17,2409.07494,Ethereum Fraud Detection via Joint Transaction Language Model and Graph Representation Learning,include,
+18,2410.00875,"Review of blockchain application with Graph Neural Networks, Graph Convolutional Networks and Convolutional Neural Networks",exclude,title/abstract: generic method or not a sequence/relational fraud detector
+19,2411.19457,Multi-task CNN Behavioral Embedding Model For Transaction Fraud Detection,include,
+20,2412.18287,Semi-supervised Credit Card Fraud Detection via Attribute-Driven Graph Representation,include,
+21,2503.16901,TeMP-TraG: Edge-based Temporal Message Passing in Transaction Graphs,include,
+22,2504.03750,Detecting Financial Fraud with Hybrid Deep Learning: A Mix-of-Experts Approach to Sequential and Anomalous Patterns,include,
+23,2504.08183,Detecting Credit Card Fraud via Heterogeneous Graph Neural Networks with Graph Attention,include,
+24,2504.09311,Dupin: A Parallel Framework for Densest Subgraph Discovery in Fraud Detection on Massive Graphs (Technical Report),include,
+25,2504.18785,ALF: Advertiser Large Foundation Model for Multi-Modal Advertiser Understanding,exclude,title/abstract: generic method or not a sequence/relational fraud detector
+26,2505.00137,Toward Practical Quantum Machine Learning: A Novel Hybrid Quantum LSTM for Fraud Detection,include,
+27,2506.00719,Browser Fingerprinting Using WebAssembly,exclude,title/abstract: generic method or not a sequence/relational fraud detector
+28,2506.02703,Data Leakage and Deceptive Performance: A Critical Examination of Credit Card Fraud Detection Methodologies,exclude,"methodology critique, no mechanism (cited in discussion)"
+29,2506.05740,FIST: A Structured Threat Modeling Framework for Fraud Incidents,exclude,title/abstract: generic method or not a sequence/relational fraud detector
+30,2506.15325,Human-Centred AI in FinTech: Developing a User Experience (UX) Research Point of View (PoV) Playbook,exclude,title/abstract: generic method or not a sequence/relational fraud detector
+31,2506.21382,Temporal-Aware Graph Attention Network for Cryptocurrency Transaction Fraud Detection,include,
+32,2507.05636,Graph Learning,exclude,title/abstract: generic method or not a sequence/relational fraud detector
+33,2507.19402,FD4QC: Application of Classical and Quantum-Hybrid Machine Learning for Financial Fraud Detection A Technical Report,exclude,title/abstract: generic method or not a sequence/relational fraud detector
+34,2508.09320,Exact Verification of Graph Neural Networks with Incremental Constraint Solving,exclude,title/abstract: generic method or not a sequence/relational fraud detector
+35,2508.20829,ATM-GAD: Adaptive Temporal Motif Graph Anomaly Detection for Financial Transaction Networks,include,
+36,2509.00931,Semi-Supervised Bayesian GANs with Log-Signatures for Uncertainty-Aware Credit Card Fraud Detection,include,
+37,2509.03939,LMAE4Eth: Generalizable and Robust Ethereum Fraud Detection by Exploring Transaction Semantics and Masked Graph Embedding,include,
+38,2509.09928,Fraud detection and risk assessment of online payment transactions on e-commerce platforms based on LLM and GCN frameworks,include,
+39,2509.22232,Fairness-Aware Reinforcement Learning (FAReL): A Framework for Transparent and Balanced Sequential Decision-Making,exclude,title/abstract: generic method or not a sequence/relational fraud detector
+40,2509.23101,Towards Quantum-Ready Blockchain Fraud Detection via Ensemble Graph Neural Networks,include,
+41,2510.05167,Machine learning for fraud detection in digital banking: a systematic literature review REVIEW,exclude,systematic review (snowball source)
+42,2510.10102,PANTHER: Generative Pretraining Beyond Language for Sequential User Behavior Modeling,exclude,title/abstract: generic method or not a sequence/relational fraud detector
+43,2510.12652,PromoGuardian: Detecting Promotion Abuse Fraud with Multi-Relation Fused Graph Neural Networks,include,
+44,2511.00047,DynBERG: Dynamic BERT-based Graph neural network for financial fraud detection,include,
+45,2510.25126,Bridging the Divide: End-to-End Sequence-Graph Learning,include,
+46,2511.07379,LoReTTA: A Low Resource Framework To Poison Continuous Time Dynamic Graphs,exclude,title/abstract: generic method or not a sequence/relational fraud detector
+47,2512.18133,Grad: Guided Relation Diffusion Generation for Graph Augmentation in Graph Fraud Detection,include,
+48,2512.19061,Fraud Detection Through Large-Scale Graph Clustering with Heterogeneous Link Transformation,include,
+49,2601.01522,Bayesian Orchestration of Multi-LLM Agents for Cost-Aware Sequential Decision-Making,exclude,title/abstract: generic method or not a sequence/relational fraud detector
+50,2601.05578,Reinforcement Learning of Large Language Models for Interpretable Credit Card Fraud Detection,include,
+51,2601.11073,Bridging Cognitive Neuroscience and Graph Intelligence: Hippocampus-Inspired Multi-View Hypergraph Learning for Web Finance Fraud,include,
+52,2601.22579,Non-Intrusive Graph-Based Bot Detection for E-Commerce Using Inductive Graph Neural Networks,include,
+53,2602.06955,Improving Credit Card Fraud Detection with an Optimized Explainable Boosting Machine,exclude,title/abstract: generic method or not a sequence/relational fraud detector
+54,2603.06632,Leakage Safe Graph Features for Interpretable Fraud Detection in Temporal Transaction Networks,include,
+55,2602.23599,Normalisation and Initialisation Strategies for Graph Neural Networks in Blockchain Anomaly Detection,include,
+56,2603.08377,Beyond the Markovian Assumption: Robust Optimization via Fractional Weyl Integrals in Imbalanced Data,exclude,title/abstract: generic method or not a sequence/relational fraud detector
+57,2603.14592,A Multi-Scale Graph Learning Framework with Temporal Consistency Constraints for Financial Fraud Detection in Transaction Networks under Non-Stationary Conditions,include,
+58,2603.26944,Neuro-Symbolic Learning for Predictive Process Monitoring via Two-Stage Logic Tensor Networks with Rule Pruning,exclude,title/abstract: generic method or not a sequence/relational fraud detector
+59,2605.21490,Temporal Contrastive Transformer for Financial Crime Detection: Self-Supervised Sequence Embeddings via Predictive Contrastive Coding,include,
+60,2604.08649,PRAGMA: Revolut Foundation Model,include,
+61,2604.13125,"Synthetic Tabular Generators Fail to Preserve Behavioral Fraud Patterns: A Benchmark on Temporal, Velocity, and Multi-Account Signals",exclude,title/abstract: generic method or not a sequence/relational fraud detector
+62,2604.24590,Fraud Detection in Cryptocurrency Markets with Spatio-Temporal Graph Neural Networks,include,
+63,2605.12782,Graph-Based Financial Fraud Detection with Calibrated Risk Scoring and Structural Regularization,include,
+64,2605.13109,QCIVET: A Quantum--Classical Pipeline Integrity Framework with Contract-Based Subtype Verification and Hash-Chained Audit Traces,exclude,title/abstract: generic method or not a sequence/relational fraud detector
+65,2605.18844,Graph-Driven Cross-Industry Real-Time Monitoring Framework for Anti-Money Laundering Detection in Converged Mobility-Energy Supply Chain Networks,include,
+66,2605.20157,SAGE: Scalable Automatic Gating Ensemble for Confident Negative Harvesting in Fraud Detection,exclude,title/abstract: generic method or not a sequence/relational fraud detector
+67,2605.26040,L2IR: Revealing Latent Intent in Graph Fraud Detection,include,
+68,2605.27557,The Fundamental Limits of Fraud Detection in Card Payment Networks,exclude,"theory of detection limits, no mechanism (cited in discussion)"
+69,2605.29272,Causal Label Recovery in Payment Networks,exclude,"label-bias method, not a detector"
+70,2606.07589,Optimality of Sequential Filtering Under Independent Cost and Selectivity Models,exclude,title/abstract: generic method or not a sequence/relational fraud detector
+71,2606.18444,TMR-GGNN: Credit Card Fraud Detection based on Time-Aware Multi-Relational Guided Graph Neural Network,include,
+72,2606.21356,SOHET: Sequence Of Heterogeneous Events Transformer with Self-Supervised Pre-Training,exclude,title/abstract: generic method or not a sequence/relational fraud detector
+73,2606.22180,FeLoG: Scalable and Efficient Distributed Graph Embedding with Feedback Loop Mechanism,exclude,title/abstract: generic method or not a sequence/relational fraud detector
+74,2606.25007,Multi-Stream Temporal Fusion for Financial Fraud Detection,include,
+75,2606.27202,Graph Neural Networks Applications Across Domains: All Insights You Need,exclude,title/abstract: generic method or not a sequence/relational fraud detector
+76,2606.28002,Dialogue to Detection: A Multimodal Hybrid NLP Pipeline for Insurance Fraud Detection,exclude,title/abstract: generic method or not a sequence/relational fraud detector
+77,2607.04166,Piercing Gilbreath's Conjecture: From Deep Number Theory Insights to Fintech and Cybersecurity,exclude,title/abstract: generic method or not a sequence/relational fraud detector
+78,2607.09528,TSAI-MetaFraud: A Benchmark Dataset for Financial Fraud Transaction and Behavioral Risk Detection in Metaverse Ecosystems,include,
+79,2607.18412,Scalable and Efficient Joint Spiking Embedding Predictive Architecture for Large-Scale Dynamic Graphs,exclude,title/abstract: generic method or not a sequence/relational fraud detector
+80,2608.29973,"An Open-Source, Event-Driven Pipeline for Cryptocurrency Market Data: Ingestion, Forecasting, and On-Chain Fraud Detection",exclude,title/abstract: generic method or not a sequence/relational fraud detector
+81,2609.11993,FINESSE: An Agent-Based Simulator and Benchmark Dataset for Multimodal Financial Event Sequences,exclude,title/abstract: generic method or not a sequence/relational fraud detector
+82,2609.27287,SR-Fraud: An Outcome-Supervised Reflective LLM Agent Framework for Non-Stationary Payment Fraud Detection,include,
+83,2609.34211,Behavior-Grounded Semantic Enrichment for Financial Fraud Modeling and Reasoning,include,

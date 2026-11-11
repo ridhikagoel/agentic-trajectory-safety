@@ -1,0 +1,454 @@
+{
+ "A": [
+  {
+   "idx": "S5-2",
+   "arxiv_id": "2502.05174",
+   "title": "MELON: Provable Defense Against Indirect Prompt Injection Attacks in AI Agents",
+   "mechanism": "hybrid",
+   "state_scope": "trajectory",
+   "timing": "online",
+   "evaluated_on": "benchmark",
+   "reports_fp_or_cost": "Y",
+   "reports_timeliness": "N"
+  },
+  {
+   "idx": "S5-3",
+   "arxiv_id": "2504.10374",
+   "title": "Ctrl-Z: Controlling AI Agents via Resampling",
+   "mechanism": "llm-judge",
+   "state_scope": "trajectory",
+   "timing": "online",
+   "evaluated_on": "benchmark",
+   "reports_fp_or_cost": "Y",
+   "reports_timeliness": "N"
+  },
+  {
+   "idx": "S5-4",
+   "arxiv_id": "2508.06418",
+   "title": "Quantifying Conversation Drift in MCP via Latent Polytope",
+   "mechanism": "representation",
+   "state_scope": "trajectory",
+   "timing": "online",
+   "evaluated_on": "benchmark",
+   "reports_fp_or_cost": "N",
+   "reports_timeliness": "N"
+  },
+  {
+   "idx": "S5-5",
+   "arxiv_id": "2508.19461",
+   "title": "Reliable Weak-to-Strong Monitoring of LLM Agents",
+   "mechanism": "llm-judge",
+   "state_scope": "trajectory",
+   "timing": "post-hoc",
+   "evaluated_on": "benchmark",
+   "reports_fp_or_cost": "Y",
+   "reports_timeliness": "N"
+  },
+  {
+   "idx": "S5-7",
+   "arxiv_id": "2509.23614",
+   "title": "PSG-Agent: Personality-Aware Safety Guardrail for LLM-based Agents",
+   "mechanism": "llm-judge",
+   "state_scope": "cross-session",
+   "timing": "online",
+   "evaluated_on": "benchmark",
+   "reports_fp_or_cost": "N",
+   "reports_timeliness": "N"
+  },
+  {
+   "idx": "S5-8",
+   "arxiv_id": "2512.23738",
+   "title": "Enforcing Temporal Constraints for LLM Agents",
+   "mechanism": "formal",
+   "state_scope": "trajectory",
+   "timing": "pre-execution",
+   "evaluated_on": "benchmark",
+   "reports_fp_or_cost": "Y",
+   "reports_timeliness": "N"
+  },
+  {
+   "idx": "S5-9",
+   "arxiv_id": "2601.04688",
+   "title": "ToolGate: Contract-Grounded and Verified Tool Execution for LLMs",
+   "mechanism": "formal",
+   "state_scope": "trajectory",
+   "timing": "pre-execution",
+   "evaluated_on": "benchmark",
+   "reports_fp_or_cost": "N",
+   "reports_timeliness": "N"
+  },
+  {
+   "idx": "S5-10",
+   "arxiv_id": "2601.08012",
+   "title": "Towards Verifiably Safe Tool Use for LLM Agents",
+   "mechanism": "position",
+   "state_scope": "trajectory",
+   "timing": "pre-execution",
+   "evaluated_on": "none",
+   "reports_fp_or_cost": "N",
+   "reports_timeliness": "N"
+  },
+  {
+   "idx": "S5-11",
+   "arxiv_id": "2601.10156",
+   "title": "ToolSafe: Enhancing Tool Invocation Safety of LLM-based agents via Proactive Step-level Guardrail and Feedback",
+   "mechanism": "learned",
+   "state_scope": "trajectory",
+   "timing": "pre-execution",
+   "evaluated_on": "benchmark",
+   "reports_fp_or_cost": "Y",
+   "reports_timeliness": "N"
+  },
+  {
+   "idx": "S5-12",
+   "arxiv_id": "2601.21112",
+   "title": "How does information access affect LLM monitors' ability to detect sabotage?",
+   "mechanism": "llm-judge",
+   "state_scope": "trajectory",
+   "timing": "post-hoc",
+   "evaluated_on": "benchmark",
+   "reports_fp_or_cost": "Y",
+   "reports_timeliness": "N"
+  },
+  {
+   "idx": "S5-13",
+   "arxiv_id": "2602.15198",
+   "title": "Colosseum: Auditing Collusion in Cooperative Multi-Agent Systems",
+   "mechanism": "benchmark",
+   "state_scope": "multi-agent",
+   "timing": "post-hoc",
+   "evaluated_on": "simulation",
+   "reports_fp_or_cost": "N",
+   "reports_timeliness": "N"
+  },
+  {
+   "idx": "S5-14",
+   "arxiv_id": "2602.16708",
+   "title": "Formal Policy Enforcement for Agentic Systems",
+   "mechanism": "formal",
+   "state_scope": "trajectory",
+   "timing": "pre-execution",
+   "evaluated_on": "benchmark",
+   "reports_fp_or_cost": "N",
+   "reports_timeliness": "N"
+  },
+  {
+   "idx": "S5-15",
+   "arxiv_id": "2602.22724",
+   "title": "AgentSentry: Mitigating Indirect Prompt Injection in LLM Agents via Temporal Causal Diagnostics and Context Purification",
+   "mechanism": "hybrid",
+   "state_scope": "trajectory",
+   "timing": "online",
+   "evaluated_on": "benchmark",
+   "reports_fp_or_cost": "Y",
+   "reports_timeliness": "N"
+  },
+  {
+   "idx": "S5-16",
+   "arxiv_id": "2604.23374",
+   "title": "Ghost in the Agent: Redefining Information Flow Tracking for LLM Agents",
+   "mechanism": "ifc-provenance",
+   "state_scope": "cross-session",
+   "timing": "post-hoc",
+   "evaluated_on": "benchmark",
+   "reports_fp_or_cost": "Y",
+   "reports_timeliness": "N"
+  },
+  {
+   "idx": "S5-17",
+   "arxiv_id": "2605.14421",
+   "title": "MemLineage: Lineage-Guided Enforcement for LLM Agent Memory",
+   "mechanism": "ifc-provenance",
+   "state_scope": "cross-session",
+   "timing": "pre-execution",
+   "evaluated_on": "benchmark",
+   "reports_fp_or_cost": "Y",
+   "reports_timeliness": "N"
+  },
+  {
+   "idx": "S5-18",
+   "arxiv_id": "2605.31042",
+   "title": "From Prompt Injection to Persistent Control: Defending Agentic Harness Against Trojan Backdoors",
+   "mechanism": "ifc-provenance",
+   "state_scope": "cross-session",
+   "timing": "online",
+   "evaluated_on": "simulation",
+   "reports_fp_or_cost": "N",
+   "reports_timeliness": "N"
+  },
+  {
+   "idx": "S5-19",
+   "arxiv_id": "2606.04141",
+   "title": "Caught in the Act(ivation): Toward Pre-Output and Multi-Turn Detection of Credential Exfiltration by LLM Agents",
+   "mechanism": "hybrid",
+   "state_scope": "session",
+   "timing": "online",
+   "evaluated_on": "preliminary",
+   "reports_fp_or_cost": "N",
+   "reports_timeliness": "N"
+  },
+  {
+   "idx": "S5-20",
+   "arxiv_id": "2607.22868",
+   "title": "What Can Be Enforced? A Theory of Certified Runtime Safety for Tool-Using Agents",
+   "mechanism": "formal",
+   "state_scope": "trajectory",
+   "timing": "pre-execution",
+   "evaluated_on": "synthetic",
+   "reports_fp_or_cost": "Y",
+   "reports_timeliness": "N"
+  },
+  {
+   "idx": "S5-21",
+   "arxiv_id": "2608.21159",
+   "title": "AID-Guard: Stateful Authorization for Delegated Agent Effects",
+   "mechanism": "rule",
+   "state_scope": "trajectory",
+   "timing": "pre-execution",
+   "evaluated_on": "case-study",
+   "reports_fp_or_cost": "Y",
+   "reports_timeliness": "N"
+  },
+  {
+   "idx": "S5-50",
+   "arxiv_id": "2509.25624v3",
+   "title": "STAC: When Innocent Tools Form Dangerous Chains to Jailbreak LLM Agents",
+   "mechanism": "benchmark",
+   "state_scope": "trajectory",
+   "timing": "online",
+   "evaluated_on": "benchmark",
+   "reports_fp_or_cost": "N",
+   "reports_timeliness": "N"
+  },
+  {
+   "idx": "S5-51",
+   "arxiv_id": "2402.01586v4",
+   "title": "TrustAgent: Towards Safe and Trustworthy LLM-based Agents through Agent Constitution",
+   "mechanism": "llm-judge",
+   "state_scope": "trajectory",
+   "timing": "pre-execution",
+   "evaluated_on": "benchmark",
+   "reports_fp_or_cost": "N",
+   "reports_timeliness": "N"
+  }
+ ],
+ "B": [
+  {
+   "idx": "S5-0",
+   "arxiv_id": "2306.06108",
+   "title": "Demystifying Fraudulent Transactions and Illicit Nodes in the Bitcoin Network for Financial Forensics",
+   "state_scope": "graph",
+   "production_data": "N"
+  },
+  {
+   "idx": "S5-1",
+   "arxiv_id": "2309.13662",
+   "title": "Topology-Agnostic Detection of Temporal Money Laundering Flows in Billion-Scale Transactions",
+   "state_scope": "both",
+   "production_data": "ID"
+  },
+  {
+   "idx": "S5-6",
+   "arxiv_id": "2509.18719",
+   "title": "LLM-Enhanced Self-Evolving Reinforcement Learning for Multi-Step E-Commerce Payment Fraud Risk Detection",
+   "state_scope": "sequence",
+   "production_data": "ID"
+  },
+  {
+   "idx": "S5-22",
+   "arxiv_id": "anovelmoneylaunderingpredictionmodelbasedonadynamicgraphconvolutionalneuralnetworkandlongshorttermmemory",
+   "title": "A Novel Money Laundering Prediction Model Based on a Dynamic Graph Convolutional Neural Network and Long Short-Term Memory",
+   "state_scope": "both",
+   "production_data": "ID"
+  },
+  {
+   "idx": "S5-23",
+   "arxiv_id": "atemporalgraphnetworkalgorithmfordetectingfraudulenttransactionsononlinepaymentplatforms",
+   "title": "A Temporal Graph Network Algorithm for Detecting Fraudulent Transactions on Online Payment Platforms",
+   "state_scope": "both",
+   "production_data": "Y"
+  },
+  {
+   "idx": "S5-24",
+   "arxiv_id": "catalogexploitingjointtemporaldependenciesforenhancedphishingdetectiononethereum",
+   "title": "CATALOG: Exploiting Joint Temporal Dependencies for Enhanced Phishing Detection on Ethereum",
+   "state_scope": "sequence",
+   "production_data": "N"
+  },
+  {
+   "idx": "S5-25",
+   "arxiv_id": "costsensitivelearningformedicalinsurancefrauddetectionwithtemporalinformation",
+   "title": "Cost-Sensitive Learning for Medical Insurance Fraud Detection With Temporal Information",
+   "state_scope": "sequence",
+   "production_data": "N"
+  },
+  {
+   "idx": "S5-26",
+   "arxiv_id": "detectingethereumphishingscamswithtemporalmotiffeaturesofsubgraph",
+   "title": "Detecting Ethereum Phishing Scams with Temporal Motif Features of Subgraph",
+   "state_scope": "both",
+   "production_data": "N"
+  },
+  {
+   "idx": "S5-27",
+   "arxiv_id": "enhancingattributedrivenfrauddetectionwithriskawaregraphrepresentation",
+   "title": "Enhancing Attribute-Driven Fraud Detection With Risk-Aware Graph Representation",
+   "state_scope": "graph",
+   "production_data": "ID"
+  },
+  {
+   "idx": "S5-28",
+   "arxiv_id": "ewdpsanovelframeworkforearlywarninganddetectiononethereumphishingscams",
+   "title": "EWDPS: A Novel Framework for Early Warning and Detection on Ethereum Phishing Scams",
+   "state_scope": "both",
+   "production_data": "N"
+  },
+  {
+   "idx": "S5-29",
+   "arxiv_id": "fraudgnnrlagraphneuralnetworkwithreinforcementlearningforadaptivefinancialfrauddetection",
+   "title": "FraudGNN-RL: A Graph Neural Network With Reinforcement Learning for Adaptive Financial Fraud Detection",
+   "state_scope": "graph",
+   "production_data": "ID"
+  },
+  {
+   "idx": "S5-30",
+   "arxiv_id": "grabphisherphishingscamsdetectioninethereumviatemporallyevolvinggnns",
+   "title": "GrabPhisher: Phishing Scams Detection in Ethereum via Temporally Evolving GNNs",
+   "state_scope": "both",
+   "production_data": "N"
+  },
+  {
+   "idx": "S5-31",
+   "arxiv_id": "identifyingincoherentsearchsessionssearchclickfraudremediationunderrealworldconstraints",
+   "title": "Identifying Incoherent Search Sessions: Search Click Fraud Remediation Under Real-World Constraints",
+   "state_scope": "sequence",
+   "production_data": "ID"
+  },
+  {
+   "idx": "S5-32",
+   "arxiv_id": "knowledgegraphdrivengenerativeframeworkforinterpretablefinancialfrauddetection",
+   "title": "Knowledge Graph-Driven Generative Framework for Interpretable Financial Fraud Detection",
+   "state_scope": "graph",
+   "production_data": "ID"
+  },
+  {
+   "idx": "S5-33",
+   "arxiv_id": "machinelearningbasedunsupervisedensembleapproachfordetectingnewmoneylaunderingtypologiesintransactiongraphs",
+   "title": "MACHINE LEARNING-BASED UNSUPERVISED ENSEMBLE APPROACH FOR DETECTING NEW MONEY LAUNDERING TYPOLOGIES IN TRANSACTION GRAPHS",
+   "state_scope": "both",
+   "production_data": "N"
+  },
+  {
+   "idx": "S5-34",
+   "arxiv_id": "mintdetectingfraudulentbehaviorsfromtimeseriesrelationaldata",
+   "title": "MINT: Detecting Fraudulent Behaviors from Time-series Relational Data",
+   "state_scope": "both",
+   "production_data": "Y"
+  },
+  {
+   "idx": "S5-35",
+   "arxiv_id": "mitigatingthetaileffectinfrauddetectionbycommunityenhancedmultirelationgraphneuralnetworks",
+   "title": "Mitigating the Tail Effect in Fraud Detection by Community Enhanced Multi-Relation Graph Neural Networks",
+   "state_scope": "graph",
+   "production_data": "ID"
+  },
+  {
+   "idx": "S5-36",
+   "arxiv_id": "multidistancespatialtemporalgraphneuralnetworkforanomalydetectioninblockchaintransactions",
+   "title": "Multi\u2010Distance Spatial\u2010Temporal Graph Neural Network for Anomaly Detection in Blockchain Transactions",
+   "state_scope": "both",
+   "production_data": "N"
+  },
+  {
+   "idx": "S5-37",
+   "arxiv_id": "multihoprelationalmodelingforcreditfrauddetectionviagraphneuralnetworks",
+   "title": "Multi-Hop Relational Modeling for Credit Fraud Detection via Graph Neural Networks",
+   "state_scope": "graph",
+   "production_data": "ID"
+  },
+  {
+   "idx": "S5-38",
+   "arxiv_id": "profitordeceitmitigatingpumpanddumpindefiviagraphandcontrastivelearning",
+   "title": "Profit or Deceit? Mitigating Pump and Dump in DeFi via Graph and Contrastive Learning",
+   "state_scope": "graph",
+   "production_data": "N"
+  },
+  {
+   "idx": "S5-39",
+   "arxiv_id": "removingcamouflageandrevealingcollusionleveraginggangcrimepatterninfraudsterdetection",
+   "title": "Removing Camouflage and Revealing Collusion: Leveraging Gang-crime Pattern in Fraudster Detection",
+   "state_scope": "both",
+   "production_data": "ID"
+  },
+  {
+   "idx": "S5-40",
+   "arxiv_id": "scalablesemisupervisedgraphlearningtechniquesforantimoneylaundering",
+   "title": "Scalable Semi-Supervised Graph Learning Techniques for Anti Money Laundering",
+   "state_scope": "graph",
+   "production_data": "ID"
+  },
+  {
+   "idx": "S5-41",
+   "arxiv_id": "sequenceasgenesanuserbehaviormodelingframeworkforfraudtransactiondetectioninecommerce",
+   "title": "Sequence As Genes: An User Behavior Modeling Framework for Fraud Transaction Detection in E-commerce",
+   "state_scope": "sequence",
+   "production_data": "Y"
+  },
+  {
+   "idx": "S5-42",
+   "arxiv_id": "siegeselfsupervisedincrementaldeepgraphlearningforethereumphishingscamdetection",
+   "title": "SIEGE: Self-Supervised Incremental Deep Graph Learning for Ethereum Phishing Scam Detection",
+   "state_scope": "graph",
+   "production_data": "N"
+  },
+  {
+   "idx": "S5-43",
+   "arxiv_id": "tgattemporalgraphattentionnetworkforblockchainphishingscamsdetection",
+   "title": "TGAT: Temporal Graph Attention Network for Blockchain Phishing Scams Detection",
+   "state_scope": "both",
+   "production_data": "N"
+  },
+  {
+   "idx": "S5-44",
+   "arxiv_id": "timeawareattentionbasedgatednetworkforcreditcardfrauddetectionbyextractingtransactionalbehaviors",
+   "title": "Time-Aware Attention-Based Gated Network for Credit Card Fraud Detection by Extracting Transactional Behaviors",
+   "state_scope": "sequence",
+   "production_data": "ID"
+  },
+  {
+   "idx": "S5-45",
+   "arxiv_id": "tokenscoutearlydetectionofethereumscamtokensviatemporalgraphlearning",
+   "title": "TokenScout: Early Detection of Ethereum Scam Tokens via Temporal Graph Learning",
+   "state_scope": "both",
+   "production_data": "N"
+  },
+  {
+   "idx": "S5-46",
+   "arxiv_id": "transactiongpttowardfoundationaltransactionmodeling",
+   "title": "TransactionGPT: Toward Foundational Transaction Modeling",
+   "state_scope": "sequence",
+   "production_data": "Y"
+  },
+  {
+   "idx": "S5-47",
+   "arxiv_id": "tropicaltransformerbasedhypergraphlearningforcamouflagedfraudsterdetection",
+   "title": "TROPICAL: Transformer-Based Hypergraph Learning for Camouflaged Fraudster Detection",
+   "state_scope": "graph",
+   "production_data": "ID"
+  },
+  {
+   "idx": "S5-48",
+   "arxiv_id": "graphbasedbitcoinfrauddetectionusingvariationalgraphautoencodersandsupervisedlearning",
+   "title": "Graph-Based Bitcoin Fraud Detection Using Variational Graph Autoencoders and Supervised Learning",
+   "state_scope": "graph",
+   "production_data": "N"
+  },
+  {
+   "idx": "S5-49",
+   "arxiv_id": "investigatingtheimpactofstructuralandtemporalbehaviorsinethereumphishingusersdetection",
+   "title": "Investigating the impact of structural and temporal behaviors in Ethereum phishing users detection",
+   "state_scope": "both",
+   "production_data": "N"
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+run_date,query,domains,mode
+2026-10-14,AI Security Institute agent incident report unsanctioned behaviour evaluation,aisi.gov.uk,extended
+2026-10-14,Anthropic agent evaluation incident model accessed internet sandbox out-of-scope behavior 2026,anthropic.com; red.anthropic.com; alignment.anthropic.com,extended
+2026-10-14,OpenAI agent evaluation incident model unexpected behavior sandbox escape disclosure 2025 2026,openai.com; cdn.openai.com,extended
+2026-10-14,agentic model misbehavior during evaluation deleted files production database disclosed incident 2025 2026,(open web),extended
+2026-10-14,NIST CAISI evaluation agent hijacking findings incident,nist.gov,standard
+2026-10-14,Google DeepMind Gemini agent incident disclosure out-of-scope action evaluation 2026,deepmind.google; blog.google; storage.googleapis.com,standard
+2026-10-14,Meta model evaluation Irregular misconfiguration internet access statement 2026,(open web),standard
+2026-10-14,Microsoft security response center agent AI incident prompt injection Copilot advisory 2026 agentic,msrc.microsoft.com; microsoft.com,standard
+2026-10-14,coding agent deleted production data used credentials it found incident postmortem 2026 Claude Code Codex Cursor,(open web),extended
+2026-10-14,Anthropic system card agentic incident out-of-scope OR unsanctioned OR destructive action Claude Code internal deployment 2026,anthropic.com; assets.anthropic.com; www-cdn.anthropic.com,extended
+2026-10-14,Google Gemini agent hacked breached September 2026 Google confirms agent incident,(open web),standard

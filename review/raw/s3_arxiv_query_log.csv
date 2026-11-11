@@ -1,0 +1,7 @@
+key,query,total_reported,retrieved,run_utc
+A1,"abs:""agent"" AND abs:""trajectory"" AND (abs:""safety"" OR abs:""security"" OR abs:""guardrail"")",729,729,2026-10-14T18:08:37
+A2,"abs:""agent"" AND abs:""runtime"" AND (abs:""monitor"" OR abs:""monitoring"" OR abs:""verification"") AND (abs:""LLM"" OR abs:""language model"")",193,193,2026-10-14T18:08:37
+A3,"abs:""agent"" AND (abs:""multi-step"" OR abs:""multi-turn"" OR abs:""sequence"") AND abs:""unsafe"" AND (abs:""LLM"" OR abs:""language model"")",48,48,2026-10-14T18:08:37
+A4,"abs:""agent"" AND (abs:""anomaly detection"" OR abs:""anomalous"") AND (abs:""LLM"" OR abs:""language model"")",130,130,2026-10-14T18:08:37
+B1,"abs:""fraud detection"" AND (abs:""sequential"" OR abs:""sequence"" OR abs:""behavioral"" OR abs:""behavioural"")",110,110,2026-10-14T18:08:37
+B2,"abs:""fraud"" AND abs:""graph neural network""",95,95,2026-10-14T18:08:37

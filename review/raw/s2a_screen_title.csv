@@ -1,0 +1,72 @@
+incident_id,date,title,decision,reason
+1028,2025-02-07,OpenAI's Operator Agent Reportedly Executed Unauthorized $31.43 Transaction Despite Safety Protocol,full-text,
+1061,2025-02-07,Reportedly Viral USAID Disinformation Video Linked to Russian-Aligned Campaign Known as Matryoshka,exclude,E-NOAGENT
+1174,2025-02-26,Microsoft Copilot Reportedly Able to Access Cached Data from Since-Private GitHub Repositories,exclude,E-NOAGENT
+962,2025-03-05,"Tbilisi-Based Call Center Allegedly Uses AI-Driven Scripts to Defraud Over 6,000 Victims of $35 Million",exclude,E-NOAGENT
+1130,2025-03-13,Docomo Pacific CEO Reports Mother Targeted by Purported AI-Enabled Scam in Guam,exclude,E-NOAGENT
+1003,2025-03-18,Alleged Fraudulent Prompts via AIXBT Dashboard Led Purported AI Trading Agent to Transfer 55.5 ETH from Simulacrum Wallet,full-text,
+1015,2025-04-07,Reported Darknet Launch of Xanthorox AI Introduces Autonomous Cyberattack Platform,exclude,E-MISUSE
+1438,2025-04-08,"Jiushi Autonomous Delivery Vehicle Reportedly Dragged Fallen Electric Scooter During Delivery Run in Xianyang, Shaanxi",exclude,E-NOAGENT
+1070,2025-05-09,"Serviceaide AI Platform Implicated in Health Data Exposure Affecting 483,000 Catholic Health Patients",exclude,E-NONAI
+1188,2025-06-25,Multiple LLMs Reportedly Generated Responses Aligning with Purported CCP Censorship and Propaganda,exclude,E-NOAGENT
+1218,2025-07-04,Microsoft 365 Copilot Vulnerability Allegedly Allowed File Access Without Audit Log Entry,full-text,
+1152,2025-07-18,"LLM-Driven Replit Agent Reportedly Executed Unauthorized Destructive Commands During Code Freeze, Leading to Loss of Production Data",full-text,
+1150,2025-07-20,Purported Deepfake of Barack Obama's Detention Reportedly Amplified by Donald Trump via Truth Social,exclude,E-NOAGENT
+1186,2025-07-31,"Reported Public Exposure of Over 100,000 LLM Conversations via Share Links Indexed by Search Engines and Archived",exclude,E-NOAGENT
+1176,2025-08-01,Microsoft's Windows Recall Allegedly Stores Passwords and Social Security Numbers in Preview Mode,exclude,E-NOAGENT
+1210,2025-08-21,Malicious Nx npm Packages Reportedly Weaponize AI Coding Agents for Data Exfiltration,full-text,
+1201,2025-08-27,"Anthropic Reportedly Identifies AI Misuse in Extortion Campaigns, North Korean IT Schemes, and Ransomware Sales",exclude,E-MISUSE
+1299,2025-10-03,Bodycam Footage Reportedly Contradicted Purportedly ChatGPT-Generated Use-of-Force Narrative by Immigration Agent,exclude,E-NOAGENT
+1238,2025-10-10,"OpenAI ChatGPT Models Reportedly Jailbroken to Provide Chemical, Biological, and Nuclear Weapons Instructions",exclude,E-NOAGENT
+1400,2025-10-24,West Midlands Police Reportedly Relied on Erroneous Copilot-Generated Intelligence in Maccabi Tel Aviv Away-Fan Ban Decision,exclude,E-NOAGENT
+1269,2025-10-27,Waymo Autonomous Vehicle Reportedly Ran Over and Killed a Cat in San Francisco,exclude,E-NOAGENT
+1563,2025-10-28,KPMG Report Allegedly Included Hallucinated Citations and Inaccurate Agentic AI Case Studies,exclude,E-NOAGENT
+1263,2025-11-13,Chinese State-Linked Operator (GTG-1002) Reportedly Uses Claude Code for Autonomous Cyber Espionage,exclude,E-MISUSE
+1279,2025-11-18,Prominent AI Chatbots Allegedly Produced Incorrect UK Financial and ISA Guidance,exclude,E-NOAGENT
+1337,2025-12-08,Waymo Robotaxi Reportedly Transported Undetected Person Trapped in Trunk in Los Angeles,exclude,E-NOAGENT
+1313,2025-12-18,Anthropic Claude AI Agent Reportedly Caused Financial Losses While Operating Office Vending Machine at Wall Street Journal Headquarters,full-text,
+1326,2025-12-20,Waymo Robotaxis Allegedly Contributed to Traffic Gridlock During San Francisco PG&E Power Outage,exclude,E-NOAGENT
+1334,2026-01-07,"Grok Reportedly Generated False 'Unmasked' Images of ICE Agent, Purportedly Triggering Online Misidentification and Harassment in Minneapolis",exclude,E-NOAGENT
+1362,2026-01-10,Border Patrol Agent Allegedly Claimed Facial Recognition Identified Minneapolis ICE Observer and Global Entry Was Reportedly Revoked Three Days Later,exclude,E-NOAGENT
+1347,2026-01-11,"Automated Shuttle Bus Was Reportedly Rear-Ended During U.S. Department of Transportation Demonstration Ride in Washington, D.C.",exclude,E-NOAGENT
+1390,2026-01-21,DHS Agents Reportedly Threatened Legal Observers With 'Domestic Terrorist' Database While Using Purportedly AI-Enabled Surveillance During ICE Operations,exclude,E-NOAGENT
+1361,2026-01-23,"Waymo Autonomous Vehicle Reportedly Struck Child Near Elementary School in Santa Monica, California",exclude,E-NOAGENT
+1358,2026-01-24,Purportedly AI-Altered Images Reportedly Distort Evidence After Minneapolis Shooting of ICU Nurse Alex Pretti,exclude,E-NOAGENT
+1364,2026-01-31,Moltbook Database Exposure Allegedly Revealed Users' Private Communications and API Authentication Tokens,exclude,E-NONAI
+1373,2026-02-11,AI Coding Agent 'MJ Rathbun' Allegedly Published Personalized Accusatory Blog Post Targeting Matplotlib Maintainer After Pull Request Closure,full-text,
+1680,2026-02-17,Unknown Actor Reportedly Exploited Cline's Claude-Powered GitHub Issue-Triage Workflow and Published an Unauthorized Cline CLI Package,full-text,
+1542,2026-02-23,OpenClaw Agent Reportedly Tried to Delete Meta AI Alignment Director Summer Yue's Emails Despite Stop Commands,full-text,
+1424,2026-02-26,"Claude Code Agent Reportedly Deleted DataTalks.Club Production Infrastructure, Database, and Snapshots via Terraform",full-text,
+1412,2026-02-28,CodeWall's Autonomous Agent Reportedly Obtained Unauthorized Access to McKinsey's Lilli AI Platform Database,exclude,E-MISUSE
+1471,2026-03-18,Meta Internal AI Agent Reportedly Gave Advice That Allegedly Exposed Sensitive Data to Unauthorized Employees,full-text,
+1678,2026-03-31,"Avride Autonomous Vehicle Reportedly Struck and Killed Nesting Duck Near Mueller Lake Park in Austin, Texas",exclude,E-NOAGENT
+1723,2026-04-02,Anthropic's Claude Code AI Coding Tool Reportedly Used Hidden Unicode Markers to Classify Custom API Routing,exclude,E-NOAGENT
+1613,2026-04-07,Claude Mythos Preview Reportedly Posted Sandbox Exploit Details to Public Websites During Anthropic Evaluation,full-text,
+1661,2026-04-08,Aurora Ransomware Operator Reportedly Used Cursor Agent to Assist Intrusions Against Multiple Organizations,exclude,E-MISUSE
+1469,2026-04-24,PocketOS Production Database Was Reportedly Deleted by Cursor AI Agent Running Claude Opus 4.6,full-text,
+1470,2026-04-27,DisMech AI Curation Agent Reportedly Completed GitHub Issue Intended as New Contributor's Learning Task,full-text,
+1642,2026-04-30,AI Agent Powered by Claude Opus 4.6 Reportedly Exploited Gym Booking API and Removed Another Member From Waitlist,full-text,
+1599,2026-05-09,Waymo Robotaxi Reportedly Remained Immobilized While Vandals Smashed Vehicle with Passenger Inside,exclude,E-NOAGENT
+1670,2026-05-10,Threat Actor Reportedly Used LLM Agent to Exfiltrate Internal Database After Compromising marimo Python Notebook,exclude,E-MISUSE
+1497,2026-05-13,Hidden Prompt Injection in Brazilian Labor-Court Petition Reportedly Tried to Manipulate Galileu,exclude,E-NOAGENT
+1673,2026-05-20,Google Gemini 3.5 Coding Agent Reportedly Caused Production Portal Outage and Generated Fabricated Recovery Records,full-text,
+1668,2026-05-24,OpenAI-Linked AI Agents Reportedly Used German Programming Wiki DSEWiki for Coordination and Restriction Evasion,full-text,
+1731,2026-05-28,AI Agents Reportedly Attempted to Hack Canada's Federal Archives Website While Retrieving Historical Divorce Records,full-text,
+1512,2026-05-31,The Sydney Morning Herald and The Age Removed an Opinion Article After Undisclosed Copilot Use,exclude,E-NOAGENT
+1707,2026-06-18,OpenAI AI Agent Reportedly Gained Unauthorized Access to Australian Medicare Statistics Portal During Research Task,full-text,
+1602,2026-06-20,"Zoox Autonomous Vehicle Reportedly Entered Smoke-Obscured Fire Scene, Prompting Heavy-Smoke Detection Recall",exclude,E-NOAGENT
+1578,2026-07-01,LLM-Driven Ransomware Operator Dubbed JADEPUFFER Reportedly Targeted Production Database,exclude,E-MISUSE
+1646,2026-07-01,Suspected China-Linked Hackers Reportedly Used AI Agents to Compromise Taiwanese Government Systems and Exfiltrate Personnel Records,exclude,E-MISUSE
+1586,2026-07-08,Threat Actor Reportedly Used AI-Assisted Workflows to Compromise AWS Environment for Extortion,exclude,E-MISUSE
+1669,2026-07-09,Threat Actor Reportedly Used Hermes AI Agent for Unattended Post-Compromise Activity in Thailand's Ministry of Finance Network,exclude,E-MISUSE
+1671,2026-07-10,OpenAI GPT-5.6 Sol Agent Reportedly Deleted Most Files in AI Startup Founder's Mac Home Directory,full-text,
+1604,2026-07-11,OpenAI Models Reportedly Compromised Hugging Face Production Infrastructure During Cybersecurity Evaluation,full-text,
+1672,2026-07-13,OpenAI GPT-5.6 Sol Reportedly Deleted Software Engineer's Production Database During Local Testing,full-text,
+1633,2026-07-26,Anthropic and OpenAI AI Agents Reportedly Took Unsanctioned Actions on the Live Internet During UK AISI Cybersecurity Evaluations,full-text,
+1676,2026-07-28,Anthropic Claude Opus 5 Coding Agent Reportedly Reset a Live Supabase Production Database During Prisma Migration Work,full-text,
+1675,2026-08-21,Instinct AI Personal Assistant Reportedly Summarized an AI Product Founder's Retained Emails After Google Access Was Disconnected,full-text,
+1687,2026-09-10,Anthropic-Designated GTG-87001 Weapons Cell in Northern Yemen Reportedly Used Claude Code to Develop Missile Guidance Software,exclude,E-MISUSE
+1693,2026-09-14,AI Agent Reportedly Exploited Application Vulnerabilities to Modify Personal Data and Access Invoices in Breach Reported to Spanish Data Protection Authority,full-text,
+1719,2026-09-19,"Anthropic's Claude Code AI Agent Reportedly Deleted About 48,000 Live Project Files and Version-Control History During Software Repair",full-text,
+1710,2026-09-25,AI Agent Appearing to Originate from OpenAI Reportedly Attempted to Hack U.S. Department of Education Civil Rights Website,full-text,
+1734,2026-09-29,"AI Coding Agents Reportedly Exposed Over 13,000 Internal Images from Hundreds of Organizations on Public GitHub Code Repositories",full-text,

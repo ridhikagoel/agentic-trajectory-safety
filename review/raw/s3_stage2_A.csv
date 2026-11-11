@@ -1,0 +1,373 @@
+idx,id,title,stage2,reason
+0,2301.03634,Structural Attention-Based Recurrent Variational Autoencoder for Highway Vehicle Anomaly Detection,exclude,title: out of scope (not LLM-agent action safety)
+1,2301.10959,Tracking Control of Optical Beam Transceivers using Mean Field Models,exclude,title: out of scope (not LLM-agent action safety)
+2,2303.14278,Safe Hierarchical Navigation in Crowded Dynamic Uncertain Environments,exclude,title: out of scope (not LLM-agent action safety)
+3,2306.12241,ScenarioNet: Open-Source Platform for Large-Scale Traffic Scenario Simulation and Modeling,exclude,title: out of scope (not LLM-agent action safety)
+4,2306.12516,On the detection of the presence of malicious components in cyber-physical systems in the almost sure sense,exclude,title: out of scope (not LLM-agent action safety)
+5,2306.14131,Safety-Critical Scenario Generation Via Reinforcement Learning Based Editing,exclude,title: out of scope (not LLM-agent action safety)
+6,2309.00172,Detecting Evidence of Organization in groups by Trajectories,exclude,title: out of scope (not LLM-agent action safety)
+7,2311.02738,Scenario Diffusion: Controllable Driving Scenario Generation With Diffusion,exclude,title: out of scope (not LLM-agent action safety)
+8,2312.13863,Manipulating Trajectory Prediction with Backdoors,exclude,title: out of scope (not LLM-agent action safety)
+9,2403.05748,Autonomous Guidewire Navigation for Robot-assisted Endovascular Interventions: A Knowledge-Driven Visual Guidance Approach,exclude,title: out of scope (not LLM-agent action safety)
+10,2404.01486,QuAD: Query-based Interpretable Neural Motion Planning for Autonomous Driving,exclude,title: out of scope (not LLM-agent action safety)
+11,2404.07063,LaPlaSS: Latent Space Planning for Stochastic Systems,exclude,title: out of scope (not LLM-agent action safety)
+12,2404.15557,Safe POMDP Online Planning among Dynamic Agents via Adaptive Conformal Prediction,exclude,title: out of scope (not LLM-agent action safety)
+13,2405.10875,Recursively Feasible Shrinking-Horizon MPC in Dynamic Environments with Conformal Prediction Guarantees,exclude,title: out of scope (not LLM-agent action safety)
+14,2406.02436,"Safe, Out-of-Distribution-Adaptive MPC with Conformalized Neural Network Ensembles",exclude,title: out of scope (not LLM-agent action safety)
+15,2406.03870,GOOSE: Goal-Conditioned Reinforcement Learning for Safety-Critical Scenario Generation,exclude,title: out of scope (not LLM-agent action safety)
+16,2406.11707,A First Physical-World Trajectory Prediction Attack via LiDAR-induced Deceptions in Autonomous Driving,exclude,title: out of scope (not LLM-agent action safety)
+17,2407.06447,Geospatial Trajectory Generation via Efficient Abduction: Deployment for Independent Testing,exclude,title: out of scope (not LLM-agent action safety)
+18,2409.10283,ASMA: An Adaptive Safety Margin Algorithm for Vision-Language Drone Navigation via Scene-Aware Control Barrier Functions,exclude,title: out of scope (not LLM-agent action safety)
+19,2410.10852,SafeLLM: Domain-Specific Safety Monitoring for Large Language Models: A Case Study of Offshore Wind Maintenance,exclude,abstract: not an LLM agent safety mechanism
+20,2501.10604,When language and vision meet road safety: leveraging multimodal large language models for video-based traffic accident analysis,exclude,title: out of scope (not LLM-agent action safety)
+21,2501.14451,MARL-OT: Multi-Agent Reinforcement Learning Guided Online Fuzzing to Detect Safety Violation in Autonomous Driving Systems,exclude,title: out of scope (not LLM-agent action safety)
+22,2501.17329,Anomaly Detection in Cooperative Vehicle Perception Systems under Imperfect Communication,exclude,title: out of scope (not LLM-agent action safety)
+23,2502.02145,From Words to Collisions: LLM-Guided Evaluation and Adversarial Generation of Safety-Critical Driving Scenarios,exclude,title: out of scope (not LLM-agent action safety)
+24,2502.15657,Superintelligent Agents Pose Catastrophic Risks: Can Scientist AI Offer a Safer Path?,exclude,title: out of scope (not LLM-agent action safety)
+25,2502.20353,Trajectory-to-Action Pipeline (TAP): Automated Scenario Description Extraction for Autonomous Vehicle Behavior Comparison,exclude,title: out of scope (not LLM-agent action safety)
+26,2503.15049,HAD-Gen: Human-like and Diverse Driving Behavior Modeling for Controllable Scenario Generation,exclude,title: out of scope (not LLM-agent action safety)
+27,2503.20020,Gemini Robotics: Bringing AI into the Physical World,exclude,title: out of scope (not LLM-agent action safety)
+28,2503.22738,ShieldAgent: Shielding Agents via Verifiable Safety Policy Reasoning,include,
+29,2503.23147,Agent-Based Modeling and Deep Neural Networks for Establishing Digital Twins of Secure Facilities under Sensing Restrictions,exclude,title: out of scope (not LLM-agent action safety)
+30,2504.16734,DYNUS: Uncertainty-aware Trajectory Planner in Dynamic Unknown Environments,exclude,title: out of scope (not LLM-agent action safety)
+31,2505.11063,Think Twice Before You Act: Enhancing Agent Behavioral Safety with Thought Correction,exclude,abstract: single-step thought correction
+32,2505.19234,GUARDIAN: Safeguarding LLM Multi-Agent Collaborations with Temporal Graph Modeling,include,
+33,2505.22695,LLM-ODDR: A Large Language Model Framework for Joint Order Dispatching and Driver Repositioning,exclude,title: out of scope (not LLM-agent action safety)
+34,2505.24201,SentinelAgent: Graph-based Anomaly Detection in Multi-Agent Systems,include,
+35,2506.01367,MMD-Flagger: Leveraging Maximum Mean Discrepancy to Detect Hallucinations,exclude,title: out of scope (not LLM-agent action safety)
+36,2506.02539,VerificAgent: Domain-Specific Memory Verification for Scalable Oversight of Aligned Computer-Use Agents,exclude,"abstract: memory curation, not action monitoring"
+37,2506.05389,Rational Superautotrophic Diplomacy (SupraAD); A Conceptual Framework for Alignment Based on Interdisciplinary Findings on the Fundamentals of Cognition,exclude,title: out of scope (not LLM-agent action safety)
+38,2506.08336,Your Agent Can Defend Itself against Backdoor Attacks,exclude,title: out of scope (not LLM-agent action safety)
+39,2506.12104,DRIFT: Dynamic Rule-Based Defense with Injection Isolation for Securing LLM Agents,include,
+40,2507.03293,LogicGuard: Improving Embodied LLM agents through Temporal Logic based Critics,exclude,"abstract: task performance critic, not safety"
+41,2507.06134,OpenAgentSafety: A Comprehensive Framework for Evaluating Real-World AI Agent Safety,include,
+42,2507.09329,When Developer Aid Becomes Security Debt: A Systematic Analysis of Insecure Behaviors in LLM Coding Agents,exclude,title: out of scope (not LLM-agent action safety)
+43,2507.21547,Decentralized Modeling of Vehicular Maneuvers and Interactions at Urban Junctions,exclude,title: out of scope (not LLM-agent action safety)
+44,2507.22389,Safety Evaluation of Motion Plans Using Trajectory Predictors as Forward Reachable Set Estimators,exclude,title: out of scope (not LLM-agent action safety)
+45,2508.00500,ProbGuard: Proactive Runtime Monitoring for LLM Agent Safety via Probabilistic Prediction,include,
+46,2508.02921,PentestJudge: Judging Agent Behavior Against Operational Requirements,include,
+47,2508.06189,MA-CBP: A Criminal Behavior Prediction Framework Based on Multi-Agent Asynchronous Collaboration,exclude,title: out of scope (not LLM-agent action safety)
+48,2508.10043,Securing Agentic AI: Threat Modeling and Risk Analysis for Network Monitoring Agentic AI System,exclude,title: out of scope (not LLM-agent action safety)
+49,2508.10501,PASS: Probabilistic Agentic Supernet Sampling for Interpretable and Adaptive Chest X-Ray Reasoning,exclude,title: out of scope (not LLM-agent action safety)
+50,2508.10567,SpaRC-AD: A Baseline for Radar-Camera Fusion in End-to-End Autonomous Driving,exclude,title: out of scope (not LLM-agent action safety)
+51,2508.13465,LM Agents May Fail to Act on Their Own Risk Knowledge,exclude,title: out of scope (not LLM-agent action safety)
+52,2508.17155,Mind the Gap: Time-of-Check to Time-of-Use Vulnerabilities in LLM-Enabled Agents,exclude,"abstract: attack study, no monitor"
+53,2508.20737,"Rethinking Testing for LLM Applications: Characteristics, Challenges, and a Lightweight Interaction Protocol",exclude,title: out of scope (not LLM-agent action safety)
+54,2509.10147,Virtual Agent Economies,exclude,title: out of scope (not LLM-agent action safety)
+55,2509.14279,"Towards Robust Agentic CUDA Kernel Benchmarking, Verification, and Optimization",exclude,title: out of scope (not LLM-agent action safety)
+56,2509.14956,Sentinel Agents for Secure and Trustworthy Agentic AI in Multi-Agent Systems,include,
+57,2510.02627,A Trajectory Generator for High-Density Traffic and Diverse Agent-Interaction Scenarios,exclude,title: out of scope (not LLM-agent action safety)
+58,2510.03485,Learning Efficient Guardrails for Compliance,include,
+59,2510.05156,VeriGuard: Enhancing LLM Agent Safety via Verified Code Generation,exclude,title: out of scope (not LLM-agent action safety)
+60,2510.09781,Building a Foundational Guardrail for General Agentic Systems via Synthetic Data,include,
+61,2510.12985,SENTINEL: A Multi-Level Formal Framework for Safety Evaluation of Foundation Model-based Embodied Agents,include,
+62,2510.12200,HackWorld: Evaluating Computer-Use Agents on Exploiting Web Application Vulnerabilities,exclude,title: out of scope (not LLM-agent action safety)
+63,2510.14207,Echoes of Human Malice in Agents: Benchmarking LLMs for Multi-Turn Online Harassment Attacks,exclude,title: out of scope (not LLM-agent action safety)
+64,2510.17269,FineVision: Open Data Is All You Need,exclude,title: out of scope (not LLM-agent action safety)
+65,2510.18225,Joint Optimization of Cooperation Efficiency and Communication Covertness for Target Detection with AUVs,exclude,title: out of scope (not LLM-agent action safety)
+66,2510.24411,OS-Sentinel: Towards Safety-Enhanced Mobile GUI Agents via Hybrid Validation in Realistic Workflows,include,
+67,2511.03094,ALAS: Transactional and Dynamic Multi-Agent LLM Planning,exclude,title: out of scope (not LLM-agent action safety)
+68,2511.04032,Detecting Silent Failures in Multi-Agentic AI Trajectories,exclude,"abstract: reliability failures, not safety"
+69,2511.11402,Multi-Phase Spacecraft Trajectory Optimization via Transformer-Based Reinforcement Learning,exclude,title: out of scope (not LLM-agent action safety)
+70,2511.15497,A Review of Machine Learning for Cavitation Intensity Recognition in Complex Industrial Systems,exclude,title: out of scope (not LLM-agent action safety)
+71,2511.22572,Formal Verification of Probabilistic Multi-Agent Systems for Ballistic Rocket Flight Using Probabilistic Alternating-Time Temporal Logic,exclude,title: out of scope (not LLM-agent action safety)
+72,2511.22685,Deadlock-Free Hybrid RL-MAPF Framework for Zero-Shot Multi-Robot Navigation,exclude,title: out of scope (not LLM-agent action safety)
+73,2512.00491,Smart-TCP: An Agentic AI-based Autonomous and Adaptive TCP Protocol,exclude,title: out of scope (not LLM-agent action safety)
+74,2512.03180,AGENTSAFE: A Unified Framework for Ethical Assurance and Governance in Agentic AI,exclude,"abstract: governance framework, no mechanism"
+75,2512.07462,"Understanding LLM Agent Behaviours via Game Theory: Strategy Recognition, Biases and Multi-Agent Dynamics",exclude,title: out of scope (not LLM-agent action safety)
+76,2512.13671,AgentIAD: Agentic Industrial Anomaly Detection via Adaptive Memory Augmentation,exclude,title: out of scope (not LLM-agent action safety)
+77,2512.20649,AIAuditTrack: A Framework for AI Security system,exclude,"abstract: logging infrastructure, no decision"
+78,2512.15688,BashArena: A Control Setting for Highly Privileged AI Agents,include,
+79,2512.18940,FASTRIC: Prompt Specification Language for Verifiable LLM Interactions,exclude,title: out of scope (not LLM-agent action safety)
+80,2512.20293,AprielGuard,include,
+81,2512.20086,Spatio-Temporal Graphs Beyond Grids: Benchmark for Maritime Anomaly Detection,exclude,title: out of scope (not LLM-agent action safety)
+82,2512.21220,RoboSafe: Safeguarding Embodied Agents via Executable Safety Logic,include,
+83,2512.22894,DECEPTICON: How Dark Patterns Manipulate Web Agents,exclude,title: out of scope (not LLM-agent action safety)
+84,2512.23760,"Audited Skill-Graph Self-Improvement for Agentic LLMs via Verifiable Rewards, Experience Synthesis, and Continual Memory",exclude,title: out of scope (not LLM-agent action safety)
+85,2601.00516,"Trajectory Guard -- A Lightweight, Sequence-Aware Model for Real-Time Anomaly Detection in Agentic AI",include,
+86,2601.02511,LLM-Enhanced Reinforcement Learning for Time Series Anomaly Detection,exclude,title: out of scope (not LLM-agent action safety)
+87,2601.10173,ReasAlign: Reasoning Enhanced Safety Alignment against Prompt Injection Attack,exclude,title: out of scope (not LLM-agent action safety)
+88,2601.10599,Institutional AI: A Governance Framework for Distributional AGI Safety,exclude,title: out of scope (not LLM-agent action safety)
+89,2601.12822,MirrorGuard: Toward Secure Computer-Use Agents via Simulation-to-Real Reasoning Correction,exclude,abstract: single-step reasoning correction
+90,2601.13546,ChatAD: Reasoning-Enhanced Time-Series Anomaly Detection with Multi-Turn Instruction Evolution,exclude,title: out of scope (not LLM-agent action safety)
+91,2601.18491,AgentDoG: A Diagnostic Guardrail Framework for AI Agent Safety and Security,include,
+92,2601.18754,"$α^3$-SecBench: A Large-Scale Evaluation Suite of Security, Resilience, and Trust for LLM-based UAV Agents over 6G Networks",exclude,title: out of scope (not LLM-agent action safety)
+93,2601.19578,Yunque DeepResearch Technical Report,exclude,title: out of scope (not LLM-agent action safety)
+94,2601.22136,"StepShield: When, Not Whether to Intervene on Rogue Agents",include,
+95,2601.23188,Deep Search with Hierarchical Meta-Cognitive Monitoring Inspired by Cognitive Neuroscience,exclude,title: out of scope (not LLM-agent action safety)
+96,2602.01290,AOASS: Adaptive Obstacle-Aware Square Spiral Framework for Single-mobile Anchor-Based WSN Localization,exclude,title: out of scope (not LLM-agent action safety)
+97,2602.02164,Co-RedTeam: Orchestrated Security Discovery and Exploitation with LLM Agents,exclude,title: out of scope (not LLM-agent action safety)
+98,2602.02206,Fat-Cat: Document-Driven Metacognitive Multi-Agent System for Complex Reasoning,exclude,title: out of scope (not LLM-agent action safety)
+99,2602.04821,Safe Urban Traffic Control via Uncertainty-Aware Conformal Prediction and World-Model Reinforcement Learning,exclude,title: out of scope (not LLM-agent action safety)
+100,2602.05552,VLN-Pilot: Large Vision-Language Model as an Autonomous Indoor Drone Operator,exclude,title: out of scope (not LLM-agent action safety)
+101,2602.06443,TrajAD: Trajectory Anomaly Detection for Trustworthy LLM Agents,include,
+102,2602.07215,Multi-Agentic AI for Fairness-Aware and Accelerated Multi-modal Large Model Inference in Real-world Mobile Edge Networks,exclude,title: out of scope (not LLM-agent action safety)
+103,2602.07652,Agent-Fence: Mapping Security Vulnerabilities Across Deep Research Agents,exclude,title: out of scope (not LLM-agent action safety)
+104,2602.08995,When Actions Go Off-Task: Detecting and Correcting Misaligned Actions in Computer-Use Agents,include,
+105,2604.03242,DRAFT: Task Decoupled Latent Reasoning for Agent Safety,include,
+106,2602.10915,"Blind Gods and Broken Screens: Architecting a Secure, Intent-Centric Mobile Agent Operating System",exclude,title: out of scope (not LLM-agent action safety)
+107,2602.11024,Chain-of-Look Spatial Reasoning for Dense Surgical Instrument Counting,exclude,title: out of scope (not LLM-agent action safety)
+108,2602.12444,Safe Reinforcement Learning via Recovery-based Shielding with Gaussian Process Dynamics Models,exclude,title: out of scope (not LLM-agent action safety)
+109,2602.14200,TS-Haystack: A Multi-Task Retrieval Benchmark for Long-Context Time-Series Reasoning,exclude,title: out of scope (not LLM-agent action safety)
+110,2602.15325,AgriWorld:A World Tools Protocol Framework for Verifiable Agricultural Reasoning with Code-Executing LLM Agents,exclude,title: out of scope (not LLM-agent action safety)
+111,2602.17231,HiMAP: History-aware Map-occupancy Prediction with Fallback,exclude,title: out of scope (not LLM-agent action safety)
+112,2602.17415,Distributed Virtual Model Control for Scalable Human-Robot Collaboration in Shared Workspace,exclude,title: out of scope (not LLM-agent action safety)
+113,2602.20708,ICON: Indirect Prompt Injection Defense for Agents based on Inference-Time Correction,exclude,abstract: single-step latent IPI probe
+114,2603.02259,The Alignment Flywheel: A Governance-Centric Hybrid MAS for Architecture-Agnostic Safety,exclude,title: out of scope (not LLM-agent action safety)
+115,2603.02345,RIVA: Leveraging LLM Agents for Reliable Configuration Drift Detection,exclude,title: out of scope (not LLM-agent action safety)
+116,2603.04469,Cross-Layer Semantic Flow Reconstruction for Attack Detection in Agentic Systems,include,
+117,2603.08852,LDP: An Identity-Aware Protocol for Multi-Agent LLM Systems,exclude,title: out of scope (not LLM-agent action safety)
+118,2603.10060,"Tool Receipts, Not Zero-Knowledge Proofs: Practical Hallucination Detection for AI Agents",exclude,abstract: hallucination verification
+119,2603.10682,OnFly: Onboard Zero-Shot Aerial Vision-Language Navigation toward Safety and Efficiency,exclude,title: out of scope (not LLM-agent action safety)
+120,2603.11853,"OpenClaw PRISM: A Zero-Fork, Defense-in-Depth Runtime Security Layer for Tool-Augmented LLM Agents",include,
+121,2603.13517,CTI-REALM: Benchmark to Evaluate Agent Performance on Security Detection Rule Generation Capabilities,exclude,title: out of scope (not LLM-agent action safety)
+122,2603.14367,HomeGuard: VLM-based Embodied Safeguard for Identifying Contextual Risk in Household Task,exclude,title: out of scope (not LLM-agent action safety)
+123,2603.19328,The Verifier Tax: Horizon Dependent Safety Success Tradeoffs in Tool Using LLM Agents,include,
+124,2603.22341,T-MAP: Red-Teaming LLM Agents with Trajectory-aware Evolutionary Search,exclude,title: out of scope (not LLM-agent action safety)
+125,2603.22350,Session Risk Memory (SRM): Temporal Authorization for Deterministic Pre-Execution Safety Gates,include,
+126,2603.21551,AI In Cybersecurity Education -- Scalable Agentic CTF Design Principles and Educational Outcomes,exclude,title: out of scope (not LLM-agent action safety)
+127,2603.21698,A Blueprint for Self-Evolving Coding Agents in Vehicle Aerodynamic Drag Prediction,exclude,title: out of scope (not LLM-agent action safety)
+128,2603.22489,Model Context Protocol Threat Modeling and Analyzing Vulnerabilities to Prompt Injection with Tool Poisoning,exclude,title: out of scope (not LLM-agent action safety)
+129,2603.24203,Invisible Threats from Model Context Protocol: Generating Stealthy Injection Payload via Tree-based Adaptive Search,exclude,title: out of scope (not LLM-agent action safety)
+130,2603.25091,"Pixelis: Reasoning in Pixels, from Seeing to Acting",exclude,title: out of scope (not LLM-agent action safety)
+131,2603.27148,SafetyDrift: Predicting When AI Agents Cross the Line Before They Actually Do,include,
+132,2604.00304,Asymmetric Actor-Critic for Multi-turn LLM Agents,exclude,title: out of scope (not LLM-agent action safety)
+133,2604.00788,UK AISI Alignment Evaluation Case-Study,exclude,title: out of scope (not LLM-agent action safety)
+134,2604.02022,ATBench: A Diverse and Realistic Agent Trajectory Benchmark for Safety Evaluation and Diagnosis,include,
+135,2606.15579,Your Agent Has a Genome: Sequence-Level Behavioral Analysis and Runtime Governance of LLM-Powered Autonomous Agents,include,
+136,2604.05229,From Governance Norms to Enforceable Controls: A Layered Translation Method for Runtime Guardrails in Agentic AI,exclude,"abstract: standards translation method, no monitor"
+137,2604.05793,BodhiPromptShield: Pre-Inference Prompt Mediation for Surface-Form Privacy Propagation in LLM Agent Pipelines,exclude,title: out of scope (not LLM-agent action safety)
+138,2604.06132,Claw-Eval: Towards Trustworthy Evaluation of Autonomous Agents,exclude,title: out of scope (not LLM-agent action safety)
+139,2604.06392,Qualixar OS: A Universal Operating System for AI Agent Orchestration,exclude,title: out of scope (not LLM-agent action safety)
+140,2605.26438,LURE: Live-Usage Replay Evaluations for Reducing Evaluation Awareness,exclude,title: out of scope (not LLM-agent action safety)
+141,2604.07223,TraceSafe: A Systematic Assessment of LLM Guardrails on Multi-Step Tool-Calling Trajectories,include,
+142,2604.06618,PoC-Adapt: Semantic-Aware Automated Vulnerability Reproduction with LLM Multi-Agents and Reinforcement Learning-Driven Adaptive Policy,exclude,title: out of scope (not LLM-agent action safety)
+143,2604.09056,Conversations Risk Detection LLMs in Financial Agents via Multi-Stage Generative Rollout,include,
+144,2604.13954,HINTBench: Horizon-agent Intrinsic Non-attack Trajectory Benchmark,include,
+145,2604.13888,GeoAgentBench: A Dynamic Execution Benchmark for Tool-Augmented Agents in Spatial Analysis,exclude,title: out of scope (not LLM-agent action safety)
+146,2604.18614,HadAgent: Harness-Aware Decentralized Agentic AI Serving with Proof-of-Inference Blockchain Consensus,exclude,title: out of scope (not LLM-agent action safety)
+147,2604.15384,LinuxArena: A Control Setting for AI Agents in Live Production Software Environments,include,
+148,2604.17562,SafeAgent: A Runtime Protection Architecture for Agentic Systems,include,
+149,2604.17596,"Terminal Wrench: A Dataset of 331 Reward-Hackable Environments and 3,632 Exploit Trajectories",exclude,title: out of scope (not LLM-agent action safety)
+150,2604.18652,From Craft to Kernel: A Governance-First Execution Architecture and Semantic ISA for Agentic Computers,exclude,title: out of scope (not LLM-agent action safety)
+151,2604.23853,ClawTrace: Cost-Aware Tracing for LLM Agent Skill Distillation,exclude,title: out of scope (not LLM-agent action safety)
+152,2604.24618,Evaluating whether AI models would sabotage AI safety research,exclude,"abstract: propensity evaluation, no monitor"
+153,2604.26274,Enforcing Benign Trajectories: A Behavioral Firewall for Structured-Workflow AI Agents,include,
+154,2604.27274,The Inverse-Wisdom Law: Architectural Tribalism and the Consensus Paradox in Agentic Swarms,exclude,title: out of scope (not LLM-agent action safety)
+155,2604.27586,Trace-Level Analysis of Information Contamination in Multi-Agent Systems,exclude,abstract: reliability contamination study
+156,2605.01143,A Low-Latency Fraud Detection Layer for Detecting Adversarial Interaction Patterns in LLM-Powered Agents,include,
+157,2605.12532,AgenticAITA: A Proof-Of-Concept About Deliberative Multi-Agent Reasoning for Autonomous Trading Systems,exclude,title: out of scope (not LLM-agent action safety)
+158,2605.03228,Safeguarding LLM Agents against Long-Horizon Threats via Shadow Memory,include,
+159,2605.03482,MEMSAD: Gradient-Coupled Anomaly Detection for Memory Poisoning in Retrieval-Augmented Agents,include,
+160,2605.04785,AgentTrust: Runtime Safety Evaluation and Interception for AI Agent Tool Use,include,
+161,2605.06161,Beyond Accuracy: Policy Invariance as a Reliability Test for LLM Safety Judges,exclude,title: out of scope (not LLM-agent action safety)
+162,2605.06812,Towards Security-Auditable LLM Agents: A Unified Graph Representation,include,
+163,2605.06890,Beyond the Black Box: Interpretability of Agentic AI Tool Use,exclude,title: out of scope (not LLM-agent action safety)
+164,2605.07442,GameGen-Verifier: Parallel Keypoint-Based Verification for LLM-Generated Games via Runtime State Injection,exclude,title: out of scope (not LLM-agent action safety)
+165,2605.16346,PropGuard: Safeguarding LLM-MAS via Propagation-Aware Exploration and Remediation,include,
+166,2605.08828,When Agents Overtrust Environmental Evidence: An Extensible Agentic Framework for Benchmarking Evidence-Grounding Defects in LLM Agents,exclude,title: out of scope (not LLM-agent action safety)
+167,2605.23951,Methods for Formal Verification of Agent Skills: Three Layers Toward a Mechanically Checkable Capability-Containment Proof,exclude,title: out of scope (not LLM-agent action safety)
+168,2605.10481,"Safe Multi-Agent Behavior Must Be Maintained, Not Merely Asserted: Constraint Drift in LLM-Based Multi-Agent Systems",include,
+169,2605.10912,"WildClawBench: A Benchmark for Real-World, Long-Horizon Agent Evaluation",exclude,title: out of scope (not LLM-agent action safety)
+170,2605.11882,On-Policy Self-Evolution via Failure Trajectories for Agentic Safety Alignment,exclude,title: out of scope (not LLM-agent action safety)
+171,2605.11770,Behavioral Integrity Verification for AI Agent Skills,exclude,abstract: static skill artifact verification
+172,2605.13631,ProjGuard: Safety Monitoring for Computer-Use Agents via Low-Dimensional Projections,include,
+173,2605.14271,Auditing Agent Harness Safety,include,
+174,2605.16198,"Formal Methods Meet LLMs: Auditing, Monitoring, and Intervention for Compliance of Advanced AI Systems",include,
+175,2605.23989,"Towards trustworthy agentic AI: a comprehensive survey of safety, robustness, privacy, and system security",exclude,title: out of scope (not LLM-agent action safety)
+176,2605.17451,DeTrack: A Benchmark and Altitude-Aware Dual World Model for Drone-embodied Tracking,exclude,title: out of scope (not LLM-agent action safety)
+177,2605.18988,Surviving the Unseen: Predictive Defense for Novel Multi-Turn Multimodal Attacks,include,
+178,2605.19038,Guiding Neuro-Symbolic Scenario Generation with Spatio-Temporal Logic,exclude,title: out of scope (not LLM-agent action safety)
+179,2605.21082,AutoRPA: Efficient GUI Automation through LLM-Driven Code Synthesis from Interactions,exclude,title: out of scope (not LLM-agent action safety)
+180,2605.20682,IndusAgent: Reinforcing Open-Vocabulary Industrial Anomaly Detection with Agentic Tools,exclude,title: out of scope (not LLM-agent action safety)
+181,2605.20742,VBFDD-Agent for Electric Vehicle Battery Fault Detection and Diagnosis: Descriptive Text Modeling of Battery Digital Signals,exclude,title: out of scope (not LLM-agent action safety)
+182,2605.23320,Human-in-the-Loop Multi-Agent Ventilator Decision Support with Contextual Bandit Preference Learning,exclude,title: out of scope (not LLM-agent action safety)
+183,2605.24134,ProofAgent Harness: Open Infrastructure for Adversarial Evaluation of AI Agents,exclude,title: out of scope (not LLM-agent action safety)
+184,2605.24216,Agent-ToM: Learning to Monitor Autonomous LLM Agents via Theory-of-Mind Reasoning,include,
+185,2605.23723,MemAudit: Post-hoc Auditing of Poisoned Agent Memory via Causal Attribution and Structural Anomaly Detection,include,
+186,2605.26169,"ESBMC: A Survey of Its Evolution, Integration, and Future Directions in Formal Software Verification",exclude,title: out of scope (not LLM-agent action safety)
+187,2605.26497,Aligning Provenance with Authorization: A Dual-Graph Defense for LLM Agents,include,
+188,2605.27466,AgensFlow: A Coordination-Policy Substrate for Multi-Agent Systems,exclude,title: out of scope (not LLM-agent action safety)
+189,2605.26870,Persistent AI Agents in Academic Research: A Single-Investigator Implementation Case Study,exclude,title: out of scope (not LLM-agent action safety)
+190,2605.27333,FinHarness: An Inline Lifecycle Safety Harness for Finance LLM Agents,include,
+191,2605.27690,TRACES: Proactive Safety Auditing for Multi-Turn LLM Agents via Trajectory-State Modeling,include,
+192,2605.29178,The Best-Laid SCHEMEs: Coordinated Sabotage and Monitoring in Multi-Agent Systems,include,
+193,2605.30335,"Locally Coherent, Globally Incoherent: Bounding Compositional Incoherence in Multi-Component LLM Agents",exclude,"abstract: probabilistic coherence, not safety"
+194,2606.00611,TRACE: Trajectory Risk-Aware Compression for Long-Horizon Agent Safety,include,
+195,2606.01166,BraveGuard: From Open-World Threats to Safer Computer-Use Agents,exclude,title: out of scope (not LLM-agent action safety)
+196,2606.01019,Hybrid Verified Decoding: Learning to Allocate Verification in Speculative Decoding,exclude,title: out of scope (not LLM-agent action safety)
+197,2606.01416,Self-Healing Agentic Orchestrators for Reliable Tool-Augmented Large Language Model Systems,exclude,title: out of scope (not LLM-agent action safety)
+198,2606.01498,TimeSage-MT: A Multi-Turn Benchmark for Evaluating Agentic Time Series Reasoning,exclude,title: out of scope (not LLM-agent action safety)
+199,2606.01738,THRD: A Training-Free Multi-Turn Defense Framework for Jailbreak Attacks on Large Language Models,exclude,"abstract: chat LLM jailbreaks, not agents"
+200,2606.02497,Bridging the Last Mile of Time Series Forecasting with LLM Agents,exclude,title: out of scope (not LLM-agent action safety)
+201,2606.01925,QoEReasoner: An Agentic Reasoning Framework for Automated and Explainable QoE Diagnosis in RANs,exclude,title: out of scope (not LLM-agent action safety)
+202,2606.03321,Validation-Gated Multi-Agent Governance for Online Adaptation of Thermal-Hydraulic Surrogate Models under Operating-Regime Shift,exclude,title: out of scope (not LLM-agent action safety)
+203,2606.04296,The Saturation Trap and the Subjectivity of Intervention Timing: Why Affect-Based Triggers and LLM Judges Fail to Time Interventions on Autonomous Agents,exclude,title: out of scope (not LLM-agent action safety)
+204,2606.04812,Scenario Generation for Risk-Aware Reinforcement Learning with Probably Approximately Safe Guarantees,exclude,title: out of scope (not LLM-agent action safety)
+205,2606.09890,PreAct-Bench: Benchmarking Predictive Monitoring in LLMs,include,
+206,2606.06324,From Failed Trajectories to Reliable LLM Agents: Diagnosing and Repairing Harness Flaws,exclude,title: out of scope (not LLM-agent action safety)
+207,2606.06140,RedEdit: Agentic Red-Teaming of Image Safety Classifiers via MCTS-Guided Photo-Editing,exclude,title: out of scope (not LLM-agent action safety)
+208,2606.06893,Workflow-to-Skill: Skill Creation via Routing-Workflow-Semantics-Attachments Decomposition,exclude,title: out of scope (not LLM-agent action safety)
+209,2606.07889,Strained Coherence: A Pre-Failure Signal in Coding Agent Execution Trajectories,include,
+210,2606.08234,SciTrace: Trajectory-Aware Safety Reasoning for Scientific Discovery Agents,include,
+211,2606.08348,Bayesian-Agent: Posterior-Guided Skill Evolution Across LLM Agent Harnesses,exclude,title: out of scope (not LLM-agent action safety)
+212,2606.08919,"Oversight Has a Capacity: Calibrating Agent Guards to a Subjective, Fatiguing Human",exclude,abstract: single-action approval gate
+213,2606.09550,InquiTree: Evaluating AI Agents in the Scientific Inquiry Loop with Paper-Derived Research Trees,exclude,title: out of scope (not LLM-agent action safety)
+214,2606.10322,Game-Theoretic Multi-Agent Control for Robust Contextual Reasoning in LLMs,exclude,title: out of scope (not LLM-agent action safety)
+215,2606.10314,Mobility Anomaly Generation using LLM-Driven Behavior with Kinematic Constraints,exclude,title: out of scope (not LLM-agent action safety)
+216,2606.12747,Prefill Awareness in Large Language Models,exclude,title: out of scope (not LLM-agent action safety)
+217,2606.12142,AerialClaw: An Open-Source Framework for LLM-Driven Autonomous Aerial Agents,exclude,title: out of scope (not LLM-agent action safety)
+218,2606.12341,OCELOT: Inference-Leakage Budgets for Privacy-Preserving LLM Agents,exclude,title: out of scope (not LLM-agent action safety)
+219,2606.12657,TrajGenAgent: A Hierarchical LLM Agent for Human Mobility Trajectory Generation,exclude,title: out of scope (not LLM-agent action safety)
+220,2606.12896,PolicyGuard: Towards Test-time and Step-level Adversary (Backdoor) Defense for Reinforcement Learning Agent,exclude,abstract: non-LLM RL agents
+221,2606.14154,SkillMutator: Benchmarking and Defending Language-and-Code Cross-modal Attacks on LLM Agent Skills,exclude,title: out of scope (not LLM-agent action safety)
+222,2606.14357,No Accidental Software Agent First Canonical Code for Human Code Entropy Reduction and 30 to 500 times Lower Frontier Model Requirements,exclude,title: out of scope (not LLM-agent action safety)
+223,2606.20683,From Question Answering to Task Completion: A Survey on Agent System and Harness Design,exclude,title: out of scope (not LLM-agent action safety)
+224,2606.16313,Is Your Trajectory Displacement Safe in Long-tail?,exclude,title: out of scope (not LLM-agent action safety)
+225,2606.20700,Machine-Coached Policy Revision in Adaptive Agent-Based Regulatory Simulation: A Controller-Level Contestability Layer,exclude,title: out of scope (not LLM-agent action safety)
+226,2606.17368,"Distributed General-Purpose Agent Networks: Architecture, Key Mechanisms, and Prototypes",exclude,title: out of scope (not LLM-agent action safety)
+227,2606.20758,"A Topology-Aware, Memory-Centric Architecture that Separates Root-Cause Derivation from Root-Cause Explanation",exclude,title: out of scope (not LLM-agent action safety)
+228,2606.21344,Mind the Noise: Sensitivity of Transformer-based Interaction-Aware Trajectory Prediction Models to Noisy Data,exclude,title: out of scope (not LLM-agent action safety)
+229,2606.22673,Agent MechSuits: Mechanistic Subspace Safety Steering for Multi-Turn CLI Agents,include,
+230,2606.22376,Vibe Calibration: Autonomous Bring-up of a 112-Qubit Superconducting Quantum Processor by a Skill-Orchestrating Language Agent,exclude,title: out of scope (not LLM-agent action safety)
+231,2606.23565,HoloAgent-0: A Unified Embodied Agent Framework with 3D Spatial Memory,exclude,title: out of scope (not LLM-agent action safety)
+232,2606.24311,LemonHarness Technical Report,exclude,title: out of scope (not LLM-agent action safety)
+233,2606.26350,OpenFinGym: A Verifiable Multi-Task Gym Environment for Evaluating Quant Agents,exclude,title: out of scope (not LLM-agent action safety)
+234,2606.26859,AgentX: Towards Agent-Driven Self-Iteration of Industrial Recommender Systems,exclude,title: out of scope (not LLM-agent action safety)
+235,2606.27577,hia-gat: A Heterogeneous Interaction-Aware Graph Attention Network For Frame-Level Traffic Conflict Risk Prediction On Freeways,exclude,title: out of scope (not LLM-agent action safety)
+236,2606.26524,VIGIL: Runtime Enforcement of Behavioral Specifications in AI Agent Skills,include,
+237,2606.28467,An Agentic AI Pipeline for Appliance-Level Energy Anomaly Detection and LLM-Driven Recommendations,exclude,title: out of scope (not LLM-agent action safety)
+238,2606.30383,Whose Side Is Your Agent On? Multi-Party Principal Loyalty in LLM Agents,exclude,title: out of scope (not LLM-agent action safety)
+239,2606.30877,A Systematic Approach to Multi-Agent AI from Advanced Regulatory Control Theory: Safe and Auditable LLM Operator Agents for Process Control,exclude,title: out of scope (not LLM-agent action safety)
+240,2607.02598,Evaluating Agentic Harness Systems for Autonomous Computational Pathology,exclude,title: out of scope (not LLM-agent action safety)
+241,2607.00911,"From Registry to Repository: How AI Agent Skills Are Written, Adapted, and Maintained",exclude,title: out of scope (not LLM-agent action safety)
+242,2607.00334,Managed Autonomy at Runtime: Gear-Based Safety and Governance for Single- and Multi-Agent Cyber-Physical Systems,exclude,title: out of scope (not LLM-agent action safety)
+243,2607.02496,Controllable Sim Agents with Behavior Latents,exclude,title: out of scope (not LLM-agent action safety)
+244,2607.20505,HERMES: Heterogeneous Edge-Relational Multi-Head Embedded SSM Attention for Traffic Conflict Prediction at Signalized Intersections,exclude,title: out of scope (not LLM-agent action safety)
+245,2607.01793,Safety Testing LLM Agents at Scale: From Risk Discovery to Evidence-Grounded Verification,include,
+246,2607.03628,Swarm-Driven Multi-Agent Reasoning for Smart City Security,exclude,title: out of scope (not LLM-agent action safety)
+247,2607.04689,A Reliable Context-Aware and Temporal Planning Framework for Autonomous Driving,exclude,title: out of scope (not LLM-agent action safety)
+248,2607.06700,CILC: Cryptographically-secure Inter-agent Loop Closure Candidate Detection for Multi-Agent Collaborative SLAM,exclude,title: out of scope (not LLM-agent action safety)
+249,2607.07368,Multi-Agent AI Control: Distributed Attacks Hamper Per-Instance Monitors,include,
+250,2607.07774,ScopeJudge: Cost-Aware Pre-Execution Gating for Offensive Security Agents,exclude,abstract: single-action gate
+251,2607.10113,Dynamic Agent Skills: A Lifecycle Survey and Taxonomy of Evolving Skill Libraries,exclude,title: out of scope (not LLM-agent action safety)
+252,2607.11948,Ontology-Amplified Distillation and Contextuality Auditing for Sovereign Enterprise Language Models: A Combined Proof-of-Mechanism and Negative-Results Method Study,exclude,title: out of scope (not LLM-agent action safety)
+253,2607.14553,Towards an Intention Abstraction Layer for Autonomous Industrial Systems,exclude,title: out of scope (not LLM-agent action safety)
+254,2607.16156,PRISA: Proactive Infrastructure LiDAR Framework for Intersection Safety Assessment,exclude,title: out of scope (not LLM-agent action safety)
+255,2607.16619,SAGE: A Socially-Aware Generative Engine for Heterogeneous Multi-Agent Navigation,exclude,title: out of scope (not LLM-agent action safety)
+256,2607.16956,G2-Nav: Grounded and Guarded Vision-Language Costmaps for Robot Social Navigation,exclude,title: out of scope (not LLM-agent action safety)
+257,2607.19433,The Chronos Vulnerability: A Taxonomy of Temporal Persistence and Memory-Based Deception in Agentic AI,exclude,abstract: taxonomy only
+258,2607.19449,Guardrails as Scapegoats: Auditing Unfaithful Safety Refusals in Tool-Augmented LLM Agents,exclude,title: out of scope (not LLM-agent action safety)
+259,2607.19321,ResearchArena: Evaluating Sabotage and Monitoring in Automated AI R&D,include,
+260,2607.22758,Spectral Dynamics of Semantic Drift in Clinical Multi-Agent Language Model Networks,exclude,title: out of scope (not LLM-agent action safety)
+261,2608.07533,MetaSpace: Metamorphic Testing for Spatial Cognition in Embodied Agents,exclude,title: out of scope (not LLM-agent action safety)
+262,2607.23704,LabRobFail: A Benchmark for Robotic Failure Analysis in Chemical Self-driving Laboratory,exclude,title: out of scope (not LLM-agent action safety)
+263,2607.23718,Melo: A Production LLM-Powered Music Recommendation Agent,exclude,title: out of scope (not LLM-agent action safety)
+264,2607.24625,APPA: Recoverable Information-Flow Control for Real-World LLM Agents,include,
+265,2607.25754,Cooperative Multi-UAV Navigation in Complex Environments via Systematic Multi-Agent Deep Reinforcement Learning,exclude,title: out of scope (not LLM-agent action safety)
+266,2607.26314,StealthBench: Measuring Operational Stealth in Autonomous Offensive-Security Agents,exclude,title: out of scope (not LLM-agent action safety)
+267,2607.26820,Forecasting Trajectory-Level Safety Risks in Black-Box Multi-Turn Interactions,include,
+268,2607.27294,AgentS4D: Benchmarking Runtime Risks across the Execution Lifecycle of LLM-Based Workspace Agents,include,
+269,2609.01623,PRISM: An Agentic Multi-Model Architecture for Proactive Safety in Autonomous Transportation Systems,exclude,title: out of scope (not LLM-agent action safety)
+270,2607.28520,Agents That Certify Their Own Exploits: Confidence-Scheduled Restricted Responses for Safe Opponent Exploitation,exclude,title: out of scope (not LLM-agent action safety)
+271,2607.29405,Beyond Component Testing: Validating Agentic AI Systems,exclude,title: out of scope (not LLM-agent action safety)
+272,2607.29422,AgenticRepair: Multi-Faceted Program Context Engineering for Agentic Vulnerability Repair,exclude,title: out of scope (not LLM-agent action safety)
+273,2608.00540,"DiffuseAgent-MI: Distributionally-Grounded,Tool-Integrated Self-Evolving Agents for Faithful Visual Reasoning",exclude,title: out of scope (not LLM-agent action safety)
+274,2608.01193,Humans Are More Diverse: Frontier LLMs Show Extreme Policies in Idealised AI Development Races,exclude,title: out of scope (not LLM-agent action safety)
+275,2609.26072,Policy-Backed Selective Regeneration under Tainted Inter-Agent Communication,include,
+276,2608.01388,Why Formal Monitors Fail: Attack Distribution Entropy as a Coverage Bound for LTL-Based LLM Agent Safety,include,
+277,2608.03509,SkillJack: Persistent Skill Backdoors in Self-Evolving Agents,exclude,title: out of scope (not LLM-agent action safety)
+278,2608.05199,Post-Hoc Trajectory-Risk Certification for Modular LLM-Based Security Agents,exclude,"abstract: pipeline calibration, not agent action safety"
+279,2608.05144,Argus: A General-Purpose Agentic Reasoning Runtime for Long-Horizon Tasks,exclude,title: out of scope (not LLM-agent action safety)
+280,2608.05695,DreamGuard: Efficient Runtime Guardrail for LLM Agents via Risk-Aware World Model,include,
+281,2608.05790,ChainClaw: A Layered Agent Framework for Reliable On-Chain Execution,exclude,title: out of scope (not LLM-agent action safety)
+282,2608.07167,NiyamAI - An Intent-Bound AI Agent with Cryptographically Verifiable Guardrails using Zero-Knowledge Proofs,exclude,title: out of scope (not LLM-agent action safety)
+283,2608.11260,"Glance, Scrutinize, and Think: Advancing Video Anomaly Detection from Training-Free to Agentic Reasoning",exclude,title: out of scope (not LLM-agent action safety)
+284,2608.09476,ActBench: Self-Evolving Benchmark of Behavioral Safety in Cowork Agents,include,
+285,2608.10153,The CASE Framework: A Multi-Disciplinary Control Architecture for Governing Enterprise Agentic AI,exclude,title: out of scope (not LLM-agent action safety)
+286,2608.09253,SkillSentry: Reliable Skill Execution for LLM Agents via Runtime Assurance,exclude,abstract: skill reliability
+287,2608.11274,Agent Safety Should Be a Runtime Contract,exclude,"abstract: position paper, no mechanism"
+288,2608.11592,Video2Track: From Real-World Interaction Videos to Steerable Adversarial Closed-Track Testing for Automated Driving Systems,exclude,title: out of scope (not LLM-agent action safety)
+289,2608.12789,PIPES: Securing Agent Perception with Provenance and Priors,exclude,abstract: single-response provenance screen
+290,2608.14765,Agentic Data Cleaning Without a Clean Reference: An Experimental Study of Capabilities and Trade-offs,exclude,title: out of scope (not LLM-agent action safety)
+291,2609.27773,Beyond Unsafe Detection: Counterfactually Anchored Evidence Attribution for Multi-Turn LLM Safety Failures,include,
+292,2608.16411,Towards Risk-free AI Agent Deployment,exclude,title: out of scope (not LLM-agent action safety)
+293,2608.17597,HarnessRisk: A Lifecycle-Oriented Benchmark for Agent Harness Safety,include,
+294,2608.17684,"Auditing Self-Evolution in Financial Agents: Capability Gains, Security Drift, and Execution-Interface Mismatch",exclude,title: out of scope (not LLM-agent action safety)
+295,2608.19380,CAViAR: A Causal Video Dataset for Fine-Grained Accident Reasoning in Real-World Scenarios,exclude,title: out of scope (not LLM-agent action safety)
+296,2608.19161,Beyond the Transcript: Detecting Covert Co ordination in Latent Multi-Agent Communication,include,
+297,2608.20485,Terminal Agents: A Survey of AI Agents in Command-Line Environments,exclude,title: out of scope (not LLM-agent action safety)
+298,2608.21867,MemGuard: Persisting Verifier Signals for LLM-Agent Memory Governance,exclude,abstract: memory reliability
+299,2608.23181,CyberFactory: Scaling Cyber Security Capabilities with Instances from the Wild,exclude,title: out of scope (not LLM-agent action safety)
+300,2608.22868,AgentFlow: A Flow-Centric Policy Language and Framework for Securing LLM Agent Systems,include,
+301,2608.23035,MobilePA-Bench: Benchmarking Mobile Planner Agents on Complex Real-World Tasks,exclude,title: out of scope (not LLM-agent action safety)
+302,2608.23670,Automata from Agent Traces: Failure and Next-Step Prediction,exclude,"abstract: failure prediction, not safety"
+303,2609.29522,Stale Does Not Mean Unsafe: Guard Precision for Tool-Using LLM Agents under Infrastructure State Races,include,
+304,2608.24275,RePolicy: Reinforcement Learning for Safety-Policy Invocation in Agent Safeguards,include,
+305,2608.24777,StepGuard: Learning Step-Level Guardrails with Scalable Supervision and Safety-Utility Balancing,include,
+306,2608.24011,SAGE: From Direct Answering to Evidence-Grounded Inference for Chinese Ancient Document Understanding,exclude,title: out of scope (not LLM-agent action safety)
+307,2608.25817,SkillShield: Prompt-Space Security Skills for LLM Coding Agents,exclude,title: out of scope (not LLM-agent action safety)
+308,2608.26237,How Do LLM Agents Actually Get the Flag? Trace-Level Provenance for Agentic Offensive Security Evaluation,exclude,abstract: capability eval provenance
+309,2608.25518,Agentic Game Development as a Verifiable Trajectory Data Engine for Scaling World Models,exclude,title: out of scope (not LLM-agent action safety)
+310,2608.25935,TAU-Agent: An Agentic Retrieval-Augmented Framework for Traffic Anomaly Understanding,exclude,title: out of scope (not LLM-agent action safety)
+311,2608.27496,ROPE: Routed Origin Policy Enforcement against Indirect Prompt Injection,include,
+312,2608.27141,Safety Does Not Compose: Non-Decaying Loop State for Autonomous LLM Agents,include,
+313,2608.27348,INTENT-AS-A-TOOL Makes it Easy to Track Agentic Misalignment,include,
+314,2608.26557,DeepRepro: State-Aware Subplanning for Paper-to-Code Reproduction in Evolving Repositories,exclude,title: out of scope (not LLM-agent action safety)
+315,2608.27311,"Verify Smarter, Evolve Further: Efficient Harness Evolution through Behavior-Aware Verification",exclude,title: out of scope (not LLM-agent action safety)
+316,2608.27182,TraceBench: Controlled Evaluation of LLM Agents for Time-Series Root-Cause Attribution,exclude,title: out of scope (not LLM-agent action safety)
+317,2608.28490,"LLM-Based Agents for Software and Systems Security: Approaches, Applications, and Assessment",exclude,title: out of scope (not LLM-agent action safety)
+318,2608.27808,CURA: Certified Runtime Alarms for Computer-Use Agents,include,
+319,2608.29596,"A Systematic Survey of Agentic Skills: Architecture, Lifecycle, and Security",exclude,title: out of scope (not LLM-agent action safety)
+320,2608.29646,Detect Before You Attribute: Cascade Failure Attribution for Multi-Agent Systems,exclude,"abstract: failure attribution, reliability"
+321,2608.30441,ECLIPSE: Self-Evolving Stealthy Prompt Injection Attack against Long-Horizon Agentic Systems,exclude,title: out of scope (not LLM-agent action safety)
+322,2609.01428,TRIAGE: Three-level Routing and Intelligent Agent Guidance for Efficient Execution,exclude,title: out of scope (not LLM-agent action safety)
+323,2609.13236,"Self-Evolving AI for Humanoids: Mechanisms, Safety, and Evaluation of Post-Deployment Self-Improvement",exclude,title: out of scope (not LLM-agent action safety)
+324,2609.02786,SafeEvolve: Harness-Policy Co-Evolution from Agent Experience for Safety Alignment,exclude,title: out of scope (not LLM-agent action safety)
+325,2609.02088,Rendering-in-the-Loop: An Execution-Driven Agent for Interactive Web Development,exclude,title: out of scope (not LLM-agent action safety)
+326,2609.04286,"From Matching Models to Recruiting Agents: A Systematized Narrative Review of AI Recruitment Systems, Evaluation, and Governance",exclude,title: out of scope (not LLM-agent action safety)
+327,2609.05335,"The History Is the Detector: Executing CVE Patch History, End-to-End",exclude,title: out of scope (not LLM-agent action safety)
+328,2609.06783,AURA-Eval: Evaluation Framework for Acting Under Risk Awareness in LLM Agent Trajectories,exclude,"abstract: agent propensity eval, no monitor"
+329,2609.07529,CoER: Defending against Adaptive Indirect Prompt Injection via Adversarial Co-Evolution and Refinement,exclude,title: out of scope (not LLM-agent action safety)
+330,2609.07782,TrajectoryDB: A New Database for Agent Trajectories,exclude,abstract: data infrastructure
+331,2609.06976,HealthLoopQA: A Context-Aware Question Answering Benchmark for Interpreting Wearable Monitoring Data in Diabetes Care,exclude,title: out of scope (not LLM-agent action safety)
+332,2609.09448,Do Agents Know When They Succeed? Calibrating Agent Confidence from Internal Representations,exclude,title: out of scope (not LLM-agent action safety)
+333,2610.00151,Intrusion Detection for Agentic Processes: Evidence-Based Runtime Monitoring,include,
+334,2609.14987,ActGuard: Pre-execution Action Auditing against Indirect Prompt Injection in LLM Agents,include,
+335,2609.16287,AgentGuard: Learning Execution Guardrails from Anomalous Coding-Agent Trajectories,include,
+336,2609.16098,Universal Defenses for Tool-Integrated LLM Agents Against Adversarial Attacks,exclude,title: out of scope (not LLM-agent action safety)
+337,2609.18128,Symbolic Temporal Supervision of LLM Agents Using Contracts,include,
+338,2609.18674,CaMeLoT: CaMeL orchestrated with Temporal logic for static verification and liveness,include,
+339,2609.19524,"A Unified Evaluation Framework for Trustworthy Large Language Models, Agentic AI, and Multimodal Systems",exclude,title: out of scope (not LLM-agent action safety)
+340,2609.19527,"AURORA: A Natural Language-Driven Agentic Framework for Understanding, Reasoning, and Orchestrating Reliable Air-Ground Co-Simulation",exclude,title: out of scope (not LLM-agent action safety)
+341,2609.22664,From Capability to Assurance in Autonomous Penetration-Testing Harnesses: A Framework and Reference Implementation,exclude,title: out of scope (not LLM-agent action safety)
+342,2609.22724,MATE: Policy-Aware Security Auditing for Mobile Agents via Synthesis-Driven Trajectory Learning,include,
+343,2609.22792,SelfOp: An Optimization Algorithm for Self-Improving Security Agents,exclude,title: out of scope (not LLM-agent action safety)
+344,2609.35807,Environment Steering: Using Data Flow Control to Improve Agent Utility and Safety,include,
+345,2609.23490,BabelArena: A Large-Scale Multilingual Benchmark for LLM Agents,exclude,title: out of scope (not LLM-agent action safety)
+346,2609.24967,Emergent Collusion in Long-Horizon LLM Agent Interaction,exclude,title: out of scope (not LLM-agent action safety)
+347,2609.26891,Harness as a Language: A Minimalist Agent Framework With Maximal Expressivity,exclude,title: out of scope (not LLM-agent action safety)
+348,2609.28559,Who Is Behind the Harness? Fingerprinting LLMs through Agentic Behavior,exclude,title: out of scope (not LLM-agent action safety)
+349,2609.28197,PASTABench: Proactive Assessment of Sequential Trajectories for Agent Safety,include,
+350,2609.30325,ScopeBench: Do Agents Preserve Engagement Boundaries Under Goal Pressure?,exclude,"abstract: agent propensity eval, no monitor"
+351,2609.28557,BaseCamp --- An Agentic AI Framework for Automating DNA Sequencing Data Pipelines,exclude,title: out of scope (not LLM-agent action safety)
+352,2609.29454,"Demystifying Agent Skills for Smart Contract Auditing: Design, Effectiveness, Behavioral Impact",exclude,title: out of scope (not LLM-agent action safety)
+353,2609.29892,Qwen-Planner-Agent: A Closed-Loop AI-for-AI Framework for Real-World Mobile Planner Agents,exclude,title: out of scope (not LLM-agent action safety)
+354,2609.30217,Instrumental Monitor Evasion Emerges Under Ordinary Task Pressure,include,
+355,2609.30383,"Stealth Apart, Harm Together: Skill Cascading Attacks on Skill-Based Agent Systems",exclude,"abstract: attack paper, no monitor"
+356,2609.30734,Learning What to Skip: Counterfactual Credit Assignment for Efficient Multi-Agent LLM Workflows,exclude,title: out of scope (not LLM-agent action safety)
+357,2610.00285,Runtime Assurance Under Measurement Attack: Necessary and Sufficient Observability Conditions for Learned Control in Radio Access Networks,exclude,title: out of scope (not LLM-agent action safety)
+358,2609.31282,Resource-Optimized and Energy-Aware Agentic AI Framework Anchored on Blockchain for Secure Software Supply Chains,exclude,title: out of scope (not LLM-agent action safety)
+359,2609.32616,"""You're Right, Let Me Fix It"": How LLM Agents Damage Correct Work When Falsely Accused",exclude,title: out of scope (not LLM-agent action safety)
+360,2609.32635,"Trust the Brand, Lose Control: How Identity Hijacks LLM Agent Orchestration",exclude,title: out of scope (not LLM-agent action safety)
+361,2609.33039,Agent Safety From Within: Detecting Harmful Trajectories from LLM Internal States,include,
+362,2609.34080,LoRo-Mark:Provably Lossless and Robust Agent Watermarking,exclude,title: out of scope (not LLM-agent action safety)
+363,2609.34415,PROACT-Agent: Progressive Runtime Oversight and Active Circuit-breaking for Real-Time Safety,include,
+364,2609.35596,SEABench: Benchmarking Endogenous Misalignment In Self-Evolving Agents,exclude,title: out of scope (not LLM-agent action safety)
+365,2609.36201,SCOUT: Synergizing Reasoning and Tool-Use for Computer-Use Safety,exclude,title: out of scope (not LLM-agent action safety)
+366,2609.34134,StateGuard: Analytical-State Management with Validity-Aware Intervention for Long-Horizon Data Agents,exclude,"abstract: analytical validity, not safety"
+367,2609.35909,"Cheap to Hypothesize, Costly to Verify: The Defense Surface of Agentic Vulnerability Discovery",exclude,title: out of scope (not LLM-agent action safety)
+368,2609.34974,"Before Acting, Change the State: Prospective State Intervention for Web Agents under Deceptive Interfaces",exclude,title: out of scope (not LLM-agent action safety)
+369,2609.37871,ExceptionDrive: A Planning-Oriented Counterfactual Corner-Case Benchmark for Autonomous Driving,exclude,title: out of scope (not LLM-agent action safety)
+370,2609.37819,Making Duplicate Reimbursement Unrepresentable: A Verified Ethereum E-Invoice System for Humans and AI Agents,exclude,title: out of scope (not LLM-agent action safety)
+371,2609.39549,Speculative Safety Honeypot: Toward Proactive Defense Against Multi-turn Agent Attacks,include,

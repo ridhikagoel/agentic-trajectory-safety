@@ -1,0 +1,22 @@
+{
+  "human_completed_rows": 14,
+  "earlier_monitoring_checks": 16,
+  "combined_unique_monitoring_papers": 30,
+  "earlier_checks_total": 22,
+  "earlier_checks_outside_monitoring_set": 6,
+  "discussion_rows": [],
+  "sample_method": "purposive union of supplied human reviews and earlier manuscript-claim checks; not random",
+  "human_workbook_modified": false,
+  "human_review_cells_filled_by_ai": 0,
+  "original_incident_calibration": "30-record human_spotcheck.csv preserved separately; not pooled with paper reviews",
+  "source_resolved_rows": [
+    "2509.14956",
+    "2510.03485",
+    "2510.12985",
+    "2510.24411"
+  ],
+  "human_consensus_claimed": false,
+  "resolution_author": "OpenAI Codex",
+  "corpus_operating_lower_bound": 61,
+  "corpus_timing_lower_bound": 15
+}

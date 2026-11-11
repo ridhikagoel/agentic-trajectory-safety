@@ -1,0 +1,6 @@
+id,coder1,coder2,final,reason
+CVE-2026-45373,include,exclude,exclude,Adopt Coder 2: this record's description does not name the agent tool or path (the agent path is in sibling CVE-2026-45310 only).
+CVE-2026-43992,include,exclude,exclude,Adopt Coder 2: secret exposure in tool-call logs; exploitation does not run through the agent's actions (I2b).
+CVE-2026-35651,include,exclude,include,"Keep: the defect undermines the approval gate on agent actions, a guard on agent actions per the rules."
+CVE-2026-77516,include,exclude,include,Keep: description states execution 'through the agent or workflow dispatch path'.
+CVE-2026-27004,include,exclude,include,Keep: session tools are agent tools in shared-agent deployments; description states cross-session exposure through them.

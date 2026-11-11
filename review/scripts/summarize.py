@@ -1,0 +1,72 @@
+"""Computes original reconciled counts plus a separately labeled reporting-audit summary.
+Writes review/RESULTS.md. Re-run after Coder 2 reconciliation (point it at
+coding/final.csv with --final) so the paper's numbers come from one place.
+"""
+import csv, os, sys
+from collections import Counter
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+R = lambda *p: os.path.join(ROOT, *p)
+codes = R("coding", "final.csv") if "--final" in sys.argv else R("coding", "coder1.csv")
+rows = list(csv.DictReader(open(codes, newline="")))
+inc = [r for r in rows if r["record_id"].startswith("R")]
+cve = [r for r in rows if r["record_id"].startswith("CVE")]
+out = [f"# Results ({os.path.basename(codes)})\n"]
+
+
+def tab(title, grp, field):
+    c = Counter(r[field] for r in grp)
+    out.append(f"- {title} `{field}`: " + ", ".join(f"{k}={v}" for k, v in sorted(c.items())) + f" (n={len(grp)})")
+
+
+out.append("## Screening flow")
+s1 = Counter((r["stage"], r["decision"]) for r in csv.DictReader(open(R("raw", "s1_screen.csv"), newline="")))
+out.append(f"- S1 NVD: retrieved {sum(s1.values())}; included {sum(v for (s, d), v in s1.items() if d == 'include')}; "
+           f"stage breakdown {dict(s1)}")
+s2a_t = Counter(r["reason"] or r["decision"] for r in csv.DictReader(open(R("raw", "s2a_screen_title.csv"), newline="")))
+s2a_f = Counter(r["reason"] or r["decision"] for r in csv.DictReader(open(R("raw", "s2a_screen_fulltext.csv"), newline="")))
+out.append(f"- S2a AIID: keyword hits {sum(s2a_t.values())}; title screen {dict(s2a_t)}; full text {dict(s2a_f)}")
+s2b = Counter(r["reason"] or r["decision"] for r in csv.DictReader(open(R("raw", "s2b_screen.csv"), newline="")))
+out.append(f"- S2b primary disclosures: candidates {sum(s2b.values())}; {dict(s2b)}")
+for blk in "AB":
+    st = Counter(r["stage2"] for r in csv.DictReader(open(R("raw", f"s3_stage2_{blk}.csv"), newline="")))
+    out.append(f"- S3 block {blk} stage 2: {dict(st)}")
+
+if os.path.exists(R("raw", "s5_stage2.csv")):
+    s5 = Counter((r["stage2"], r["block"]) for r in csv.DictReader(open(R("raw", "s5_stage2.csv"), newline="")))
+    s5c = Counter(r["stage1"] for r in csv.DictReader(open(R("raw", "s5_snowball_candidates.csv"), newline="")))
+    out.append(f"- S5 snowballing: new in-window references {sum(s5c.values())}; stage 1 {dict(s5c)}; stage 2 {dict(s5)}")
+
+out.append("\n## Incidents")
+for f in ["setting", "per_action_flaggable", "min_state", "precursor_signal", "monitor_present", "detected_by", "harm_external", "root_cause"]:
+    tab("incidents", inc, f)
+flag = [r for r in inc if r["per_action_flaggable"] == "Y"]
+tab("incidents with a flaggable step", flag, "monitor_present")
+tab("incidents with a flaggable step", flag, "precursor_signal")
+mon = [r for r in inc if r["monitor_present"] == "Y"]
+tab("incidents with a monitor running", mon, "detected_by")
+
+out.append("\n## CVEs")
+for f in ["per_action_flaggable", "min_state", "monitor_present"]:
+    tab("cves", cve, f)
+
+out.append("\n## Literature")
+sfx = "final" if "--final" in sys.argv else "coder1"
+la = list(csv.DictReader(open(R("coding", f"lit_A_{sfx}.csv"), newline="")))
+lb = list(csv.DictReader(open(R("coding", f"lit_B_{sfx}.csv"), newline="")))
+for f in ["mechanism", "state_scope", "timing", "evaluated_on", "reports_fp_or_cost", "reports_timeliness"]:
+    tab("agent papers", la, f)
+for f in ["state_scope", "production_data"]:
+    tab("fraud papers", lb, f)
+# Keep original field distributions distinct from the current reporting overlay.
+import json
+audit_path = R("fulltext_audit", "summary.json")
+if os.path.exists(audit_path):
+    audit = json.load(open(audit_path))
+    out.append("\n## Current full-text reporting audit (separate overlay)")
+    out.append(f"- Confirmed quantitative operating reports: at least {audit['confirmed_quantitative_operating_reports']}/{audit['papers']}.")
+    out.append(f"- Confirmed heterogeneous timing-related evaluations: at least {audit['confirmed_event_relative_timing_reports']}/{audit['papers']}.")
+    out.append("- These lower bounds supersede original abstract-derived reporting totals in the manuscript; unknown is not absent. Mechanism/state codes above remain inherited.")
+    out.append("- Scope and evidence: fulltext_audit/README.md and reporting_evidence_ledger.csv. No independent human validation is claimed.")
+open(R("RESULTS.md"), "w").write("\n".join(out) + "\n")
+print("\n".join(out))

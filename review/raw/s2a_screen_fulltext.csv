@@ -1,0 +1,30 @@
+incident_id,title,decision,reason
+1028,OpenAI's Operator Agent Reportedly Executed Unauthorized $31.43 Transaction Despite Safety Protocol,include,
+1003,Alleged Fraudulent Prompts via AIXBT Dashboard Led Purported AI Trading Agent to Transfer 55.5 ETH from Simulacrum Wallet,exclude,E-NONAI
+1218,Microsoft 365 Copilot Vulnerability Allegedly Allowed File Access Without Audit Log Entry,include,
+1152,"LLM-Driven Replit Agent Reportedly Executed Unauthorized Destructive Commands During Code Freeze, Leading to Loss of Production Data",include,
+1210,Malicious Nx npm Packages Reportedly Weaponize AI Coding Agents for Data Exfiltration,exclude,E-MISUSE
+1313,Anthropic Claude AI Agent Reportedly Caused Financial Losses While Operating Office Vending Machine at Wall Street Journal Headquarters,include,
+1373,AI Coding Agent 'MJ Rathbun' Allegedly Published Personalized Accusatory Blog Post Targeting Matplotlib Maintainer After Pull Request Closure,include,
+1680,Unknown Actor Reportedly Exploited Cline's Claude-Powered GitHub Issue-Triage Workflow and Published an Unauthorized Cline CLI Package,include,
+1542,OpenClaw Agent Reportedly Tried to Delete Meta AI Alignment Director Summer Yue's Emails Despite Stop Commands,include,
+1424,"Claude Code Agent Reportedly Deleted DataTalks.Club Production Infrastructure, Database, and Snapshots via Terraform",include,
+1471,Meta Internal AI Agent Reportedly Gave Advice That Allegedly Exposed Sensitive Data to Unauthorized Employees,include,
+1613,Claude Mythos Preview Reportedly Posted Sandbox Exploit Details to Public Websites During Anthropic Evaluation,include,
+1469,PocketOS Production Database Was Reportedly Deleted by Cursor AI Agent Running Claude Opus 4.6,include,
+1470,DisMech AI Curation Agent Reportedly Completed GitHub Issue Intended as New Contributor's Learning Task,exclude,E-INSCOPE
+1642,AI Agent Powered by Claude Opus 4.6 Reportedly Exploited Gym Booking API and Removed Another Member From Waitlist,include,
+1673,Google Gemini 3.5 Coding Agent Reportedly Caused Production Portal Outage and Generated Fabricated Recovery Records,include,
+1668,OpenAI-Linked AI Agents Reportedly Used German Programming Wiki DSEWiki for Coordination and Restriction Evasion,include,
+1731,AI Agents Reportedly Attempted to Hack Canada's Federal Archives Website While Retrieving Historical Divorce Records,include,
+1707,OpenAI AI Agent Reportedly Gained Unauthorized Access to Australian Medicare Statistics Portal During Research Task,include,
+1671,OpenAI GPT-5.6 Sol Agent Reportedly Deleted Most Files in AI Startup Founder's Mac Home Directory,include,
+1604,OpenAI Models Reportedly Compromised Hugging Face Production Infrastructure During Cybersecurity Evaluation,include,
+1672,OpenAI GPT-5.6 Sol Reportedly Deleted Software Engineer's Production Database During Local Testing,include,
+1633,Anthropic and OpenAI AI Agents Reportedly Took Unsanctioned Actions on the Live Internet During UK AISI Cybersecurity Evaluations,include,
+1676,Anthropic Claude Opus 5 Coding Agent Reportedly Reset a Live Supabase Production Database During Prisma Migration Work,include,
+1675,Instinct AI Personal Assistant Reportedly Summarized an AI Product Founder's Retained Emails After Google Access Was Disconnected,exclude,E-INSCOPE
+1693,AI Agent Reportedly Exploited Application Vulnerabilities to Modify Personal Data and Access Invoices in Breach Reported to Spanish Data Protection Authority,exclude,E-MISUSE
+1719,"Anthropic's Claude Code AI Agent Reportedly Deleted About 48,000 Live Project Files and Version-Control History During Software Repair",include,
+1710,AI Agent Appearing to Originate from OpenAI Reportedly Attempted to Hack U.S. Department of Education Civil Rights Website,exclude,E-DUP
+1734,"AI Coding Agents Reportedly Exposed Over 13,000 Internal Images from Hundreds of Organizations on Public GitHub Code Repositories",include,

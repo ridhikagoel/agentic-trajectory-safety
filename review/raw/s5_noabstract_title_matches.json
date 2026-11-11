@@ -1,0 +1,212 @@
+{
+ "agentdojoadynamicenvironmenttoevaluatepromptinjectionattacksanddefensesforllmagents": {
+  "title": "AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents",
+  "match_title": "AgentDojo: A Dynamic Environment to Evaluate Attacks and Defenses for LLM Agents",
+  "abstract": "AI agents aim to solve complex tasks by combining text-based reasoning with external tool calls. Unfortunately, AI agents are vulnerable to prompt injection attacks where data returned by external tools hijacks the agent to execute malicious tasks. To measure the adversarial robustness of AI agents, we introduce AgentDojo, an evaluation framework for agents that execute tools over untrusted data. To capture the evolving nature of attacks and defenses, AgentDojo is not a static test suite, but rather an extensible environment for designing and evaluating new agent tasks, defenses, and adaptive attacks. We populate the environment with 97 realistic tasks (e.g., managing an email client, navigating an e-banking website, or making travel bookings), 629 security test cases, and various attack and defense paradigms from the literature. We find that AgentDojo poses a challenge for both attacks and defenses: state-of-the-art LLMs fail at many tasks (even in the absence of attacks), and existing prompt injection attacks break some security properties but not all. We hope that AgentDojo can foster research on new design principles for AI agents that solve common tasks in a reliable and robust manner.. We release the code for AgentDojo at https://github.com/ethz-spylab/agentdojo.",
+  "arxiv": "2406.13352",
+  "date": "2024-06-19"
+ },
+ "agentleakafullstackbenchmarkforprivacyleakageinmultiagentllmsystems": {
+  "title": "AgentLeak: A Full-Stack Benchmark for Privacy Leakage in Multi-Agent LLM Systems",
+  "match_title": "AgentLeak: A Full-Stack Benchmark for Privacy Leakage in Multi-Agent LLM Systems",
+  "abstract": null,
+  "arxiv": null,
+  "date": null
+ },
+ "agentthreatbenchevaluatingllmagentresiliencetoowaspagenticthreats": {
+  "title": "AgentThreatBench: Evaluating LLM Agent Resilience to OWASP Agentic Threats",
+  "match_title": null,
+  "abstract": null,
+  "arxiv": null,
+  "date": null
+ },
+ "doagentrulesshapeordistortguardrailsbeatguidanceincodingagents": {
+  "title": "Do Agent Rules Shape or Distort? Guardrails Beat Guidance in Coding Agents",
+  "match_title": "Do Agent Rules Shape or Distort? Guardrails Beat Guidance in Coding Agents",
+  "abstract": null,
+  "arxiv": null,
+  "date": null
+ },
+ "dynaguardadynamicguardrailmodelwithuserdefinedpolicies": {
+  "title": "DynaGuard: A Dynamic Guardrail Model With User-Defined Policies",
+  "match_title": "DynaGuard: A Dynamic Guardrail Model With User-Defined Policies",
+  "abstract": null,
+  "arxiv": null,
+  "date": null
+ },
+ "guardagentsafeguardllmagentsbyaguardagentviaknowledgeenabledreasoning": {
+  "title": "GuardAgent: Safeguard LLM Agents by a Guard Agent via Knowledge-Enabled Reasoning",
+  "match_title": "GuardAgent: Safeguard LLM Agents by a Guard Agent via Knowledge-Enabled Reasoning",
+  "abstract": "The rapid advancement of large language model (LLM) agents has raised new concerns regarding their safety and security. In this paper, we propose GuardAgent, the first guardrail agent to protect target agents by dynamically checking whether their actions satisfy given safety guard requests. Specifically, GuardAgent first analyzes the safety guard requests to generate a task plan, and then maps this plan into guardrail code for execution. By performing the code execution, GuardAgent can deterministically follow the safety guard request and safeguard target agents. In both steps, an LLM is utilized as the reasoning component, supplemented by in-context demonstrations retrieved from a memory module storing experiences from previous tasks. In addition, we propose two novel benchmarks: EICU-AC benchmark to assess the access control for healthcare agents and Mind2Web-SC benchmark to evaluate the safety policies for web agents. We show that GuardAgent effectively moderates the violation actions for different types of agents on these two benchmarks with over 98% and 83% guardrail accuracies, respectively. Project page: https://guardagent.github.io/",
+  "arxiv": "2406.09187v3",
+  "date": "2024-06-13",
+  "via": "arxiv"
+ },
+ "guardiansoftheagentsformalverificationofaiworkflows": {
+  "title": "Guardians of the agents \u2013 formal verification of AI workflows",
+  "match_title": null,
+  "abstract": null,
+  "arxiv": null,
+  "date": null
+ },
+ "monitoringdecompositionattackswithlightweightsequentialmonitors": {
+  "title": "Monitoring decomposition attacks with lightweight sequential monitors",
+  "match_title": "Monitoring Decomposition Attacks in LLMs with Lightweight Sequential Monitors",
+  "abstract": "Current LLM safety defenses fail under decomposition attacks, where a malicious goal is decomposed into benign subtasks that circumvent refusals. The challenge lies in the existing shallow safety alignment techniques: they only detect harm in the immediate prompt and do not reason about long-range intent, leaving them blind to malicious intent that emerges over a sequence of seemingly benign instructions. We therefore propose adding an external monitor that observes the conversation at a higher granularity. To facilitate our study of monitoring decomposition attacks, we curate the largest and most diverse dataset to date, including question-answering, text-to-image, and agentic tasks. We verify our datasets by testing them on frontier LLMs and show an 87% attack success rate on average on GPT-4o. This confirms that decomposition attack is broadly effective. Additionally, we find that random tasks can be injected into the decomposed subtasks to further obfuscate malicious intents. To defend in real time, we propose a lightweight sequential monitoring framework that cumulatively evaluates each subtask. We show that a carefully prompt engineered lightweight monitor achieves a 93% defense success rate, beating reasoning models like o3 mini as a monitor. Moreover, it remains robust against random task injection and cuts cost by 90% and latency by 50%. Our findings suggest that lightweight sequential monitors are highly effective in mitigating decomposition attacks and are viable in deployment.",
+  "arxiv": "2506.10949",
+  "date": "2025-06-12"
+ },
+ "probguardproactiveruntimemonitoringforllmagentsafetyviaprobabilisticpredictionimplementation": {
+  "title": "ProbGuard: Proactive Runtime Monitoring for LLM Agent Safety via Probabilistic Prediction (implementation)",
+  "match_title": "ProbGuard: Proactive Runtime Monitoring for LLM Agent Safety via Probabilistic Prediction",
+  "abstract": "Large Language Model (LLM) agents increasingly operate across domains such as robotics, virtual assistants, and web automation. However, their stochastic decision-making introduces safety risks that are difficult to anticipate during execution. Existing runtime monitoring frameworks, such as AgentSpec, primarily rely on reactive safety rules that detect violations only when unsafe behavior is imminent or has already occurred, limiting their ability to handle long-horizon dependencies. We present ProbGuard, a proactive runtime monitoring framework for LLM agents that anticipates safety violations through probabilistic risk prediction. ProbGuard abstracts agent executions into symbolic states and learns a Discrete-Time Markov Chain (DTMC) from execution traces to model behavioral dynamics. At runtime, the monitor estimates the probability that execution will remain safe from the current state, and triggers an intervention when this probability falls below a user-defined threshold. To improve robustness, ProbGuard incorporates semantic validity constraints in the abstraction and admits a PAC-style analysis that characterizes the sample complexity required to certify the learned model under standard assumptions. We evaluate ProbGuard in two safety-critical domains: autonomous driving and embodied household agents. Across evaluated scenarios, ProbGuard consistently predicts traffic law violations and collisions in advance, with warnings up to 15.84 seconds at a threshold yielding no false alarms, and up to 38.66 seconds at stricter thresholds. In embodied agent tasks, ProbGuard's re-prompting intervention mode reduces unsafe behavior by 65.37% relative to the unmonitored baseline while retaining 80.4% of the baseline task completion; a stricter halting configuration reduces unsafe behavior by 93.60% at a larger cost in completion. ProbGuard is implemented as an extensible open-source runtime monitor integrated with the LangChain agent framework and introduces minimal runtime overhead.",
+  "arxiv": "2508.00500",
+  "date": "2025-08-01"
+ },
+ "riskybenchprobingagenticsafetyrisksunderrealworlddeployment": {
+  "title": "Risky-Bench: Probing Agentic Safety Risks under Real-World Deployment",
+  "match_title": "Risky-Bench: Probing Agentic Safety Risks under Real-World Deployment",
+  "abstract": null,
+  "arxiv": null,
+  "date": null
+ },
+ "securinglargelanguagemodelagentsviastructuredgraphabstraction": {
+  "title": "Securing Large Language Model Agents via Structured Graph Abstraction",
+  "match_title": null,
+  "abstract": null,
+  "arxiv": null,
+  "date": null
+ },
+ "sentinelamultilevelformalframeworkforsafetyevaluationofllmbasedembodiedagents": {
+  "title": "SENTINEL: A Multi-Level Formal Framework for Safety Evaluation of LLM-based Embodied Agents",
+  "match_title": "SENTINEL: A Multi-Level Formal Framework for Safety Evaluation of Foundation Model-based Embodied Agents",
+  "abstract": "We present SENTINEL, a framework for formally evaluating the physical safety of foundation model (FM)-based embodied agents. SENTINEL is the first to provide multi-level safety evaluation across semantic interpretation, plan generation, and physical execution within a unified formal framework. Unlike prior methods that rely on heuristic rules or subjective FM judgments, SENTINEL grounds practical safety requirements in formal temporal logic (TL) semantics that can precisely specify state invariants, temporal dependencies, and timing constraints. It employs a multi-level verification pipeline where (i) at the semantic level, intuitive natural language safety requirements are formalized into TL formulas and the agent's understanding of these requirements is probed for alignment with the TL formulas; (ii) at the plan level, high-level action plans and subgoals generated by the agent are verified against the TL formulas to detect unsafe plans before execution; and (iii) at the trajectory level, multiple execution trajectories are merged into a computation tree and efficiently verified against physically-detailed TL specifications for a final safety check. We apply SENTINEL in VirtualHome and AI2-THOR, and formally evaluate multiple FM-based embodied agents against diverse safety requirements. Our experiments show that by grounding physical safety in temporal logic and applying verification methods across multiple levels, SENTINEL provides a rigorous foundation for systematically evaluating the safety of FM-based embodied agents in simulation-based physical environments, and can effectively expose potential safety violations in interpreting, planning, and executing the tasks.",
+  "arxiv": "2510.12985v3",
+  "date": "2025-10-14",
+  "via": "arxiv"
+ },
+ "stacwheninnocenttoolsformdangerouschainstojailbreakllmagents": {
+  "title": "STAC: When Innocent Tools Form Dangerous Chains to Jailbreak LLM Agents",
+  "match_title": "STAC: When Innocent Tools Form Dangerous Chains for LLM Agents",
+  "abstract": "As LLMs advance into autonomous agents with tool-use capabilities, they introduce security challenges that extend beyond traditional content-based LLM safety concerns. This paper introduces Sequential Tool Attack Chaining (\\STAC), a novel multi-turn attack framework that exploits agent tool use. \\STAC chains together tool calls that each appear harmless in isolation but, when combined, collectively enable harmful operations that only become apparent at the final execution step. At the core of \\STAC is an automated, closed-loop pipeline that synthesizes executable multi-step tool chains, validates them through in-environment execution, and reverse-engineers stealthy multi-turn prompts that reliably induce agents to execute the verified malicious sequence. Using this framework, we generate and systematically evaluate 483 \\STAC cases, featuring 1,352 sets of user-agent-environment interactions and spanning diverse domains, tasks, agent types, and 10 failure modes. Our evaluations show that state-of-the-art LLM agents are highly vulnerable to \\STAC, with an average final attack success rate (ASR) of 91.2\\% -- exceeding 90\\% for all but one of the eight agents evaluated. We further perform defense analysis and find that existing prompt-based defenses provide limited protection. To address this gap, we propose a new reasoning-driven defense prompt that achieves the strongest initial-turn protection, cutting ASR by up to 28.8\\%; however, this advantage erodes sharply under adaptive attacks, and an experience-based defense (ToolShield) proves more durable over sustained multi-turn interactions. These results highlight a crucial gap: defending tool-enabled agents requires reasoning over entire action sequences and their cumulative effects, rather than evaluating isolated prompts or responses.",
+  "arxiv": "2509.25624v3",
+  "date": "2025-09-30",
+  "via": "arxiv"
+ },
+ "trustagenttowardssafeandtrustworthyllmbasedagentsthroughagentconstitution": {
+  "title": "TrustAgent: Towards Safe and Trustworthy LLM-based Agents through Agent Constitution",
+  "match_title": "TrustAgent: Towards Safe and Trustworthy LLM-based Agents",
+  "abstract": "The rise of LLM-based agents shows great potential to revolutionize task planning, capturing significant attention. Given that these agents will be integrated into high-stake domains, ensuring their reliability and safety is crucial. This paper presents an Agent-Constitution-based agent framework, TrustAgent, with a particular focus on improving the LLM-based agent safety. The proposed framework ensures strict adherence to the Agent Constitution through three strategic components: pre-planning strategy which injects safety knowledge to the model before plan generation, in-planning strategy which enhances safety during plan generation, and post-planning strategy which ensures safety by post-planning inspection. Our experimental results demonstrate that the proposed framework can effectively enhance an LLM agent's safety across multiple domains by identifying and mitigating potential dangers during the planning. Further analysis reveals that the framework not only improves safety but also enhances the helpfulness of the agent. Additionally, we highlight the importance of the LLM reasoning ability in adhering to the Constitution. This paper sheds light on how to ensure the safe integration of LLM-based agents into human-centric environments. Data and code are available at https://github.com/agiresearch/TrustAgent.",
+  "arxiv": "2402.01586v4",
+  "date": "2024-02-02",
+  "via": "arxiv"
+ },
+ "anonlinefuzzyfrauddetectionframeworkforcreditcardtransactions": {
+  "title": "An online fuzzy fraud detection framework for credit card transactions",
+  "match_title": "An online fuzzy fraud detection framework for credit card transactions",
+  "abstract": "Credit card transaction fraud is one of the challenging security concerns for financial firms globally. The continuously changing environment of fraud characteristics and the class imbalance and complete separation issues in fraud data create difficulties in accurately and efficiently predicting fraudulent transactions and implementing fraud detection systems in real-time. The study aims to develop a new real-time fraud detection framework that can efficiently be implemented online and address the issues caused by non-stationary changes in transaction and fraud characteristics, class imbalance, and complete separation. We propose a new approach to handle the impact of non-stationary changes in fraud transaction patterns. It enables efficiency in model training, given the sheer size of datasets. By implementing a robust fuzzy logistic regression model against class imbalance and separation problems, we address the challenge of having a very low rate of fraudulent transactions in the dataset and having separation issues due to specific characteristics of transactions. The analysis of the performance versus efficiency nexus of the proposed methodology reveals that the proposed framework shows strong performance results with specificity and sensitivity greater than 0.90 and Matthew\u2019s correlation coefficient greater than 0.80 even on small sample sizes and produces highly accurate results in identifying fraudulent and non-fraudulent transactions with an accuracy greater than 0.99. Benchmarking with machine learning and other fraud detection approaches reveals that the proposed framework provides better detection performance while maintaining a higher rate of identifying non-fraudulent transactions than the alternative approaches. Improved classification performance leads to detecting fraudulent transactions with higher precision while avoiding misclassifying legitimate transfers, resulting in lower financial losses and improved customer satisfaction.",
+  "arxiv": null,
+  "date": "2024-05-03",
+  "via": "openalex"
+ },
+ "blockgnnscalablegraphneuralnetworksforillicitblockchaintransactiondetection": {
+  "title": "Blockgnn: Scalable graph neural networks for illicit blockchain transaction detection",
+  "match_title": null,
+  "abstract": null,
+  "arxiv": null,
+  "date": null
+ },
+ "dynamicgraphneuralnetworkbasedfrauddetectorsagainstcollaborativefraudsters": {
+  "title": "Dynamic graph neural network-based fraud detectors against collaborative fraudsters",
+  "match_title": "Dynamic graph neural network-based fraud detectors against collaborative fraudsters",
+  "abstract": null,
+  "arxiv": null,
+  "date": "2023-08-01"
+ },
+ "financialtransactionfrauddetectorbasedonimbalancelearningandgraphneuralnetwork": {
+  "title": "Financial transaction fraud detector based on imbalance learning and graph neural network",
+  "match_title": "Financial transaction fraud detector based on imbalance learning and graph neural network",
+  "abstract": null,
+  "arxiv": null,
+  "date": "2023-10-01"
+ },
+ "gosageheterogeneousgraphneuralnetworkusinghierarchicalattentionforcollusionfrauddetection": {
+  "title": ".GoSage:HeterogeneousGraphNeuralNetworkUsingHierarchicalAtten-tionforCollusionFraudDetection",
+  "match_title": null,
+  "abstract": null,
+  "arxiv": null,
+  "date": null
+ },
+ "graphbasedbitcoinfrauddetectionusingvariationalgraphautoencodersandsupervisedlearning": {
+  "title": "Graph-Based Bitcoin Fraud Detection Using Variational Graph Autoencoders and Supervised Learning",
+  "match_title": "Graph-Based Bitcoin Fraud Detection Using Variational Graph Autoencoders and Supervised Learning",
+  "abstract": "Bitcoin is a decentralized cryptocurrency, which is rapidly growing and offering many advantages. Although its structure protects users from some types of fraud, it is not completely immune, while fraud detection in Bitcoin remains still relatively unexplored. In this paper, we use a graph to model Bitcoin transactions and benefit from the graph\u2019s structure to overcome the lack of informative transaction and user data. We utilize network analysis for feature extraction and model fraud detection as a classification problem using a Deep Neural Network as our classifier. Furthermore, we propose a novel approach that combines a Variational Graph Autoencoder (VGAE), for deriving appropriate node and graph embeddings, and supervised learning to detect fraudulent Bitcoin transactions. Our experimental results show that the proposed approach, while also affected by high class imbalance, similarly to using only the graph-based features for classification, performs significantly better in detecting high-risk areas in the graph.",
+  "arxiv": null,
+  "date": "2025-01-01",
+  "via": "openalex"
+ },
+ "hybridbilstmtransformermodelforidentifyingfraudulenttransactionsinfinancialsystems": {
+  "title": "Hybrid BiLSTM-Transformer Model for Identifying Fraudulent Transactions in Financial Systems",
+  "match_title": null,
+  "abstract": null,
+  "arxiv": null,
+  "date": null
+ },
+ "illegalaccountsdetectiononethereumusingheterogeneousgraphtransformernetworks": {
+  "title": "Illegal Accounts Detection on Ethereum Using Heterogeneous Graph Transformer Networks",
+  "match_title": "Illegal Accounts Detection on Ethereum Using Heterogeneous Graph Transformer Networks",
+  "abstract": null,
+  "arxiv": null,
+  "date": null
+ },
+ "investigatingtheimpactofstructuralandtemporalbehaviorsinethereumphishingusersdetection": {
+  "title": "Investigating the impact of structural and temporal behaviors in Ethereum phishing users detection",
+  "match_title": "Investigating the impact of structural and temporal behaviors in Ethereum phishing users detection",
+  "abstract": "The recent surge of Ethereum in prominence has made it an attractive target for various kinds of crypto-crime. Phishing scams, for example, are an increasingly prevalent cybercrime in which malicious users attempt to steal funds from a user's crypto wallet. This research investigates the effects of network architectural features as well as the temporal aspects of user activities on the performance of detecting phishing users on the Ethereum transaction network. We employ traditional machine learning algorithms to evaluate our model on real-world Ethereum transaction data. The experimental results demonstrate that our proposed features identify phishing accounts efficiently and outperform the baseline models by 4% in Recall, and 5% in F1-score.",
+  "arxiv": null,
+  "date": "2023-07-22",
+  "via": "openalex"
+ },
+ "metapathguidedgraphneuralnetworksforfinancialfrauddetection": {
+  "title": "Metapath-guided graph neural networks for financial fraud detection",
+  "match_title": "Metapath-guided graph neural networks for financial fraud detection",
+  "abstract": null,
+  "arxiv": null,
+  "date": "2025-08-01"
+ },
+ "modelingadaptivefraudpatternsanagentcentrichybridframeworkwithmoeanddeeplearning": {
+  "title": "Modeling Adaptive Fraud Patterns: An Agent-Centric Hybrid Framework with MoE and Deep Learning",
+  "match_title": null,
+  "abstract": null,
+  "arxiv": null,
+  "date": null
+ },
+ "phishingscamsdetectionviatemporalgraphattentionnetworkinethereum": {
+  "title": "Phishing scams detection via temporal graph attention network in Ethereum",
+  "match_title": "Phishing scams detection via temporal graph attention network in Ethereum",
+  "abstract": null,
+  "arxiv": null,
+  "date": "2023-07-01"
+ },
+ "relationawareheterogeneousgraphneuralnetworkforfrauddetection": {
+  "title": "Relation-Aware Heterogeneous Graph Neural Network for Fraud Detection",
+  "match_title": "Relation-Aware Heterogeneous Graph Neural Network for Fraud Detection",
+  "abstract": null,
+  "arxiv": null,
+  "date": null
+ },
+ "scngnnagnnbasedfrauddetectionalgorithmcombiningstrongnodeandgraphtopologyinformation": {
+  "title": "SCN_GNN: A GNN-based fraud detection algorithm combining strong node and graph topology information",
+  "match_title": "SCN_GNN: A GNN-based fraud detection algorithm combining strong node and graph topology information",
+  "abstract": null,
+  "arxiv": null,
+  "date": "2023-09-01"
+ },
+ "temporaltransactioninformationawareponzischemedetectionforethereumsmartcontracts": {
+  "title": "Temporal transaction information-aware Ponzi scheme detection for ethereum smart contracts",
+  "match_title": "Temporal transaction information-aware Ponzi scheme detection for ethereum smart contracts",
+  "abstract": null,
+  "arxiv": null,
+  "date": "2023-11-01"
+ }
+}
