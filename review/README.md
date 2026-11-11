@@ -8,6 +8,8 @@ This folder holds the protocol, search logs, screening decisions, coding sheets 
   - one screening table per source; every record gets a decision and a reason
   - `s4_known_items.csv`, the recall check against cases from an earlier draft
 - `coding/`: each coder's sheets, the blank sheets, the human spot-check sheet, and the agreement output.
+- `fulltext_audit/`: the full-text reporting audit of the 111 monitoring papers (evidence ledger with versioned URLs, SHA-256 hashes and page locators; resolution log; summaries). See its README.
+- `archive/`: earlier versions of the protocol, kept as history.
 - `scripts/`: search (`s1_*`, `s2_*`, `s3_*`), coding-sheet builders, `kappa.py`, and `summarize.py`. The last one computes every count reported in the paper and writes `RESULTS.md`.
 
 ## Left out on purpose (third-party copyright)
@@ -16,6 +18,7 @@ These were used during the review but are not redistributed here:
 
 - the full text of news articles and vendor documents
 - the AI Incident Database snapshot
+- the arXiv PDFs and text extracts used by the full-text audit (rebuild with `scripts/retrieve_fulltexts.py`)
 
 To rebuild them:
 

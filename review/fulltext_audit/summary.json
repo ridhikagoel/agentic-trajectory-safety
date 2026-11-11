@@ -1,0 +1,17 @@
+{
+  "papers": 111,
+  "fulltexts_retrieved": 111,
+  "confirmed_quantitative_operating_reports": 61,
+  "confirmed_event_relative_timing_reports": 15,
+  "unresolved_versions": [],
+  "scope": "All 111 received targeted full-text reporting checks. Not a full independent recoding of every taxonomy field. U means unconfirmed, never verified absence.",
+  "original_files_modified": false,
+  "timing_kinds": {
+    "advance_warning": 6,
+    "temporal_localization": 2,
+    "intervention_timing": 2,
+    "detection_turn": 1,
+    "detection_delay": 3,
+    "prefix_early_detection": 1
+  }
+}

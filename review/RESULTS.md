@@ -35,3 +35,9 @@
 - agent papers `reports_timeliness`: ID=1, N=97, Y=13 (n=111)
 - fraud papers `state_scope`: ID=1, both=29, graph=26, sequence=18 (n=74)
 - fraud papers `production_data`: ID=7, N=47, Y=20 (n=74)
+
+## Current full-text reporting audit (separate overlay)
+- Confirmed quantitative operating reports: at least 61/111.
+- Confirmed heterogeneous timing-related evaluations: at least 15/111.
+- These lower bounds supersede original abstract-derived reporting totals in the manuscript; unknown is not absent. Mechanism/state codes above remain inherited.
+- Scope and evidence: fulltext_audit/README.md and reporting_evidence_ledger.csv. No independent human validation is claimed.

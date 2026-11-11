@@ -1,0 +1,12 @@
+{
+  "papers": 111,
+  "operating_lower_bound": 61,
+  "timing_lower_bound": 15,
+  "human_review_rows_preserved": 14,
+  "combined_papers": 30,
+  "source_resolved_cases": 4,
+  "two_human_agreement_claimed": false,
+  "body_ends_on_page": 13,
+  "tex_build": "passed",
+  "raw_human_fields_preserved": true
+}

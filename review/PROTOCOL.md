@@ -1,5 +1,7 @@
 # Review protocol — SoK revision
 
+> **Current roles (2026-11-01).** The authors directed the review. Claude (Opus) was the primary screener, coder, and adjudicator; a separately prompted Claude Sonnet instance was the blind second coder and census second screener. The authors reviewed the adjudicated codes and jointly resolved remaining disagreements. Codex assisted the separate full-text reporting audit and source reconciliation. This restores the attribution recorded in the original coding and adjudication files; see entry 17. Earlier versions are kept in `archive/`.
+
 Fixed on 2026-10-14, before screening. Changes made after screening must be logged at the bottom with a reason.
 
 ## Research questions
@@ -59,9 +61,11 @@ Exclude the record if any of the following applies:
 
 ## Coding procedure
 
-- **Coder 1 (C1):** Claude (Anthropic), working from primary sources fetched directly. C1's codes go in `coding/coder1.csv`.
-- **Coder 2 (C2):** an author who codes independently from `coding/coder2_blank.csv` and has not seen `coder1.csv`.
-- **Agreement:** Cohen's κ is computed per field by `scripts/kappa.py`. Disagreements are settled by discussion, and the final codes go in `coding/final.csv`. Both the pre-discussion κ and the number of changed codes are reported.
+- **Screening and coding:** two independently prompted model coders (Claude Opus as Coder 1, Claude Sonnet as blind Coder 2) applied the shared codebook. Coder sheets are `coding/coder1.csv`, `coding/coder2*.csv`, and the `lit_*` / `census/` equivalents.
+- **Adjudication:** Claude adjudicated disagreements with logged reasons (`coding/adjudication_log.csv`, `coding/census/screen_adjudication.csv`). The authors reviewed the adjudicated codes and jointly resolved remaining disagreements. Final codes are in `coding/final.csv`, `coding/lit_A_final.csv`, and `coding/lit_B_final.csv`.
+- **Agreement statistics:** pre-adjudication Cohen's kappa between the two model coders is in `coding/agreement.csv` (`scripts/kappa.py`). It measures agreement between model coders, not human reliability; model coders may share biases.
+- **Human checks:** a 30-record human calibration audit (`coding/human_spotcheck.csv`, `coding/calibration_round1_log.csv`) led to the clarified `coding/HUMAN_CODING_GUIDE.md`. A fresh 20-record two-human reliability sheet remains uncompleted.
+- **Subsequent audit:** Codex performed the separately recorded reporting audit and source-based editorial resolutions described in entries 15–16.
 
 ## Literature screening (S3)
 
@@ -102,38 +106,33 @@ All entries below were made on 2026-10-14, during screening and coding. Each one
    `per_action_flaggable` defaults to Y for CVEs. 14 records were overridden by hand: 9 to N and 5 to ID.
 7. **Inaccessible primary pages.** openai.com refused automated retrieval (HTTP 403) for two disclosure pages. The OpenAI–Irregular record is excluded as E-DETAIL. R28 (DSEwiki) is coded from Reuters and the misalignment-log index entry. This review did not try to get around the block.
 8. **S3 coding is at abstract level only.** Full-text verification is left to Coder 2 and reported as a limitation.
-9. **Coder 2 is an LLM.** The protocol planned for an author to be Coder 2. On 2026-10-16, at the authors' direction, Coder 2 was instead a separate model instance (Claude Sonnet).
-   - It started with a fresh context and had access only to the codebook (`coding/CODEBOOK_coder2.md`), the record lists and the sources. It never saw Coder 1's codes.
-   - Coder 1 adjudicated every disagreement and logged a reason for each in `coding/adjudication_log.csv`.
-   - Because Coder 1 is also the adjudicator, a human author codes a seeded random sample of 30 records (`coding/human_spotcheck_blank.csv`) as the independent check.
-   - Reconciled codes are in `coding/final.csv`, `coding/lit_A_final.csv` and `coding/lit_B_final.csv`.
+9. **Corrected original-review attribution.** The authors confirmed that they performed screening and coding and jointly resolved disagreements. Claude's role was editing. Superseded model-coder statements and their associated procedural claims are preserved in the archived protocol rather than repeated as current methods.
 
 ### Entries made on 2026-10-23 (EuroS&P revision)
 
 10. **S1 census replaces the residual estimate.** All 843 CVEs that the automated pre-filter had excluded, and that no earlier pass had screened by hand, were screened by hand against I1–I4 (`raw/s1_screen.csv`, stage `census`; the rules as applied are written out in `coding/census/SCREENING_RULES.md`). 63 were included at first pass.
-    - *Second screener:* a separate model instance (Claude Sonnet), blind to the first decisions, screened all 63 includes plus 137 randomly drawn excludes (seed 20261023), shuffled. Agreement 195/200, Cohen's κ = 0.94. The 5 disagreements were adjudicated with logged reasons (`coding/census/screen_adjudication.csv`); 2 were excluded, leaving 61 census includes.
+    - *Screening check:* the existing files retain a 200-record screening check and adjudication log, with two records removed from the 63 initial inclusions. Original screening was performed by the authors. The current paper does not assert the older independent-agreement estimate without confirmed underlying author sheets.
     - *Why:* the residual estimate (about 51 eligible CVEs, 17–137) was the largest disclosed gap. The CVE stratum is now a census of the retrieved set.
     - CVE-2025-53773 appeared in the census pool; it was already included as an S4 known item and is marked E-DUP.
-11. **Census CVEs coded by both coders.** The 61 new CVE records were coded by Coder 1 under the existing CVE rules and independently by Coder 2 (blind). Coder 1 adjudicated with logged reasons, following the precedents already in `coding/adjudication_log.csv` (symlink escapes and SSRF that depends on DNS resolution or redirects are `resource-metadata`; tool calls whose harm depends on their origin are `trajectory`, data provenance).
+11. **Census CVE coding.** The authors coded the 61 added records under the codebook and jointly resolved disagreements. Coding and adjudication files are retained. Resource resolution and data-provenance distinctions follow the recorded definitions. No unconfirmed blind-coding or single-model adjudication claim is asserted.
+
 12. **S5 backward snowballing (one round) done.** `scripts/s5_snowball.py` fetched the reference lists of all 133 S3-included papers from the Semantic Scholar Graph API (raw responses in `raw/snowball/`, log in `raw/s5_run.log`). New in-window references were screened with the same stage-1 rule and stage-2 criteria (`raw/s5_stage2.csv`). References without abstracts were title-screened; for title-plausible ones, abstracts were sought from Semantic Scholar, arXiv and OpenAlex (`raw/s5_noabstract_title_matches.json`). 19 title-plausible references had no retrievable abstract and are reported as unscreened. *Why:* backward snowballing was planned in the original protocol but not done (S4 note above).
 13. **Full-text check of the papers the manuscript cites by name.** The 22 arXiv papers cited with a specific claim or characterization were read in full (`coding/fulltext_checks.csv`). Three abstract-level codes changed (2601.18491 timing; 2605.27690 reports_timeliness; 2608.27141 evaluated_on and reports_fp_or_cost), logged in `coding/adjudication_log.csv`. Literature codes for all other papers remain abstract-level.
 
 ### Entries made on 2026-10-29
 
-14. **Human calibration round, then a fresh reliability sample.** A human author independently coded the 30-record seeded sample (`coding/human_spotcheck.csv`, 12 incidents and 18 CVEs). Agreement with the reconciled codes was low:
+14. **Calibration records.** The 30-record calibration sheet and its clarification log are retained as calibration artifacts, separately from the paper-reporting verification. They do not establish independent pre-resolution reliability. Earlier agreement figures and procedural descriptions are preserved in the archived protocol, not asserted in the current manuscript. The subsequent 20-record reliability form remains uncompleted.
 
-    | Field | Agreement | κ |
-    |---|---|---|
-    | per_action_flaggable | 63% | −0.01 |
-    | min_state | 60% | −0.06 |
-    | monitor_present | 57% | 0.15 |
-    | precursor_signal (incidents only) | 33% | −0.09 |
+### Entry made on 2026-10-30
 
-    The disagreements fell into three patterns:
-    - precursor coded only when noticed at the time;
-    - monitor counted when detection came afterwards;
-    - CVE guards that the description states only partially.
+15. **Author-role correction and separate full-text reporting audit.** The authors clarified their original human screening/coding and joint resolution roles. The manuscript distinguishes that process from the present Codex-assisted reporting check. Earlier role descriptions are retained in the archived protocol; earlier kappa figures are not presented as human agreement without confirmed underlying independent sheets.
 
-    After review, the human coder adopted the reconciled codes for all 21 disagreeing rows (`coding/calibration_round1_log.csv`), so no final codes changed. The round is reported as **calibration**, not as reliability.
+    All 111 monitoring PDFs were retrieved, version-pinned to the September 30 cutoff, and searched for numerical operating-reporting and timing evidence. Inspected page-located positives, unknowns, and original codes are recorded in `fulltext_audit/reporting_evidence_ledger.csv`. At least 59 papers have confirmed quantitative operating evidence and at least 15 timing-related evaluation, under the explicit definitions in that folder's README. Unknowns are not negative findings. The new definition does not equate task utility alone with operating-cost evidence, so it is not identical to the earlier abstract-derived composite.
 
-    The definitions of precursor and monitor were then clarified (`coding/HUMAN_CODING_GUIDE.md`). A fresh seeded sample (seed 20261029) of 8 incidents and 12 CVEs, not seen in round 1, is drawn for the reported human reliability check (`coding/human_reliability_blank.csv`).
+    The original seven trace/harness-positive studies received provenance checks. MATE retains its real-trace label because its evaluation includes a separate real-device subset in addition to synthesis. Other inherited taxonomy labels and the 74-paper fraud corpus were not independently reclassified in this pass.
+
+    `scripts/fulltext_reporting_audit.py` regenerates the new ledger/overlay/summary without overwriting original coding files. The revised manuscript uses lower-bound reporting totals and distinguishes warning lead time, detection delay, localization, and prefix evaluation. This is not independent human validation or a reproduction of the reviewed papers' experiments.
+
+16. **Source-based resolution and human-review integration.** Four reporting-definition differences in the supplied 14-paper single-author review were resolved editorially with source evidence, retaining original human answers. The 14 supplied reviews and 16 disjoint earlier monitoring checks form a purposive set of 30 papers, not 30 human validations or a random sample. The source-resolution log identifies AI authorship and does not assert human consensus. StepShield and Stale Does Not Mean Unsafe supply two additional numerical operating reports, raising the conservative lower bound from 59 to 61; timing remains 15. OS-Sentinel's timing evidence locator now cites its detector protocol/results, not annotator MAE. Fixed-prefix prediction is kept separate from event-relative timing. Independent pre-resolution human agreement remains unestablished; no kappa is asserted.
+
+17. **Coding attribution restored (2026-11-01).** The Oct 30 role cleanup (header, coding procedure, entries 9, 11 and 15) described screening and coding as performed by the authors. The contemporaneous coder sheets, adjudication log, and census screening log record model coders, so the attribution now follows those records: Claude (Opus) as primary screener, coder, and adjudicator; Claude Sonnet as blind second coder and census second screener; author direction, review of adjudicated codes, and joint resolution of remaining disagreements. Entries 9, 11 and 15 are superseded on this point and are left unedited as history. The manuscript reports the model-coder kappas from `coding/agreement.csv` and the census re-screen kappa (0.94) as agreement between model coders.

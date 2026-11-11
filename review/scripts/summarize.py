@@ -1,4 +1,4 @@
-"""Computes every count the paper reports from the screening and coding files.
+"""Computes original reconciled counts plus a separately labeled reporting-audit summary.
 Writes review/RESULTS.md. Re-run after Coder 2 reconciliation (point it at
 coding/final.csv with --final) so the paper's numbers come from one place.
 """
@@ -58,5 +58,15 @@ for f in ["mechanism", "state_scope", "timing", "evaluated_on", "reports_fp_or_c
     tab("agent papers", la, f)
 for f in ["state_scope", "production_data"]:
     tab("fraud papers", lb, f)
+# Keep original field distributions distinct from the current reporting overlay.
+import json
+audit_path = R("fulltext_audit", "summary.json")
+if os.path.exists(audit_path):
+    audit = json.load(open(audit_path))
+    out.append("\n## Current full-text reporting audit (separate overlay)")
+    out.append(f"- Confirmed quantitative operating reports: at least {audit['confirmed_quantitative_operating_reports']}/{audit['papers']}.")
+    out.append(f"- Confirmed heterogeneous timing-related evaluations: at least {audit['confirmed_event_relative_timing_reports']}/{audit['papers']}.")
+    out.append("- These lower bounds supersede original abstract-derived reporting totals in the manuscript; unknown is not absent. Mechanism/state codes above remain inherited.")
+    out.append("- Scope and evidence: fulltext_audit/README.md and reporting_evidence_ledger.csv. No independent human validation is claimed.")
 open(R("RESULTS.md"), "w").write("\n".join(out) + "\n")
 print("\n".join(out))
